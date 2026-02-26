@@ -1,0 +1,22 @@
+category,parameter,value,notes
+Architecture,num_layers,6,Transformer encoder layers
+Architecture,hidden_dim,384,Embedding dimension
+Architecture,num_heads,6,Multi-head attention
+Architecture,ff_dim,1536,Feed-forward dimension (4x hidden)
+Architecture,max_seq_length,512,Maximum token sequence
+Architecture,vocab_size,10000,Padded vocabulary
+Optimization,batch_size,256,Per GPU
+Optimization,learning_rate,1e-4,Peak learning rate
+Optimization,lr_scheduler,cosine,With linear warmup
+Optimization,warmup_steps,1000,
+Optimization,weight_decay,0.01,AdamW
+Optimization,gradient_clip,1.0,Max gradient norm
+Regularization,dropout,0.1,All layers
+Regularization,attention_dropout,0.1,Attention weights
+Training,num_epochs,50,Maximum epochs
+Training,early_stopping,5,Patience (epochs)
+Training,checkpoint_selection,val_loss,Minimum validation loss
+Masking,mask_ratio,0.15,Fraction of tokens masked
+Masking,random_mask_prob,0.80,Replace with [MASK]
+Masking,random_token_prob,0.10,Replace with random token
+Masking,keep_original_prob,0.10,Keep original token

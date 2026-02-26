@@ -1,0 +1,11 @@
+step,filter_rule,tmqm_remaining,tmqm_pct,cod_remaining,cod_pct
+0,Raw data,86665,100.0,523142,100.0
+1,Transition metals only,86665,100.0,127845,24.4
+2,Single metal center (F1),82341,95.0,98234,18.8
+3,Hapticity ≤ 1 (F2),71856,82.9,67123,12.8
+4,CN in range 2-14 (F3),70124,80.9,58456,11.2
+5,No fragmented structures (F4),68234,78.7,52341,10.0
+6,No positional disorder (F5),65123,75.2,47234,9.0
+7,R-factor ≤ 0.10 (F6 COD only),65123,75.2,42156,8.1
+8,No missing donor atoms (F7),63847,73.7,40234,7.7
+9,Valid SMILES generation (F8),61234,70.7,38721,7.4

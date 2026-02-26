@@ -1,0 +1,7 @@
+corruption_type,n_samples,valid_before_corruption,valid_after_corruption,valid_after_repair,uplift
+overall,2000,0.9605,0.509,0.777,0.268
+bracket_swap,400,0.9525,0.2425,0.2975,0.055
+delimiter_swap,400,0.9675,0.9675,1.0,0.0325
+missing_bracket,400,0.955,0.0,0.5875,0.5875
+missing_charge,400,0.9675,0.9675,1.0,0.0325
+truncation,400,0.96,0.3675,1.0,0.6325

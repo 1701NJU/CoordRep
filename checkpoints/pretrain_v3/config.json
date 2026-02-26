@@ -1,0 +1,17 @@
+{
+  "tmqm_dir": "../tmQM-master/tmQM",
+  "cod_dir": null,
+  "output_dir": "./checkpoints/pretrain_v3",
+  "epochs": 10,
+  "batch_size": 32,
+  "lr": 0.0002,
+  "warmup_ratio": 0.05,
+  "max_length": 768,
+  "config": "small",
+  "log_every": 100,
+  "seed": 42,
+  "curriculum": false,
+  "device": "cuda",
+  "timestamp": "2025-12-21T14:16:15.851475",
+  "git_hash": "unknown"
+}

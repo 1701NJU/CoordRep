@@ -1,0 +1,16 @@
+priority,element,description,example_ligands
+1,C,Carbon donor,CO (carbonyl), CN- (cyanide), carbene
+2,N,Nitrogen donor,NH3 (ammonia), pyridine, en (ethylenediamine)
+3,O,Oxygen donor,H2O (aqua), hydroxide, carboxylate
+4,F,Fluorine donor,F- (fluoride)
+5,P,Phosphorus donor,PPh3 (triphenylphosphine), PMe3
+6,S,Sulfur donor,thiolate, thioether, dithiocarbamate
+7,Cl,Chlorine donor,Cl- (chloride)
+8,Br,Bromine donor,Br- (bromide)
+9,I,Iodine donor,I- (iodide)
+10,Se,Selenium donor,selenolate, selenoether
+11,Te,Tellurium donor,tellurolate
+12,As,Arsenic donor,AsPh3 (triphenylarsine)
+13,Si,Silicon donor,silyl ligands
+14,B,Boron donor,borohydride
+15,H,Hydrogen donor,hydride (H-)

@@ -1,0 +1,10 @@
+type,before,after,uplift
+"missing
+bracket",0.0,58.8,58.8
+"missing
+charge",96.8,100.0,3.200000000000003
+"delimiter
+swap",96.8,100.0,3.200000000000003
+truncation,36.8,100.0,63.2
+"bracket
+swap",24.3,29.8,5.5
