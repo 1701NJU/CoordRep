@@ -2,7 +2,7 @@
 """
 Tool A: Donor (Design Assistant)
 
- " + " Top-k donor atom
+        " + " Top-k donor atom
 """
 
 import json
@@ -17,15 +17,15 @@ from .baselines import RandomBaseline, FrequencyBaseline, ConditionalFrequencyBa
 
 class DonorPredictor:
     """
- Donor atom Predict
+        Donor atom Predict
     """
     
     def __init__(self, checkpoint_path: str, tokenizer_path: str = None, device: str = "cuda"):
         """
         Args:
- checkpoint_path: checkpoint
- tokenizer_path: tokenizer
- device:
+        checkpoint_path: checkpoint
+        tokenizer_path: tokenizer
+        device:
         """
         self.checkpoint_path = checkpoint_path
         self.tokenizer_path = tokenizer_path
@@ -39,12 +39,12 @@ class DonorPredictor:
         Predict donor atoms
         
         Args:
- coordrep_masked: [MASK]
- mask_positions: mask
+        coordrep_masked: [MASK]
+        mask_positions: mask
             k: top-k
         
         Returns:
- mask top-k Predict
+        mask top-k Predict
         """
         return mlm_topk(
             coordrep_masked,
@@ -66,11 +66,11 @@ class DonorPredictor:
         Filter predictions, keep only donor atoms
         
         Args:
- predictions: Predict
- allowed_donors: donor
+        predictions: Predict
+        allowed_donors: donor
         
         Returns:
- Predict
+        Predict
         """
         if allowed_donors is None:
             allowed_donors = DONOR_ATOMS
@@ -97,10 +97,10 @@ def evaluate_donor_prediction(
     Evaluate donor prediction performance
     
     Args:
- samples: 'coordrep_masked', 'mask_positions', 'target_token', 'meta'
- checkpoint_path: checkpoint
- tokenizer_path: tokenizer
- device:
+        samples: 'coordrep_masked', 'mask_positions', 'target_token', 'meta'
+        checkpoint_path: checkpoint
+        tokenizer_path: tokenizer
+        device:
         k: top-k
     
     Returns:
@@ -199,11 +199,11 @@ def compare_with_baselines(
     Compare with baselines
     
     Args:
- samples:
- checkpoint_path: checkpoint
- tokenizer_path: tokenizer
- device:
- training_samples: frequency baselines
+        samples:
+        checkpoint_path: checkpoint
+        tokenizer_path: tokenizer
+        device:
+        training_samples: frequency baselines
     
     Returns:
     """
@@ -218,7 +218,7 @@ def compare_with_baselines(
     if training_samples:
         freq_bl.fit(training_samples)
     else:
- freq_bl.fit(samples) #
+        freq_bl.fit(samples) #
     freq_results = freq_bl.get_accuracy(samples)
     
     # Conditional frequency baseline
@@ -250,12 +250,12 @@ def generate_casecards(
     Generate case cards for visualization
     
     Args:
- predictions: Predict
- n_cards:
- include_failures: Predict
+        predictions: Predict
+        n_cards:
+        include_failures: Predict
     
     Returns:
- Case cards
+        Case cards
     """
     # Select representative examples
     successes = [p for p in predictions if p['correct_top1']]

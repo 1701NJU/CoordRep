@@ -1,0 +1,8 @@
+numpy>=1.22
+scipy>=1.9
+torch>=2.0
+torch_geometric>=2.3
+rdkit>=2022.03
+pandas>=1.5
+scikit-learn>=1.2
+pytest>=7.0

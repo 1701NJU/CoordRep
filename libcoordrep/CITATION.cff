@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use CoordRep, please cite it as below."
+title: "CoordRep: A Canonical, Continuous, Compositional, and Multi-Resolution Representation Layer for Machine Learning in Coordination Chemistry"
+type: software
+version: "1.1.0"
+date-released: "2026-05-12"
+license: MIT
+repository-code: "https://github.com/1701NJU/CoordRep"
+authors:
+  - family-names: Li
+    given-names: Cheng-Hui
+  - family-names: Luo
+    given-names: Wen-Lin
+    email: luowenlin862@gmail.com
+keywords:
+  - coordination chemistry
+  - machine learning
+  - molecular representation
+  - tokenizer
+  - identity hierarchy

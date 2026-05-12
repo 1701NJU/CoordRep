@@ -1,0 +1,11 @@
+{
+  "train_val_mol_id_leak": 0,
+  "train_test_mol_id_leak": 0,
+  "val_test_mol_id_leak": 0,
+  "train_size": 16066,
+  "val_size": 1965,
+  "test_size": 1969,
+  "ligand_smiles_train_test_overlap": 1064,
+  "ligand_smiles_train_total": 7579,
+  "ligand_smiles_test_total": 1630
+}

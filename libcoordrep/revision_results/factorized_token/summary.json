@@ -1,0 +1,20 @@
+{
+  "composite_pretrained_full_context_top1": 0.8968,
+  "composite_pretrained_full_context_top5": 0.9996,
+  "composite_pretrained_full_context_mrr": 0.9419,
+  "composite_pretrained_no_lig_smiles_top1": 0.8117,
+  "composite_pretrained_metal_cn_only_top1": 0.8075,
+  "composite_pretrained_ligand_all_correct": 0.8968,
+  "composite_matched_full_context_top1": 0.0954,
+  "composite_matched_full_context_top5": 0.9416,
+  "composite_matched_full_context_mrr": 0.3389,
+  "composite_matched_no_lig_smiles_top1": 0.3527,
+  "composite_matched_metal_cn_only_top1": 0.3483,
+  "composite_matched_ligand_all_correct": 0.0954,
+  "factorized_full_context_top1": 0.0938,
+  "factorized_full_context_top5": 0.9876,
+  "factorized_full_context_mrr": 0.3579,
+  "factorized_no_lig_smiles_top1": 0.2333,
+  "factorized_metal_cn_only_top1": 0.2187,
+  "factorized_ligand_all_correct": 0.0938
+}

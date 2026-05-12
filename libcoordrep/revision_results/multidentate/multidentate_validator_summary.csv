@@ -1,0 +1,8 @@
+metric,value
+n_total,68288
+n_valid,63616
+n_with_issues,4672
+failure_rate,0.0684
+issue_possible_split_chelate,4694
+issue_duplicate_donor_rank,290
+issue_donor_count_exceeds_dent,24

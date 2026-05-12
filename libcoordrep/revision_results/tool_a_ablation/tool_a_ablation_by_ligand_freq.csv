@@ -1,0 +1,13 @@
+ablation_mode,ligand_frequency,n,top1_acc,top5_acc,mrr,mean_nll
+full_context,common,8177,0.888,0.9874,0.9305,0.3892
+full_context,rare,11815,0.8357,0.9771,0.8972,0.5905
+no_ligand_smiles_keep_length,common,8174,0.6362,0.8719,0.7477,2.299
+no_ligand_smiles_keep_length,rare,11810,0.5988,0.8135,0.708,2.6633
+no_ligand_smiles_collapsed,common,8177,0.6017,0.9182,0.726,2.3062
+no_ligand_smiles_collapsed,rare,11815,0.5898,0.8889,0.7148,2.3845
+no_geometry_stereo,common,8177,0.8844,0.9875,0.9285,0.3981
+no_geometry_stereo,rare,11815,0.8342,0.9771,0.8964,0.5972
+metal_cn_only,common,8174,0.6181,0.8625,0.7314,2.3441
+metal_cn_only,rare,11810,0.5882,0.8085,0.7001,2.6716
+shuffled_ligand_smiles_control,common,8177,0.2331,0.4882,0.3533,11.1878
+shuffled_ligand_smiles_control,rare,11815,0.2038,0.4656,0.3276,11.6289

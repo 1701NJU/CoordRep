@@ -53,7 +53,7 @@ SPECIAL_TOKENS = [
 
 @dataclass
 class TokenizerConfig:
- """Tokenizer """
+    """Tokenizer """
     vocab_size: int = 10000
     min_frequency: int = 2
     special_tokens: List[str] = None
@@ -67,11 +67,11 @@ class TokenizerConfig:
 
 class CoordRepTokenizer:
     """
- CoordRep Tokenizer
+    CoordRep Tokenizer
     
- 1.
- 2. SMILES /BPE
- 3.
+    1.
+    2. SMILES /BPE
+    3.
     """
     
     def __init__(self, config: TokenizerConfig = None):
@@ -89,7 +89,7 @@ class CoordRepTokenizer:
         self._build_patterns()
     
     def _build_patterns(self):
- """"""
+        """"""
         self.metal_pattern = re.compile(
             r'\[([A-Z][a-z]?)(;ox=[+-]?\d)?(;row=\d)?(;d=\d+)?(;CN=\d+)?\]'
         )
@@ -109,13 +109,13 @@ class CoordRepTokenizer:
         self.number_pattern = re.compile(r'(\d+\.\d+)')
     
     def _quantize_cshm(self, value: float) -> str:
- """ CShM Token"""
+        """ CShM Token"""
         bin_idx = min(int(value / self.config.cshm_max * self.config.cshm_bins), 
                       self.config.cshm_bins - 1)
         return f"V_{bin_idx:03d}"
     
     def _dequantize_cshm(self, token: str) -> float:
- """ Token CShM """
+        """ Token CShM """
         if token.startswith("V_"):
             bin_idx = int(token[2:])
             return bin_idx * self.config.cshm_max / self.config.cshm_bins
@@ -123,11 +123,11 @@ class CoordRepTokenizer:
     
     def tokenize(self, text: str) -> List[str]:
         """
- CoordRep Token
+        CoordRep Token
         
- 1.
- 2.
- 3. SMILES
+    1.
+    2.
+    3. SMILES
         """
         tokens = []
         
@@ -154,7 +154,7 @@ class CoordRepTokenizer:
         return tokens
     
     def _split_into_blocks(self, text: str) -> List[Tuple[str, str]]:
- """"""
+        """"""
         blocks = []
         pos = 0
         
@@ -193,23 +193,46 @@ class CoordRepTokenizer:
         return blocks
     
     def _tokenize_metal(self, block: str) -> List[str]:
- """"""
+        """Factorized metal-block tokenization.
+
+        Handles both legacy composite format  [Metal:Fe|ox:+2|d:d6|CN:6]
+        and factorized semicolon format       [Fe;ox=+2;row=4;d=6;CN=6].
+        Always emits factorized tokens:       [Fe] ;ox=+2 ;d=6 ;CN=6
+        """
         tokens = []
-        # [Fe;ox=+2;row=4;d=6;CN=6]
- inner = block[1:-1] # []
-        parts = inner.split(';')
-        
-        tokens.append(f"[{parts[0]}]")
-        for part in parts[1:]:
-            tokens.append(f";{part}")
-        
+        inner = block[1:-1]  # strip [ ]
+
+        # Detect composite pipe-separated format
+        if inner.startswith('Metal:') and '|' in inner:
+            parts = inner.split('|')
+            metal = parts[0].replace('Metal:', '')
+            tokens.append(f"[{metal}]")
+            for part in parts[1:]:
+                if part.startswith('ox:'):
+                    tokens.append(f";ox={part[3:]}")
+                elif part.startswith('d:d'):
+                    tokens.append(f";d={part[3:]}")
+                elif part.startswith('d:'):
+                    tokens.append(f";d={part[2:]}")
+                elif part.startswith('CN:'):
+                    tokens.append(f";CN={part[3:]}")
+                elif part.startswith('row:'):
+                    tokens.append(f";row={part[4:]}")
+        else:
+            # Semicolon-separated (factorized) format
+            parts = inner.split(';')
+            tokens.append(f"[{parts[0]}]")
+            for part in parts[1:]:
+                if part:
+                    tokens.append(f";{part}")
+
         return tokens
     
     def _tokenize_shape(self, block: str) -> List[str]:
- """"""
+        """"""
         tokens = ["<Shape:"]
         # <Shape:Oh=V_025,Td=V_062>
- inner = block[7:-1] # <Shape: >
+        inner = block[7:-1] # <Shape: >
         for item in inner.split(','):
             if '=' in item:
                 geo, val = item.split('=')
@@ -223,10 +246,10 @@ class CoordRepTokenizer:
         return tokens
     
     def _tokenize_constraint(self, block: str) -> List[str]:
- """"""
+        """"""
         tokens = []
         # {trans:L1:N:1--L2:N:1}
- inner = block[1:-1] # {}
+        inner = block[1:-1] # {}
         if inner.startswith("trans:"):
             tokens.append("{trans:")
             rest = inner[6:]
@@ -246,7 +269,7 @@ class CoordRepTokenizer:
         return tokens
     
     def _tokenize_ligand_dict(self, block: str) -> List[str]:
- """"""
+        """"""
         tokens = ["|"]
         # |L1=SMILES|
         inner = block[1:-1] if block.endswith('|') else block[1:]
@@ -261,7 +284,7 @@ class CoordRepTokenizer:
         return tokens
     
     def encode(self, text: str, add_special: bool = True) -> List[int]:
- """ ID """
+        """ ID """
         tokens = self.tokenize(text)
         
         if add_special:
@@ -283,7 +306,7 @@ class CoordRepTokenizer:
         return ids
     
     def decode(self, ids: List[int]) -> str:
- """ ID """
+        """ ID """
         tokens = [self.id2token.get(i, "[UNK]") for i in ids]
         tokens = [t for t in tokens if t not in ["[CLS]", "[SEP]", "[PAD]"]]
         return "".join(tokens)
@@ -303,7 +326,7 @@ class CoordRepTokenizer:
     
     @classmethod
     def load(cls, path: str) -> 'CoordRepTokenizer':
- """ Tokenizer"""
+        """ Tokenizer"""
         with open(path, 'r') as f:
             data = json.load(f)
         

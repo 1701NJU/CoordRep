@@ -1,0 +1,53 @@
+task,method,metric,value,interpretation,main_text_or_SI
+donor_annotation,Random,F1,0.228,chance-level baseline,SI
+donor_annotation,GlobalFreq,F1,0.377,simple frequency prior,SI
+donor_annotation,CondFreq(metal+CN),F1,0.377,conditioning on metal/CN adds little over global freq,SI
+donor_annotation,LigandFreq,F1,0.896,ligand SMILES lookup recovers 90% of donor labels → ligand-intrinsic,main
+donor_annotation,LigandFreq,AllCorrect,0.797,per-complex accuracy; 80% fully correct from SMILES alone,main
+donor_annotation,GCN_ligand_only,F1,0.855,2D GCN on ligand graph,SI
+donor_annotation,GIN_ligand_only,F1,0.861,2D GIN slightly better than GCN,SI
+donor_annotation,GIN_ligand_context,F1,0.904,adding metal/CN context to GIN improves +4 pts,main
+donor_annotation,GIN_ligand_context,AllCorrect,0.832,per-complex 83% fully correct,main
+donor_annotation,EGNN_3D,F1,0.998,3D GNN upper bound with full coordinates,main
+donor_annotation,EGNN_3D,AllCorrect,0.991,near-perfect with 3D geometry,main
+donor_annotation,EGNN_3D,Jaccard,0.997,set-level agreement,SI
+donor_annotation,CoordRep_MLM,Top1,0.857,pretrained MLM donor prediction,main
+donor_annotation,CoordRep_MLM,Top5,0.981,top-5 accuracy,main
+hard_negative,Random,Top1,0.062,1/16 chance level,main
+hard_negative,Random,AUROC,0.508,chance-level,main
+hard_negative,Frequency,AUROC,0.512,frequency baseline no discrimination,SI
+hard_negative,WLHash,AUROC,0.509,graph hash cannot rank semantic compatibility,SI
+hard_negative,GIN_Ranker,Top1,0.015,2D GNN ranker fails at semantic ranking,main
+hard_negative,GIN_Ranker,AUROC,0.522,barely above chance,main
+hard_negative,EGNN_3D,Top1,0.048,3D GNN ranker also fails,main
+hard_negative,EGNN_3D,AUROC,0.499,indistinguishable from random,main
+hard_negative,EGNN_3D,AUROC_stereo_hard,0.500,no stereo discrimination from geometry alone,main
+hard_negative,EGNN+metadata,Top1,0.229,metadata (metal/CN/ox) provides some signal,main
+hard_negative,EGNN+metadata,AUROC,0.550,modest improvement from metadata,main
+hard_negative,EGNN+metadata,AUROC_stereo_hard,0.697,metadata helps stereo via metal/CN proxy,SI
+hard_negative,CoordRep_MLM_PLL,Top1,0.004,PLL ranking weak for listwise,SI
+hard_negative,CoordRep_MLM_PLL,AUROC,0.554,PLL captures some signal,SI
+hard_negative,CoordRep_MLM_PLL,AUROC_stereo_hard,0.745,PLL stereo discrimination,SI
+hard_negative,CoordRep_Ranker,Top1,0.131,finetuned ranker best listwise,main
+hard_negative,CoordRep_Ranker,MRR,0.334,mean reciprocal rank,main
+hard_negative,CoordRep_Ranker,WinRate,0.743,pairwise win rate,main
+hard_negative,CoordRep_Ranker,AUROC,0.695,overall AUROC,main
+hard_negative,CoordRep_Ranker,AUROC_strict,0.800,strict semantic AUROC (coord-consistent decoys only),main
+hard_negative,CoordRep_Ranker,AUROC_stereo_hard,0.948,stereo decoy discrimination,main
+hard_negative,CoordRep_Ranker,AUROC_metal_hard,0.791,metal substitution detection,main
+hard_negative,CoordRep_Ranker,AUROC_boundary_hard,0.698,boundary geometry sensitivity,SI
+csd_identity,SMILES_multiset,recall,0.981,high recall but low precision — over-merges,main
+csd_identity,SMILES_multiset,precision,0.535,many false positives: different complexes share SMILES set,main
+csd_identity,Metal+SMILES,recall,0.971,adding metal improves precision,SI
+csd_identity,Metal+SMILES,precision,0.799,reasonable but no geometry resolution,SI
+csd_identity,WL_hash,recall,0.983,graph hash high recall,main
+csd_identity,WL_hash,precision,0.800,strong connectivity baseline,main
+csd_identity,ECFP_retrieval@5,recall,0.887,fingerprint retrieval,SI
+csd_identity,CoordRep_L0,recall,0.244,too fine-grained for family linking,SI
+csd_identity,CoordRep_L0,precision,0.954,very high precision but low recall,SI
+csd_identity,CoordRep_L1,recall,0.718,shape-aware identity,SI
+csd_identity,CoordRep_L1,precision,0.894,good precision,SI
+csd_identity,CoordRep_L2,recall,0.774,topology identity,SI
+csd_identity,CoordRep_L2,precision,0.850,balanced,SI
+csd_identity,CoordRep_L3,recall,0.830,connectivity identity,main
+csd_identity,CoordRep_L3,precision,0.816,balanced recall/precision; multi-resolution is the advantage,main

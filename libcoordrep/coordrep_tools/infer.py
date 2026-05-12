@@ -63,7 +63,7 @@ def load_model_and_tokenizer(
     
     # Load model
     model_config = CoordRepModelConfig.small(max_length=768)
- model_config.vocab_size = 10000 # checkpoint
+    model_config.vocab_size = 10000  # checkpoint
     
     model = CoordRepForMLM(model_config)
     checkpoint = torch.load(checkpoint_path, map_location='cpu', weights_only=False)
