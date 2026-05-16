@@ -1,0 +1,16 @@
+{
+  "input": "CSD structure",
+  "record_layer": "CoordRep record",
+  "derived_layers": [
+    "CoordRep-ID",
+    "validator",
+    "CShM geometry fields"
+  ],
+  "pathfinder_outputs": [
+    "geometry atlas",
+    "family trajectories",
+    "boundary mining",
+    "semantic audit"
+  ],
+  "caption_message": "CSD structures are converted into auditable CoordRep records and then projected into geometry-pathway, identity-family, and curation outputs."
+}

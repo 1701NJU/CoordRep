@@ -1,0 +1,38 @@
+{
+  "family_label": "GAZKUN",
+  "metal": "Cu",
+  "CN": 4,
+  "donor_set": "N4",
+  "n_family_members": 8,
+  "trajectory_span": 5.09,
+  "trajectory_axis_definition": "S_SP - S_Td",
+  "n_unique_L0": 7,
+  "n_unique_L1": 5,
+  "crosses_shape_boundary": true,
+  "selected_render_count": 5,
+  "L3_key_hash": "895774452902",
+  "pattern_sequence": [
+    "distorted",
+    "SP",
+    "SP",
+    "SP",
+    "Td",
+    "SP",
+    "distorted",
+    "SP"
+  ],
+  "visual_justification": "GAZKUN family shows dramatic visual geometry change: GAZKUN (boundary, S_Td=0.44, flattened Td-like) \u2192 LOYZII (near-ideal Td, all angles ~109\u00b0) \u2192 TUGKOX (near-ideal SP, two trans angles ~176\u00b0). This makes the SP\u2194Td interconversion visually obvious in both polyhedron and first_sphere renderings.",
+  "why_not_IKEXEC": "IKEXEC/MIGTEE family, despite high CShM span, shows minimal visual difference in first_sphere XYZ because all members have similar Ni-donor angles near the distorted region. GAZKUN shows actual SP\u2194Td pattern change with angle RMSD=42.5\u00b0 vs IKEXEC's ~5\u00b0.",
+  "representative_refcodes": [
+    "GAZKUN",
+    "HAGSEQ",
+    "PIXYUR",
+    "VIPVIC",
+    "LOYZII",
+    "HAGSEQ01",
+    "RUKKOY",
+    "TUGKOX"
+  ],
+  "recommended_render_file": "first_sphere.xyz",
+  "license_note": "CSD-derived coordinates for internal figure rendering only; do not redistribute raw XYZ."
+}

@@ -1,0 +1,6 @@
+# CSD-derived XYZ files — do NOT upload
+*_raw.xyz
+*_clean_for_render.xyz
+*_first_sphere.xyz
+*_polyhedron.xyz
+*_stereo_view.xyz

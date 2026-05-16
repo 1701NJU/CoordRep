@@ -1,0 +1,16 @@
+{
+  "case_id": "AGOTIA",
+  "source": "CSD",
+  "metal": "Re",
+  "CN": 7,
+  "ligand_summary": "2 × dehydroacetic acid (bid O,O), 1 × oxo, 1 × Cl",
+  "purpose": "repair",
+  "corruption_type": "missing_bracket",
+  "missing_position": 129,
+  "validator_before": "invalid",
+  "validator_after": "valid",
+  "fields_preserved": "5/6",
+  "recommended_render": "AGOTIA_first_sphere.xyz",
+  "figure_message": "Explicit grammar enables deterministic syntax repair and field audit.",
+  "license_note": "CSD-derived coordinates for internal figure rendering only; do not redistribute raw XYZ."
+}

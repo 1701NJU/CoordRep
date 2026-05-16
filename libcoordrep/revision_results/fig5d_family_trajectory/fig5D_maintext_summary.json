@@ -1,0 +1,57 @@
+{
+  "description": "Main-text Fig. 5D: 5 selected CN4 L3 families + IKEXEC 5-state thumbnails",
+  "selected_families": [
+    {
+      "rank": 1,
+      "label": "LINMOL",
+      "metal": "Pd",
+      "L3_hash": "463888590564",
+      "n_members": 3,
+      "span": 11.22
+    },
+    {
+      "rank": 2,
+      "label": "IKEXEC",
+      "metal": "Ni",
+      "L3_hash": "371011783775",
+      "n_members": 6,
+      "span": 8.0
+    },
+    {
+      "rank": 3,
+      "label": "TOPHIP",
+      "metal": "Cu",
+      "L3_hash": "918517807621",
+      "n_members": 2,
+      "span": 6.77
+    },
+    {
+      "rank": 4,
+      "label": "YOSNAV01",
+      "metal": "Pt",
+      "L3_hash": "99885397104",
+      "n_members": 4,
+      "span": 8.86
+    },
+    {
+      "rank": 5,
+      "label": "COSALP10",
+      "metal": "Co",
+      "L3_hash": "426961457385",
+      "n_members": 2,
+      "span": 6.81
+    }
+  ],
+  "thumbnail_family": "IKEXEC",
+  "thumbnail_metal": "Ni",
+  "thumbnail_CN": 4,
+  "thumbnail_n_states": 5,
+  "thumbnail_span": 8.0,
+  "nontrivial_L3_families": 6358,
+  "multiple_L1_shape_families": 3739,
+  "shape_boundary_crossing_families": 1810,
+  "top_family": "LINMOL",
+  "top_family_span": 10.1,
+  "recommended_render_file": "first_sphere.xyz",
+  "license_note": "CSD-derived; internal figure rendering only."
+}

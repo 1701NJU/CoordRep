@@ -1,0 +1,32 @@
+Fig_S6 — Masked-field learning diagnostics and donor-field attribution
+
+Panel A: Syntax validity vs training steps
+  Source: fig4_field_learning_revision/fig4B_syntax_validity_vs_steps.csv
+  x = training step; y = validity (%)
+  Two lines: parse valid (dark grey), strict valid (blue-grey)
+
+Panel B: Mask-ratio recovery
+  Source: fig4_field_learning_revision/fig4B_mask_ratio_recovery.csv
+  x = mask ratio; y = recovery (%)
+  Lines: Top-1 (dark grey), Top-5 (blue-grey)
+  Dashed line: shuffled-context baseline (21.6%) — ligand SMILES shuffled
+  to random positions, confirming near-chance performance without correct
+  ligand context. This is NOT a uniform-random-over-vocabulary baseline.
+
+Panel C: Donor-field attribution controls
+  Source: fig4_field_learning_revision/fig4C_donor_field_attribution.csv
+  Bar chart: 5 conditions; y = donor-marker Top-1 accuracy (%)
+  Full context = 85.7% (n = 19,992); orange highlight
+
+Panel D: Full-context donor-marker recovery by coordination number
+  Source: masked_field_learning/donor_recovery_by_cn.csv
+  (actual file: tool_a_ablation/tool_a_ablation_by_cn.csv, full_context rows)
+  CN ∈ {2,3,4,5,6} with n ≥ 50
+  Metric: donor-marker Top-1, same evaluation protocol as Panel C
+
+Panel E: Full-context donor-marker recovery by donor element
+  Source: masked_field_learning/donor_recovery_by_element.csv
+  (actual file: tool_a_ablation/tool_a_ablation_by_donor_element.csv, full_context rows)
+  Same metric and evaluation set as Panel C (n = 19,992, weighted avg = 85.7%)
+  Bars sorted by descending accuracy; n ≥ 20 filter
+  Orange horizontal line = weighted average across all elements

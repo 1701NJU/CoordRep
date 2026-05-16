@@ -1,0 +1,5 @@
+tokenization,metal_top1,cn_top1,metal_cn_joint_top1,donor_top1,donor_top5,interpretation,notes
+composite_metal_CN,n.d.,n.d.,13.8,15.1,36.4,compact but coupled; metal and CN not independently evaluable,matched short training comparison
+factorized_metal_CN,67.8,49.0,29.4,27.5,63.9,independent field evaluation enabled,matched short training comparison
+factorized_shuffled_field_order,not run,not run,not run,not run,not run,placeholder,experiment not yet conducted
+factorized_ligand_masked,not run,not run,not run,not run,not run,placeholder,experiment not yet conducted

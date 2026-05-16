@@ -1,0 +1,9 @@
+{
+  "v1_scope_note": "pi/haptic coordination remains outside CoordRep v1; this analysis covers eta1 bidentate and multidentate chelating ligands.",
+  "main_message": "multidentate ligands require ligand-level donor-set evaluation beyond independent donor-token accuracy",
+  "hard_error_definition": "violates donor count, duplicate donor indices, absent atoms, or internally inconsistent donor set",
+  "multidentate_coverage_percent": 51.2,
+  "bidentate_per_donor_top1": 0.8666,
+  "bidentate_per_ligand_all_correct": 0.7602,
+  "invalid_rate_in_bidentate": 0.2398
+}

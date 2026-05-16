@@ -1,0 +1,36 @@
+{
+  "n_CN5": 14897,
+  "fraction_near_diagonal": 0.4221,
+  "fraction_delta_lt_0.1": 0.0397,
+  "fraction_delta_lt_0.5": 0.2009,
+  "fraction_delta_lt_1": 0.4221,
+  "fraction_delta_lt_2": 0.6343,
+  "ridge_width": 3.28,
+  "ridge_enrichment_vs_random": 4.42,
+  "delta_median": 1.2,
+  "top_metals_in_ridge": {
+    "Cu": 1141,
+    "Ru": 744,
+    "Zn": 648,
+    "Fe": 553,
+    "V": 443,
+    "Co": 359,
+    "Ir": 273,
+    "Re": 257,
+    "Mn": 222,
+    "Ni": 220
+  },
+  "top_donor_sets_in_ridge": {
+    "N": 899,
+    "N,O": 543,
+    "C": 260,
+    "C,N": 246,
+    "P": 241,
+    "Cl,N": 218,
+    "C,P": 187,
+    "O": 150,
+    "C,O": 147,
+    "C,N,P": 129
+  },
+  "note": "Static structural correlation; no dynamics claim."
+}
