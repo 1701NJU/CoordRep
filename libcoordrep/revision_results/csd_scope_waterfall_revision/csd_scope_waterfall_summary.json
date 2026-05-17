@@ -1,0 +1,20 @@
+{
+  "csd_release": "2024.3",
+  "total_CSD_entries": 1413222,
+  "valid_CoordRep_v1_records": 124837,
+  "whole_CSD_fraction_percent": 8.83,
+  "transition_metal_candidate_entries": 615498,
+  "coordination_candidate_entries": 217163,
+  "intended_v1_candidate_entries": 126197,
+  "valid_fraction_among_TM_candidates_percent": 20.28,
+  "valid_fraction_among_coordination_candidates_percent": 57.49,
+  "valid_fraction_among_intended_v1_candidates_percent": 98.92,
+  "excluded_fraction_among_coordination_candidates_percent": 42.51,
+  "excluded_fraction_due_to_multinuclear_percent": 56.29,
+  "excluded_fraction_due_to_haptic_or_pi_percent": 8.43,
+  "excluded_fraction_due_to_disorder_percent": 10.41,
+  "excluded_fraction_due_to_incompatible_bonding_percent": 4.37,
+  "excluded_fraction_due_to_incompatible_3D_percent": 5.53,
+  "exclusion_priority_note": "Each entry is classified by its first (highest-priority) exclusion reason.  Priority: no-3D > no-TM > multinuclear > haptic/π > CN-out-of-range > disorder > polymer > donor/SMILES-fail > other > in-domain-validation-fail.",
+  "license_note": "CSD-derived aggregate counts only; no raw coordinates are redistributed."
+}
