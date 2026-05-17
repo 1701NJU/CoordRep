@@ -1,0 +1,10 @@
+stage,n,type
+All CSD entries,1413222,total
+No 3D / no atom-resolved,78081,excluded
+No transition metal,719643,excluded
+TM candidates,615498,checkpoint
+v1 valid (mononuclear eta1),124837,retained
+v2beta recovered multinuclear,287637,v2beta_gain
+v2beta recovered haptic,52003,v2beta_gain
+Total CoordRep-compatible,464477,total_v2
+Remaining out-of-scope,151021,excluded

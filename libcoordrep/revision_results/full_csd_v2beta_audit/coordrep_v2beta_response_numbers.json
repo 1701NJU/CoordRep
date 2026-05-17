@@ -1,0 +1,19 @@
+{
+  "v1_valid_records": 124837,
+  "multinuclear_pool_total": 346468,
+  "haptic_pool_total": 52003,
+  "multi_sample_n": 5000,
+  "haptic_sample_n": 2000,
+  "multi_record_generated_rate": 0.8302,
+  "haptic_record_generated_rate": 1.0,
+  "multi_parse_roundtrip_rate": 0.9065,
+  "haptic_parse_roundtrip_rate": 1.0,
+  "multi_invariance_rate": 0.9065,
+  "haptic_invariance_rate": 1.0,
+  "multi_recovered_projected": 287637,
+  "haptic_recovered_projected": 52003,
+  "total_coordrep_compatible": 464477,
+  "all_csd_coverage_pct": 32.87,
+  "tm_coverage_pct": 75.46,
+  "coverage_gain_over_v1_pct": 272.1
+}

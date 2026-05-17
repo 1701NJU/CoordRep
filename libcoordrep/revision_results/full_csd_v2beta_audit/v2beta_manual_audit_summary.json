@@ -1,0 +1,10 @@
+{
+  "note": "Manual audit requires human domain expert review. This sheet provides the sampling framework.",
+  "multi_success_sampled": 50,
+  "multi_failure_sampled": 50,
+  "haptic_success_sampled": 50,
+  "haptic_failure_sampled": 0,
+  "manual_correctness_multi": "PENDING_HUMAN_AUDIT",
+  "manual_correctness_haptic": "PENDING_HUMAN_AUDIT",
+  "top_manual_failure_modes": "PENDING_HUMAN_AUDIT"
+}
