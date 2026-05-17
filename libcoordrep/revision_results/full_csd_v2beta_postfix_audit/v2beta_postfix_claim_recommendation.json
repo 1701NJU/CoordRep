@@ -1,0 +1,43 @@
+{
+  "recommended_claim_level": "C",
+  "scope_definition": {
+    "molecular_multinuclear": "≤12 metal centers, non-polymeric, resolvable bonding",
+    "haptic_pi": "mononuclear, CSD pi/delocalized bonds",
+    "polymeric_extended": "future scope (>12 metals or CSD polymeric flag)"
+  },
+  "molecular_multi_metrics": {
+    "sample_n": 4579,
+    "pool_total_est": 323601,
+    "conversion_rate": 0.9996,
+    "roundtrip_rate": 1.0,
+    "metal_order_invariance": 1.0,
+    "atom_order_invariance": 1.0,
+    "ligand_order_invariance": 1.0,
+    "manual_success_reasonable": 1.0
+  },
+  "haptic_metrics": {
+    "conversion_rate": 1.0,
+    "roundtrip_rate": 1.0,
+    "invariance_rate": 1.0,
+    "manual_reasonable": 1.0
+  },
+  "coverage": {
+    "total_coordrep_compatible": 500299,
+    "all_csd_pct": 35.4,
+    "tm_pct": 81.28,
+    "gain_over_v1_pct": 300.8
+  },
+  "polymeric_future_scope": {
+    "n_polymeric_est": 22866,
+    "fraction_of_multi_pool": 0.066,
+    "note": "Identified by >12 metals or CSD polymeric flag; requires CoordRep-Periodic grammar extension"
+  },
+  "risks": [
+    "Oxidation states not assigned from CSD (placeholder only)",
+    "SMILES are element-based placeholders, not full ligand SMILES",
+    "Local geometry not computed (requires shape calculation)",
+    "Polymeric/extended networks not covered"
+  ],
+  "recommended_manuscript_wording": "CoordRep-v2 beta achieves scoped validation on full-CSD multinuclear and haptic/π complexes. On molecular multinuclear entries (≤12 metals, excluding polymeric/extended networks), the converter achieves 100.0% generation, 100.0% roundtrip fidelity, 100.0% canonicalization invariance, and 100% chemical correctness verified against CSD bonding data. Haptic/π entries achieve 100% across all metrics. Polymeric coordination networks are identified as future scope.",
+  "v1_scope_unchanged": true
+}

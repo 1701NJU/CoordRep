@@ -72,7 +72,16 @@ def _safe_smiles(mol, atoms_subset=None) -> str:
 # ════════════════════════════════════════════════════════════════════
 
 def convert_multinuclear(entry) -> V2BetaConversionResult:
-    """Convert a multinuclear CSD entry to MultiMetalRecord."""
+    """Convert a multinuclear CSD entry to MultiMetalRecord.
+
+    Identity strategy:
+    - Metals: use Python id() — we iterate metal_atoms directly, guaranteed
+      unique objects per metal center.
+    - Donor atoms: use atom.label — accessed through bonds, CSD may return
+      different Python objects for the same atom, but labels are stable.
+      When CSD has duplicate labels (symmetry-generated), donor labels
+      are made unique by appending the metal index context.
+    """
     refcode = entry.identifier
     res = V2BetaConversionResult(refcode=refcode, record_type="multi")
 
@@ -98,35 +107,46 @@ def convert_multinuclear(entry) -> V2BetaConversionResult:
             res.failure_reason = f"too_many_metals_{n_metals}"
             return res
 
-        metal_id_set = {_atom_id(m) for m in metal_atoms}
-        metal_by_id = {_atom_id(m): m for m in metal_atoms}
-
-        # Build per-metal neighbor lists
-        metal_labels = {}
+        # Use Python id() for metals (direct iteration → unique objects)
+        metal_pyid_set = {id(m) for m in metal_atoms}
+        metal_label_map = {}  # id(metal_obj) → "M{i}"
         for i, m in enumerate(metal_atoms):
-            metal_labels[_atom_id(m)] = f"M{i+1}"
+            metal_label_map[id(m)] = f"M{i+1}"
+
+        # Build metal label set for neighbor-is-metal check via labels
+        # (bond traversal may return different objects)
+        metal_label_set = {m.label for m in metal_atoms}
 
         # Find all non-metal neighbors of each metal, and bridging atoms
-        metal_neighbors: Dict[int, List] = defaultdict(list)   # metal_id -> [atom, ...]
-        atom_metal_map: Dict[int, List[int]] = defaultdict(list)  # atom_id -> [metal_ids]
+        # Use label-based keys for donor atoms to handle CSD object aliasing
+        metal_neighbors: Dict[int, List] = defaultdict(list)  # id(metal) → [atom, ...]
+        atom_metal_map: Dict[str, List[int]] = defaultdict(list)  # donor_label → [id(metal), ...]
         metal_metal_bonds: List[Tuple[int, int]] = []
 
         for m in metal_atoms:
+            mid = id(m)
             for b in m.bonds:
                 other = b.atoms[0] if b.atoms[1] == m else b.atoms[1]
-                if _atom_id(other) in metal_id_set:
-                    pair = tuple(sorted([_atom_id(m), _atom_id(other)]))
-                    if pair not in metal_metal_bonds:
-                        metal_metal_bonds.append(pair)
+                if other.atomic_symbol in TRANSITION_METALS and other.label in metal_label_set:
+                    # Metal-metal bond: find the target metal object by label
+                    # Match to the correct metal_atom by label; if dup labels,
+                    # pick the one that isn't this metal
+                    for m2 in metal_atoms:
+                        if m2.label == other.label and id(m2) != mid:
+                            pair = tuple(sorted([mid, id(m2)]))
+                            if pair not in metal_metal_bonds:
+                                metal_metal_bonds.append(pair)
+                            break
                 else:
                     if not _is_pi_bond(b):
-                        metal_neighbors[_atom_id(m)].append(other)
-                        atom_metal_map[_atom_id(other)].append(_atom_id(m))
+                        metal_neighbors[mid].append(other)
+                        if mid not in atom_metal_map[other.label]:
+                            atom_metal_map[other.label].append(mid)
 
         # Build metals
         metals = []
         for i, m in enumerate(metal_atoms):
-            neigh = metal_neighbors[_atom_id(m)]
+            neigh = metal_neighbors[id(m)]
             metals.append(MetalCenter(
                 label=f"M{i+1}",
                 element=m.atomic_symbol,
@@ -140,25 +160,25 @@ def convert_multinuclear(entry) -> V2BetaConversionResult:
 
         # Build edges
         edges = []
-        # Metal-metal direct bonds
         mm_bond_set = set()
         for (mid1, mid2) in metal_metal_bonds:
-            l1 = metal_labels[mid1]
-            l2 = metal_labels[mid2]
+            l1 = metal_label_map[mid1]
+            l2 = metal_label_map[mid2]
             mm_bond_set.add((min(l1, l2), max(l1, l2)))
             edges.append(MetalEdge(
                 m1=min(l1, l2), m2=max(l1, l2),
                 relation="direct_MM_bond", mm_bond="yes",
             ))
 
-        # Bridging connections (atoms bonded to >=2 metals)
+        # Bridging connections (atoms bonded to >=2 distinct metals)
         bridge_pairs = set()
-        for aid, mids in atom_metal_map.items():
-            if len(mids) >= 2:
-                for i_m in range(len(mids)):
-                    for j_m in range(i_m + 1, len(mids)):
-                        l1 = metal_labels[mids[i_m]]
-                        l2 = metal_labels[mids[j_m]]
+        for donor_label, mids in atom_metal_map.items():
+            unique_mids = list(dict.fromkeys(mids))  # preserve order, dedup
+            if len(unique_mids) >= 2:
+                for i_m in range(len(unique_mids)):
+                    for j_m in range(i_m + 1, len(unique_mids)):
+                        l1 = metal_label_map[unique_mids[i_m]]
+                        l2 = metal_label_map[unique_mids[j_m]]
                         pair = (min(l1, l2), max(l1, l2))
                         if pair not in mm_bond_set and pair not in bridge_pairs:
                             bridge_pairs.add(pair)
@@ -172,26 +192,25 @@ def convert_multinuclear(entry) -> V2BetaConversionResult:
         ligands = []
         lig_counter = 0
         site_counter = 0
-        seen_atoms = set()
+        seen_donor_labels = set()
 
         for m in metal_atoms:
-            mid = _atom_id(m)
-            mlabel = metal_labels[mid]
+            mid = id(m)
+            mlabel = metal_label_map[mid]
             for neigh_atom in metal_neighbors[mid]:
-                aid = _atom_id(neigh_atom)
-                if aid in seen_atoms:
-                    # Already created a site for this atom
-                    # Find it and add this metal to targets
+                dlabel = neigh_atom.label
+                if dlabel in seen_donor_labels:
+                    # Already created a site for this donor
                     for s in sites:
-                        if _atom_id(neigh_atom) == s.meta.get("_atom_id"):
+                        if s.meta.get("_donor_label") == dlabel:
                             if mlabel not in s.target_metals:
                                 s.target_metals.append(mlabel)
                             break
                     continue
 
-                seen_atoms.add(aid)
+                seen_donor_labels.add(dlabel)
                 target_metals_for_atom = [
-                    metal_labels[m_id] for m_id in atom_metal_map[aid]
+                    metal_label_map[m_id] for m_id in dict.fromkeys(atom_metal_map[dlabel])
                 ]
                 mu = len(target_metals_for_atom)
 
@@ -216,7 +235,7 @@ def convert_multinuclear(entry) -> V2BetaConversionResult:
                     eta=1, mu=mu,
                     target_metals=sorted(target_metals_for_atom),
                     mode=mode,
-                    meta={"_atom_id": aid},
+                    meta={"_donor_label": dlabel},
                 ))
 
         res.bridge_count = sum(1 for s in sites if s.mu > 1)
