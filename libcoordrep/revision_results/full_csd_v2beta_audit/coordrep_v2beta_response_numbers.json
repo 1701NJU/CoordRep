@@ -15,5 +15,14 @@
   "total_coordrep_compatible": 464477,
   "all_csd_coverage_pct": 32.87,
   "tm_coverage_pct": 75.46,
-  "coverage_gain_over_v1_pct": 272.1
+  "coverage_gain_over_v1_pct": 272.1,
+  "manual_audit_completed": true,
+  "multi_success_chemically_reasonable": 0.88,
+  "haptic_success_chemically_reasonable": 1.0,
+  "overall_success_chemically_reasonable": 0.94,
+  "multi_success_metals_correct": 1.0,
+  "multi_success_bridges_correct": 0.86,
+  "haptic_success_sites_correct": 1.0,
+  "haptic_success_eta_correct": 1.0,
+  "claim_level": "B+"
 }

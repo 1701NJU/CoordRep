@@ -55,8 +55,9 @@ def _get_metal_atoms(mol) -> list:
     return [a for a in mol.atoms if a.atomic_symbol in TRANSITION_METALS]
 
 
-def _atom_id(a) -> int:
-    return id(a)
+def _atom_id(a) -> str:
+    """Use atom label as stable identity (CSD may return different objects for same atom)."""
+    return a.label
 
 
 def _safe_smiles(mol, atoms_subset=None) -> str:
@@ -303,9 +304,10 @@ def convert_haptic(entry) -> V2BetaConversionResult:
             res.failure_reason = "no_pi_bonds_found"
             return res
 
-        # Group pi atoms into connected fragments
-        pi_id_set = {_atom_id(a) for a in pi_atoms}
-        visited = set()
+        # Group pi atoms into connected fragments using label-based BFS
+        pi_label_set = {a.label for a in pi_atoms}
+        pi_by_label = {a.label: a for a in pi_atoms}
+        visited_labels = set()
         fragments = []
 
         def _bfs_fragment(start_atom):
@@ -313,20 +315,21 @@ def convert_haptic(entry) -> V2BetaConversionResult:
             queue = [start_atom]
             while queue:
                 cur = queue.pop(0)
-                cid = _atom_id(cur)
-                if cid in visited:
+                clabel = cur.label
+                if clabel in visited_labels:
                     continue
-                visited.add(cid)
+                visited_labels.add(clabel)
                 frag.append(cur)
                 for b in cur.bonds:
                     other = b.atoms[0] if b.atoms[1] == cur else b.atoms[1]
-                    oid = _atom_id(other)
-                    if oid in pi_id_set and oid not in visited:
-                        queue.append(other)
+                    olabel = other.label
+                    if olabel in pi_label_set and olabel not in visited_labels:
+                        # Use canonical atom from pi_by_label
+                        queue.append(pi_by_label[olabel])
             return frag
 
         for pa in pi_atoms:
-            if _atom_id(pa) not in visited:
+            if pa.label not in visited_labels:
                 frag = _bfs_fragment(pa)
                 if frag:
                     fragments.append(frag)
