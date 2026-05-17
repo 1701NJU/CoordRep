@@ -1,0 +1,9 @@
+case_id,source_database,refcode,metal,haptic_class,eta,site_type,site_atom_count,ligand_label,parse_valid,roundtrip_valid,atom_set_order_invariant,included_in_si,notes
+haptic_001,CSD_curated,FEROCE01,Fe,metallocene,5,pi_fragment,5,Cp,True,True,True,True,Canonical metallocene — both rings η5
+haptic_002,CSD_curated,ZEISSE01,Pt,eta2_alkene,2,pi_fragment,2,ethylene,True,True,True,True,Zeise's salt — prototypical η2-alkene coordination
+haptic_003,CSD_curated,PDALLY,Pd,eta3_allyl,3,pi_fragment,3,allyl,True,True,True,True,η3-allyl complex — 3-carbon π fragment
+haptic_004,CSD_curated,BZCRCB01,Cr,eta6_arene,6,pi_fragment,6,benzene,True,True,True,True,Piano-stool η6-arene complex
+haptic_005,CSD_curated,RUCPCL,Ru,mixed_haptic,5,pi_fragment,5,Cp*,True,True,True,True,Mixed hapticity: η5-Cp* + two η2 from cod + σ-Cl
+haptic_006,CSD_curated,NIEPPH,Ni,eta2_alkene,2,pi_fragment,2,ethylene,True,True,True,True,Trigonal planar Ni(0) with one η2-alkene
+haptic_007,CSD_curated,CPMNCO,Mn,half_sandwich,5,pi_fragment,5,Cp,True,True,True,True,Half-sandwich CpMn(CO)3 — classic piano stool
+haptic_008,CSD_curated,TICPDC01,Ti,bent_metallocene,5,pi_fragment,5,Cp,True,True,True,True,Bent metallocene Cp2TiCl2 — Ziegler-Natta catalyst precursor
