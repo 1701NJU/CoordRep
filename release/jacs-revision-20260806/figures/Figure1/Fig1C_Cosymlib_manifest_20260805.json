@@ -1,0 +1,63 @@
+{
+  "generated_utc_note": "Generated locally on 2026-08-05 (Asia/Shanghai task date)",
+  "generator": "generate_fig1c_cosymlib_polyhedra.py",
+  "software": {
+    "cosymlib": "0.11.1",
+    "numpy": "1.26.4",
+    "scipy": "1.10.1",
+    "matplotlib": "3.8.4",
+    "wfnsympy": "0.3.5",
+    "symgroupy": "0.5.9"
+  },
+  "cosymlib_upstream": {
+    "repository": "https://github.com/GrupEstructuraElectronicaSimetria/cosymlib",
+    "checked_commit": "4a140650af2ebee5fce4ec2e5a0efa6724a4e4f1",
+    "reference_labels": {
+      "octahedron": "OC-6",
+      "trigonal_prism": "TPR-6"
+    },
+    "software_doi": "10.5281/zenodo.4925766"
+  },
+  "source": {
+    "archive": "revision_experiments/source_cache/official_tmqmg_github_xyz/tmQMg_xyz.zip",
+    "member": "xyz/ATIZEK.xyz",
+    "sha256": "e3d68ed616618aa43c5f248fc4c969f7d9d79f6633b39ad60b79265731a07825",
+    "metal_index_zero_based": 48,
+    "donor_indices_zero_based": [
+      44,
+      42,
+      46,
+      39,
+      40,
+      41
+    ],
+    "selected_symbols": [
+      "Rh",
+      "O",
+      "O",
+      "O",
+      "N",
+      "N",
+      "N"
+    ]
+  },
+  "results": {
+    "S_OC-6": 1.2040809324675106,
+    "S_TPR-6": 12.311628666783502,
+    "display_values": {
+      "S_Oh": 1.2,
+      "S_TPr": 12.31
+    }
+  },
+  "rendering": {
+    "projection": "orthographic",
+    "camera_vector": [
+      2.45,
+      -3.25,
+      1.55
+    ],
+    "ideal_vertices": "element-neutral",
+    "actual_vertices": "N blue; O red",
+    "svg_text": "editable text; matplotlib svg.fonttype=none"
+  }
+}

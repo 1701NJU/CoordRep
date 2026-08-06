@@ -1,0 +1,5 @@
+# Publication artwork is intentionally stored as native vector/binary assets.
+*.svg binary
+*.pdf binary
+*.png binary
+*.tiff binary
