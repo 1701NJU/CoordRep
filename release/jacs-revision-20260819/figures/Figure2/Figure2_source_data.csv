@@ -1,0 +1,27 @@
+﻿panel,series,category,value,unit,source_note
+B,tested encodings,CN4 repeated classes,4,inputs,exact canonicalization audit
+B,distinct exact outputs,CN4 repeated classes,1,State,exact canonicalization audit
+B,tested encodings,CN6 repeated classes,8,inputs,exact canonicalization audit
+B,distinct exact outputs,CN6 repeated classes,1,State,exact canonicalization audit
+B,tested encodings,Cu4 symmetric metal order,24,inputs,exact canonicalization audit
+B,distinct exact outputs,Cu4 symmetric metal order,1,State,exact canonicalization audit
+B,tested encodings,CN6 global relabeling,100,inputs,exact canonicalization audit
+B,distinct exact outputs,CN6 global relabeling,1,State,exact canonicalization audit
+B,preliminary WL-only,Cu4 symmetric metal order,3,serializations,24 input permutations
+C,exact recovery,multimetal record graphs,5500,of 5500,55 curated templates x 100
+C,exact recovery,haptic/pi site objects,3300,of 3300,33 curated templates x 100
+D,corrected strict atlas,Ru-centered CN=6 total,4365,records,four-shard corrected CSD strict scan
+D,corrected strict atlas,records in plotted window,4334,records,0<=S(Oh)<=5 and 9<=S(TPr)<=18
+D,corrected strict atlas,records outside plotted window,31,records,not displayed; included in total
+D,CShM,EBAGAR fac S(Oh),1.014856282443701,CShM,corrected exact coordinate-space calculation
+D,CShM,EBAGAR fac S(TPr),14.312707388588121,CShM,corrected exact coordinate-space calculation
+D,CShM,EBAGEV mer S(Oh),0.9115136539869606,CShM,corrected exact coordinate-space calculation
+D,CShM,EBAGEV mer S(TPr),13.581944119050016,CShM,corrected exact coordinate-space calculation
+D,EBAGAR fac,N_L-Cl,2,trans pairs,CoordRep relation field
+D,EBAGAR fac,N_L-N_NO,1,trans pairs,CoordRep relation field
+D,EBAGAR fac,N_L-N_L,0,trans pairs,CoordRep relation field
+D,EBAGAR fac,N_NO-Cl,0,trans pairs,CoordRep relation field
+D,EBAGEV mer,N_L-Cl,1,trans pairs,CoordRep relation field
+D,EBAGEV mer,N_L-N_NO,0,trans pairs,CoordRep relation field
+D,EBAGEV mer,N_L-N_L,1,trans pairs,CoordRep relation field
+D,EBAGEV mer,N_NO-Cl,1,trans pairs,CoordRep relation field

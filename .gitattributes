@@ -1,3 +1,6 @@
+# Keep text files byte-stable across Windows, macOS, Linux, and GitHub archives.
+* text=auto eol=lf
+
 # Publication artwork is intentionally stored as native vector/binary assets.
 *.svg binary
 *.pdf binary

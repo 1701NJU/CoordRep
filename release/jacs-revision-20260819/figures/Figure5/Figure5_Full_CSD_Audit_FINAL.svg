@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 504 374.2">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        font-size: 4.7px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38, .st39, .st40, .st41, .st42, .st43, .st44, .st45, .st46, .st47, .st48, .st49, .st50 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st3, .st9, .st11, .st12, .st13, .st51, .st15, .st23, .st26, .st29, .st30, .st31, .st52, .st33, .st35, .st36, .st53, .st39, .st43, .st44, .st45, .st47, .st49 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st23, .st36 {
+        fill: #2c7a39;
+      }
+
+      .st1, .st9, .st15 {
+        fill: #b65a08;
+      }
+
+      .st54 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st55 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st56 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st57 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st58, .st21, .st27, .st59 {
+        fill: #6b55a3;
+      }
+
+      .st60, .st17, .st24, .st46 {
+        fill: #1d7184;
+      }
+
+      .st61 {
+        stroke-width: .6px;
+      }
+
+      .st61, .st62, .st63, .st64, .st65, .st66, .st67, .st59, .st68, .st69, .st70, .st71, .st72, .st73 {
+        stroke-linejoin: round;
+      }
+
+      .st61, .st8, .st11, .st18, .st19, .st22, .st26, .st48 {
+        fill: #1e252b;
+      }
+
+      .st61, .st74 {
+        stroke: #1e252b;
+      }
+
+      .st2 {
+        font-size: 5.1px;
+      }
+
+      .st2, .st3, .st29, .st31, .st43, .st45 {
+        fill: #5c6870;
+      }
+
+      .st75 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st62 {
+        stroke-width: .9px;
+      }
+
+      .st62, .st76, .st4, .st6, .st51, .st34, .st37, .st70, .st40, .st49 {
+        fill: #d97a21;
+      }
+
+      .st62, .st73 {
+        stroke: #d97a21;
+      }
+
+      .st77 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st78 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st79 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st80 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st3 {
+        font-size: 5.6px;
+      }
+
+      .st4, .st5, .st6, .st7, .st8, .st10, .st14, .st16, .st17, .st18, .st19, .st21, .st22, .st24, .st25, .st27, .st28, .st32, .st34, .st81, .st38, .st40, .st41, .st42, .st46, .st48, .st50 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st4, .st16, .st27 {
+        font-size: 5.7px;
+      }
+
+      .st5 {
+        font-size: 4.3px;
+      }
+
+      .st5, .st7, .st13, .st28, .st52, .st33, .st35, .st53, .st81, .st39, .st47 {
+        fill: #111;
+      }
+
+      .st63, .st82, .st83, .st84, .st64, .st85, .st66, .st74, .st86, .st67, .st68, .st71, .st73, .st87 {
+        fill: none;
+      }
+
+      .st63, .st64, .st65, .st66, .st68, .st71, .st72 {
+        stroke: #d9e0e4;
+      }
+
+      .st63, .st74, .st68 {
+        stroke-linecap: square;
+      }
+
+      .st63, .st74, .st73 {
+        stroke-width: .6px;
+      }
+
+      .st88 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st89 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st6, .st38, .st41, .st48 {
+        font-size: 6.2px;
+      }
+
+      .st90, .st10, .st25, .st42 {
+        fill: #fff;
+      }
+
+      .st91 {
+        clip-path: url(#clippath-25);
+      }
+
+      .st82 {
+        stroke: #5b2a99;
+      }
+
+      .st82, .st83, .st84, .st86, .st67, .st87 {
+        stroke-width: .2px;
+      }
+
+      .st92 {
+        clip-path: url(#clippath-27);
+      }
+
+      .st83 {
+        stroke-dasharray: 5 7;
+      }
+
+      .st83, .st64, .st65, .st66, .st86, .st67, .st72, .st73 {
+        stroke-linecap: round;
+      }
+
+      .st83, .st86, .st67 {
+        stroke: #111;
+      }
+
+      .st7, .st81 {
+        font-size: 4.2px;
+      }
+
+      .st8 {
+        font-size: 8.2px;
+      }
+
+      .st84 {
+        stroke: #7f8790;
+        stroke-dasharray: 8 8;
+      }
+
+      .st9, .st23 {
+        font-size: 5.4px;
+      }
+
+      .st64, .st72 {
+        stroke-width: .7px;
+      }
+
+      .st10 {
+        font-size: 5.2px;
+      }
+
+      .st11, .st46 {
+        font-size: 5.8px;
+      }
+
+      .st93, .st32, .st41 {
+        fill: #3d96a4;
+      }
+
+      .st94 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st95 {
+        fill: #eef2f4;
+      }
+
+      .st12 {
+        font-size: 2.7px;
+      }
+
+      .st12, .st44 {
+        fill: #5b2a99;
+      }
+
+      .st65, .st66 {
+        stroke-width: .8px;
+      }
+
+      .st65, .st72 {
+        fill: #d9e0e4;
+      }
+
+      .st13, .st52 {
+        font-size: 3.9px;
+      }
+
+      .st51 {
+        font-size: 12px;
+      }
+
+      .st96 {
+        clip-path: url(#clippath-28);
+      }
+
+      .st14, .st16, .st69, .st38, .st97, .st50 {
+        fill: #2e617f;
+      }
+
+      .st14, .st21, .st34 {
+        font-size: 6.6px;
+      }
+
+      .st15, .st44 {
+        font-size: 4.2px;
+      }
+
+      .st17, .st19, .st32, .st50 {
+        font-size: 8.3px;
+      }
+
+      .st98 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st18 {
+        font-size: 9.2px;
+      }
+
+      .st22 {
+        font-size: 6.7px;
+      }
+
+      .st99 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st100 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st24 {
+        font-size: 6.5px;
+      }
+
+      .st25 {
+        font-size: 4px;
+      }
+
+      .st101 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st26 {
+        font-size: 6.7px;
+      }
+
+      .st28 {
+        font-size: 4.2px;
+      }
+
+      .st29 {
+        font-size: 6.6px;
+      }
+
+      .st102 {
+        fill: #7f8790;
+      }
+
+      .st30 {
+        fill: #bf5d00;
+        font-size: 3.8px;
+      }
+
+      .st103 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st31 {
+        font-size: 6.4px;
+      }
+
+      .st104 {
+        clip-path: url(#clippath-26);
+      }
+
+      .st33 {
+        font-size: 3.9px;
+      }
+
+      .st105 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st35, .st53 {
+        font-size: 4.1px;
+      }
+
+      .st106 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st107 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st59, .st68, .st69, .st70 {
+        stroke-width: .6px;
+      }
+
+      .st59, .st69, .st70 {
+        stroke: #fff;
+      }
+
+      .st36 {
+        font-size: 3.5px;
+      }
+
+      .st37 {
+        font-family: DejaVuSans, 'DejaVu Sans';
+      }
+
+      .st37, .st40 {
+        font-size: 5.2px;
+      }
+
+      .st39 {
+        font-size: 3px;
+      }
+
+      .st71 {
+        stroke-width: 1px;
+      }
+
+      .st42 {
+        font-size: 6.3px;
+      }
+
+      .st43 {
+        font-size: 6.7px;
+      }
+
+      .st108 {
+        fill: #1d5fa7;
+      }
+
+      .st109 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st110 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st45 {
+        font-size: 5.4px;
+      }
+
+      .st111 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st47 {
+        font-size: 3.9px;
+      }
+
+      .st112 {
+        clip-path: url(#clippath-24);
+      }
+
+      .st113 {
+        clip-path: url(#clippath);
+      }
+
+      .st49 {
+        font-size: 5.3px;
+      }
+
+      .st87 {
+        stroke: #b65a08;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st85" x="32.7" y="5.2" width="446.6" height="114.9"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st85" x="32.8" y="4.6" width="446.6" height="114.9"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st85" x="3.8" y="141" width="490" height="63"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st85" x="3.8" y="141" width="490" height="63"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st85" x="3.8" y="141" width="490" height="63"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st85" x="68.4" y="225.2" width="182.1" height="95.4"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <rect class="st85" x="327.8" y="225.2" width="161.5" height="40"/>
+    </clipPath>
+  </defs>
+  <g class="st113">
+    <path class="st63" d="M181,81.6V29.3"/>
+  </g>
+  <g class="st98">
+    <path class="st63" d="M329.8,81V28.7"/>
+  </g>
+  <text class="st18" transform="translate(7.6 13.9)"><tspan x="0" y="0">(A)</tspan></text>
+  <text class="st14" transform="translate(67.8 27.6)"><tspan x="0" y="0">MULTIMETAL / BRIDGED</tspan></text>
+  <text class="st21" transform="translate(239.5 27.6)"><tspan x="0" y="0">HAPTIC / π</tspan></text>
+  <text class="st34" transform="translate(388.1 27.7)"><tspan x="0" y="0">PERIODIC</tspan></text>
+  <path class="st66" d="M106.4,101.5s0-.3,0-.9"/>
+  <path class="st65" d="M107.9,97.6l-1.5,3.1-1.5-3.1h3.1Z"/>
+  <path class="st66" d="M256,102s0-.3,0-.9"/>
+  <path class="st65" d="M257.5,98l-1.5,3.1-1.5-3.1h3.1Z"/>
+  <path class="st66" d="M405.5,101.5s0-.3,0-.9"/>
+  <path class="st65" d="M407.1,97.6l-1.5,3.1-1.5-3.1h3.1Z"/>
+  <text class="st24" transform="translate(110.7 110.9)"><tspan x="0" y="0">one auditable record: metal-centered sites + donor-site objects + typed coordination relations</tspan></text>
+  <text class="st31" transform="translate(131.8 122.9)"><tspan x="0" y="0">terminal resolution is retained—not discarded: resolved · partial · ambiguous · audit-only</tspan></text>
+  <text class="st8" transform="translate(25.9 13.9)"><tspan x="0" y="0">Chemistry-aware construction of complex coordination records</tspan></text>
+  <line class="st86" x1="69.4" y1="53.6" x2="84.6" y2="53.6"/>
+  <line class="st86" x1="125.3" y1="53.6" x2="139.8" y2="53.6"/>
+  <line class="st86" x1="92.6" y1="49.6" x2="102.4" y2="36.8"/>
+  <line class="st86" x1="107.4" y1="36.8" x2="117.2" y2="49.6"/>
+  <line class="st86" x1="92.6" y1="57.8" x2="102.4" y2="70.5"/>
+  <line class="st86" x1="107.4" y1="70.5" x2="117.2" y2="57.8"/>
+  <text class="st23" transform="translate(63.3 55.5)"><tspan x="0" y="0">Cl</tspan></text>
+  <text class="st9" transform="translate(86.5 55.8)"><tspan x="0" y="0">Cu</tspan></text>
+  <text class="st9" transform="translate(117.4 55.8)"><tspan x="0" y="0">Cu</tspan></text>
+  <text class="st23" transform="translate(141 55.5)"><tspan x="0" y="0">Cl</tspan></text>
+  <text class="st23" transform="translate(102.2 35.4)"><tspan x="0" y="0">Cl</tspan></text>
+  <text class="st23" transform="translate(102.1 76.1)"><tspan x="0" y="0">Cl</tspan></text>
+  <text class="st23" transform="translate(113 38.9)"><tspan x="0" y="0">μ</tspan></text>
+  <text class="st36" transform="translate(116 40)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st5" transform="translate(70.5 82.6)"><tspan x="0" y="0">each μ-Cl site → both Cu centers</tspan></text>
+  <text class="st33" transform="translate(75.1 89.8)"><tspan x="0" y="0">stored once · bridge degree = 2</tspan></text>
+  <text class="st33" transform="translate(62.6 95.5)"><tspan x="0" y="0">shared-donor; direct M–M stored when present</tspan></text>
+  <g class="st110">
+    <path class="st97" d="M8.7,193.9h202.2v-14.5H8.7v14.5Z"/>
+  </g>
+  <g class="st103">
+    <path class="st93" d="M210.9,193.9h186.3v-14.5h-186.3v14.5Z"/>
+  </g>
+  <g class="st78">
+    <path class="st76" d="M397.2,193.9h91.7v-14.5h-91.7v14.5Z"/>
+  </g>
+  <text class="st18" transform="translate(8.4 141.8)"><tspan x="0" y="0">(B)</tspan></text>
+  <text class="st19" transform="translate(8.7 157.3)"><tspan x="0" y="0">1,371,757</tspan></text>
+  <text class="st43" transform="translate(8.7 166.4)"><tspan x="0" y="0">April 2025 CSD</tspan></text>
+  <path class="st66" d="M82.1,156.4h34.5"/>
+  <path class="st65" d="M113.3,154.7l3.4,1.7-3.4,1.7v-3.4Z"/>
+  <text class="st50" transform="translate(128.8 157.3)"><tspan x="0" y="0">602,116</tspan></text>
+  <text class="st43" transform="translate(128.8 166.3)"><tspan x="0" y="0">3D + in-domain d-block</tspan></text>
+  <path class="st66" d="M202.1,156.4h41.9"/>
+  <path class="st65" d="M240.6,154.7l3.4,1.7-3.4,1.7v-3.4Z"/>
+  <text class="st32" transform="translate(256.2 157.3)"><tspan x="0" y="0">602,116 / 602,116</tspan></text>
+  <text class="st43" transform="translate(256.2 166.3)"><tspan x="0" y="0">schema-valid records</tspan></text>
+  <path class="st66" d="M329.5,156.4h46.8"/>
+  <path class="st65" d="M372.9,154.7l3.4,1.7-3.4,1.7v-3.4Z"/>
+  <text class="st17" transform="translate(388.5 157.3)"><tspan x="0" y="0">602,116 / 602,116</tspan></text>
+  <text class="st43" transform="translate(388.5 166.3)"><tspan x="0" y="0">independent source fidelity</tspan></text>
+  <text class="st42" transform="translate(90.1 184.8)"><tspan x="0" y="0">single-center</tspan></text>
+  <text class="st42" transform="translate(86.4 191.7)"><tspan x="0" y="0">253,522 (42.1%)</tspan></text>
+  <text class="st42" transform="translate(277.1 184.9)"><tspan x="0" y="0">multiple / external</tspan></text>
+  <text class="st42" transform="translate(280.6 191.7)"><tspan x="0" y="0">233,622 (38.8%)</tspan></text>
+  <text class="st42" transform="translate(428.1 184.8)"><tspan x="0" y="0">polymeric</tspan></text>
+  <text class="st42" transform="translate(419.8 191.7)"><tspan x="0" y="0">114,972 (19.1%)</tspan></text>
+  <text class="st29" transform="translate(8.7 200.5)"><tspan x="0" y="0">mutually exclusive target classes</tspan></text>
+  <text class="st8" transform="translate(35.1 141.8)"><tspan x="0" y="0">Release-wide conversion and scope</tspan></text>
+  <path class="st90" d="M68.4,320.6h182.1v-95.4H68.4v95.4Z"/>
+  <g class="st99">
+    <path class="st68" d="M68.4,320.6v-95.4"/>
+  </g>
+  <path id="me8b9f4db3f" class="st61" d="M68.4,320.6v3"/>
+  <text class="st26" transform="translate(66.6 331.9)"><tspan x="0" y="0">0</tspan></text>
+  <g class="st55">
+    <path class="st68" d="M149,320.6v-95.4"/>
+  </g>
+  <path id="me8b9f4db3f1" data-name="me8b9f4db3f" class="st61" d="M149,320.6v3"/>
+  <text class="st26" transform="translate(145.3 331.9)"><tspan x="0" y="0">50</tspan></text>
+  <g class="st56">
+    <path class="st68" d="M229.5,320.6v-95.4"/>
+  </g>
+  <path id="me8b9f4db3f2" data-name="me8b9f4db3f" class="st61" d="M229.5,320.6v3"/>
+  <text class="st26" transform="translate(221 331.9)"><tspan x="0" y="0">100%</tspan></text>
+  <text class="st11" transform="translate(4.2 239.1)"><tspan x="0" y="0">≥1 structural site / entry</tspan></text>
+  <text class="st11" transform="translate(1.9 255.9)"><tspan x="0" y="0">all sites structural / entry</tspan></text>
+  <text class="st11" transform="translate(11.2 272.6)"><tspan x="0" y="0">structural metal sites</tspan></text>
+  <g class="st101">
+    <path class="st95" d="M68.4,239.9h161.1v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st88">
+    <path class="st95" d="M68.4,256.7h161.1v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st89">
+    <path class="st95" d="M68.4,273.5h161.1v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st94">
+    <path class="st97" d="M68.4,239.9h161v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st105">
+    <path class="st60" d="M68.4,256.7h160.9v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st111">
+    <path class="st93" d="M68.4,273.5h161v-5.8H68.4v5.8Z"/>
+  </g>
+  <g class="st106">
+    <path class="st97" d="M68.4,303.4h78.6v-7.6h-78.6v7.6Z"/>
+  </g>
+  <g class="st75">
+    <path class="st93" d="M147.1,303.4h20.5v-7.6h-20.5v7.6Z"/>
+  </g>
+  <g class="st109">
+    <path class="st58" d="M167.6,303.4h61.9v-7.6h-61.9v7.6Z"/>
+  </g>
+  <g class="st57">
+    <path class="st76" d="M229.4,303.4h.1v-7.6h-.1v7.6Z"/>
+  </g>
+  <path class="st74" d="M68.4,320.6v-95.4"/>
+  <path class="st74" d="M68.4,320.6h182.1"/>
+  <text class="st18" transform="translate(7.1 218.2)"><tspan x="0" y="0">(C)</tspan></text>
+  <text class="st46" transform="translate(232.8 238.5)"><tspan x="0" y="0">99.9249%</tspan></text>
+  <text class="st10" transform="translate(186.9 238.4)"><tspan x="0" y="0">601,664/602,116</tspan></text>
+  <text class="st46" transform="translate(232.8 255.3)"><tspan x="0" y="0">99.8814%</tspan></text>
+  <text class="st10" transform="translate(186.9 255.2)"><tspan x="0" y="0">601,402/602,116</tspan></text>
+  <text class="st46" transform="translate(232.8 272.1)"><tspan x="0" y="0">99.8925%</tspan></text>
+  <text class="st10" transform="translate(177.8 271.9)"><tspan x="0" y="0">1,984,062/1,986,198</tspan></text>
+  <text class="st25" transform="translate(97.6 298.3)"><tspan x="0" y="0">resolved</tspan></text>
+  <text class="st25" transform="translate(98.8 303.5)"><tspan x="0" y="0">293,850</tspan></text>
+  <text class="st25" transform="translate(149.9 298.3)"><tspan x="0" y="0">partial</tspan></text>
+  <text class="st25" transform="translate(149.7 303.5)"><tspan x="0" y="0">76,608</tspan></text>
+  <text class="st25" transform="translate(185.4 299.1)"><tspan x="0" y="0">ambiguous</tspan></text>
+  <text class="st25" transform="translate(188.9 302.9)"><tspan x="0" y="0">231,206</tspan></text>
+  <path class="st73" d="M213.1,306c4.8-1.9,9.7-3.8,14.5-5.7"/>
+  <text class="st49" transform="translate(171.7 312.6)"><tspan x="0" y="0">audit-only 452 (0.075%)</tspan></text>
+  <text class="st3" transform="translate(68.4 289.5)"><tspan x="0" y="0">mutually exclusive terminal entry outcomes</tspan></text>
+  <text class="st8" transform="translate(32.9 218.8)"><tspan x="0" y="0">Native structural coverage and retained resolution</tspan></text>
+  <g class="st77">
+    <path id="ma79f55d782" class="st62" d="M229.5,303.6v-8"/>
+  </g>
+  <path class="st90" d="M327.8,265.2h161.5v-40h-161.5v40Z"/>
+  <g class="st107">
+    <path class="st68" d="M327.8,265.2v-40"/>
+  </g>
+  <path id="me8b9f4db3f3" data-name="me8b9f4db3f" class="st61" d="M327.8,265.2v3"/>
+  <text class="st26" transform="translate(325.9 276.5)"><tspan x="0" y="0">0</tspan></text>
+  <g class="st100">
+    <path class="st68" d="M378.2,265.2v-40"/>
+  </g>
+  <path id="me8b9f4db3f4" data-name="me8b9f4db3f" class="st61" d="M378.2,265.2v3"/>
+  <text class="st26" transform="translate(374.5 276.5)"><tspan x="0" y="0">10</tspan></text>
+  <g class="st54">
+    <path class="st68" d="M428.7,265.2v-40"/>
+  </g>
+  <path id="me8b9f4db3f5" data-name="me8b9f4db3f" class="st61" d="M428.7,265.2v3"/>
+  <text class="st26" transform="translate(425 276.5)"><tspan x="0" y="0">20</tspan></text>
+  <g class="st79">
+    <path class="st68" d="M479.2,265.2v-40"/>
+  </g>
+  <path id="me8b9f4db3f6" data-name="me8b9f4db3f" class="st61" d="M479.2,265.2v3"/>
+  <text class="st26" transform="translate(472.5 276.5)"><tspan x="0" y="0">30%</tspan></text>
+  <text class="st11" transform="translate(262.5 232.3)"><tspan x="0" y="0">in-domain shared donor</tspan></text>
+  <text class="st11" transform="translate(292.1 246.6)"><tspan x="0" y="0">haptic/π site</tspan></text>
+  <text class="st11" transform="translate(259.9 260.9)"><tspan x="0" y="0">nonzero translation edge</tspan></text>
+  <g class="st80">
+    <path class="st71" d="M327.8,230.2h123.5"/>
+  </g>
+  <g class="st112">
+    <path class="st71" d="M327.8,244.5h85.7"/>
+  </g>
+  <g class="st91">
+    <path class="st71" d="M327.8,258.8h79.2"/>
+  </g>
+  <path class="st74" d="M327.8,265.2v-40"/>
+  <path class="st74" d="M327.8,265.2h161.5"/>
+  <text class="st18" transform="translate(274.2 218.2)"><tspan x="0" y="0">(D)</tspan></text>
+  <g class="st104">
+    <path id="C0_0_f449c073c2" class="st69" d="M451.3,233.3c.8,0,1.6-.3,2.2-.9.6-.6.9-1.4.9-2.2s-.3-1.6-.9-2.2c-.6-.6-1.4-.9-2.2-.9s-1.6.3-2.2.9c-.6.6-.9,1.4-.9,2.2s.3,1.6.9,2.2c.6.6,1.4.9,2.2.9Z"/>
+  </g>
+  <g class="st92">
+    <path id="C0_0_f449c073c21" data-name="C0_0_f449c073c2" class="st59" d="M413.5,247.6c.8,0,1.6-.3,2.2-.9.6-.6.9-1.4.9-2.2s-.3-1.6-.9-2.2c-.6-.6-1.4-.9-2.2-.9s-1.6.3-2.2.9c-.6.6-.9,1.4-.9,2.2s.3,1.6.9,2.2c.6.6,1.4.9,2.2.9Z"/>
+  </g>
+  <g class="st96">
+    <path id="C0_0_f449c073c22" data-name="C0_0_f449c073c2" class="st70" d="M406.9,261.9c.8,0,1.6-.3,2.2-.9.6-.6.9-1.4.9-2.2s-.3-1.6-.9-2.2c-.6-.6-1.4-.9-2.2-.9s-1.6.3-2.2.9c-.6.6-.9,1.4-.9,2.2s.3,1.6.9,2.2c.6.6,1.4.9,2.2.9Z"/>
+  </g>
+  <text class="st16" transform="translate(454.8 231.7)"><tspan x="0" y="0">147,348 (24.5%)</tspan></text>
+  <text class="st27" transform="translate(417 246)"><tspan x="0" y="0">102,241 (17.0%)</tspan></text>
+  <text class="st4" transform="translate(410.5 260.3)"><tspan x="0" y="0">94,452 (15.7%)</tspan></text>
+  <text class="st45" transform="translate(327.8 222.8)"><tspan x="0" y="0">nonexclusive entry flags</tspan></text>
+  <text class="st8" transform="translate(293.6 218.2)"><tspan x="0" y="0">Complex coordination retained at scale</tspan></text>
+  <text class="st22" transform="translate(327.8 293.1)"><tspan x="0" y="0">Public CSD MOF Collection</tspan></text>
+  <text class="st48" transform="translate(320.8 305.4)"><tspan x="0" y="0">15,906</tspan></text>
+  <text class="st2" transform="translate(322.6 312.3)"><tspan x="0" y="0">entries</tspan></text>
+  <path class="st64" d="M342.7,304.3h27.5"/>
+  <path class="st72" d="M367.3,302.9l2.9,1.5-2.9,1.5v-2.9Z"/>
+  <text class="st38" transform="translate(374.1 305.4)"><tspan x="0" y="0">15,905</tspan></text>
+  <text class="st2" transform="translate(371.7 312.3)"><tspan x="0" y="0">processed</tspan></text>
+  <path class="st64" d="M396,304.3h25.9"/>
+  <path class="st72" d="M419,302.9l2.9,1.5-2.9,1.5v-2.9Z"/>
+  <text class="st41" transform="translate(425.8 305.4)"><tspan x="0" y="0">10,948</tspan></text>
+  <text class="st2" transform="translate(420.3 312.3)"><tspan x="0" y="0">state-bearing</tspan></text>
+  <path class="st64" d="M447.7,304.3h23.5"/>
+  <path class="st72" d="M468.2,302.9l2.9,1.5-2.9,1.5v-2.9Z"/>
+  <text class="st6" transform="translate(473.3 305.4)"><tspan x="0" y="0">172,332</tspan></text>
+  <text class="st2" transform="translate(471.7 312.3)"><tspan x="0" y="0">local states</tspan></text>
+  <text class="st37" transform="translate(327.8 319.5)"><tspan x="0" y="0">τ</tspan></text>
+  <text class="st51" transform="translate(330.9 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st37" transform="translate(332 319.5)"><tspan x="0" y="0">≠</tspan></text>
+  <text class="st51" transform="translate(336.3 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st37" transform="translate(337.4 319.5)"><tspan x="0" y="0">0</tspan></text>
+  <text class="st51" transform="translate(340.7 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(340.7 319.5)"><tspan x="0" y="0">:</tspan></text>
+  <text class="st51" transform="translate(342.5 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(342.5 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st51" transform="translate(343.9 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(343.9 319.5)"><tspan x="0" y="0">7</tspan></text>
+  <text class="st51" transform="translate(346.8 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(346.9 319.5)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st51" transform="translate(349.8 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(349.8 319.5)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st51" transform="translate(351.2 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(351.2 319.5)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st51" transform="translate(354.1 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(354.2 319.5)"><tspan x="0" y="0">5</tspan></text>
+  <text class="st51" transform="translate(357.1 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(357.1 319.5)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st51" transform="translate(360 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(360 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st51" transform="translate(361.4 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(361.5 319.5)"><tspan x="0" y="0">s</tspan></text>
+  <text class="st51" transform="translate(364.3 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(364.4 319.5)"><tspan x="0" y="0">t</tspan></text>
+  <text class="st51" transform="translate(366.1 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(366.1 319.5)"><tspan x="0" y="0">a</tspan></text>
+  <text class="st51" transform="translate(369 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(369 319.5)"><tspan x="0" y="0">t</tspan></text>
+  <text class="st51" transform="translate(370.8 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(370.8 319.5)"><tspan x="0" y="0">e</tspan></text>
+  <text class="st51" transform="translate(373.7 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(373.7 319.5)"><tspan x="0" y="0">s</tspan></text>
+  <text class="st51" transform="translate(376.6 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(376.6 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st51" transform="translate(378.1 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(378.1 319.5)"><tspan x="0" y="0">(</tspan></text>
+  <text class="st51" transform="translate(379.8 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(379.8 319.5)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st51" transform="translate(382.7 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(382.8 319.5)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st51" transform="translate(385.7 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(385.7 319.5)"><tspan x="0" y="0">.</tspan></text>
+  <text class="st51" transform="translate(387.1 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(387.1 319.5)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st51" transform="translate(390 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(390.1 319.5)"><tspan x="0" y="0">5</tspan></text>
+  <text class="st51" transform="translate(393 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(393 319.5)"><tspan x="0" y="0">%</tspan></text>
+  <text class="st51" transform="translate(397.6 319.5)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st40" transform="translate(397.6 319.5)"><tspan x="0" y="0">)</tspan></text>
+  <g id="haptic-pi">
+    <path class="st67" d="M255.2,32l11,4.7-4.2,5.2h-12.7l-5.1-5.2,11-4.7Z"/>
+    <ellipse class="st67" cx="255" cy="37.4" rx="5.9" ry="2.7"/>
+    <path class="st67" d="M249.2,64.1h12.7l4.2,5.2-11,4.6-11-4.6,5.1-5.2Z"/>
+    <ellipse class="st67" cx="255" cy="68.5" rx="5.9" ry="2.7"/>
+    <line class="st82" x1="255" y1="40" x2="255" y2="49.6"/>
+    <line class="st82" x1="255" y1="56.6" x2="255" y2="66.1"/>
+    <line class="st83" x1="250.1" y1="42.1" x2="253.3" y2="49.4"/>
+    <line class="st83" x1="260" y1="42.1" x2="256.8" y2="49.4"/>
+    <line class="st83" x1="253.3" y1="56.7" x2="250.1" y2="63.8"/>
+    <line class="st83" x1="256.8" y1="56.7" x2="260" y2="63.8"/>
+    <text class="st15" transform="translate(252.7 54.7)"><tspan x="0" y="0">Fe</tspan></text>
+    <g class="st20">
+      <text class="st44" transform="translate(272.3 38.4)"><tspan x="0" y="0">η</tspan></text>
+      <text class="st12" transform="translate(274.6 36.2)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g class="st20">
+      <text class="st44" transform="translate(272.3 70.8)"><tspan x="0" y="0">η</tspan></text>
+      <text class="st12" transform="translate(274.6 68.5)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g>
+      <text class="st7" transform="translate(226.4 83.2)"><tspan x="0" y="0">Fe(η</tspan></text>
+      <text class="st7" transform="translate(235.7 80.9)"><tspan x="0" y="0">5</tspan></text>
+      <text class="st81" transform="translate(237.3 83.2)"><tspan x="0" y="0">-Cp)</tspan></text>
+      <text class="st7" transform="translate(246.1 84.1)"><tspan x="0" y="0">2</tspan></text>
+      <text class="st81" transform="translate(247.7 83.2)"><tspan x="0" y="0" xml:space="preserve"> → two π-site objects</tspan></text>
+    </g>
+    <g>
+      <text class="st35" transform="translate(225.7 90.9)"><tspan x="0" y="0">each face: members · η</tspan></text>
+      <text class="st39" transform="translate(269.1 88.7)"><tspan x="0" y="0">5</tspan></text>
+      <text class="st53" transform="translate(270.8 90.9)"><tspan x="0" y="0" xml:space="preserve"> · centroid</tspan></text>
+    </g>
+    <text class="st47" transform="translate(238.1 96.3)"><tspan x="0" y="0">CNsite = 2 · CNatom = 10</tspan></text>
+  </g>
+  <g id="periodic">
+    <image width="39" height="6" transform="translate(372 27.2)" xlink:href="Figure5_Full_CSD_Audit_linked_asset.png"/>
+    <path class="st102" d="M386.2,32.9l-3.4,1.7,3.4,1.7v-3.4Z"/>
+    <path class="st102" d="M426.1,32.9l3.4,1.7-3.4,1.7v-3.4Z"/>
+    <path class="st102" d="M428.8,34.6" marker-end="url(#arrowGrey)" marker-start="url(#arrowGreyStart)"/>
+    <line class="st84" x1="417.8" y1="34.6" x2="417.8" y2="75.6"/>
+    <line class="st87" x1="364.1" y1="54.3" x2="388.1" y2="54.3"/>
+    <line class="st87" x1="394.9" y1="54.3" x2="426.9" y2="54.3"/>
+    <g>
+      <path class="st108" d="M390.2,44.3h2.1l-.3,1.4h-1.5l-.3-1.4Z"/>
+      <path class="st108" d="M390.5,46.2h1.5l-.3,1.4h-1l-.3-1.4Z"/>
+      <path class="st108" d="M390.8,48.1h1l-.4,1.9h-.3l-.3-1.9Z"/>
+      <path class="st108" d="M391,58.6h.3l.4,1.9h-1l.3-1.9Z"/>
+      <path class="st108" d="M390.8,61h1l.3,1.4h-1.5l.3-1.4Z"/>
+      <path class="st108" d="M390.5,63h1.5l.3,1.4h-2.1l.3-1.4Z"/>
+    </g>
+    <path class="st108" d="M388.3,52.1l-7.3-4.3,2.6,3.4,4.7.8Z"/>
+    <path class="st108" d="M394.2,56.4l9.8,4.5-3.3-3.3-6.5-1.2Z"/>
+    <text class="st1" transform="translate(388.6 56.2)"><tspan x="0" y="0">Cu</tspan></text>
+    <text class="st0" transform="translate(358.9 55.8)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st0" transform="translate(427.6 55.8)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st0" transform="translate(389 42.9)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st0" transform="translate(389 69.8)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st0" transform="translate(375.2 48.2)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st0" transform="translate(404.5 63.5)"><tspan x="0" y="0">Cl</tspan></text>
+    <text class="st30" transform="translate(356.5 66.5)"><tspan x="0" y="0">τ = (0, 0, 0)</tspan></text>
+    <text class="st30" transform="translate(418.7 66.5)"><tspan x="0" y="0">τ = (0, 0, 1)</tspan></text>
+    <text class="st28" transform="translate(364.1 83.2)"><tspan x="0" y="0">one donor orbit · two τ-labelled edges</tspan></text>
+    <text class="st47" transform="translate(362.8 89.8)"><tspan x="0" y="0">τ preserves which periodic image participates</tspan></text>
+    <g>
+      <text class="st13" transform="translate(367.6 96)"><tspan x="0" y="0">lifted coordinates → CN 6 and O</tspan></text>
+      <text class="st13" transform="translate(424.3 96.3)"><tspan x="0" y="0">h</tspan></text>
+      <text class="st52" transform="translate(426.2 95.5)"><tspan x="0" y="0" xml:space="preserve"> geometry</tspan></text>
+    </g>
+  </g>
+</svg>
