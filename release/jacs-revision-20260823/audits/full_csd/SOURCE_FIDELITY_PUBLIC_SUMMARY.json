@@ -1,0 +1,20 @@
+{
+  "protocol_id": "csd-release-audit-20260818-v3",
+  "source_release": "CSD-April-2025-v6.00",
+  "database_entries": 1371757,
+  "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
+  "target_records": 602116,
+  "passed": 602116,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "shards": 32,
+  "runtime": {
+    "python": "3.10.19",
+    "ccdc": "3.6.0",
+    "numpy": "2.2.6",
+    "scipy": "1.13.1"
+  },
+  "validator_sha256": "498e1424fc84148051671a60d92b468ef7f859da429be05ad7e2d9de893388e8",
+  "source_aggregate_sha256": "1b6e5d10765d496bd7978e75f0ecb67ac5c2ccc2367cdd66d6869482a4ac3596",
+  "interpretation": "Independent rereading reproduced the source-derived topology, scope, relation, geometry-profile, and periodic signatures used by the validator. This is source fidelity, not external chemical ground truth."
+}

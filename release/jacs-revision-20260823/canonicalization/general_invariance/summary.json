@@ -1,0 +1,599 @@
+{
+  "status": "PUBLIC_RC3_GENERAL_INVARIANCE_PASS",
+  "claim_boundary": "This fixed tmQMg/PBE graph-disjoint benchmark is not an April-2025-CSD prevalence sample. It validates the six-file attachment-aware implementation integrated as CoordRep 1.1.2rc3; it is not evidence that frozen rc2 downstream benchmarks were rerun.",
+  "patch_mode": "source",
+  "release_root": "release/jacs-revision-20260823",
+  "task_local_candidate": true,
+  "selection_seed": 20260822,
+  "transform_seed": 930220260,
+  "cohort_n": 1000,
+  "unique_graphs": 1000,
+  "cn_scope": [
+    4,
+    5,
+    6
+  ],
+  "quota_by_fold": {
+    "0": {
+      "4": 67,
+      "5": 67,
+      "6": 66
+    },
+    "1": {
+      "4": 67,
+      "5": 66,
+      "6": 67
+    },
+    "2": {
+      "4": 66,
+      "5": 67,
+      "6": 67
+    },
+    "3": {
+      "4": 67,
+      "5": 67,
+      "6": 66
+    },
+    "4": {
+      "4": 67,
+      "5": 66,
+      "6": 67
+    }
+  },
+  "gate_quota_by_fold": {
+    "0": {
+      "4": 7,
+      "5": 7,
+      "6": 6
+    },
+    "1": {
+      "4": 7,
+      "5": 6,
+      "6": 7
+    },
+    "2": {
+      "4": 6,
+      "5": 7,
+      "6": 7
+    },
+    "3": {
+      "4": 7,
+      "5": 7,
+      "6": 6
+    },
+    "4": {
+      "4": 7,
+      "5": 6,
+      "6": 7
+    }
+  },
+  "eligible_unique_graph_denominator": 6427,
+  "join_audit": {
+    "rc2_records": 31121,
+    "four_source_ledger_join": 31121,
+    "pipeline_status_pass": 31121,
+    "empty_validation_issues_pass": 21449,
+    "single_metal_xyz_pass": 21449,
+    "cn_4_6_pass": 20593,
+    "excluded_formula_or_non_smiles_payload": 14108,
+    "excluded_nonempty_validation_issues": 9672,
+    "smiles_payload_pass": 6485,
+    "graph_fold_metal_pass": 6485,
+    "source_hash_lineage_pass": 6485,
+    "excluded_cn_outside_4_6": 856,
+    "strict_eligible_rows": 6485,
+    "strict_eligible_unique_graphs": 6427
+  },
+  "selection_audit": {
+    "strata": [
+      {
+        "fold": 2,
+        "cn": 5,
+        "eligible_rows": 82,
+        "eligible_unique_graphs": 82,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 1,
+        "cn": 5,
+        "eligible_rows": 92,
+        "eligible_unique_graphs": 90,
+        "quota": 66,
+        "selected": 66
+      },
+      {
+        "fold": 4,
+        "cn": 5,
+        "eligible_rows": 91,
+        "eligible_unique_graphs": 90,
+        "quota": 66,
+        "selected": 66
+      },
+      {
+        "fold": 3,
+        "cn": 5,
+        "eligible_rows": 96,
+        "eligible_unique_graphs": 94,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 0,
+        "cn": 5,
+        "eligible_rows": 97,
+        "eligible_unique_graphs": 97,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 3,
+        "cn": 6,
+        "eligible_rows": 200,
+        "eligible_unique_graphs": 198,
+        "quota": 66,
+        "selected": 66
+      },
+      {
+        "fold": 1,
+        "cn": 6,
+        "eligible_rows": 234,
+        "eligible_unique_graphs": 230,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 0,
+        "cn": 6,
+        "eligible_rows": 229,
+        "eligible_unique_graphs": 227,
+        "quota": 66,
+        "selected": 66
+      },
+      {
+        "fold": 4,
+        "cn": 6,
+        "eligible_rows": 236,
+        "eligible_unique_graphs": 232,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 2,
+        "cn": 6,
+        "eligible_rows": 254,
+        "eligible_unique_graphs": 248,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 0,
+        "cn": 4,
+        "eligible_rows": 942,
+        "eligible_unique_graphs": 934,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 3,
+        "cn": 4,
+        "eligible_rows": 967,
+        "eligible_unique_graphs": 962,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 2,
+        "cn": 4,
+        "eligible_rows": 978,
+        "eligible_unique_graphs": 971,
+        "quota": 66,
+        "selected": 66
+      },
+      {
+        "fold": 1,
+        "cn": 4,
+        "eligible_rows": 994,
+        "eligible_unique_graphs": 986,
+        "quota": 67,
+        "selected": 67
+      },
+      {
+        "fold": 4,
+        "cn": 4,
+        "eligible_rows": 993,
+        "eligible_unique_graphs": 986,
+        "quota": 67,
+        "selected": 67
+      }
+    ]
+  },
+  "gate": {
+    "n": 100,
+    "k_per_arm": 20,
+    "passed": true,
+    "fatal_count": 0,
+    "coordrep_mismatch_rows": 0,
+    "aggregate": [
+      {
+        "arm": "rigid",
+        "representation": "raw_cartesian",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 0,
+        "mismatched_encodings": 2000,
+        "invariant_match_fraction": 0.0,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "connectivity_only",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "patched_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "raw_cartesian",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 31,
+        "mismatched_encodings": 1969,
+        "invariant_match_fraction": 0.0155,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 31,
+        "mismatched_encodings": 1969,
+        "invariant_match_fraction": 0.0155,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "connectivity_only",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 320,
+        "mismatched_encodings": 1680,
+        "invariant_match_fraction": 0.16,
+        "fully_collapsed_structures": 4,
+        "structure_collapse_fraction": 0.04
+      },
+      {
+        "arm": "permutation",
+        "representation": "patched_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "combined",
+        "representation": "raw_cartesian",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 0,
+        "mismatched_encodings": 2000,
+        "invariant_match_fraction": 0.0,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "combined",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 38,
+        "mismatched_encodings": 1962,
+        "invariant_match_fraction": 0.019,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "combined",
+        "representation": "connectivity_only",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "combined",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 312,
+        "mismatched_encodings": 1688,
+        "invariant_match_fraction": 0.156,
+        "fully_collapsed_structures": 5,
+        "structure_collapse_fraction": 0.05
+      },
+      {
+        "arm": "combined",
+        "representation": "patched_coordrep",
+        "n_structures": 100,
+        "variant_encodings": 2000,
+        "matched_encodings": 2000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 100,
+        "structure_collapse_fraction": 1.0
+      }
+    ],
+    "end_to_end_raw_molecule_permutation_regression": {
+      "arm": "permutation",
+      "representation": "patched_coordrep",
+      "n_structures": 100,
+      "variant_encodings": 2000,
+      "matched_encodings": 2000,
+      "mismatched_encodings": 0,
+      "invariant_match_fraction": 1.0,
+      "fully_collapsed_structures": 100,
+      "structure_collapse_fraction": 1.0
+    }
+  },
+  "full": {
+    "requested": true,
+    "executed": true,
+    "n": 1000,
+    "k_per_arm": 100,
+    "fatal_count": 0,
+    "coordrep_mismatch_rows": 0,
+    "publication_pass": true,
+    "aggregate": [
+      {
+        "arm": "rigid",
+        "representation": "raw_cartesian",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 0,
+        "mismatched_encodings": 100000,
+        "invariant_match_fraction": 0.0,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "connectivity_only",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "rigid",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 99838,
+        "mismatched_encodings": 162,
+        "invariant_match_fraction": 0.99838,
+        "fully_collapsed_structures": 997,
+        "structure_collapse_fraction": 0.997
+      },
+      {
+        "arm": "rigid",
+        "representation": "patched_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "raw_cartesian",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 1722,
+        "mismatched_encodings": 98278,
+        "invariant_match_fraction": 0.01722,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 1822,
+        "mismatched_encodings": 98178,
+        "invariant_match_fraction": 0.01822,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "connectivity_only",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "permutation",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 18570,
+        "mismatched_encodings": 81430,
+        "invariant_match_fraction": 0.1857,
+        "fully_collapsed_structures": 50,
+        "structure_collapse_fraction": 0.05
+      },
+      {
+        "arm": "permutation",
+        "representation": "patched_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "combined",
+        "representation": "raw_cartesian",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 0,
+        "mismatched_encodings": 100000,
+        "invariant_match_fraction": 0.0,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "combined",
+        "representation": "ordered_distance_matrix",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 1746,
+        "mismatched_encodings": 98254,
+        "invariant_match_fraction": 0.01746,
+        "fully_collapsed_structures": 0,
+        "structure_collapse_fraction": 0.0
+      },
+      {
+        "arm": "combined",
+        "representation": "connectivity_only",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      },
+      {
+        "arm": "combined",
+        "representation": "uncanonicalized_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 18586,
+        "mismatched_encodings": 81414,
+        "invariant_match_fraction": 0.18586,
+        "fully_collapsed_structures": 50,
+        "structure_collapse_fraction": 0.05
+      },
+      {
+        "arm": "combined",
+        "representation": "patched_coordrep",
+        "n_structures": 1000,
+        "variant_encodings": 100000,
+        "matched_encodings": 100000,
+        "mismatched_encodings": 0,
+        "invariant_match_fraction": 1.0,
+        "fully_collapsed_structures": 1000,
+        "structure_collapse_fraction": 1.0
+      }
+    ]
+  },
+  "fac_mer_specificity": {
+    "fac_id": "EBAGAR",
+    "mer_id": "EBAGEV",
+    "same_connectivity_only_key": true,
+    "distinct_full_coordrep_keys": true,
+    "fac_coordrep": "[Metal:Ru|ox:+2|d:d6|CN:6]<ShapeBest:Oh|Class:good|Delta:3|V:1.01,14.31>{trans:L1:N:1--L3:Cl:1}{trans:L1:N:2--L2:N:1}{trans:L1:N:3--L4:Cl:1}{cis:L1:N:1--L1:N:2}{cis:L1:N:1--L1:N:3}{cis:L1:N:1--L2:N:1}{cis:L1:N:1--L4:Cl:1}{cis:L1:N:2--L1:N:3}{cis:L1:N:2--L3:Cl:1}{cis:L1:N:2--L4:Cl:1}{cis:L1:N:3--L2:N:1}{cis:L1:N:3--L3:Cl:1}{cis:L2:N:1--L3:Cl:1}{cis:L2:N:1--L4:Cl:1}{cis:L3:Cl:1--L4:Cl:1}{fm:fac}|L1=SMILES:[H]C1C([H])C([H])[NH:1]C(C([H])([H])C([H])([H])[N:1](C([H])([H])C([H])([H])[H])C([H])([H])C([H])([H])C2C([H])C([H])C([H])C([H])[NH:1]2)C1[H]|L2=SMILES:O=[NH:1]|L3=SMILES:[ClH:1]|L4=SMILES:[ClH:1]|",
+    "mer_coordrep": "[Metal:Ru|ox:+2|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.91,13.58>{trans:L1:N:1--L1:N:2}{trans:L1:N:3--L3:Cl:1}{trans:L2:N:1--L4:Cl:1}{cis:L1:N:1--L1:N:3}{cis:L1:N:1--L2:N:1}{cis:L1:N:1--L3:Cl:1}{cis:L1:N:1--L4:Cl:1}{cis:L1:N:2--L1:N:3}{cis:L1:N:2--L2:N:1}{cis:L1:N:2--L3:Cl:1}{cis:L1:N:2--L4:Cl:1}{cis:L1:N:3--L2:N:1}{cis:L1:N:3--L4:Cl:1}{cis:L2:N:1--L3:Cl:1}{cis:L3:Cl:1--L4:Cl:1}{fm:mer}|L1=SMILES:[H]C1C([H])C([H])[NH:1]C(C([H])([H])C([H])([H])[N:1](C([H])([H])C([H])([H])[H])C([H])([H])C([H])([H])C2C([H])C([H])C([H])C([H])[NH:1]2)C1[H]|L2=SMILES:O=[NH:1]|L3=SMILES:[ClH:1]|L4=SMILES:[ClH:1]|",
+    "coordrep_mismatch_rows": 0
+  },
+  "representations": [
+    "raw_cartesian",
+    "ordered_distance_matrix",
+    "connectivity_only",
+    "uncanonicalized_coordrep",
+    "patched_coordrep"
+  ],
+  "publication_figure_representations": [
+    "raw_cartesian",
+    "ordered_distance_matrix",
+    "connectivity_only",
+    "patched_coordrep"
+  ],
+  "arms": [
+    "rigid",
+    "permutation",
+    "combined"
+  ]
+}

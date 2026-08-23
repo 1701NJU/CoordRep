@@ -1,0 +1,62 @@
+{
+  "candidate": "CoordRep 1.1.2rc3",
+  "release_id": "jacs-revision-20260823",
+  "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry",
+  "purpose": "Publication-facing implementation, current Figure 1-6 and Supplementary Figure S1-S2 evidence, and release-wide April 2025 CSD audit aggregates",
+  "supersedes": "jacs-revision-20260819",
+  "canonicalization": {
+    "implementation_change": "Source-index-free ligand attachment-set and donor-specific attachment keys, attachment-aware serialized payloads, exact legal residual-orbit enumeration, minimum-whole-record selection, and fail-closed handling of unresolved repeated-payload exchangeability",
+    "changed_source_files": [
+      "coordrep/core.py",
+      "coordrep/graph/ligand_module.py",
+      "coordrep/graph/donor_sites.py",
+      "coordrep/geometry/rel_config.py",
+      "coordrep/canonical/canonicalize.py",
+      "coordrep/serialize/to_string.py"
+    ],
+    "general_invariance": {
+      "path": "canonicalization/general_invariance",
+      "cohort": "1000 graph-disjoint tmQMg/PBE CN4-CN6 fixed snapshots",
+      "trials": "100 variants in each of proper-rigid-motion, atom-reindexing, and combined arms",
+      "result": "300000/300000 exact CoordRep-State matches"
+    },
+    "legal_orbit_challenge": {
+      "path": "canonicalization/legal_orbit_challenge",
+      "screen": "5173 challenge-eligible graphs among 6427 eligible unique graphs",
+      "cohort": "1000 graph-disjoint records, 100 atom reindexings each",
+      "signature_only_result": "64834/100000 exact matches; 380/1000 fully collapsed",
+      "full_exact_result": "100000/100000 exact matches; 1000/1000 fully collapsed; zero errors"
+    },
+    "compatibility_boundary": "Attachment-aware payloads can change canonical strings, token sequences, and molecular L0-L3 hashes relative to rc2. Figure 2 and Supplementary Figure S2 are rc3 evidence. Figure 4 and the molecular-family benchmark in Figure 6 remain frozen rc2 downstream evidence and were not rerun under rc3."
+  },
+  "continuous_shape_measure": {
+    "method": "Proper-rotation coordinate-space CShM with central assignment fixed and exhaustive donor-template assignment for supported CN2-CN6 references",
+    "reference_templates": "CoSyM 0.10.9 ideal_structures_center.yaml",
+    "supported_shape_ids": ["L-2", "TP-3", "T-4", "SP-4", "TBPY-5", "SPY-5", "OC-6", "TPR-6"],
+    "serialized_aliases": ["L", "TP", "Td", "SP", "TBP", "SPY", "Oh", "TPr"],
+    "legacy_boundary": "Legacy donor-distance-matrix scores are forensic controls and are not CShM."
+  },
+  "full_csd_audit": {
+    "protocol_id": "csd-release-audit-20260818-v3",
+    "source_release": "April 2025 CSD v6.00",
+    "runtime": "Python 3.10.19; CCDC Python API 3.6.0; NumPy 2.2.6; SciPy 1.13.1",
+    "target_definition": "has_3d_structure and at least one atom in the frozen in-domain set Sc-Zn, Y-Cd, La, and Hf-Hg",
+    "scope_boundary": "Predefined 3D d-block target corpus; not all metal-containing CSD entries. Other lanthanides, actinides, and main-group-only entries are outside the denominator, while mixed-metal external relations are retained.",
+    "claim_ready_summary": "audits/full_csd/FULL_CSD_CLAIM_READY_SUMMARY.json",
+    "source_fidelity": "602116/602116 passed; 0 failed",
+    "all_sites_structural_entries": "601402/602116",
+    "structural_sites": "1984062/1986198",
+    "figure_5_source": "figures/Figure5/Figure5_ScopeAware_source_data_20260818.csv"
+  },
+  "periodic_evidence": {
+    "protocol": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
+    "construction": "Separate periodic-v3 MID/SID identity axis",
+    "local_states": 172332,
+    "metric_ids": 36552,
+    "stereo_ids": 60139
+  },
+  "redistribution": {
+    "included": "Code, protocols, aggregate/public source tables, artwork, synchronized Supporting Information, small synthetic controls, and cryptographic commitments",
+    "excluded": "Raw CSD coordinates, raw CSD structure files, and licensed row-level CSD ledgers"
+  }
+}

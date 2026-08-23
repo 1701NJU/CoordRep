@@ -10,13 +10,29 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-RELEASE = ROOT / "release" / "jacs-revision-20260819"
+RELEASE = ROOT / "release" / "jacs-revision-20260823"
 ARTIFACT_MANIFEST = RELEASE / "PUBLIC_ARTIFACT_MANIFEST.json"
 CHECKSUMS = RELEASE / "RELEASE_SHA256SUMS.txt"
 EXCLUDED_NAMES = {ARTIFACT_MANIFEST.name, CHECKSUMS.name}
 EXCLUDED_PARTS = {"__pycache__", ".pytest_cache"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo"}
-BINARY_SUFFIXES = {".pdf", ".png", ".svg", ".tif", ".tiff"}
+BINARY_SUFFIXES = {
+    ".docx",
+    ".jpg",
+    ".jpeg",
+    ".pdf",
+    ".png",
+    ".svg",
+    ".tif",
+    ".tiff",
+    ".xlsx",
+    ".zip",
+}
+SUBTREE_CHECKSUM_DIRS = [
+    RELEASE / "canonicalization" / "general_invariance",
+    RELEASE / "canonicalization" / "legal_orbit_challenge",
+    RELEASE / "canonicalization" / "expanded_record_regressions",
+]
 
 
 def canonical_bytes(path: Path) -> bytes:
@@ -78,9 +94,26 @@ def role(relative: str) -> str:
     return "release documentation or supporting source"
 
 
+def write_subtree_checksums(directory: Path) -> None:
+    """Write a non-self-referential checksum lock for a focused evidence tree."""
+    if not directory.is_dir():
+        return
+    target = directory / "SHA256SUMS.txt"
+    lines = []
+    for path in sorted(directory.rglob("*"), key=lambda p: p.relative_to(directory).as_posix()):
+        if not path.is_file() or path == target:
+            continue
+        relative = path.relative_to(directory).as_posix()
+        lines.append(f"{sha256(path)}  {relative}")
+    target.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+
+
 def main() -> None:
     if not RELEASE.is_dir():
         raise SystemExit(f"release directory not found: {RELEASE}")
+
+    for directory in SUBTREE_CHECKSUM_DIRS:
+        write_subtree_checksums(directory)
 
     artifacts = []
     for path in public_files(include_artifact_manifest=False):
@@ -91,13 +124,13 @@ def main() -> None:
                 "bytes": len(canonical_bytes(path)),
                 "sha256": sha256(path),
                 "role": role(relative),
-                "publication_status": "current" if not relative.startswith("archive/retired/") else "historical/superseded",
+                "publication_status": "historical/superseded" if relative.startswith("archive/") else "current",
             }
         )
 
     payload = {
-        "release_id": "jacs-revision-20260819",
-        "manifest_date": "2026-08-19",
+        "release_id": "jacs-revision-20260823",
+        "manifest_date": "2026-08-23",
         "algorithm": "SHA-256 over canonical-LF text bytes and raw binary bytes",
         "scope": "all public release files except this manifest and RELEASE_SHA256SUMS.txt",
         "n_files": len(artifacts),

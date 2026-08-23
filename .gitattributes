@@ -5,4 +5,14 @@
 *.svg binary
 *.pdf binary
 *.png binary
+*.jpg binary
+*.tif binary
 *.tiff binary
+*.docx binary
+
+# These three rc3 source files are published byte-for-byte with the locked
+# canonicalization evidence; preserve their recorded hashes, including legacy
+# end-of-line whitespace.
+release/jacs-revision-20260823/coordrep/geometry/rel_config.py -whitespace
+release/jacs-revision-20260823/coordrep/graph/donor_sites.py -whitespace
+release/jacs-revision-20260823/coordrep/graph/ligand_module.py -whitespace
