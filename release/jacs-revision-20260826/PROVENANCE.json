@@ -1,0 +1,40 @@
+{
+  "candidate": "CoordRep 1.1.2rc3",
+  "release_id": "jacs-revision-20260826",
+  "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry",
+  "purpose": "Publication-facing implementation, Figures 1-6, Supplementary Figures S1-S2, and all-metal April 2025 CSD structural-record audit aggregates",
+  "supersedes": "jacs-revision-20260823",
+  "canonicalization": {
+    "source_release": "jacs-revision-20260823",
+    "general_invariance": "300000/300000 exact CoordRep-State matches",
+    "legal_orbit_challenge": "100000/100000 full-exact matches; 64834/100000 signature-only matches",
+    "compatibility_boundary": "Figure 2 and Supplementary Figure S2 are rc3 evidence. Figure 4 and the molecular-family benchmark in Figure 6 remain frozen rc2 downstream evidence and were not rerun under rc3."
+  },
+  "full_csd_audit": {
+    "protocol_id": "csd-all-metal-structure-audit-20260825-v1",
+    "source_release": "April 2025 CSD v6.00",
+    "runtime": "Python 3.10.19; CCDC Python API 3.6.0; NumPy 2.2.6; SciPy 1.13.1",
+    "metal_policy_id": "ccdc-3.6.0-is_metal-frozen-20260825-v1",
+    "metal_policy_sha256": "66f463ebb426898470c660174b38eebdf65140ed5fc5d31f03b5a0fba6e7c792",
+    "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
+    "metal_containing_census": 783263,
+    "structural_audit_target": 746511,
+    "census_only_without_3d": 36752,
+    "source_fidelity": "746511/746511 passed; 0 failed",
+    "structural_sites": "2574081/2608448",
+    "scope_boundary": "Source-faithful structural transcription from the native CSD molecular bond graph; no distance-derived contacts are added; exact identity and CShM are not guaranteed for every site.",
+    "public_evidence": "audits/full_csd/",
+    "figure_5_source": "figures/Figure5/Figure5_source_data_all_metal_20260826.csv"
+  },
+  "periodic_evidence": {
+    "protocol": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
+    "construction": "Separate periodic-v3 MID/SID identity axis",
+    "local_states": 172332,
+    "metric_ids": 36552,
+    "stereo_ids": 60139
+  },
+  "redistribution": {
+    "included": "Code, protocols, aggregate/public source tables, artwork, synchronized audit methods and Table S9 excerpt, small synthetic controls, and cryptographic commitments",
+    "excluded": "Raw CSD coordinates, raw CSD structure files, and licensed row-level CSD ledgers"
+  }
+}

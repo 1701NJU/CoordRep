@@ -1,6 +1,7 @@
 {
   "release_id": "jacs-revision-20260823",
-  "status": "current",
+  "status": "historical/superseded",
+  "superseded_by": "jacs-revision-20260826",
   "supersedes": "jacs-revision-20260819",
   "branch": "jacs-revision",
   "manuscript_sync_date": "2026-08-23",

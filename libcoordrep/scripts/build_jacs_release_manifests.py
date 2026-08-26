@@ -5,12 +5,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import subprocess
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-RELEASE = ROOT / "release" / "jacs-revision-20260823"
+RELEASE_NAME = os.environ.get("COORDREP_RELEASE_DIR", "jacs-revision-20260826")
+RELEASE = ROOT / "release" / RELEASE_NAME
 ARTIFACT_MANIFEST = RELEASE / "PUBLIC_ARTIFACT_MANIFEST.json"
 CHECKSUMS = RELEASE / "RELEASE_SHA256SUMS.txt"
 EXCLUDED_NAMES = {ARTIFACT_MANIFEST.name, CHECKSUMS.name}
@@ -115,6 +117,7 @@ def main() -> None:
     for directory in SUBTREE_CHECKSUM_DIRS:
         write_subtree_checksums(directory)
 
+    release_metadata = json.loads((RELEASE / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
     artifacts = []
     for path in public_files(include_artifact_manifest=False):
         relative = path.relative_to(RELEASE).as_posix()
@@ -124,13 +127,17 @@ def main() -> None:
                 "bytes": len(canonical_bytes(path)),
                 "sha256": sha256(path),
                 "role": role(relative),
-                "publication_status": "historical/superseded" if relative.startswith("archive/") else "current",
+                "publication_status": (
+                    "historical/superseded"
+                    if release_metadata.get("status") != "current" or relative.startswith("archive/")
+                    else "current"
+                ),
             }
         )
 
     payload = {
-        "release_id": "jacs-revision-20260823",
-        "manifest_date": "2026-08-23",
+        "release_id": release_metadata["release_id"],
+        "manifest_date": release_metadata["manuscript_sync_date"],
         "algorithm": "SHA-256 over canonical-LF text bytes and raw binary bytes",
         "scope": "all public release files except this manifest and RELEASE_SHA256SUMS.txt",
         "n_files": len(artifacts),

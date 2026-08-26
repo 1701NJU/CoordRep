@@ -35,10 +35,10 @@ Documentation = "https://github.com/1701NJU/CoordRep#readme"
 Repository = "https://github.com/1701NJU/CoordRep.git"
 
 [tool.setuptools.packages.find]
-where = ["release/jacs-revision-20260823"]
+where = ["release/jacs-revision-20260826"]
 include = ["coordrep*", "brain*", "coordrep_tools*"]
 
 [tool.pytest.ini_options]
-testpaths = ["release/jacs-revision-20260823/tests"]
+testpaths = ["release/jacs-revision-20260826/tests"]
 python_files = ["test_*.py"]
-addopts = "-v --tb=short --ignore=release/jacs-revision-20260823/tests/test_invariance.py"
+addopts = "-v --tb=short --ignore=release/jacs-revision-20260826/tests/test_invariance.py"

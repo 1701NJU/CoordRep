@@ -1,9 +1,11 @@
 # CoordRep — JACS revision release (2026-08-23)
 
-**Status: current and publication-facing.** This frozen directory supersedes
-`release/jacs-revision-20260819/` and aligns the current Figure 1–6 artwork,
-Supplementary Figures S1–S2, attachment-aware canonicalization evidence, and
-the release-wide April 2025 CSD audit.
+**Status: historical and superseded.** This directory preserves the frozen
+2026-08-23 evidence package for provenance. It was superseded by
+`release/jacs-revision-20260826/`, which expands the April 2025 CSD audit from
+the earlier 3D d-block target to the frozen all-metal policy used in the
+revised manuscript. Do not use the Figure 5 counts in this historical release
+as current manuscript evidence.
 
 ## Evidence map
 

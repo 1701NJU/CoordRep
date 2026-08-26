@@ -16,3 +16,6 @@
 release/jacs-revision-20260823/coordrep/geometry/rel_config.py -whitespace
 release/jacs-revision-20260823/coordrep/graph/donor_sites.py -whitespace
 release/jacs-revision-20260823/coordrep/graph/ligand_module.py -whitespace
+release/jacs-revision-20260826/coordrep/geometry/rel_config.py -whitespace
+release/jacs-revision-20260826/coordrep/graph/donor_sites.py -whitespace
+release/jacs-revision-20260826/coordrep/graph/ligand_module.py -whitespace
