@@ -1,4 +1,4 @@
-# CoordRep — JACS revision reproducibility package
+# CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry
 
 This `jacs-revision` branch contains the public code and evidence for the
 current manuscript, **CoordRep: A Canonical, Continuous, and Compositional
