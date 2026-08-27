@@ -1,3 +1,0 @@
-mol_id,metal,cn,donor_elements,best_shape,second_shape,frozen_vector_order,S_TBP,S_SPY,DeltaS_unrounded,boundary_DeltaS_lt_1
-ABAJET,Zn,5,N;N;N;N;S,SPY,TBP,TBP;SPY,4.478328474265158,1.303864392888452,3.174464081376706,False
-ABOXOI,Zn,5,O;O;N;N;O,SPY,TBP,TBP;SPY,3.886806677349541,3.3416487855638084,0.5451578917857325,True
