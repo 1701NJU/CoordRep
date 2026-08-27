@@ -1,8 +1,7 @@
 # CoordRep code and evidence map
 
 The authoritative revision is isolated under
-`release/jacs-revision-20260826/`. Earlier frozen releases and exploratory
-results remain only as provenance.
+`release/jacs-revision-20260826/`.
 
 ```text
 CoordRep/
@@ -19,9 +18,6 @@ CoordRep/
 │   ├── supporting_information/      # current SM1 and Tables S9A–S9B excerpt
 │   ├── protocols/                   # frozen ML and periodic protocols
 │   └── RELEASE_MANIFEST.json        # locked claims and scope boundaries
-├── release/jacs-revision-20260823/  # superseded 3D d-block evidence package
-├── release/jacs-revision-20260819/  # superseded frozen rc2 release
-├── release/jacs-revision-20260806/  # superseded entry point
 ├── libcoordrep/                     # historical package/results provenance
 └── CSD_REDISTRIBUTION_NOTICE.md
 ```

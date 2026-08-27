@@ -76,7 +76,6 @@ The full database rerun requires a licensed CCDC installation and local April
 | rc3 canonicalization evidence | `release/jacs-revision-20260826/canonicalization/` |
 | CoordRep 1.1.2rc3 source | `release/jacs-revision-20260826/{coordrep,coordrep_tools,brain}/` |
 | Current audit-methods/Table S9 excerpt | `release/jacs-revision-20260826/supporting_information/` |
-| Superseded frozen releases | `release/jacs-revision-20260823/`, `release/jacs-revision-20260819/`, `release/jacs-revision-20260806/` |
 
 ## License and citation
 
