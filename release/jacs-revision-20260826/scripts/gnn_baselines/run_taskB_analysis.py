@@ -43,10 +43,10 @@ from coordrep_tools.ablation_masking import _detect_blocks
 
 # ── Constants ─────────────────────────────────────────────
 
-FIG5_PATH = "/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl"
-MLM_CKPT = "/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt"
-RANKER_CKPT = "/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker/best_finetuned.pt"
-TOK_PATH = "/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/tokenizer.json"
+FIG5_PATH = "inputs/property_benchmarks/fig5_tasks.jsonl"
+MLM_CKPT = "inputs/checkpoints/pretrain_v3/best_model.pt"
+RANKER_CKPT = "inputs/checkpoints/coordrep_ranker/best_finetuned.pt"
+TOK_PATH = "inputs/checkpoints/pretrain_v3/tokenizer.json"
 
 STRICT_TYPES = {'stereo_hard', 'metal_hard', 'boundary_hard'}
 PLAUSIBLE_TYPES = {'ligand_hard', 'co_ligand_hard'}

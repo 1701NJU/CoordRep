@@ -459,11 +459,11 @@ def evaluate_field_masking(model, tokenizer, records, device,
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/pipeline_full_output/results.jsonl")
+                        default="inputs/tmqm/results.jsonl")
     parser.add_argument("--checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--tokenizer_path",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/tokenizer.json")
+                        default="inputs/checkpoints/pretrain_v3/tokenizer.json")
     parser.add_argument("--out", default="revision_results/factorized_token")
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--n_train", type=int, default=10000,

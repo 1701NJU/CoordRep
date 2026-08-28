@@ -11,10 +11,10 @@ release-level machine lock.
 | Figure 1 | `release/jacs-revision-20260826/figures/Figure1/` | cisplatin-centered 3C record anatomy |
 | Figure 2 | `release/jacs-revision-20260826/figures/Figure2/` | N = 1,000, K = 100 three-arm invariance, legal-orbit challenge, idealized fac/mer specificity |
 | Figure 3 | `release/jacs-revision-20260826/figures/Figure3/` | 33,863-record CN4–CN6 CShM atlas and two CN5 examples |
-| Figure 4 | `release/jacs-revision-20260826/figures/Figure4/` | frozen rc2 relation/shape property benchmarks and Cartesian controls |
+| Figure 4 | `release/jacs-revision-20260826/figures/Figure4/` | frozen pre-rc3 property benchmark (relation inputs: rc2; shape inputs: rc1) and Cartesian controls |
 | Figure 5 | `release/jacs-revision-20260826/figures/Figure5/` | all-metal April 2025 CSD census, structural-record audit, and typed complexity flags |
-| Figure 6 | `release/jacs-revision-20260826/figures/Figure6/` | frozen rc2 molecular-family analysis plus periodic-v3 MID/SID analysis |
-| Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` | threshold sensitivity and exact-orbit tractability |
+| Figure 6 | `release/jacs-revision-20260826/figures/Figure6/` | rc3 re-encoding of the unchanged frozen molecular-family cohort plus periodic-v3 MID/SID analysis |
+| Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` | exact-orbit tractability (S1) and ΔS-threshold sensitivity (S2) |
 | Canonicalization experiments | `release/jacs-revision-20260826/canonicalization/` | general invariance, legal-orbit screen, specificity, and regression summaries |
 | Full-CSD audit | `release/jacs-revision-20260826/audits/full_csd/` | all-metal census, record audit, source fidelity, provenance, source tables, and internal-ledger commitments |
 | Audit methods/Table S9 excerpt | `release/jacs-revision-20260826/supporting_information/` | synchronized SM1 and Tables S9A–S9B |
@@ -54,6 +54,13 @@ contact is added. Public files contain aggregate values, protocols, artwork,
 source tables, and cryptographic commitments. Raw coordinates and licensed
 row-level structure ledgers are excluded.
 
-The historical 2026-08-23 d-block package remains available at
-`release/jacs-revision-20260823/` and is explicitly superseded. Its Figure 5
-denominators and relation counts are not current manuscript evidence.
+The public package contains no trained checkpoint weights. It provides code,
+configurations, permitted aggregate/source tables, selected split and metric
+summaries, artwork, and checksums for numerical audit and the documented
+rerunnable analyses. It does not claim CSV-only regeneration of every figure;
+licensed row-level CSD analyses require a local CSD installation.
+
+The historical 2026-08-23 d-block package is retained in Git history at commit
+`bba8300`; it is explicitly superseded and is not present in the active release
+tree. Its Figure 5 denominators and relation counts are not current manuscript
+evidence.

@@ -1,10 +1,10 @@
 {
   "release_id": "jacs-revision-20260826",
-  "manifest_date": "2026-08-26",
+  "manifest_date": "2026-08-28",
   "algorithm": "SHA-256 over canonical-LF text bytes and raw binary bytes",
   "scope": "all public release files except this manifest and RELEASE_SHA256SUMS.txt",
-  "n_files": 342,
-  "total_bytes": 28088864,
+  "n_files": 356,
+  "total_bytes": 28375034,
   "files": [
     {
       "path": "CANONICALIZATION_UPGRADE_REPORT.md",
@@ -15,8 +15,8 @@
     },
     {
       "path": "CANONICAL_ATTACHMENT_FIX_REPORT.md",
-      "bytes": 7337,
-      "sha256": "b3ff22d9ce8aa42502c67aab547e0b3b1530a8791b6e78cc78fe5b1221a7ab23",
+      "bytes": 7502,
+      "sha256": "de636374b16f6c17abc6ea57e21a765095d5ba086ebe900632165d296bb84b7c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -29,29 +29,372 @@
     },
     {
       "path": "PROVENANCE.json",
-      "bytes": 2447,
-      "sha256": "85ba1b10c8965b4691516b7e20aafa38ca4966287fc32a78d7b495a96d7d3fea",
+      "bytes": 3993,
+      "sha256": "976b125d4e92fbc502ce4083c5cf0d46cbd835f4ef9df92301e265b6cbb94c6c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "README.md",
-      "bytes": 4130,
-      "sha256": "f7c39953cb04ad54e0ca4c698b48e34138d929c678167841d5c6d1d00d0433af",
+      "bytes": 4442,
+      "sha256": "06614ff081a2a36e851b322775856e340eea989384fc3cc6a99f4c8e5d78408c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "RELEASE_MANIFEST.json",
-      "bytes": 4096,
-      "sha256": "4d1e74e90463a6f071231701f58d3e35562f8e5e49377533b26bc0de553bd309",
+      "bytes": 6118,
+      "sha256": "7abc345197822fe4ccfab7924d4617fd4a99525160c0bb534ce97e05f4044631",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "archive/SUPERSEDED_FIGURES_20260819.md",
-      "bytes": 416,
-      "sha256": "ce226325b2b27f8bc31f8b5ae435e3003e79b186076356ff206f75d241ea9485",
+      "bytes": 361,
+      "sha256": "124484ca05e8a272525849a5b737ea2fab55ecc12d39841b5c3dc763449d829d",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_AUDIT.json",
+      "bytes": 6163,
+      "sha256": "e495239c77383cdada4e995277ebf3f470698d2347262dd7dbb8bedf76d4ced9",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_source_data.csv",
+      "bytes": 11678,
+      "sha256": "151a6eaaff4e7def467b0bb67fd3580df2a10e6edd3e233650350e2e7c7c77c2",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.pdf",
+      "bytes": 82548,
+      "sha256": "102635d77be5cf844c45e2c855a669f3b98d23875cc18b7942eb897b3b9bc89d",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.svg",
+      "bytes": 70953,
+      "sha256": "f8c11dc20256ccaea89c1e34f12cc5064377f99c7c82204f5ad1c492ac351706",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_AUDIT.json",
+      "bytes": 2237,
+      "sha256": "be514b5c999ee71bd540c470cab74ea40ef53e8667b8f754c23b71533f23b0cb",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_source_data.csv",
+      "bytes": 10321,
+      "sha256": "32dc5eef81c9778eb70385d337928b346cd19e669c303ddd2fcbb305f0e79e01",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/README.md",
+      "bytes": 459,
+      "sha256": "5d0f127a0bf0e5f422050ca876918abf820fb076d5dded746396258b92e4c14e",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/README.md",
+      "bytes": 526,
+      "sha256": "dc3d1b4d79b4bbff36fd7c244c2582485130658095743d7cc80cbb669b01385f",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/audit_v2beta_exact_canonicalization.py",
+      "bytes": 10281,
+      "sha256": "455932adb128106fcf793a1cbfe575976323803597eb1468e8e7c7d7a6a46b4c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_csd_casebook.py",
+      "bytes": 29478,
+      "sha256": "3c4a93b74014e2b6fb613cb402e7adf20d8bdc87f48996e204b6a5e7d535aace",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_highlighted_manuscript.py",
+      "bytes": 21854,
+      "sha256": "c00fdec94f44fa92f8a9d7cb5ff459932f4cc6f8b7ce8a4eae62412538accaaa",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_merged_fig5.py",
+      "bytes": 29300,
+      "sha256": "e05d7958be4795c0b156243805c776bd20323d670ecf926287a97c9cd08879c8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/check_revision_package.py",
+      "bytes": 9050,
+      "sha256": "9ead6ac88475a8430418d23852cf7d868e1c6bfd43c4f7a5e2bbb9cf3fcf596c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/csd_toolb_transfer_eval.py",
+      "bytes": 17873,
+      "sha256": "e058549ea2a6611bb380b0ac9b15ac0a8ef83d01c5df5e8d2fc57a106b83aeda",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5c_case_xyz.py",
+      "bytes": 24683,
+      "sha256": "84dd23e417609a810267b179034420f805a8280838761ff71897d8b764e68c36",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_family_trajectory.py",
+      "bytes": 21001,
+      "sha256": "af99ef9d7442d958b8430cbce8b7d7bb522d2780c2b64ece9f9c0d5c72dc8c04",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_gazkun_trajectory.py",
+      "bytes": 19172,
+      "sha256": "71ec300612068e1a40c7916483b87f34741ef35f51f307567c6d21ddfb7721c3",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_linmol_trajectory.py",
+      "bytes": 25012,
+      "sha256": "53338ba04acc214ada5667980b3dbae44f44399f19b039edc5faab9781ee77da",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_maintext_subset.py",
+      "bytes": 13528,
+      "sha256": "284d389f409b6792293ba634e04fd7721e04f11051a8c418383f21929a3eaef7",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/factorized_token_qc_and_standard_eval.py",
+      "bytes": 24170,
+      "sha256": "459a0b983d9c3d894d801e6a50e2b3bc1f253c8335c53924cf1073b07662d918",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_csd_scope_waterfall.py",
+      "bytes": 25941,
+      "sha256": "a53162f533fc181ed8542b51efecf1704d8b8d6c6b0ea17df1f1e61cfa584709",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_full_csd_v2beta_audit.py",
+      "bytes": 39049,
+      "sha256": "285f5ccaaa50e75ec2f0513b5616f2e40f96b1a4331e8b861c936e7a314f1188",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_rosetta_hard_controls.py",
+      "bytes": 39253,
+      "sha256": "a13eaff0f5ed42b51e54a2a24a9e21bec00a7b8a1401a2dce38853f9534abfd6",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_rosetta_homology.py",
+      "bytes": 57523,
+      "sha256": "b91105fe7cbc47ea22c782dfa8af6708cbc9c4499f34bba15c1ca74d67001334",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_v2beta_extension.py",
+      "bytes": 26753,
+      "sha256": "f280e769fcb613b779df6945721deff908d13e44a1f07351a521cac5fad3839e",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_v2beta_postfix_audit.py",
+      "bytes": 29850,
+      "sha256": "7f74115923bb8421bf14e6309bef3a0b64b230422bb33ce1819e8942bc3aefd9",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/make_figure_ready_tables.py",
+      "bytes": 1837,
+      "sha256": "bfab52239b8919c9baeb80095a12a8ba8c7c69850b8d18f20a7e411f31b04bde",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/make_rebuttal_evidence_matrix.py",
+      "bytes": 2369,
+      "sha256": "cc7c683de5c798c9fe174aeee214444e75fe6b44865fd5291b2d8f3c3bb5f570",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/multidentate_tool_a_eval.py",
+      "bytes": 8024,
+      "sha256": "92cfc219adb208a394af138ef05012ad4c88220865ce314e40c206c8a51094b8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_csd_pathfinder.py",
+      "bytes": 45682,
+      "sha256": "f817a9af13d6fe124beae490d430a745a7af21d0455be7fbd61994a7cc5ee0f0",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_full_csd_scan.py",
+      "bytes": 7238,
+      "sha256": "d0e1c5486add875ae3cdd7addf98ba6543b151489a2b500749b08305fd772408",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_manual_chemical_audit.py",
+      "bytes": 22918,
+      "sha256": "3c108f235b931cb7236179fda4b5145c96cea14e928f4aa6e38935ebf95d11e4",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_ablation.py",
+      "bytes": 18868,
+      "sha256": "6a26ed4a7c943d3fd05a6f9586dd17c5b2bb3f6c98d44fa0d6c124fd9496b750",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_ablation_gpu.py",
+      "bytes": 21999,
+      "sha256": "0e14b9ebc6da0bef5b7c52b120d0e6fd77881db311e53a6f3bc0afca040ee56f",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_from_preds.py",
+      "bytes": 7568,
+      "sha256": "e429f6998ab521451ffd4f04c7d5b69303f29bbb246f11f91b8cb09125c74750",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_from_preds_ablation.py",
+      "bytes": 8896,
+      "sha256": "8917dd9b16bdc9c13075b1d027aaafd3d3a76180f75cc5cba139811698dbd870",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_toolb_baselines.py",
+      "bytes": 36092,
+      "sha256": "56aca05b406cb8b494827e83707165875bf24247a2120277104316a90e3fdaa3",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/screen_visual_families.py",
+      "bytes": 18343,
+      "sha256": "7d670ee8a0eb0319559b3208a60b18ee4866137a764fabb18c25888c5b27cfea",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/README.md",
+      "bytes": 370,
+      "sha256": "b4704108e41a1971197fba607de53dd8af9326a766a3667577d45309df6b6d92",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/generate_identity_robustness_data.py",
+      "bytes": 7774,
+      "sha256": "4e970ee73441987cd119da1e1845305b811fa2ed4253bc03efa32d05f2abced4",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/generate_s3_data.py",
+      "bytes": 8357,
+      "sha256": "811e826fa8fb5a25ed482f258427b0fcc988f1e54db8fbfefd9e706eea46376a",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/jacs_style.py",
+      "bytes": 3881,
+      "sha256": "89448d7170f441d2dcdb2efa68f80662e4977f2f57823c5482bd4bd7d35f7b98",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/make_all_si_figures.py",
+      "bytes": 1943,
+      "sha256": "a65dfa4bbcffaef683341777cb1d056348f9fbf8049806fbd95ac56a847e45cd",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s2.py",
+      "bytes": 11278,
+      "sha256": "0c8d25ce83410f1cd3684e29e741760673aee386870ec869312d7e1dfd3af49c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s3.py",
+      "bytes": 9328,
+      "sha256": "d7f0afc27d758052693447514ff27d2703dd548b9e9efc51f6dcb23aa7d78aec",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s4.py",
+      "bytes": 8216,
+      "sha256": "f213290639ef634a84f55b054f9d3a5948baa020fced63b463db5ade6c94933b",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s5.py",
+      "bytes": 13205,
+      "sha256": "e8146caefad44a8346a574a95984649ad724b395ee84eda196fd01076562a8d8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s6.py",
+      "bytes": 11210,
+      "sha256": "f35a5bd601f328e6afa23c9642dea28314d91e6b70a560ea47b27ff7dcc2433b",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s7.py",
+      "bytes": 9614,
+      "sha256": "a728ed6980d192c36b6a27e4677fa80c8f567e31c087d7a9ed1324571d3b4144",
       "role": "release documentation or supporting source",
       "publication_status": "historical/superseded"
     },
@@ -100,7 +443,7 @@
     {
       "path": "audits/full_csd/SHA256SUMS.txt",
       "bytes": 728,
-      "sha256": "f931009fd8933ee5a07b0f9ea0f0a0f9a88d2e09beb201187843995edfb7dbc5",
+      "sha256": "8972acf78e5a271471cfe6d8df4411bad0037f177adf7fabe049c249a1f007e4",
       "role": "full-CSD aggregate evidence",
       "publication_status": "current"
     },
@@ -113,8 +456,8 @@
     },
     {
       "path": "audits/full_csd/STRUCTURAL_RECORD_AUDIT_PUBLIC.json",
-      "bytes": 6809,
-      "sha256": "efa31c662ca7d40be64af9cab875b31d2494418622899e9bc6cfccfe9fa7efa5",
+      "bytes": 6785,
+      "sha256": "35cff7e38651237d47231f87c6bb0942a3aa7d9b3f60753ee2c51e5c9faa5930",
       "role": "full-CSD aggregate evidence",
       "publication_status": "current"
     },
@@ -197,22 +540,22 @@
     },
     {
       "path": "canonicalization/general_invariance/PUBLIC_PROVENANCE.json",
-      "bytes": 1060,
-      "sha256": "dea7679c16eede23c220e16beddc3875bf05bdac1a580e3133787fbeaf51fb74",
+      "bytes": 1352,
+      "sha256": "376d4692ff3e82c8c31525a1356b931357557c91e3aa9c298362c4714e0c4b42",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "canonicalization/general_invariance/README.md",
-      "bytes": 3906,
-      "sha256": "1ced53eee39d514abfcdf5781ce5222978ff6cd0573540869473cb5c22529006",
+      "bytes": 5023,
+      "sha256": "139f48001c6ce9f4e2fedf1052095d08c8928e81fe81834969a369e751911045",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "canonicalization/general_invariance/SHA256SUMS.txt",
       "bytes": 684,
-      "sha256": "c60a05895e705b44b831ad664525af91c781e4f536a9d806dfc88468dd3c7a25",
+      "sha256": "40ed1cedf2eea721a857739ac3b290013a1ce06e3cfb8cd9648f48796b05f4a8",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -239,15 +582,15 @@
     },
     {
       "path": "canonicalization/general_invariance/run_canonical_stress.py",
-      "bytes": 61839,
-      "sha256": "9650c608f5357ef5817679b970d2cdcf7434dfc9d9b6bb75a7bd82c3da9d8659",
+      "bytes": 62430,
+      "sha256": "1e41a850c8ced6cfa6482f0e9a48b17e1d630d90b0b0227f7a8d83c7993bef52",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "canonicalization/general_invariance/summary.json",
-      "bytes": 17648,
-      "sha256": "b5312f8a995a16ad1497c219619b52e4d97b0f9999fd397d839deef472a91596",
+      "bytes": 17919,
+      "sha256": "b13bfb38d75db8aa45482510e71b6e9d8d3a64b0608b6cc1fede787a04a549de",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -261,14 +604,14 @@
     {
       "path": "canonicalization/legal_orbit_challenge/README.md",
       "bytes": 827,
-      "sha256": "70412be098c188f9cc57ab6e8271c3537f93ea045aea2fbb6b361c7c9ff34183",
+      "sha256": "265cd5b64b87f3db7ed9a759e52aa3a15d7450e345fa192e54465470ecc88694",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "canonicalization/legal_orbit_challenge/SHA256SUMS.txt",
       "bytes": 647,
-      "sha256": "f8f6d313b3c6dc852a8cea248a1482c5b5594c50f192cd118083311718aac6e2",
+      "sha256": "9de209a25f6cb8d85849ee4d27b82185db75f9269c26baff2c44ae6d52f43678",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -610,15 +953,15 @@
     },
     {
       "path": "coordrep_tools/__init__.py",
-      "bytes": 1208,
-      "sha256": "3650a1d3e26ede109eb407ff65506b7cb00379685c3918ecf87fa7543d3c58f0",
+      "bytes": 1214,
+      "sha256": "f32436750463e08909fa41f0f8c6f696fad422bbbd62fcbf8f2f8c876505fe6c",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
     {
       "path": "coordrep_tools/ablation_masking.py",
-      "bytes": 17396,
-      "sha256": "45f6ca6b6154fa1d8ce860c7d134d64df5256b82d3f024cbac3536e53a1dad31",
+      "bytes": 17394,
+      "sha256": "8111b24ae848db55362b1f853ceff5324999e2f1ee8d53f14662d2f31b49df8a",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
@@ -687,8 +1030,8 @@
     },
     {
       "path": "coordrep_tools/gnn_baselines/datasets.py",
-      "bytes": 15032,
-      "sha256": "d46ed688e305f2da5b5f7db6e7a760cb0e7f0ac14e13bf0b2d29ecbc8762091e",
+      "bytes": 14871,
+      "sha256": "13f5b29fdf7b24294c642250277c38790d049d5a2607cb5c7a9e4bf52fba8a29",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
@@ -715,8 +1058,8 @@
     },
     {
       "path": "coordrep_tools/infer.py",
-      "bytes": 6671,
-      "sha256": "48cdf2280da396f58b3e156da7970b228bde14bd97facb16d756413a8b84ccb2",
+      "bytes": 6701,
+      "sha256": "d6a1fac3b52272c653398c94f81bc0e8708080df06ec1b4cbd0ee6ce0fb6c00d",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
@@ -757,29 +1100,29 @@
     },
     {
       "path": "coordrep_tools/tool_a_ablation_eval.py",
-      "bytes": 12630,
-      "sha256": "90e8efe718b6f2ef2fc2e3c468c9391ff0f05f0aaecb49467cd64c5afba25a6b",
+      "bytes": 12628,
+      "sha256": "6125c72f0083b5084a0f960e7884f2c28434ddd287ac5fd7a236b61c1f033adf",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
     {
       "path": "coordrep_tools/tool_a_baselines.py",
-      "bytes": 11767,
-      "sha256": "dfa8b45b566899c36fe493f4adc6b81764dedc39b0784cbc9e1f441480c2f3c6",
+      "bytes": 11780,
+      "sha256": "b9fc1d48cfc1f59ac7638a3add7b86446ffe9620877d1a22d890872c2b06db5b",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
     {
       "path": "coordrep_tools/tool_a_donor.py",
-      "bytes": 8606,
-      "sha256": "cde17604e9810efdbf1ff457ca735f8c608943f0b81f75bdbb204c357d6eac59",
+      "bytes": 8747,
+      "sha256": "c4218c6fb70b881ea1f2698686c664f1ec0d01a432574aeadd9f6c0685809257",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
     {
       "path": "coordrep_tools/tool_b_repair.py",
-      "bytes": 11559,
-      "sha256": "36345c28a17db864850d443e90d30c91673ed5d57c6581164807a7b88e7738f4",
+      "bytes": 11689,
+      "sha256": "6ba23e94b5880e6dbc70739b75b9e754731ad60fb7f39f5ab97501711c5c961f",
       "role": "CoordRep implementation",
       "publication_status": "current"
     },
@@ -792,8 +1135,8 @@
     },
     {
       "path": "figures/FIGURE_MAP.md",
-      "bytes": 1906,
-      "sha256": "6b22bb7d77783aa7ca46d86a514cfd923e712414da2f7d70fc4850818129421d",
+      "bytes": 1964,
+      "sha256": "bda0765b84135605a06d0a3cf82c23cd6f9accb73d6c200b5771feed4ea269b6",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -847,6 +1190,13 @@
       "publication_status": "current"
     },
     {
+      "path": "figures/Figure1/Figure1_manuscript_caption_20260828.txt",
+      "bytes": 1008,
+      "sha256": "abffe61bf4e32f98db04aa7a3166661ef60a8af20a65d2756c0864ea453f351e",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
       "path": "figures/Figure1/Figure1_source_values.csv",
       "bytes": 429,
       "sha256": "a1d973420209b02a84943e8e91d0950f0d90af6cdc28af4cbd83543b9d70c1a8",
@@ -855,8 +1205,8 @@
     },
     {
       "path": "figures/Figure1/README.md",
-      "bytes": 586,
-      "sha256": "a8ecf5681f663ab945e35b138581b022e2cf5c4fdbb07c2d40de2fec19b0529d",
+      "bytes": 682,
+      "sha256": "80e483c9bafa6f0915026f60fc19e7e13dce68b33cff6b60cd0c450397bbe555",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -917,9 +1267,16 @@
       "publication_status": "current"
     },
     {
+      "path": "figures/Figure2/Figure2_manuscript_caption_20260828.txt",
+      "bytes": 1488,
+      "sha256": "4600791f9b3d4c394a2f4e8aa6da5735ac885647bbbe139dfe4916049e0f75bc",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
       "path": "figures/Figure2/README.md",
-      "bytes": 952,
-      "sha256": "c16cc2b46843da1b255418bcfadf5d33bd8910e818bb848eb2a38305b984291c",
+      "bytes": 1098,
+      "sha256": "3c14215d18104c31c2975c26b66f1ffdade20caab8be2c4454a09f180b1a6af5",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -980,6 +1337,13 @@
       "publication_status": "current"
     },
     {
+      "path": "figures/Figure3/Figure3_manuscript_caption_20260828.txt",
+      "bytes": 1696,
+      "sha256": "78ce5f3a9a2485ef261ee39e634b49add84466dc32e17055498ca05128b606b6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
       "path": "figures/Figure3/Figure3_panel_source.csv",
       "bytes": 3462999,
       "sha256": "6150b1c5ba712e9ae6d79c1860f3ee48d328dc9f2303d0e46064dccfdf64024c",
@@ -995,8 +1359,8 @@
     },
     {
       "path": "figures/Figure3/README.md",
-      "bytes": 643,
-      "sha256": "ee3dffffdf8f33aae5bbbbcdfcf750db138f0e895f1873a4fb7fb5cd3317b1a4",
+      "bytes": 793,
+      "sha256": "cdb979c69210c5119a86bb3db47acde5d5a5348c69a1f4fdb18755b121992d52",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1044,15 +1408,15 @@
     },
     {
       "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_AUDIT.json",
-      "bytes": 2746,
-      "sha256": "7d6c70a762bed490c238aab7aaba82aad5f5f114d3ae25d7ec73862d51345504",
+      "bytes": 4232,
+      "sha256": "519aee65d6846e1bce51cc4f7d8fc575cbbd5e36d5eb3b4acd386495c98b22f7",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_caption.txt",
-      "bytes": 1440,
-      "sha256": "1e92894a3ce4d1cbe0da3cb04b2e235e1d6036ee67293ca2b85dd4807d6bca61",
+      "bytes": 1841,
+      "sha256": "e661115c38ac0b18297f745f09207f15c55c91c992bfa132a817a659db56b8b9",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1064,44 +1428,16 @@
       "publication_status": "current"
     },
     {
-      "path": "figures/Figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_AUDIT.json",
-      "bytes": 6163,
-      "sha256": "e495239c77383cdada4e995277ebf3f470698d2347262dd7dbb8bedf76d4ced9",
+      "path": "figures/Figure4/Figure4_manuscript_caption_20260828.txt",
+      "bytes": 1423,
+      "sha256": "8504dfcfb9796eaa95594326bc518c7266f87f03f6728b5b02ded30f149e0b20",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_source_data.csv",
-      "bytes": 11678,
-      "sha256": "151a6eaaff4e7def467b0bb67fd3580df2a10e6edd3e233650350e2e7c7c77c2",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.pdf",
-      "bytes": 82548,
-      "sha256": "102635d77be5cf844c45e2c855a669f3b98d23875cc18b7942eb897b3b9bc89d",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.svg",
-      "bytes": 70953,
-      "sha256": "f8c11dc20256ccaea89c1e34f12cc5064377f99c7c82204f5ad1c492ac351706",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_AUDIT.json",
-      "bytes": 2237,
-      "sha256": "be514b5c999ee71bd540c470cab74ea40ef53e8667b8f754c23b71533f23b0cb",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_source_data.csv",
-      "bytes": 10321,
-      "sha256": "32dc5eef81c9778eb70385d337928b346cd19e669c303ddd2fcbb305f0e79e01",
+      "path": "figures/Figure4/README.md",
+      "bytes": 1457,
+      "sha256": "c3c41ef8956a92612cb951107efa76219e75acf04621527fa46cc5d48e320c37",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1148,6 +1484,13 @@
       "publication_status": "current"
     },
     {
+      "path": "figures/Figure5/Figure5_manuscript_caption_20260828.txt",
+      "bytes": 928,
+      "sha256": "a5758be9ceda6b38b170c61e87c250c7d5735c47351f76860da83e9f60e64bf6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
       "path": "figures/Figure5/Figure5_source_data_all_metal_20260826.csv",
       "bytes": 1928,
       "sha256": "bb3916a698e7f7cd12d74213329c969531687d26b3cb323a1872740216e4d6e7",
@@ -1156,50 +1499,57 @@
     },
     {
       "path": "figures/Figure5/README.md",
-      "bytes": 879,
-      "sha256": "d9920e8fa4354fc03e11f6ae56a5f1ba612fc3b68f442094e82b023a4bba24af",
+      "bytes": 938,
+      "sha256": "f68e0bc1a225b619fcfc2e3cc18e73c97b8d1f5452b443675c0e5ea99569e16e",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823.pdf",
-      "bytes": 97562,
-      "sha256": "3a7ba1d9d5d5c387f610e0166970f5c5bac81bc4790628efa5a2c71f305a414a",
+      "bytes": 92438,
+      "sha256": "b0d6939e1f9834c9412582660b8bc59666c398eaee6b27024a661c88133ad3eb",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823.svg",
-      "bytes": 119511,
-      "sha256": "7460e479418c4b80a28947bf98bb84d824a0bec52c08027fae40ecedec4ac877",
+      "bytes": 97246,
+      "sha256": "b75a31d39508394036f7fe4913a0ada6384e680d59dcbf31c02b75a046a7a283",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_600dpi.png",
-      "bytes": 1016167,
-      "sha256": "03984ce4131988e55dfaf1729a2e1ee247c924d1bdbb9f7a0351f8b87ef7a519",
+      "bytes": 1021336,
+      "sha256": "6104b29f9d833e2d0ab97c14949be89fcf188aec6906cafcce42d4fdc48dc77b",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_600dpi.tif",
-      "bytes": 1350546,
-      "sha256": "41c6953a11f7810da47f14bbb076cdb622620aa50eb1665ec70941b7805adeaa",
+      "bytes": 1477592,
+      "sha256": "3af6039f0f5e44b6e8938d54a7bd0e315a1896c942595be45166961f503e255b",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_preview_180dpi.png",
-      "bytes": 258586,
-      "sha256": "d8189447c8e41d0d924e5d8c0f45c5d1396af5bcbb44b1c33b3e0ee2bf79d676",
+      "bytes": 404497,
+      "sha256": "298a4a43eb71da636c049617ebb2486e8db69641f0d89323f236288d04ea5aa2",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Figure6/Figure6_caption_20260823.txt",
-      "bytes": 3264,
-      "sha256": "3f58908479f0f09dd9b2870bd13785abac678cbdc523c157c0243e6c58d497ee",
+      "bytes": 3469,
+      "sha256": "d00e511782bb731f27bad0acf2219ade270abb82fd8b7bd0e631a30fb0034ca9",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_manuscript_caption_20260828.txt",
+      "bytes": 1122,
+      "sha256": "2929f7128c336c822421cc7962c509cc309b8cafa210b9c6268c280ee970caea",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1212,8 +1562,8 @@
     },
     {
       "path": "figures/Figure6/Figure6_source_data_20260823.csv",
-      "bytes": 5584,
-      "sha256": "941732e9facd344a5f87649c2ca4f2a8f86091f80a26ce3202db4eeaedc5b033",
+      "bytes": 6357,
+      "sha256": "1349792307dcc503055e9d52ed5a565afc55071be3fd047dfcb7763ef63fc2f3",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1240,113 +1590,134 @@
     },
     {
       "path": "figures/Figure6/README.md",
-      "bytes": 872,
-      "sha256": "3c720f5f74d83e20eb491cbc98bdd9926cfe2b408db652dd90676e37f8f07889",
+      "bytes": 2203,
+      "sha256": "139e5dbaa9d105d80301b6f516a699625aa9e9f054b323b2785bcde0ca75181b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/FIGURE6_MOLECULAR_RC3_RERUN_COMPARISON.json",
+      "bytes": 14102,
+      "sha256": "83c0ff97691b5844e007ba6f274583347c80fd16588483bab33ef2172e9de3ab",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/METHOD.md",
+      "bytes": 996,
+      "sha256": "1bbe8948184980a14d7a123d7421743bf660681e046944cf602ad64c00d83578",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/SHA256SUMS.txt",
+      "bytes": 186,
+      "sha256": "bb861b5d2f60a9184c03f9506ebd4b5d3f6fb99837f143bde9a23f562aa792ba",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
       "path": "figures/Supplementary/README.md",
       "bytes": 497,
-      "sha256": "dd5ba19d8f4c13016062d5f3528b10abfcfc63b52a9906b25eb0031efa53a104",
+      "sha256": "79c62448ffc68ccfa6bbdd8afc29f1b8cc5c53262f50f8e0a1189c2bb3ac0afa",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity.pdf",
-      "bytes": 56220,
-      "sha256": "43c96fd7410562ce2f3c06bdddc95d6c0034e795500dc23b03d568b69301da92",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity.svg",
-      "bytes": 49680,
-      "sha256": "0b8d9bc6eeccd6c5fdb9f97834112e0f0f5cc00fdfc707b03b3e9f7afb15da31",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity_600dpi.png",
-      "bytes": 205841,
-      "sha256": "5c1eb71fac93959b4109fc7f347595b89b91b3860baf0a1eb394ab5cb81e468d",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity_600dpi.tif",
-      "bytes": 342572,
-      "sha256": "e421234af2fb616afe90cc2d39865c4105beb89075bed89cc5c26d0dd8cf8467",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity_caption.txt",
-      "bytes": 922,
-      "sha256": "13903d0b456a1e397e52b781c3b33eadf243703b7bb9232a09ae6c52ea62175e",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity_source_data.csv",
-      "bytes": 95476,
-      "sha256": "843035b83022ab3059b3ff0e900f52bc4eec5021b8a158aa2fccdc247b64754a",
-      "role": "figure artwork, caption, or public source data",
-      "publication_status": "current"
-    },
-    {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_Canonicalization_Complexity.pdf",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.pdf",
       "bytes": 240933,
       "sha256": "09247a336317d09e33c7c29b2f96a6a192a46df7a99024571e409d92edef9cf6",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_Canonicalization_Complexity.png",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.png",
       "bytes": 216990,
       "sha256": "810ca2237717d7cefb44335c1856002c0920991541a29962857bab9c6d291612",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_Canonicalization_Complexity.svg",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.svg",
       "bytes": 130561,
       "sha256": "e95bc546e77cde7bd89fde7e6a06f2d7703defb120ab42ebc554f1ef13c40131",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_Canonicalization_Complexity.tif",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.tif",
       "bytes": 401954,
       "sha256": "f1c10fdeb67c2dd12257e4a1905b849adc4a42a091135da27f3c4b2d432f3e0a",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_QA.json",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_QA.json",
       "bytes": 398,
       "sha256": "76c14677fb9cbd172c60410a8f0c20ed291e3c36c417a610d47bddea8ffb3810",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_caption.txt",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_caption.txt",
       "bytes": 1155,
-      "sha256": "90a5a101ca09418a9d91719c40c893a175f2a60fb8721d59b8276a7f3ae5229c",
+      "sha256": "f975b2e72f36a1469c485ddf27dfcb6332c6208a48339b2ab76ca4ae202b8055",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/Supplementary_Figure_S2_source_data.csv",
+      "path": "figures/Supplementary/Supplementary_Figure_S1_source_data.csv",
       "bytes": 988,
       "sha256": "2e96667f3d36c1381d0c963d8b10d0fd6bab0fa6a404f23d6bdf33a353b2d868",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
     {
-      "path": "figures/Supplementary/generate_supplementary_figure_s2.py",
-      "bytes": 12344,
-      "sha256": "ddad16712060a8ef96ce7cd05b5b293fe8849603431dd6b288c8f32a820cd0a7",
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity.pdf",
+      "bytes": 56220,
+      "sha256": "43c96fd7410562ce2f3c06bdddc95d6c0034e795500dc23b03d568b69301da92",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity.svg",
+      "bytes": 49680,
+      "sha256": "0b8d9bc6eeccd6c5fdb9f97834112e0f0f5cc00fdfc707b03b3e9f7afb15da31",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_600dpi.png",
+      "bytes": 205841,
+      "sha256": "5c1eb71fac93959b4109fc7f347595b89b91b3860baf0a1eb394ab5cb81e468d",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_600dpi.tif",
+      "bytes": 342572,
+      "sha256": "e421234af2fb616afe90cc2d39865c4105beb89075bed89cc5c26d0dd8cf8467",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_caption.txt",
+      "bytes": 922,
+      "sha256": "334704dd37024af6eda1cc179abbe0789e64edc89001e3fe06a8918286bda976",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_source_data.csv",
+      "bytes": 95476,
+      "sha256": "843035b83022ab3059b3ff0e900f52bc4eec5021b8a158aa2fccdc247b64754a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/generate_supplementary_figure_s1.py",
+      "bytes": 12499,
+      "sha256": "45816a9583efe62f40696dc53922495db8d629fee9f33077965fd34a2ec287fb",
       "role": "figure artwork, caption, or public source data",
       "publication_status": "current"
     },
@@ -1394,8 +1765,8 @@
     },
     {
       "path": "models/E3_baselines/schnet_3d_complete_radius_v2/dataset_audit.json",
-      "bytes": 7949,
-      "sha256": "3d622e276bd358b96567bed238a24fc67d79574e768a048a841948d6b2718d95",
+      "bytes": 7775,
+      "sha256": "48299e7d87d9f6f34d436ea962032156e95ca9c3d02f79ceaed70466f725f1d8",
       "role": "model implementation or compact public result",
       "publication_status": "current"
     },
@@ -1464,8 +1835,8 @@
     },
     {
       "path": "models/E3_baselines/visnet_3d_complete_radius_v2/dataset_audit.json",
-      "bytes": 8060,
-      "sha256": "83e906cae4b90580b8887f94e7b5592b51b0d111a1b932d1d2d9e10b6ec057e5",
+      "bytes": 7886,
+      "sha256": "e6d5c6be634bc88c3122056b2c96c9f3e0d0e89029a332866ba8e388f4700e85",
       "role": "model implementation or compact public result",
       "publication_status": "current"
     },
@@ -1522,6 +1893,13 @@
       "path": "models/E3_baselines/visnet_equivariant_model.py",
       "bytes": 3986,
       "sha256": "e3998848c36971ff806c91e3307787ec71f0054525290c22a1b935d5b48e08c1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 603,
+      "sha256": "8fd216db5fe2f634a7018bc43392b884dd8334ddfc7aa0b57f8706b96fec445f",
       "role": "model implementation or compact public result",
       "publication_status": "current"
     },
@@ -1632,8 +2010,8 @@
     },
     {
       "path": "scripts/_export_fig2a_example.py",
-      "bytes": 8172,
-      "sha256": "cb63a232cd0972f2d723b8e984d45c81f0f4eec11f0ba3017c122b728690ba12",
+      "bytes": 8140,
+      "sha256": "c17e8ac96323b9c38eadce739155090bb731330fd2291d9b933a0c042e0b2cb0",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1666,16 +2044,9 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/audit_v2beta_exact_canonicalization.py",
-      "bytes": 10281,
-      "sha256": "455932adb128106fcf793a1cbfe575976323803597eb1468e8e7c7d7a6a46b4c",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/benchmark_identity_layers.py",
-      "bytes": 14418,
-      "sha256": "83d050f57de16461f25ed42e44a8f921ef8025a1bf6eafd353246e89aa1a700b",
+      "bytes": 14342,
+      "sha256": "0023246e1dc5c3dd0ab074ed56c65cc8ca0ad006d80d20af0c07dea3a131b612",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1687,37 +2058,9 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/build_csd_casebook.py",
-      "bytes": 29478,
-      "sha256": "3c4a93b74014e2b6fb613cb402e7adf20d8bdc87f48996e204b6a5e7d535aace",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/build_highlighted_manuscript.py",
-      "bytes": 21854,
-      "sha256": "c00fdec94f44fa92f8a9d7cb5ff459932f4cc6f8b7ce8a4eae62412538accaaa",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/build_merged_fig5.py",
-      "bytes": 29300,
-      "sha256": "e05d7958be4795c0b156243805c776bd20323d670ecf926287a97c9cd08879c8",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/census_all_metal_entries.py",
       "bytes": 14194,
       "sha256": "aeb5300e9e698545c98e7fce233d238555247d7859c014882bf538649160e215",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/check_revision_package.py",
-      "bytes": 9050,
-      "sha256": "9ead6ac88475a8430418d23852cf7d868e1c6bfd43c4f7a5e2bbb9cf3fcf596c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1730,8 +2073,8 @@
     },
     {
       "path": "scripts/coordrep_examples_gen.py",
-      "bytes": 14876,
-      "sha256": "c4642ca953a2977d1f32a4d776f7d973d462130d49e644b69d5dc5e25b8f431c",
+      "bytes": 14840,
+      "sha256": "f1be1e7134b57c3c3cab0492c3fd9feaa5e41cb0c281c94d2363395441ac6d3e",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1750,23 +2093,16 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/csd_toolb_transfer_eval.py",
-      "bytes": 17873,
-      "sha256": "e058549ea2a6611bb380b0ac9b15ac0a8ef83d01c5df5e8d2fc57a106b83aeda",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/eval_coordrep_ranker.py",
-      "bytes": 23575,
-      "sha256": "faeeebfe5b4aa706b8092f15daecb1acf75209e982408f03d43313fde37f054b",
+      "bytes": 23460,
+      "sha256": "a29b1fea8d6c7adf7d6aecabff9fca966003163a76317f7f9047d845068652a4",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/eval_ranker_minphys.py",
-      "bytes": 17569,
-      "sha256": "4737050b740fc17dd7fea9bd869ad22cb7077c35bfc9a943aae09c1be8eab639",
+      "bytes": 17232,
+      "sha256": "1f768a3237dc2bdfa093cceea03170646369995225f2a98c407e43c056af5c2d",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1785,41 +2121,6 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/export_fig5c_case_xyz.py",
-      "bytes": 24683,
-      "sha256": "84dd23e417609a810267b179034420f805a8280838761ff71897d8b764e68c36",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/export_fig5d_family_trajectory.py",
-      "bytes": 21001,
-      "sha256": "af99ef9d7442d958b8430cbce8b7d7bb522d2780c2b64ece9f9c0d5c72dc8c04",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/export_fig5d_gazkun_trajectory.py",
-      "bytes": 19172,
-      "sha256": "71ec300612068e1a40c7916483b87f34741ef35f51f307567c6d21ddfb7721c3",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/export_fig5d_linmol_trajectory.py",
-      "bytes": 25012,
-      "sha256": "53338ba04acc214ada5667980b3dbae44f44399f19b039edc5faab9781ee77da",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/export_fig5d_maintext_subset.py",
-      "bytes": 13528,
-      "sha256": "284d389f409b6792293ba634e04fd7721e04f11051a8c418383f21929a3eaef7",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/export_representation_gap_benchmark.py",
       "bytes": 28212,
       "sha256": "36cd24f55d5427756f9ddc06b6636e12afa6f37e94beffe107ead87aa80c2385",
@@ -1828,22 +2129,8 @@
     },
     {
       "path": "scripts/factorized_token_ablation.py",
-      "bytes": 28967,
-      "sha256": "4252919b2ce08ee20bba8e86873d38db0ea7e00460bdc9e8f965f84b2d90c58c",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/factorized_token_qc_and_standard_eval.py",
-      "bytes": 24170,
-      "sha256": "459a0b983d9c3d894d801e6a50e2b3bc1f253c8335c53924cf1073b07662d918",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/generate_csd_scope_waterfall.py",
-      "bytes": 25941,
-      "sha256": "a53162f533fc181ed8542b51efecf1704d8b8d6c6b0ea17df1f1e61cfa584709",
+      "bytes": 28867,
+      "sha256": "ca6d12f8b0ab5226b2eb3b88ad36a5a19eb7b7e770883a8a75023d614655849e",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1855,58 +2142,23 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/generate_full_csd_v2beta_audit.py",
-      "bytes": 39049,
-      "sha256": "285f5ccaaa50e75ec2f0513b5616f2e40f96b1a4331e8b861c936e7a314f1188",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/generate_rosetta_hard_controls.py",
-      "bytes": 39253,
-      "sha256": "a13eaff0f5ed42b51e54a2a24a9e21bec00a7b8a1401a2dce38853f9534abfd6",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/generate_rosetta_homology.py",
-      "bytes": 57523,
-      "sha256": "b91105fe7cbc47ea22c782dfa8af6708cbc9c4499f34bba15c1ca74d67001334",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/generate_v2beta_extension.py",
-      "bytes": 26753,
-      "sha256": "f280e769fcb613b779df6945721deff908d13e44a1f07351a521cac5fad3839e",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/generate_v2beta_postfix_audit.py",
-      "bytes": 29850,
-      "sha256": "7f74115923bb8421bf14e6309bef3a0b64b230422bb33ce1819e8942bc3aefd9",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/gnn_baselines/qc_hard_negative_audit.py",
-      "bytes": 15966,
-      "sha256": "92b26b285c0d835a0e5aa84b8e4feb00238f12b396870e24152d4c44c5de7c03",
+      "bytes": 15899,
+      "sha256": "2196530838bad9126f8d10c9bf5ed305e9290e0685a57d75f892f744789e1b8c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/gnn_baselines/run_3d_baselines.py",
-      "bytes": 39178,
-      "sha256": "e13a4dee18fc147d0a913289e62dadf518e82cb2fc766e19443d7015074f151d",
+      "bytes": 39148,
+      "sha256": "1bada841d1cafef90d0c82931d87174d6a94fe9a02400379d922cd15144a2297",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/gnn_baselines/run_csd_identity_baselines.py",
-      "bytes": 12895,
-      "sha256": "9dc3302c46b6facefe9de806b5bc6e4320798c36d4f15444da25061eb327a5d1",
+      "bytes": 12769,
+      "sha256": "18d64f05b0b8802325121518927758a5a06e0f891c0d0b146bc6676608bb40d7",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1919,15 +2171,15 @@
     },
     {
       "path": "scripts/gnn_baselines/run_hard_negative_ranker.py",
-      "bytes": 20287,
-      "sha256": "86e7f2f8ebc3e85c177ff58d24fcec8c20bae68ee0690439c082f2d5bfe51c3a",
+      "bytes": 20257,
+      "sha256": "4a995b73b71054e0c553a4dd48efb5961148bc39a91019a9e7d8ee8baf44acff",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/gnn_baselines/run_taskB_analysis.py",
-      "bytes": 38576,
-      "sha256": "336aac99c270a8a04b004bc4796badb7e2f56d98661b848827b8e9bbea384305",
+      "bytes": 38445,
+      "sha256": "77b04251f6db6ddb43d66fa4a5109d42b0f3797fbf392701906416b72edb0174",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1935,20 +2187,6 @@
       "path": "scripts/launch_csd_release_audit.py",
       "bytes": 18531,
       "sha256": "5df8f0e0a1e5567d4f3117ac13757cfdaf7844ffd3039db5ea25a07f2b526fc6",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/make_figure_ready_tables.py",
-      "bytes": 1837,
-      "sha256": "bfab52239b8919c9baeb80095a12a8ba8c7c69850b8d18f20a7e411f31b04bde",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/make_rebuttal_evidence_matrix.py",
-      "bytes": 2369,
-      "sha256": "cc7c683de5c798c9fe174aeee214444e75fe6b44865fd5291b2d8f3c3bb5f570",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1961,29 +2199,22 @@
     },
     {
       "path": "scripts/multidentate_coverage.py",
-      "bytes": 11858,
-      "sha256": "b0870ef72a8ca4249df388d93690590c9bf17c92b17a1ee4f776741c59f61156",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/multidentate_tool_a_eval.py",
-      "bytes": 8024,
-      "sha256": "92cfc219adb208a394af138ef05012ad4c88220865ce314e40c206c8a51094b8",
+      "bytes": 11822,
+      "sha256": "cfa1617a2e158650566855bf4f766f05ba34b470c5577db119850430cfa61772",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/multidentate_validator.py",
-      "bytes": 12533,
-      "sha256": "67c5d85929f20ff4783fa9bcb0c2b71355ac5d7a1aa9ebe0b054052ae916e123",
+      "bytes": 12497,
+      "sha256": "8823e1620fd9a2ac6430d281c11c333f04006d27d4e8c36db22dc6fab768718c",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/optimize_identity_key.py",
-      "bytes": 12077,
-      "sha256": "14c2bcdfeebb87a1fd446b718d886f165716cd4b3b6500f71a2d7890959f0335",
+      "bytes": 12001,
+      "sha256": "f7ef55c0cdc4afcd889138d4057c8f5e5d23dc29186f1c05f2ef0f3174118d8f",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -2003,15 +2234,8 @@
     },
     {
       "path": "scripts/run_coordrep_compatibility.py",
-      "bytes": 11606,
-      "sha256": "67d33859221bf351f81706a42001da76cacefdbf9e19b0d7eb0db4120ce35ed8",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_csd_pathfinder.py",
-      "bytes": 45682,
-      "sha256": "f817a9af13d6fe124beae490d430a745a7af21d0455be7fbd61994a7cc5ee0f0",
+      "bytes": 11491,
+      "sha256": "dc654f0f72ef7366c293c2865c616f6033d2b6423385e4559622354541344507",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -2023,58 +2247,9 @@
       "publication_status": "current"
     },
     {
-      "path": "scripts/run_full_csd_scan.py",
-      "bytes": 7238,
-      "sha256": "d0e1c5486add875ae3cdd7addf98ba6543b151489a2b500749b08305fd772408",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
       "path": "scripts/run_hard_compatibility.py",
-      "bytes": 29505,
-      "sha256": "eb1d5b30e615da25cf62af04e6ab29df89767ce738bfca1f524982d61dce55b0",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_manual_chemical_audit.py",
-      "bytes": 22918,
-      "sha256": "3c108f235b931cb7236179fda4b5145c96cea14e928f4aa6e38935ebf95d11e4",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_tool_a_ablation.py",
-      "bytes": 18868,
-      "sha256": "6a26ed4a7c943d3fd05a6f9586dd17c5b2bb3f6c98d44fa0d6c124fd9496b750",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_tool_a_ablation_gpu.py",
-      "bytes": 21999,
-      "sha256": "0e14b9ebc6da0bef5b7c52b120d0e6fd77881db311e53a6f3bc0afca040ee56f",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_tool_a_from_preds.py",
-      "bytes": 7568,
-      "sha256": "e429f6998ab521451ffd4f04c7d5b69303f29bbb246f11f91b8cb09125c74750",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_tool_a_from_preds_ablation.py",
-      "bytes": 8896,
-      "sha256": "8917dd9b16bdc9c13075b1d027aaafd3d3a76180f75cc5cba139811698dbd870",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/run_toolb_baselines.py",
-      "bytes": 36092,
-      "sha256": "56aca05b406cb8b494827e83707165875bf24247a2120277104316a90e3fdaa3",
+      "bytes": 29390,
+      "sha256": "3c70bf424517cd0645c05687b60eb57de6b42954823e1dbdacb5e53799b4057d",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -2082,83 +2257,6 @@
       "path": "scripts/scope_table_gen.py",
       "bytes": 4471,
       "sha256": "d78e531934f486d32cefb8c923d9e54b8cfc655f0e0821194514c386e3858b26",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/screen_visual_families.py",
-      "bytes": 18343,
-      "sha256": "7d670ee8a0eb0319559b3208a60b18ee4866137a764fabb18c25888c5b27cfea",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/generate_identity_robustness_data.py",
-      "bytes": 7774,
-      "sha256": "4e970ee73441987cd119da1e1845305b811fa2ed4253bc03efa32d05f2abced4",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/generate_s3_data.py",
-      "bytes": 8357,
-      "sha256": "811e826fa8fb5a25ed482f258427b0fcc988f1e54db8fbfefd9e706eea46376a",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/jacs_style.py",
-      "bytes": 3881,
-      "sha256": "89448d7170f441d2dcdb2efa68f80662e4977f2f57823c5482bd4bd7d35f7b98",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/make_all_si_figures.py",
-      "bytes": 1943,
-      "sha256": "a65dfa4bbcffaef683341777cb1d056348f9fbf8049806fbd95ac56a847e45cd",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s2.py",
-      "bytes": 11278,
-      "sha256": "0c8d25ce83410f1cd3684e29e741760673aee386870ec869312d7e1dfd3af49c",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s3.py",
-      "bytes": 9328,
-      "sha256": "d7f0afc27d758052693447514ff27d2703dd548b9e9efc51f6dcb23aa7d78aec",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s4.py",
-      "bytes": 8216,
-      "sha256": "f213290639ef634a84f55b054f9d3a5948baa020fced63b463db5ade6c94933b",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s5.py",
-      "bytes": 13205,
-      "sha256": "e8146caefad44a8346a574a95984649ad724b395ee84eda196fd01076562a8d8",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s6.py",
-      "bytes": 11210,
-      "sha256": "f35a5bd601f328e6afa23c9642dea28314d91e6b70a560ea47b27ff7dcc2433b",
-      "role": "release documentation or supporting source",
-      "publication_status": "current"
-    },
-    {
-      "path": "scripts/si_figures/plot_fig_s7.py",
-      "bytes": 9614,
-      "sha256": "a728ed6980d192c36b6a27e4677fa80c8f567e31c087d7a9ed1324571d3b4144",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -2171,29 +2269,29 @@
     },
     {
       "path": "scripts/test_geometric_robustness.py",
-      "bytes": 27258,
-      "sha256": "a62d602d34afb44cc8dac4b14640a2ad00705a23c22ddc75bd6af0d533ffb688",
+      "bytes": 27182,
+      "sha256": "67c59806a50db7d1d52891ff00722763a208fe4910edab7a529aab943356ff4a",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/tokenizer_audit.py",
-      "bytes": 7711,
-      "sha256": "d18954eca59c2dcdc092b3d2c9d82ee94e675a0e4f2a64fe5c7e9d9551cf46f2",
+      "bytes": 7643,
+      "sha256": "f0769f5a3a5a2f9e9c003a938b2d08b14bafba1a72b121c4765eb3e1d6d306a7",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/train_coordrep_ranker.py",
-      "bytes": 11958,
-      "sha256": "787c516b5a419f8f19266c54cbf6f0d389ed902a068a8ddd2e9b15efde254991",
+      "bytes": 11860,
+      "sha256": "cc944f11e446c5023ecfbce3ae65190034ed9fa45f9fcc6f1b6ae44b98710b7d",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
     {
       "path": "scripts/train_ranker_minphys.py",
-      "bytes": 16084,
-      "sha256": "4643d9acd66a16ced85ad6574ca061fc2afd665b36d211e529fb52342ea31fd8",
+      "bytes": 15949,
+      "sha256": "3e29839b040fc749decee7717b1bf7b710494fb821c85038055210ac5e08a843",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },

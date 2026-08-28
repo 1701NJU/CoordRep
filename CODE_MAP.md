@@ -9,7 +9,7 @@ CoordRep/
 │   ├── coordrep/                    # rc3 grammar and attachment-aware canonicalizer
 │   ├── coordrep_tools/              # validators, features, and baselines
 │   ├── brain/                       # tokenizer and sequence-interface components
-│   ├── canonicalization/            # Figure 2/S2 locked experiments
+│   ├── canonicalization/            # Figure 2/S1 locked experiments
 │   ├── scripts/                     # benchmark and audit utilities
 │   ├── tests/                       # release and regression tests
 │   ├── figures/Figure1–Figure6/     # current artwork, captions, source tables

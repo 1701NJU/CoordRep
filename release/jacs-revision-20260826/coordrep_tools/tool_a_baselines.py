@@ -3,7 +3,7 @@
 tool_a_baselines.py
 ===================
 
-Three statistical baselines for Tool A donor-marker prediction:
+Three statistical baselines for the legacy donor-marker recovery diagnostic:
 
 A.  CondFreq(metal, CN)
     – Predict most frequent donor element for (metal, CN) pair.

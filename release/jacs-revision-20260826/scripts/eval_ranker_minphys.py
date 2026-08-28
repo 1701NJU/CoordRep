@@ -82,23 +82,23 @@ def _metal_row(m):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ranker_base",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker/best_finetuned.pt")
+                        default="inputs/checkpoints/coordrep_ranker/best_finetuned.pt")
     parser.add_argument("--minphys_only",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/ranker_minphys/best_minphys_only.pt")
+                        default="inputs/checkpoints/ranker_minphys/best_minphys_only.pt")
     parser.add_argument("--ranker_minphys",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/ranker_minphys/best_ranker_minphys.pt")
+                        default="inputs/checkpoints/ranker_minphys/best_ranker_minphys.pt")
     parser.add_argument("--shuffled_minphys",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/ranker_minphys/best_shuffled_minphys.pt")
+                        default="inputs/checkpoints/ranker_minphys/best_shuffled_minphys.pt")
     parser.add_argument("--mlm_checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--split_ids",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker/split_ids.json")
+                        default="inputs/checkpoints/coordrep_ranker/split_ids.json")
     parser.add_argument("--binner_json",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/ranker_minphys/binner.json")
+                        default="inputs/checkpoints/ranker_minphys/binner.json")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/revision_results/ranker_minphys")
+                        default="outputs/ranker_minphys")
     parser.add_argument("--decoys_per_real", type=int, default=20)
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--seed", type=int, default=42)

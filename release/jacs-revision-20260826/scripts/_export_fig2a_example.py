@@ -10,7 +10,7 @@ from coordrep.io.tmqm_reader import TMQMReader, Atom
 from coordrep.encode import encode_molecule
 from coordrep.identity.identity_keys import extract_identity_keys
 
-TMQM_DIR = '/data/CoordRep/CoordSMILES/tmQM-master/tmQM'
+TMQM_DIR = 'inputs/tmQM'
 OUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'revision_results', 'fig2a_example')
 MOL_ID = 'ZENBID'
 

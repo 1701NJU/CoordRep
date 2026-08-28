@@ -3,7 +3,7 @@
   "status": "current",
   "supersedes": "jacs-revision-20260823",
   "branch": "jacs-revision",
-  "manuscript_sync_date": "2026-08-26",
+  "manuscript_sync_date": "2026-08-28",
   "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry",
   "record_language_version": "1.1.2rc3",
   "audit_record_schema": "CoordRep-Record/3",
@@ -17,6 +17,8 @@
     "figure_4": "figures/Figure4",
     "figure_5": "figures/Figure5",
     "figure_6": "figures/Figure6",
+    "figure_6_molecular_rc3_validation": "figures/Figure6/validation/molecular_rc3",
+    "manuscript_captions": "figures/Figure1/Figure1_manuscript_caption_20260828.txt through figures/Figure6/Figure6_manuscript_caption_20260828.txt",
     "supplementary_figures": "figures/Supplementary",
     "supporting_information_audit_excerpt": "supporting_information",
     "periodic_protocol": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
@@ -39,6 +41,51 @@
       "numpy": "2.2.6",
       "scipy": "1.13.1"
     }
+  },
+  "molecular_rc3_revalidation": {
+    "source_release": "April 2025 CSD v6.00",
+    "record_language_version": "1.1.2rc3",
+    "frozen_rc2_selection_denominators": {
+      "strict_molecular_records": 101878,
+      "connectivity_supported_records": 84453
+    },
+    "rc3_end_to_end_eligibility": {
+      "strict_molecular_records": 101794,
+      "connectivity_supported_records": 84449
+    },
+    "active_family_cohort": {
+      "multi_record_families": 3491,
+      "records": 9056,
+      "membership_exactly_unchanged": true,
+      "membership_digest_sha256": "0ecb6c26bd2012c42855dbf6b96fe396773dcafe488771107b952fab547b06fd",
+      "missing_identity_keys": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 0
+      }
+    },
+    "mean_pairwise_within_family_agreement_percent": {
+      "L0": 11.269240969344349,
+      "L1": 83.48603147935867,
+      "L2": 96.59930509710813,
+      "L3": 97.34216769617237
+    },
+    "complete_family_counts": {
+      "L0": 357,
+      "L1": 2836,
+      "L2": 3350,
+      "L3": 3378
+    },
+    "public_evidence": "figures/Figure6/validation/molecular_rc3",
+    "scope_boundary": "Figure 6A-C report rc3 identity values for the exactly unchanged frozen 3,491-family/9,056-record cohort; frozen selection and rc3 eligibility denominators are reported separately. Figure 6D-E remain periodic-v3 evidence."
+  },
+  "property_figure_4": {
+    "status": "frozen_pre_rc3_manuscript_benchmark",
+    "relation_hybrid_coordrep_version": "1.1.2rc2",
+    "shape_hybrid_coordrep_version": "1.1.2rc1",
+    "active_source": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_source_data.csv",
+    "scope_boundary": "The active Figure 4 is retained unchanged to match the manuscript; it is not described as an rc3 model result."
   },
   "full_csd_audit": {
     "all_entries": 1371757,

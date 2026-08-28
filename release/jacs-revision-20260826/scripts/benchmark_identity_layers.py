@@ -241,10 +241,10 @@ def stratified_summary(df: pd.DataFrame, group_col: str) -> pd.DataFrame:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tmqm-dir", default="/data/CoordRep/CoordSMILES/tmQM-master/tmQM")
+    parser.add_argument("--tmqm-dir", default="inputs/tmQM")
     parser.add_argument("--n-molecules", type=int, default=200)
     parser.add_argument("--n-trials", type=int, default=30)
-    parser.add_argument("--output-dir", default="/data/CoordRep/coordrep-release/libcoordrep/outputs/identity_benchmark")
+    parser.add_argument("--output-dir", default="outputs/identity_benchmark")
     args = parser.parse_args()
 
     out = Path(args.output_dir)

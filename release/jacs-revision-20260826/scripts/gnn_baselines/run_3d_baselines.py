@@ -524,7 +524,7 @@ def run_task_b(args, device):
     from coordrep_tools.ranker_dataset import _extract_unique_complexes, split_complexes
     from coordrep_tools.hard_decoys import HardDecoyPool, generate_all_hard_decoys
 
-    fig5_path = "/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl"
+    fig5_path = "inputs/property_benchmarks/fig5_tasks.jsonl"
 
     print("Loading complexes …")
     complexes = _extract_unique_complexes(fig5_path)

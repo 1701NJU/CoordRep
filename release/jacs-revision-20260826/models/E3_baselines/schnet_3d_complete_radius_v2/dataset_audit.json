@@ -36,7 +36,7 @@
   "pair_prediction_rows": 6585,
   "pair_metric_rows": 30,
   "pair_manifest_audit": {
-    "source": "frozen pair manifest: C:\\Users\\LUOwenlin\\Desktop\\PWHXXZ\\coordREP\\JACS\\revision_experiments\\results\\coordstate_pairs_manifest_v1\\pairs.csv",
+    "source": "frozen pair manifest: coordstate_pairs_manifest_v1/pairs.csv",
     "rows": 2977,
     "level_pair_counts": {
       "G0": 2977,
@@ -166,7 +166,7 @@
     "passed": true,
     "scope": "Implementation regression under proper rotation, reflection, translation, and ten atom permutations on a dense graph with more than 32 neighbors per atom; this verifies invariant scalar outputs, not an empirical property-performance result."
   },
-  "fold_assignment_source": "shared manifest: C:\\Users\\LUOwenlin\\Desktop\\PWHXXZ\\coordREP\\JACS\\revision_experiments\\results\\coordstate_pairs_manifest_v1\\records.csv",
+  "fold_assignment_source": "shared manifest: coordstate_pairs_manifest_v1/records.csv",
   "validation_policy": "deterministic graph-group hash within each outer-training partition; fraction=0.125 of non-test graph groups",
   "target_leakage_controls": [
     "outer test membership determined only by graph group/manifest",

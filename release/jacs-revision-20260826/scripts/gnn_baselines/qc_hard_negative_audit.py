@@ -81,7 +81,7 @@ def main():
     out_dir = "revision_results/gnn_baselines"
     os.makedirs(out_dir, exist_ok=True)
 
-    fig5_path = "/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl"
+    fig5_path = "inputs/property_benchmarks/fig5_tasks.jsonl"
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     seed = 42
 
@@ -92,7 +92,7 @@ def main():
     print(f"  train={len(train_cx)} val={len(val_cx)} test={len(test_cx)}")
 
     # Verify against saved split
-    cr_split_path = "/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker/split_ids.json"
+    cr_split_path = "inputs/checkpoints/coordrep_ranker/split_ids.json"
     with open(cr_split_path) as f:
         cr_split = json.load(f)
     assert set(c['id'] for c in test_cx) == set(cr_split['test']), "SPLIT MISMATCH!"

@@ -1,4 +1,4 @@
-# CoordRep Tools: Design Assistant (Tool A) and Spellchecker (Tool B)
+# CoordRep Tools: legacy donor-field recovery diagnostics and syntax repair
 #
 # Torch-dependent modules are imported lazily so that pure-Python
 # utilities (baselines, masking, ablation eval) work without GPU.

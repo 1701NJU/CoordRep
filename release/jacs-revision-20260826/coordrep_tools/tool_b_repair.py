@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Tool B: / (Spellchecker)
+Legacy CoordRep syntax-repair utility (formerly "Tool B").
 
-/ CoordRep
+This module repairs masked or corrupted record tokens; it does not validate a
+proposed chemical structure.
 """
 
 import json

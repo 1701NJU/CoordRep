@@ -165,14 +165,14 @@ def evaluate_config(
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tmqm-dir", default="/data/CoordRep/CoordSMILES/tmQM-master/tmQM")
+    parser.add_argument("--tmqm-dir", default="inputs/tmQM")
     parser.add_argument("--n-molecules", type=int, default=100)
     parser.add_argument("--n-trials", type=int, default=20)
     parser.add_argument("--sigma", type=float, default=0.01)
     parser.add_argument("--lambda-stereo", type=float, default=2.0,
                         help="Penalty weight for stereo-discrimination loss")
     parser.add_argument("--output-dir",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/outputs/identity_optimize")
+                        default="outputs/identity_optimize")
     args = parser.parse_args()
 
     out = Path(args.output_dir)

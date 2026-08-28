@@ -31,24 +31,30 @@ A,field retained,serialized CShM + donor-site map,1,binary,L0 State
 A,field retained,serialized CShM + donor-site map,0,binary,L1 ShapeID
 A,field retained,serialized CShM + donor-site map,0,binary,L2 TopoID
 A,field retained,serialized CShM + donor-site map,0,binary,L3 ConnID*
-B,mean pairwise agreement,L0,11.226683,percent,3491 base-refcode families
-B,mean pairwise agreement,L1,83.514677,percent,3491 base-refcode families
-B,mean pairwise agreement,L2,96.627950,percent,3491 base-refcode families
-B,mean pairwise agreement,L3,97.370813,percent,3491 base-refcode families
-B,complete concordance,L0,10.197651,percent,356/3491
-B,complete concordance,L1,81.266113,percent,2837/3491
-B,complete concordance,L2,95.989688,percent,3351/3491
-B,complete concordance,L3,96.791750,percent,3379/3491
+B,mean pairwise agreement,L0,11.269240969344349,percent,3491 base-refcode families
+B,mean pairwise agreement,L1,83.48603147935867,percent,3491 base-refcode families
+B,mean pairwise agreement,L2,96.59930509710813,percent,3491 base-refcode families
+B,mean pairwise agreement,L3,97.34216769617237,percent,3491 base-refcode families
+B,complete concordance,L0,10.22629619020338,percent,357/3491
+B,complete concordance,L1,81.23746777427671,percent,2836/3491
+B,complete concordance,L2,95.96104268118017,percent,3350/3491
+B,complete concordance,L3,96.76310512747064,percent,3378/3491
+B,rc3 frozen-family cohort,families,3491,families,Membership exactly unchanged from the frozen rc2-selected cohort
+B,rc3 frozen-family cohort,records,9056,records,Membership exactly unchanged from the frozen rc2-selected cohort
+B,frozen selection denominator,strict molecular tier,101878,records,rc2 selection denominator retained for cohort provenance
+B,frozen selection denominator,connectivity-supported tier,84453,records,rc2 selection denominator retained for cohort provenance
+B,rc3 end-to-end eligibility,strict molecular tier,101794,records,April 2025 CSD rerun with CoordRep 1.1.2rc3
+B,rc3 end-to-end eligibility,connectivity-supported tier,84449,records,April 2025 CSD rerun with CoordRep 1.1.2rc3
 C,XEYVEC,XEYVEC,6.918371232079441,S(Td),Td; yellow C2/c
-C,XEYVEC,XEYVEC,11.764741731531167,S(SP),Td; yellow C2/c
-C,XEYVEC,XEYVEC01,11.843055979522857,S(Td),SP; green P-1
+C,XEYVEC,XEYVEC,11.764741731531132,S(SP),Td; yellow C2/c
+C,XEYVEC,XEYVEC01,11.843055979522822,S(Td),SP; green P-1
 C,XEYVEC,XEYVEC01,6.823632197892317,S(SP),SP; green P-1
 C,XEYVEC,XEYVEC02,7.419001472909977,S(Td),Td; yellow C2/c
 C,XEYVEC,XEYVEC02,11.144443516074775,S(SP),Td; yellow C2/c
 C,XEYVEC,XEYVEC03,11.84788137862971,S(Td),SP; green P-1
 C,XEYVEC,XEYVEC03,6.819712325307487,S(SP),SP; green P-1
-C,XEYVEC,XEYVEC04,7.495256149011058,S(Td),Td; yellow C2/c
-C,XEYVEC,XEYVEC04,11.053105589102975,S(SP),Td; yellow C2/c
+C,XEYVEC,XEYVEC04,7.495256149011022,S(Td),Td; yellow C2/c
+C,XEYVEC,XEYVEC04,11.053105589102993,S(SP),Td; yellow C2/c
 C,XEYVEC hierarchy,L0,5,identities,corrected coordinate-space CShM scan
 C,XEYVEC hierarchy,L1,2,identities,corrected coordinate-space CShM scan
 C,XEYVEC hierarchy,L2,2,identities,corrected coordinate-space CShM scan

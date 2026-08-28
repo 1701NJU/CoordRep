@@ -8,7 +8,35 @@
     "source_release": "jacs-revision-20260823",
     "general_invariance": "300000/300000 exact CoordRep-State matches",
     "legal_orbit_challenge": "100000/100000 full-exact matches; 64834/100000 signature-only matches",
-    "compatibility_boundary": "Figure 2 and Supplementary Figure S2 are rc3 evidence. Figure 4 and the molecular-family benchmark in Figure 6 remain frozen rc2 downstream evidence and were not rerun under rc3."
+    "compatibility_boundary": "Figure 2 and Supplementary Figure S1 are rc3 canonicalization evidence. Figure 6A-C report rc3 re-encoding of the exactly unchanged frozen molecular-family cohort. Figure 6D-E use the separate periodic-v3 construction."
+  },
+  "property_figure_4": {
+    "status": "frozen_pre_rc3_manuscript_benchmark",
+    "relation_hybrid_inputs": "CoordRep 1.1.2rc2",
+    "shape_hybrid_inputs": "CoordRep 1.1.2rc1",
+    "graph_and_cartesian_controls": "frozen released inputs",
+    "scope_boundary": "The active Figure 4, source table, and caption reproduce the manuscript benchmark. No Figure 4 model or metric is relabelled as rc3, and no post-canonicalizer retraining claim is made."
+  },
+  "molecular_figure_6": {
+    "construction": "Frozen rc2-selected molecular family cohort re-encoded with CoordRep 1.1.2rc3",
+    "frozen_rc2_selection": "101878 strict molecular records; 84453 connectivity-supported records",
+    "rc3_end_to_end_eligibility": "101794 strict molecular records; 84449 connectivity-supported records",
+    "active_family_cohort": "3491 families; 9056 records; membership exactly unchanged; no missing L0-L3 keys",
+    "membership_digest_sha256": "0ecb6c26bd2012c42855dbf6b96fe396773dcafe488771107b952fab547b06fd",
+    "mean_pairwise_agreement_percent_L0_to_L3": [
+      11.269240969344349,
+      83.48603147935867,
+      96.59930509710813,
+      97.34216769617237
+    ],
+    "complete_family_counts_L0_to_L3": [
+      357,
+      2836,
+      3350,
+      3378
+    ],
+    "public_evidence": "figures/Figure6/validation/molecular_rc3/",
+    "scope_boundary": "Frozen selection denominators and rc3 end-to-end eligibility are distinct; Figure 6 uses the exactly unchanged frozen cohort and reports rc3 identity values."
   },
   "full_csd_audit": {
     "protocol_id": "csd-all-metal-structure-audit-20260825-v1",

@@ -192,10 +192,10 @@ def formula_to_graph(
 
 # ── Pipeline data loading ─────────────────────────────────
 
-PIPELINE_PATH = "/data/CoordRep/CoordSMILES/pipeline_full_output/results.jsonl"
-FIG5_PATH = "/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl"
-TMQM_XYZ_DIR = "/data/CoordRep/CoordSMILES/tmQM-master/tmQM"
-CSD_PATH = "/data/CoordRep/coordrep-release/libcoordrep/revision_results/csd_external/csd_retained_entries.jsonl"
+PIPELINE_PATH = "inputs/tmqm/results.jsonl"
+FIG5_PATH = "inputs/property_benchmarks/fig5_tasks.jsonl"
+TMQM_XYZ_DIR = "inputs/tmQM"
+CSD_PATH = "inputs/csd/csd_retained_entries.jsonl"
 
 
 def load_pipeline_data(max_n: Optional[int] = None) -> List[dict]:

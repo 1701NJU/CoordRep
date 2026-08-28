@@ -1,8 +1,8 @@
 # CoordRep — JACS revision release (2026-08-26)
 
-**Status: current and publication-facing.** This frozen directory supersedes
-`release/jacs-revision-20260823/` and synchronizes the revised Figure 5 and
-release-wide April 2025 CSD audit with the all-metal manuscript scope.
+**Status: current and publication-facing.** This directory supersedes the
+2026-08-23 package retained in Git history and synchronizes the revised Figure
+5 and release-wide April 2025 CSD audit with the all-metal manuscript scope.
 
 ## Evidence map
 
@@ -27,11 +27,16 @@ legal-orbit challenge matched 100,000/100,000 variants, whereas the
 signature-only ablation matched 64,834/100,000.
 
 Attachment-aware payloads can change canonical strings, token sequences, and
-molecular L0–L3 hashes relative to rc2. Figure 2 and Supplementary Figure S2
-are rc3 evidence. Figure 4 and the molecular-family portion of Figure 6 remain
-frozen rc2 downstream evidence and are not represented as rc3 reruns.
-Release-wide CSD typed-record counts do not depend on final rc3 string
-ordering. Periodic MID/SID results use the separate periodic-v3 construction.
+molecular L0–L3 hashes relative to rc2. Figure 2 and Supplementary Figure S1
+are rc3 evidence. Figure 6A–C report rc3 re-encoding of the exactly unchanged
+frozen molecular-family cohort (3,491 families; 9,056 records); the frozen
+selection and rc3 rerun denominators are disclosed separately in the Figure 6
+evidence. Figure 4 remains the frozen pre-rc3 property benchmark reported in
+the manuscript: its relation hybrids use rc2 inputs and its shape hybrids use
+rc1 inputs, as disclosed with the figure. No Figure 4 result is relabelled as
+rc3. Release-wide CSD typed-record counts do not depend on
+final rc3 string ordering. Figure 6D–E use the separate periodic-v3
+construction.
 
 ## All-metal CSD audit lock
 
@@ -78,6 +83,6 @@ the public release tree.
 
 ## Historical package
 
-The complete 2026-08-23 package remains frozen at
-`release/jacs-revision-20260823/`. It records the preceding 3D d-block audit
-and is historical, not current Figure 5 or manuscript evidence.
+The preceding 2026-08-23 d-block package is retained in Git history at commit
+`bba8300`; it is not present in the active release tree and is not current
+Figure 5 or manuscript evidence.

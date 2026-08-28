@@ -179,7 +179,7 @@ def build_svg() -> str:
 def build_pdf(path: Path) -> None:
     pdfmetrics.registerFont(TTFont("Arial", str(ARIAL)))
     c = canvas.Canvas(str(path), pagesize=(7.15 * 72, 3.25 * 72))
-    png = HERE / "Supplementary_Figure_S2_Canonicalization_Complexity.png"
+    png = HERE / "Supplementary_Figure_S1_Canonicalization_Complexity.png"
     c.drawImage(str(png), 0, 0, width=7.15 * 72, height=3.25 * 72)
     c.showPage()
     c.save()
@@ -197,7 +197,7 @@ def write_source_data() -> None:
             rows.append({"panel": "B", "series": method, "category": stat,
                          "statistic": "wall time per call", "value": value,
                          "unit": "ms", "denominator_or_calls": 101000})
-    with (HERE / "Supplementary_Figure_S2_source_data.csv").open(
+    with (HERE / "Supplementary_Figure_S1_source_data.csv").open(
         "w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
@@ -206,7 +206,7 @@ def write_source_data() -> None:
 
 def write_caption_and_notes() -> None:
     caption = (
-        "Supplementary Figure S2. Search complexity and computational cost of "
+        "Supplementary Figure S1. Search complexity and computational cost of "
         "attachment-aware exact canonicalization. (A) Distribution of the exact "
         "legal-candidate count among the 5,173 challenge-eligible records identified "
         "from 6,427 unique graph-disjoint tmQMg/PBE CN = 4–6 snapshots. Candidate "
@@ -222,16 +222,17 @@ def write_caption_and_notes() -> None:
         "grammar round trips, stable candidate counts for 1,000/1,000 structures, zero "
         "variant errors, and zero false merges in the declared attachment control."
     )
-    (HERE / "Supplementary_Figure_S2_caption.txt").write_text(
+    (HERE / "Supplementary_Figure_S1_caption.txt").write_text(
         caption + "\n", encoding="utf-8", newline="\n")
-    readme = "# Supplementary Figure S2\n\n"
+    readme = "# Supplementary Figure S1\n\n"
     readme += "This figure is derived from the frozen 2026-08-22 legal-orbit canonicalization challenge.\n\n"
     readme += "- Source population: 6,427 graph-disjoint tmQMg/PBE CN = 4–6 snapshots.\n"
     readme += "- Challenge-eligible population: 5,173 records.\n"
     readme += "- Executed cohort: N = 1,000; K = 100 atom reindexings.\n"
     readme += "- Timing values are descriptive wall-clock measurements from the frozen run.\n"
     readme += "- No licensed CSD structures or coordinates are included.\n"
-    (HERE / "README.md").write_text(readme, encoding="utf-8", newline="\n")
+    (HERE / "Supplementary_Figure_S1_README.md").write_text(
+        readme, encoding="utf-8", newline="\n")
 
 
 def write_qa() -> None:
@@ -243,26 +244,33 @@ def write_qa() -> None:
           "variant_errors": 0, "false_merges": 0}
     if qa["candidate_distribution_sum"] != qa["expected_challenge_eligible"]:
         raise RuntimeError("candidate-count distribution does not sum to 5,173")
-    (HERE / "Supplementary_Figure_S2_QA.json").write_text(
+    (HERE / "Supplementary_Figure_S1_QA.json").write_text(
         json.dumps(qa, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def write_checksums() -> None:
-    targets = sorted(p for p in HERE.iterdir() if p.is_file()
-                     and p.name != "Supplementary_Figure_S2_SHA256SUMS.txt"
-                     and p.suffix.lower() != ".pyc")
+    targets = sorted(
+        p for p in HERE.iterdir()
+        if p.is_file()
+        and p.name != "Supplementary_Figure_S1_SHA256SUMS.txt"
+        and (
+            p.name.startswith("Supplementary_Figure_S1")
+            or p.name == Path(__file__).name
+        )
+        and p.suffix.lower() != ".pyc"
+    )
     lines = [f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}" for p in targets]
-    (HERE / "Supplementary_Figure_S2_SHA256SUMS.txt").write_text(
+    (HERE / "Supplementary_Figure_S1_SHA256SUMS.txt").write_text(
         "\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def main() -> None:
-    stem = HERE / "Supplementary_Figure_S2_Canonicalization_Complexity"
+    stem = HERE / "Supplementary_Figure_S1_Canonicalization_Complexity"
     image = build_raster(600)
     image.save(stem.with_suffix(".png"), dpi=(600, 600), optimize=True)
     image.save(stem.with_suffix(".tif"), dpi=(600, 600), compression="tiff_lzw")
     preview = build_raster(180)
-    preview.save(HERE / "Supplementary_Figure_S2_preview_180dpi.png", dpi=(180, 180), optimize=True)
+    preview.save(HERE / "Supplementary_Figure_S1_preview_180dpi.png", dpi=(180, 180), optimize=True)
     stem.with_suffix(".svg").write_text(build_svg(), encoding="utf-8", newline="\n")
     build_pdf(stem.with_suffix(".pdf"))
     write_source_data()

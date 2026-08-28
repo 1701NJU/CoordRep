@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Tool A: Donor (Design Assistant)
+Legacy donor-field recovery diagnostic (formerly "Tool A")
 
-        " + " Top-k donor atom
+Top-k recovery of a masked donor annotation within a known ligand record.
+This module does not recommend ligands or establish chemical viability.
 """
 
 import json

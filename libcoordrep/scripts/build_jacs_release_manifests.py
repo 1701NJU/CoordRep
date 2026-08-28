@@ -31,9 +31,11 @@ BINARY_SUFFIXES = {
     ".zip",
 }
 SUBTREE_CHECKSUM_DIRS = [
+    RELEASE / "audits" / "full_csd",
     RELEASE / "canonicalization" / "general_invariance",
     RELEASE / "canonicalization" / "legal_orbit_challenge",
     RELEASE / "canonicalization" / "expanded_record_regressions",
+    RELEASE / "figures" / "Figure6" / "validation" / "molecular_rc3",
 ]
 
 

@@ -376,7 +376,7 @@ def evaluate_gin_ranker(model, test_items, device, method_name):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--fig5",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--max_test", type=int, default=1000)
     parser.add_argument("--decoys_per_real", type=int, default=20)
     parser.add_argument("--gin_epochs", type=int, default=15)

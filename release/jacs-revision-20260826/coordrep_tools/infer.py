@@ -2,7 +2,7 @@
 """
 MLM
 
- mlm_topk Tool A/B baselines
+Masked-field recovery and syntax-repair inference helpers.
 """
 
 import sys

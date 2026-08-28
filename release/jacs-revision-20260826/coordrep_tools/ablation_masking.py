@@ -3,7 +3,7 @@
 ablation_masking.py
 ===================
 
-Token-level masking functions for Tool A donor-marker ablation.
+Token-level masking functions for the legacy donor-field recovery diagnostic.
 
 Each function operates on a **token list** (as produced by CoordRepTokenizer
 or stored in fig5_tasks.jsonl ``tokens``/``masked_tokens`` fields) and
@@ -12,7 +12,7 @@ or special placeholder tokens.
 
 Ablation modes
 --------------
-A.  ``full_context``              – current Tool A: mask donor marker only
+A.  ``full_context``              – mask donor marker only
 B.  ``no_ligand_smiles_keep_length`` – mask donor + SMILES chars, keep length
 C.  ``no_ligand_smiles_collapsed``   – mask donor + collapse SMILES to [LIGMASK]
 D.  ``no_geometry_stereo``        – mask shape + constraint blocks, keep SMILES

@@ -3,7 +3,7 @@
 tool_a_ablation_eval.py
 =======================
 
-Evaluate Tool A donor-marker prediction under ablation modes,
+Evaluate legacy donor-marker recovery under ablation modes,
 with stratified metrics by denticity, CN, metal row, donor element,
 and ligand frequency.
 

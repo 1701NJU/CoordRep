@@ -1,4 +1,4 @@
-# CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry
+# CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry
 
 This `jacs-revision` branch contains the public code and evidence for the
 current manuscript, **CoordRep: A Canonical, Continuous, and Compositional
@@ -37,19 +37,33 @@ periodic relations in the release-wide audit are derived from the CSD-native
 molecular bond graph; no distance-derived contact is added. Raw licensed CSD
 coordinates and row-level ledgers are not redistributed.
 
+## Reproducibility boundary
+
+The release provides source code, public aggregate/source tables, model
+configurations, split and metric summaries where redistribution is permitted,
+publication artwork, manifests, and checksums. These materials support
+numerical auditing and rerunning the explicitly documented public analyses.
+Trained checkpoint weights are not included, and the repository does not claim
+that every figure can be regenerated from aggregate CSV files alone. Full CSD
+extraction requires a locally licensed April 2025 CSD installation.
+
 ## Canonicalization version boundary
 
 CoordRep **1.1.2rc3** adds ligand-local attachment-set keys, donor-attachment
 orbits, exact residual-orbit enumeration, and fail-closed handling when the
-metadata required to establish exchangeability is unavailable. Figure 2 and
-Supplementary Figure S2 are the locked rc3 canonicalization evidence.
+metadata required to establish exchangeability is unavailable.
 
 This change can alter molecular strings, token sequences, and L0–L3 hashes
-relative to rc2. Figure 4 and the molecular-family statistics shown in Figure
-6 remain explicitly labelled frozen rc2 evidence; they are not claimed as rc3
-reruns. Release-wide CSD counts are typed-record census quantities and do not
-depend on final rc3 string ordering. Periodic MID/SID results use the separate
-frozen periodic-v3 identity construction.
+relative to rc2. Figure 2 and Supplementary Figure S1 are the locked rc3
+canonicalization evidence. Figure 6A–C report rc3 re-encoding of the exactly
+unchanged frozen molecular-family cohort (3,491 families; 9,056 records); the
+selection and rerun denominators are disclosed separately in the Figure 6
+evidence. Figure 4 remains the frozen pre-rc3 property benchmark reported in
+the manuscript: its relation hybrids use rc2 inputs and its shape hybrids use
+rc1 inputs, as disclosed with the figure. No Figure 4 result is relabelled as
+rc3. Release-wide CSD counts are typed-record census
+quantities and do not depend on final rc3 string ordering. Figure 6D–E use the
+separate frozen periodic-v3 identity construction.
 
 ## Start here
 

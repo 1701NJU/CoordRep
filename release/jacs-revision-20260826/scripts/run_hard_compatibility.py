@@ -222,11 +222,11 @@ def _mega_batch_score(model_path, tokenizer_obj,
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--test",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/revision_results/coordrep_score_hard")
+                        default="outputs/coordrep_score_hard")
     parser.add_argument("--decoys-per-type", type=int, default=8)
     parser.add_argument("--max-complexes", type=int, default=0)
     parser.add_argument("--gpu-batch", type=int, default=128)

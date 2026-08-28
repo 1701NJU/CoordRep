@@ -9,6 +9,6 @@ In particular, files below `revision_results/` may contain retired v1/v2-beta
 claims, old Figure 5G/Rosetta outputs, or superseded periodic values.
 Do not use those files as current manuscript evidence.
 
-Current manuscript evidence is in `../release/jacs-revision-20260826/`,
-and `release/jacs-revision-20260823/` plus `release/jacs-revision-20260819/`
-are retained as historical superseded releases.
+Current manuscript evidence is in `../release/jacs-revision-20260826/`.
+Earlier dated packages are retained in Git history and are not present in the
+active release tree.

@@ -22,9 +22,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--tokenizer",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/tokenizer.json")
+                        default="inputs/checkpoints/pretrain_v3/tokenizer.json")
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/pipeline_full_output/results.jsonl")
+                        default="inputs/tmqm/results.jsonl")
     parser.add_argument("--n_sample", type=int, default=1000)
     parser.add_argument("--out", default="revision_results/factorized_token")
     args = parser.parse_args()

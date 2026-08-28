@@ -86,11 +86,11 @@ def evaluate(model, loader, loss_fn, device):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mlm_checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker")
+                        default="outputs/checkpoints/coordrep_ranker")
     parser.add_argument("--loss", choices=["margin", "bce", "listwise"], default="listwise")
     parser.add_argument("--freeze_encoder", action="store_true")
     parser.add_argument("--no-freeze_encoder", dest="freeze_encoder", action="store_false")

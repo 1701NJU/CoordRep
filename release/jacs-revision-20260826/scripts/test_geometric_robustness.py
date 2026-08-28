@@ -475,14 +475,14 @@ def main():
 
     parser = argparse.ArgumentParser(description="Geometric robustness analysis for CoordRep")
     parser.add_argument("--tmqm-dir", type=str,
-                        default="/data/CoordRep/CoordSMILES/tmQM-master/tmQM",
+                        default="inputs/tmQM",
                         help="Path to tmQM data directory")
     parser.add_argument("--n-molecules", type=int, default=200,
                         help="Number of molecules for perturbation sweep")
     parser.add_argument("--n-trials", type=int, default=50,
                         help="Number of noise trials per molecule per sigma")
     parser.add_argument("--output-dir", type=str,
-                        default="/data/CoordRep/coordrep-release/libcoordrep/outputs/robustness",
+                        default="outputs/robustness",
                         help="Output directory")
     args = parser.parse_args()
 

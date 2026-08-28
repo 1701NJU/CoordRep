@@ -70,11 +70,11 @@ def _extract_unique_complexes(tasks_path: str) -> List[dict]:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--test",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/revision_results/coordrep_score")
+                        default="outputs/coordrep_score")
     parser.add_argument("--decoys-per-type", type=int, default=10)
     parser.add_argument("--pll-mode", default="mask_chunked",
                         choices=["mask_one_token", "mask_field", "mask_all", "mask_chunked"])

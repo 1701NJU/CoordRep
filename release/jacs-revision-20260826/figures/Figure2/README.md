@@ -18,3 +18,6 @@ The evidence comprises:
 The cohort is a fixed tmQMg/PBE molecular challenge, not an April 2025 CSD
 prevalence sample. The attachment-aware implementation is frozen as CoordRep
 1.1.2rc3. Detailed evidence is under `../../canonicalization/`.
+
+`Figure2_manuscript_caption_20260828.txt` is the publication-facing caption;
+the longer dated caption retains protocol and claim-boundary notes.

@@ -191,13 +191,13 @@ def main():
     parser.add_argument("--ranker_finetuned",
                         default="")
     parser.add_argument("--mlm_checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--split_ids", default="",
                         help="Path to split_ids.json from training")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/revision_results/coordrep_ranker")
+                        default="outputs/coordrep_ranker")
     parser.add_argument("--decoys_per_real", type=int, default=20)
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--seed", type=int, default=42)

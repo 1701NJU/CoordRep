@@ -145,6 +145,8 @@ N = 1,000, K = 100 general-invariance experiment and the separate 100,000-
 variant legal-orbit challenge were subsequently completed and are archived in
 `canonicalization/general_invariance/` and
 `canonicalization/legal_orbit_challenge/`. The repair can change molecular
-strings and L0–L3 hashes relative to rc2; the frozen Figure 4 property
-benchmarks and molecular-family statistics were not rerun under rc3 and remain
-explicitly labelled rc2 downstream evidence.
+strings and L0–L3 hashes relative to rc2. Figure 4 remains the frozen pre-rc3
+manuscript benchmark (relation hybrids: rc2; shape hybrids: rc1) and is neither
+rerun nor relabelled as rc3. Figure 6A–C instead use the separate rc3
+re-encoding of the exactly unchanged frozen molecular-family cohort documented
+under `figures/Figure6/validation/molecular_rc3/`.

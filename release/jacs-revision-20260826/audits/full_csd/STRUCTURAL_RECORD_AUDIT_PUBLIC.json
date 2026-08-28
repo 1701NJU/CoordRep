@@ -10,11 +10,11 @@
   "coordination_incidences": 11790219,
   "database_entries_evaluated": 1371757,
   "database_fingerprint": {
-    "argument": "/data/CoordRep/csd_apr2025/as600be_CIP.sqlite",
+    "argument": "as600be_CIP.sqlite (licensed local installation)",
     "entry_count": 1371757,
     "file_size": 9558114304,
     "mtime_ns": 1743324419000000000,
-    "resolved_file": "/data/CoordRep/csd_apr2025/as600be_CIP.sqlite"
+    "resolved_file": "as600be_CIP.sqlite"
   },
   "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
   "entries_all_metal_sites_structural": 733004,

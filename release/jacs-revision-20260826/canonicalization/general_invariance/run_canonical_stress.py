@@ -64,57 +64,25 @@ import numpy as np
 
 SCRIPT = Path(__file__).resolve()
 OUT = SCRIPT.parent
-ROOT = SCRIPT.parents[3]
+ROOT = SCRIPT.parents[4]
 
-PUBLIC_REPO = ROOT / "tmp" / "github_audit_coordrep_20260806"
-PUBLIC_RELEASE = PUBLIC_REPO / "release" / "jacs-revision-20260819"
-CANDIDATE_FIX = (
-    ROOT
-    / "rew20260817"
-    / "figure2_redesign_20260822"
-    / "canonical_fix_20260822"
-)
-RC2_RECORDS = (
-    ROOT
-    / "revision_experiments"
-    / "results"
-    / "coordrep_1_1_2_corrected_cshm_pbe31121_rc2_v2"
-    / "records.jsonl"
-)
-MATCHED_RECORDS = (
-    ROOT
-    / "revision_experiments"
-    / "results"
-    / "trex_coordrep_conflict_audit_v1"
-    / "matched_records.csv"
-)
-SINGLE_METAL_AUDIT = (
-    ROOT
-    / "revision_experiments"
-    / "results"
-    / "frozen_coordrep_pbe_serializer_full31121_v1"
-    / "record_audit.csv"
-)
-PBE_ZIP = (
-    ROOT
-    / "revision_experiments"
-    / "source_cache"
-    / "official_tmqmg_github_xyz"
-    / "tmQMg_xyz.zip"
-)
-PBE_ZIP_MANIFEST = PBE_ZIP.with_name("SOURCE_MANIFEST.json")
-FAC_MOL2 = (
-    ROOT
-    / "rew20260817"
-    / "Fig2_Fig5_FullCSD_Redraw_20260818"
-    / "structures"
-    / "EBAGAR.mol2"
-)
-MER_MOL2 = FAC_MOL2.with_name("EBAGEV.mol2")
+PUBLIC_REPO = ROOT
+PUBLIC_RELEASE = SCRIPT.parents[2]
+CANDIDATE_FIX = ROOT / "__task_local_candidate_not_configured__"
 
-EXPECTED_PUBLIC_COMMIT = "8a51e6eac370fd5ff20d0b26df834e2b61f5e90b"
+# Nonredistributable or separately obtained inputs are supplied explicitly on
+# the command line. They are assigned in main() before any data-loading helper
+# is called.
+RC2_RECORDS = Path()
+MATCHED_RECORDS = Path()
+SINGLE_METAL_AUDIT = Path()
+PBE_ZIP = Path()
+PBE_ZIP_MANIFEST = Path()
+FAC_MOL2 = Path()
+MER_MOL2 = Path()
+
 EXPECTED_PUBLIC_CANONICALIZER_SHA256 = (
-    "eeee838333f78e0f1f16a3f2c51a009a076640dc28e83ae31f51703a23aa8f7f"
+    "753f13ed93dd9b41221097f72cd8f2a037c27bd3c202097a07df5c1b91866967"
 )
 EXPECTED_PUBLIC_ENCODER_SHA256 = (
     "cbfb61492de3cb8853deb0eb24c7a0182fb455ca5d94f30da8f10f70a014d9a5"
@@ -220,8 +188,20 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--patch-mode",
         choices=("source", "minimal_smoke"),
-        default="minimal_smoke",
+        default="source",
     )
+    parser.add_argument("--rc2-records", type=Path, required=True)
+    parser.add_argument("--matched-records", type=Path, required=True)
+    parser.add_argument("--single-metal-audit", type=Path, required=True)
+    parser.add_argument("--pbe-zip", type=Path, required=True)
+    parser.add_argument(
+        "--pbe-zip-manifest",
+        type=Path,
+        default=None,
+        help="Defaults to SOURCE_MANIFEST.json beside --pbe-zip.",
+    )
+    parser.add_argument("--fac-mol2", type=Path, required=True)
+    parser.add_argument("--mer-mol2", type=Path, required=True)
     parser.add_argument(
         "--run-full",
         action="store_true",
@@ -1163,7 +1143,32 @@ def prepare_output(directory: Path, force: bool) -> None:
 
 
 def main() -> int:
+    global RC2_RECORDS, MATCHED_RECORDS, SINGLE_METAL_AUDIT
+    global PBE_ZIP, PBE_ZIP_MANIFEST, FAC_MOL2, MER_MOL2
+
     args = parse_args()
+    RC2_RECORDS = args.rc2_records.resolve()
+    MATCHED_RECORDS = args.matched_records.resolve()
+    SINGLE_METAL_AUDIT = args.single_metal_audit.resolve()
+    PBE_ZIP = args.pbe_zip.resolve()
+    PBE_ZIP_MANIFEST = (
+        args.pbe_zip_manifest.resolve()
+        if args.pbe_zip_manifest is not None
+        else PBE_ZIP.with_name("SOURCE_MANIFEST.json")
+    )
+    FAC_MOL2 = args.fac_mol2.resolve()
+    MER_MOL2 = args.mer_mol2.resolve()
+    for source in (
+        RC2_RECORDS,
+        MATCHED_RECORDS,
+        SINGLE_METAL_AUDIT,
+        PBE_ZIP,
+        PBE_ZIP_MANIFEST,
+        FAC_MOL2,
+        MER_MOL2,
+    ):
+        if not source.is_file():
+            raise FileNotFoundError(f"Required input not found: {source}")
     if args.workers <= 0 or args.gate_n <= 0 or args.gate_k <= 0 or args.full_k <= 0:
         raise ValueError("workers and sample/trial counts must be positive")
     if args.gate_n > EXPECTED_N:
@@ -1199,8 +1204,6 @@ def main() -> int:
             raise ValueError("Public canonicalizer source hash mismatch")
         if sha256_file(encoder) != EXPECTED_PUBLIC_ENCODER_SHA256:
             raise ValueError("Public encoder source hash mismatch")
-        if git_value(PUBLIC_REPO, "rev-parse", "HEAD") != EXPECTED_PUBLIC_COMMIT:
-            raise ValueError("Public checkout commit mismatch")
     task_local_candidate = release_root == CANDIDATE_FIX.resolve()
     if task_local_candidate:
         for relative_path, expected_sha256 in EXPECTED_CANDIDATE_SOURCE_SHA256.items():

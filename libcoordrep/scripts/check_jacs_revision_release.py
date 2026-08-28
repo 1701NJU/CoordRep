@@ -32,8 +32,8 @@ REQUIRED = [
     "figures/Figure5/Figure5_source_data_all_metal_20260826.csv",
     "figures/Figure5/Figure5_caption_all_metal_20260826.txt",
     "figures/Figure6/Figure6_source_data_20260823.csv",
-    "figures/Supplementary/Supplementary_Figure_S1_DeltaS_Threshold_Sensitivity_source_data.csv",
-    "figures/Supplementary/Supplementary_Figure_S2_source_data.csv",
+    "figures/Supplementary/Supplementary_Figure_S1_source_data.csv",
+    "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_source_data.csv",
     "supporting_information/Supplementary_Methods_1_and_Tables_S9A_S9B_20260826.docx",
     "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
 ]
@@ -102,6 +102,27 @@ def verify_release_checksums() -> int:
         extra = sorted(observed_paths - expected_paths)
         fail(f"checksum coverage mismatch; missing={missing[:5]}, extra={extra[:5]}")
     return len(observed_paths)
+
+
+def verify_nested_checksums() -> int:
+    """Verify focused evidence-tree SHA256SUMS files recursively."""
+    checked = 0
+    for checksum_path in sorted(RELEASE.rglob("SHA256SUMS.txt")):
+        seen: set[str] = set()
+        for line in checksum_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            expected, relative = line.split("  ", 1)
+            if relative in seen:
+                fail(f"duplicate nested checksum target: {checksum_path}: {relative}")
+            seen.add(relative)
+            target = checksum_path.parent / relative
+            if not target.is_file():
+                fail(f"nested checksum target missing: {target.relative_to(RELEASE)}")
+            if sha256(target) != expected:
+                fail(f"nested checksum mismatch: {target.relative_to(RELEASE)}")
+            checked += 1
+    return checked
 
 
 def main() -> int:
@@ -179,9 +200,11 @@ def main() -> int:
     if orbit["full_exact_coordrep"]["exact_variant_matches"] != 100000:
         fail("legal-orbit exact-match lock mismatch")
 
+    nested_checked = verify_nested_checksums()
     checked = verify_release_checksums()
     print(f"PASS: {RELEASE.relative_to(ROOT)}")
     print("PASS: all-metal CSD numerical lock and Figure 5 source table")
+    print(f"PASS: {nested_checked} nested evidence files covered by SHA-256")
     print(f"PASS: {checked} public release files covered by SHA-256")
     return 0
 

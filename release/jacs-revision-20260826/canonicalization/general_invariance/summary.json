@@ -1,8 +1,9 @@
 {
   "status": "PUBLIC_RC3_GENERAL_INVARIANCE_PASS",
-  "claim_boundary": "This fixed tmQMg/PBE graph-disjoint benchmark is not an April-2025-CSD prevalence sample. It validates the six-file attachment-aware implementation integrated as CoordRep 1.1.2rc3; it is not evidence that frozen rc2 downstream benchmarks were rerun.",
+  "claim_boundary": "This fixed tmQMg/PBE graph-disjoint benchmark is not an April-2025-CSD prevalence sample. It validates the six-file attachment-aware implementation integrated as CoordRep 1.1.2rc3. It does not by itself establish downstream property or family results. Figure 4 remains the frozen pre-rc3 manuscript benchmark (relation hybrids: rc2; shape hybrids: rc1) and is not rerun or relabelled as rc3. Figure 6A-C has separate rc3 molecular-identity revalidation artifacts.",
   "patch_mode": "source",
-  "release_root": "release/jacs-revision-20260823",
+  "execution_release_id": "jacs-revision-20260823",
+  "current_public_release_id": "jacs-revision-20260826",
   "task_local_candidate": true,
   "selection_seed": 20260822,
   "transform_seed": 930220260,

@@ -40,8 +40,8 @@ from coordrep_tools.gnn_baselines.non_neural import (
 
 # ── Load CSD data ────────────────────────────────────────
 
-CSD_PATH = "/data/CoordRep/coordrep-release/libcoordrep/revision_results/csd_external/csd_retained_entries.jsonl"
-CSD_FAMILY_PATH = "/data/CoordRep/coordrep-release/libcoordrep/revision_results/csd_external/csd_family_identity_summary.csv"
+CSD_PATH = "inputs/csd/csd_retained_entries.jsonl"
+CSD_FAMILY_PATH = "inputs/csd/csd_family_identity_summary.csv"
 
 
 def _extract_ligand_smiles_from_coordrep(coordrep: str) -> List[str]:

@@ -2,7 +2,7 @@
 
 This directory contains the locked 5,173/6,427 legal-orbit screen and the
 1,000-record, 100-reindexing challenge used in Figure 2 and Supplementary
-Figure S2. Signature-only sorting reproduced 64,834/100,000 variants and fully
+Figure S1. Signature-only sorting reproduced 64,834/100,000 variants and fully
 collapsed 380/1,000 records. Full legal-orbit enumeration followed by
 minimum-whole-record selection reproduced 100,000/100,000 variants and fully
 collapsed 1,000/1,000 records, with stable candidate counts, successful grammar

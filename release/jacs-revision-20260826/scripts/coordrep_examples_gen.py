@@ -359,7 +359,7 @@ def write_maintext_md(examples, path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pipeline",
-                        default="/data/CoordRep/CoordSMILES/pipeline_full_output/results.jsonl")
+                        default="inputs/tmqm/results.jsonl")
     parser.add_argument("--out", default="revision_results/examples")
     args = parser.parse_args()
 

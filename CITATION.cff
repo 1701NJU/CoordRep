@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry"
 version: 1.1.2rc3
-date-released: 2026-08-23
+date-released: 2026-08-26
 authors:
   - family-names: Luo
     given-names: Wen-Lin

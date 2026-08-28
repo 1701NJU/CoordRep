@@ -317,13 +317,13 @@ def train_variant(
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mlm_checkpoint",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/checkpoints/pretrain_v3/best_model.pt")
+                        default="inputs/checkpoints/pretrain_v3/best_model.pt")
     parser.add_argument("--data",
-                        default="/data/CoordRep/CoordSMILES/libcoordrep/figures/fig5/data/fig5_tasks.jsonl")
+                        default="inputs/property_benchmarks/fig5_tasks.jsonl")
     parser.add_argument("--split_ids",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/coordrep_ranker/split_ids.json")
+                        default="inputs/checkpoints/coordrep_ranker/split_ids.json")
     parser.add_argument("--out",
-                        default="/data/CoordRep/coordrep-release/libcoordrep/checkpoints/ranker_minphys")
+                        default="outputs/checkpoints/ranker_minphys")
     parser.add_argument("--pooling", default="mean")
     parser.add_argument("--decoys_per_real", type=int, default=20)
     parser.add_argument("--epochs", type=int, default=10)

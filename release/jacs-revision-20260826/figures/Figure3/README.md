@@ -10,3 +10,6 @@ their nearest reference but different distances from the SPY/TBP boundary.
 `Figure3_panel_source.csv`, `Figure3_example_source.csv`, and
 `Figure3_summary_and_internal_QC.csv` are the active source tables. No licensed
 CSD coordinates are included.
+
+`Figure3_manuscript_caption_20260828.txt` is the publication-facing caption;
+`Figure3_caption.txt` retains expanded source and interpretation notes.

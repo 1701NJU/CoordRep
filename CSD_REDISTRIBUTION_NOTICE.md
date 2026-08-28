@@ -40,8 +40,12 @@ Users who wish to reproduce raw CSD-dependent extraction steps (e.g.,
 2. Install the CSD Python API (`ccdc` package)
 3. Run the extraction scripts against their local CSD copy
 
-All downstream analysis (figures, tables, benchmarks) can be reproduced
-from the precomputed CSV/JSON files in `revision_results/` without CSD access.
+The public aggregate tables, numerical locks, and selected analyses can be
+audited or rerun without CSD access. Raw CSD-dependent extraction and any
+analysis requiring licensed row-level structures must be rerun against a
+locally licensed CSD installation. The repository does not claim that every
+figure or trained model can be regenerated from the public aggregate files
+alone.
 
 ## Contact
 

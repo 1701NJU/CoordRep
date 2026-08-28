@@ -4,7 +4,11 @@ Status: **PUBLIC_RC3_GENERAL_INVARIANCE_PASS**
 
 **Implementation boundary.** The tested six-file attachment-aware repair is
 the source now integrated as CoordRep 1.1.2rc3. The frozen outputs retain their
-original pre-integration timestamps and hashes.
+original pre-integration timestamps and hashes. This experiment establishes
+canonical invariance only. Figure 4 remains the frozen pre-rc3 property
+benchmark reported in the manuscript (relation hybrids: rc2; shape hybrids:
+rc1) and is neither rerun nor relabelled here. Figure 6A--C has separate rc3
+molecular-identity revalidation artifacts.
 
 This package uses a fixed **tmQMg/PBE graph-disjoint CN4--6 benchmark cohort**.
 It is not an April 2025 CSD prevalence sample. The selection joins the corrected
@@ -28,6 +32,26 @@ from each fold; `cohort_manifest.csv` records the exact fold-by-CN allocation.
   quantized to six decimal places solely for exact serialization comparison.
 - Full CoordRep mismatch details are written to `mismatch_variants.csv`; the
   file retains its header even when no mismatches occur.
+
+The executable harness has no author-workstation path defaults. A rerun must
+provide the corrected rc2 record ledger, matched-record/fold ledger,
+single-metal audit, official tmQMg/PBE XYZ ZIP and manifest, and the two
+auxiliary MOL2 controls explicitly:
+
+```bash
+python run_canonical_stress.py --patch-mode source --run-full \
+  --rc2-records /path/to/records.jsonl \
+  --matched-records /path/to/matched_records.csv \
+  --single-metal-audit /path/to/record_audit.csv \
+  --pbe-zip /path/to/tmQMg_xyz.zip \
+  --pbe-zip-manifest /path/to/SOURCE_MANIFEST.json \
+  --fac-mol2 /path/to/EBAGAR.mol2 \
+  --mer-mol2 /path/to/EBAGEV.mol2 \
+  --output-dir /path/to/output
+```
+
+The public cohort manifest and hashes permit verification of the frozen run;
+the source molecular ledgers and coordinates must be obtained separately.
 
 ## Results
 

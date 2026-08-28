@@ -219,7 +219,7 @@ def compute_stats(records):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tmqm", default="/data/CoordRep/CoordSMILES/pipeline_full_output/results.jsonl")
+    parser.add_argument("--tmqm", default="inputs/tmqm/results.jsonl")
     parser.add_argument("--csd", default="revision_results/csd_external/csd_retained_entries.jsonl")
     parser.add_argument("--out", default="revision_results/multidentate")
     args = parser.parse_args()
