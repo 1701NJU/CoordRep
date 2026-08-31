@@ -4,7 +4,7 @@
   "algorithm": "SHA-256 over canonical-LF text bytes and raw binary bytes",
   "scope": "all public release files except this manifest and RELEASE_SHA256SUMS.txt",
   "n_files": 356,
-  "total_bytes": 28375034,
+  "total_bytes": 28375094,
   "files": [
     {
       "path": "CANONICALIZATION_UPGRADE_REPORT.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "PROVENANCE.json",
-      "bytes": 3993,
-      "sha256": "976b125d4e92fbc502ce4083c5cf0d46cbd835f4ef9df92301e265b6cbb94c6c",
+      "bytes": 4013,
+      "sha256": "8bd835adb858e689a9878c1f4aecd54adbd5ae24434a5ebf92a7f77d1d99cd51",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -43,8 +43,8 @@
     },
     {
       "path": "RELEASE_MANIFEST.json",
-      "bytes": 6118,
-      "sha256": "7abc345197822fe4ccfab7924d4617fd4a99525160c0bb534ce97e05f4044631",
+      "bytes": 6138,
+      "sha256": "ec08068541ff8234dac6abd61c61d2fc4f240cc4f3f0992464164c28eb450de9",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },
@@ -1961,8 +1961,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1269,
-      "sha256": "7d30582e8ceadf8ebbedf728ab10681f0d6d002702869e6a9704995d64f0d026",
+      "bytes": 1289,
+      "sha256": "082e001211c5101b98c4bb7b39629626dbff0b04fbaec1eefcbd71d9ed62996b",
       "role": "release documentation or supporting source",
       "publication_status": "current"
     },

@@ -1,8 +1,9 @@
-# CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry
+# CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry
 
 This `jacs-revision` branch contains the public code and evidence for the
 current manuscript, **CoordRep: A Canonical, Continuous, and Compositional
-Representation for Coordination Chemistry**. The authoritative package is
+Representation for Machine Learning in Coordination Chemistry**. The
+authoritative package is
 [`release/jacs-revision-20260826`](release/jacs-revision-20260826/).
 
 ## Current evidence lock
@@ -98,7 +99,7 @@ the restrictions in `CSD_REDISTRIBUTION_NOTICE.md`.
 
 ```bibtex
 @software{coordrep2026,
-  title  = {CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry},
+  title  = {CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry},
   author = {Luo, Wen-Lin and Li, Cheng-Hui},
   year   = {2026},
   url    = {https://github.com/1701NJU/CoordRep}

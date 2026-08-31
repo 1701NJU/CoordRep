@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use CoordRep, please cite it as below."
-title: "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry"
+title: "CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry"
 type: software
 version: "1.1.0"
 date-released: "2026-05-12"

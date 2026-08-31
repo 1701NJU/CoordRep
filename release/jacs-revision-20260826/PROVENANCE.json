@@ -1,7 +1,7 @@
 {
   "candidate": "CoordRep 1.1.2rc3",
   "release_id": "jacs-revision-20260826",
-  "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Coordination Chemistry",
+  "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry",
   "purpose": "Publication-facing implementation, Figures 1-6, Supplementary Figures S1-S2, and all-metal April 2025 CSD structural-record audit aggregates",
   "supersedes": "jacs-revision-20260823",
   "canonicalization": {
