@@ -1,0 +1,8 @@
+[2026-08-22T12:44:01.092770+00:00] verified 6,427 graph representatives and source payloads
+[2026-08-22T12:44:09.147758+00:00] challenge eligible: 5,173/6,427
+[2026-08-22T12:44:09.177550+00:00] locked challenge cohort N=1,000; quotas={4: 716, 5: 74, 6: 210}
+[2026-08-22T12:44:41.130430+00:00] verified 6,427 graph representatives and source payloads
+[2026-08-22T12:44:41.201527+00:00] locked challenge cohort N=1,000; quotas={4: 716, 5: 74, 6: 210}
+[2026-08-22T12:47:01.067451+00:00] verified 6,427 graph representatives and source payloads
+[2026-08-22T12:47:01.139989+00:00] locked challenge cohort N=1,000; quotas={4: 716, 5: 74, 6: 210}
+[2026-08-22T12:48:58.806688+00:00] complete: status=TASK_LOCAL_ORBIT_CHALLENGE_PASS; exact=100,000/100,000; signature=64,834/100,000

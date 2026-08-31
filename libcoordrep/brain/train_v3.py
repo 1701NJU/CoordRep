@@ -41,7 +41,7 @@ from brain.smart_truncation import TruncationMonitor
 
 
 class EnhancedMetricsLogger:
- """"""
+    """"""
     
     def __init__(self, output_dir: Path):
         self.output_dir = output_dir
@@ -65,7 +65,7 @@ class EnhancedMetricsLogger:
         self.step += 1
     
     def log_epoch(self, epoch: int, metrics: dict):
- """ epoch """
+        """ epoch """
         epoch_file = self.output_dir / "epoch_metrics.jsonl"
         entry = {
             "epoch": epoch,
@@ -77,7 +77,7 @@ class EnhancedMetricsLogger:
 
 
 def syntax_valid(s: str) -> bool:
- """"""
+    """"""
     try:
         if not s.strip():
             return False
@@ -91,14 +91,14 @@ def syntax_valid(s: str) -> bool:
 
 
 def chem_valid(s: str) -> bool:
- """"""
+    """"""
     if not syntax_valid(s):
         return False
     return True
 
 
 def constraint_exact_match(pred_str: str, target_str: str) -> float:
- """ exact match"""
+    """ exact match"""
     pred_trans = set(re.findall(r'\{trans:([^}]+)\}', pred_str))
     target_trans = set(re.findall(r'\{trans:([^}]+)\}', target_str))
     
@@ -115,7 +115,7 @@ def validate_generation_enhanced(
     n_samples: int = 50,
     topk: int = 5
 ):
- """"""
+    """"""
     model.eval()
     
     results = {
@@ -187,7 +187,7 @@ def train_epoch(
     trunc_monitor: TruncationMonitor,
     log_every: int = 50
 ):
- """ epoch"""
+    """ epoch"""
     model.train()
     total_loss = 0
     num_batches = 0
@@ -265,7 +265,7 @@ def train_epoch(
 
 
 def quick_eval(model, tokenizer, device, epoch: int):
- """ epoch """
+    """ epoch """
     print(f"\n--- Quick Eval (Epoch {epoch}) ---")
     
     metrics = validate_generation_enhanced(model, tokenizer, device, n_samples=50)
@@ -320,7 +320,7 @@ def main():
     
     data_config = DataConfig(
         tmqm_dir=args.tmqm_dir,
- cod_dir=None, # Curriculum: tmQM
+        cod_dir=None, # Curriculum: tmQM
         max_length=args.max_length,
         batch_size=args.batch_size,
         shuffle_ligands=True,

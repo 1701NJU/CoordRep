@@ -1,0 +1,20 @@
+{
+  "family_label": "LINMOL",
+  "metal": "Pd",
+  "CN": 4,
+  "n_family_members": 3,
+  "trajectory_span": 11.22,
+  "trajectory_axis_definition": "S_SP - S_Td (continuous shape measure difference; SP\u2192Td axis)",
+  "n_unique_L0": 3,
+  "n_unique_L1": 3,
+  "crosses_shape_boundary": true,
+  "selected_render_count": 3,
+  "L3_key_hash": 463888590564,
+  "representative_refcodes": [
+    "LINMOL",
+    "LINMOL01",
+    "LINMOL02"
+  ],
+  "note": "LINMOL family has 3 members (not 5). All 3 are selected for rendering. Each member has a distinct L0 (geometry-hash) and L1 (shape-ID), demonstrating clear geometry-state diversity within a single connectivity family.",
+  "license_note": "CSD-derived coordinates for internal figure rendering only; do not redistribute raw XYZ."
+}

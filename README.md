@@ -1,184 +1,107 @@
-# CoordRep
+# CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry
 
-**A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry**
+This `jacs-revision` branch contains the public code and evidence for the
+current manuscript, **CoordRep: A Canonical, Continuous, and Compositional
+Representation for Machine Learning in Coordination Chemistry**. The
+authoritative package is
+[`release/jacs-revision-20260826`](release/jacs-revision-20260826/).
 
-Wen-Lin Luo, Cheng-Hui Li\*
+## Current evidence lock
 
-State Key Laboratory of Coordination Chemistry, School of Chemistry and Chemical Engineering, Nanjing University, Nanjing 210023, P. R. China.
+- **April 2025 CSD census:** 1,371,757 entries were examined with CCDC Python
+  API 3.6.0 under a frozen 96-symbol, CCDC-derived metal policy. In total,
+  783,263 entries are metal-containing; 746,511 deposited structures meet the
+  three-dimensional structural-audit criterion, while 36,752 remain in the
+  census without a 3D structural record.
+- **Record emission and source fidelity:** all 746,511 targets yielded a
+  schema-valid audit record, and 746,511/746,511 passed an independent reread
+  of the native CSD object.
+- **Structural coverage:** at least one structural metal-site record was
+  retained in 741,402/746,511 entries; every in-scope metal site is structural
+  in 733,004/746,511 entries. At site level, 2,574,081/2,608,448 metal sites
+  are structural and 34,367 are explicitly audit-only.
+- **Target classes:** 298,932 nonpolymeric single-metal, 295,164
+  nonpolymeric multimetal, and 152,415 polymeric entries form a mutually
+  exclusive partition of the 746,511-entry structural-audit target.
+- **Typed relations:** 213,595 entries contain a shared donor group, 113,726
+  contain a confirmed haptic/π site, and 129,092 contain a resolved nonzero
+  lattice-translation edge. These flags are nonexclusive; 63 entries retain
+  an ambiguous collective-π candidate without forcing hapticity.
+- **Periodic collection:** 15,905/15,906 public CSD MOF Collection entries were
+  processed. The 10,948 state-bearing entries yielded 172,332 local states;
+  74,354 (43.15%) contain a nonzero translation-labelled edge.
 
-📧 E-mail: luowenlin862@gmail.com
+These are source-faithful structural-transcription results, not a claim that
+every site has a unique exact CoordRep identity, a supported CShM vector, or a
+distance-completed first coordination sphere. Donor, bridge, haptic/π, and
+periodic relations in the release-wide audit are derived from the CSD-native
+molecular bond graph; no distance-derived contact is added. Raw licensed CSD
+coordinates and row-level ledgers are not redistributed.
 
----
+## Reproducibility boundary
 
-## Overview
+The release provides source code, public aggregate/source tables, model
+configurations, split and metric summaries where redistribution is permitted,
+publication artwork, manifests, and checksums. These materials support
+numerical auditing and rerunning the explicitly documented public analyses.
+Trained checkpoint weights are not included, and the repository does not claim
+that every figure can be regenerated from aggregate CSV files alone. Full CSD
+extraction requires a locally licensed April 2025 CSD installation.
 
-CoordRep is a canonical string representation for transition-metal coordination complexes that enables chemical language modeling. It encodes:
+## Canonicalization version boundary
 
-- **Metal identity + coordination number** as a composite token
-- **Coordination geometry** as continuous shape measures (CShM), not discrete labels
-- **Ligand connectivity** as canonical SMILES with donor-atom markers
-- **Stereochemistry** (cis/trans, fac/mer) as explicit relational constraints
+CoordRep **1.1.2rc3** adds ligand-local attachment-set keys, donor-attachment
+orbits, exact residual-orbit enumeration, and fail-closed handling when the
+metadata required to establish exchangeability is unavailable.
 
-CoordRep strings are **rotation-invariant**, **permutation-invariant**, and **deterministic**: the same complex always maps to the same string regardless of coordinate frame or atom ordering.
+This change can alter molecular strings, token sequences, and L0–L3 hashes
+relative to rc2. Figure 2 and Supplementary Figure S1 are the locked rc3
+canonicalization evidence. Figure 6A–C report rc3 re-encoding of the exactly
+unchanged frozen molecular-family cohort (3,491 families; 9,056 records); the
+selection and rerun denominators are disclosed separately in the Figure 6
+evidence. Figure 4 remains the frozen pre-rc3 property benchmark reported in
+the manuscript: its relation hybrids use rc2 inputs and its shape hybrids use
+rc1 inputs, as disclosed with the figure. No Figure 4 result is relabelled as
+rc3. Release-wide CSD counts are typed-record census
+quantities and do not depend on final rc3 string ordering. Figure 6D–E use the
+separate frozen periodic-v3 identity construction.
 
-A pretrained Masked Language Model (MLM) over CoordRep enables two downstream tools:
-
-| Tool | Task | Description |
-|------|------|-------------|
-| **Tool A** | Donor Prediction | Given metal context + partial ligand field, predict missing donor atoms (design assistant) |
-| **Tool B** | Structure Repair | Given a corrupted CoordRep sequence, recover valid syntax and chemical content (spellchecker) |
-
-## Repository Structure
-
-```
-coordrep/
-├── libcoordrep/
-│   ├── coordrep/              # Core representation library
-│   │   ├── canonical/         #   Canonicalization engine
-│   │   ├── geometry/          #   CShM computation
-│   │   ├── graph/             #   Molecular graph & ligand extraction
-│   │   ├── io/                #   File readers (CIF, tmQM XYZ)
-│   │   ├── serialize/         #   String serialization
-│   │   ├── features/          #   ML feature extraction
-│   │   └── validate/          #   Consistency checks
-│   │
-│   ├── brain/                 # Masked Language Model
-│   │   ├── model.py           #   Transformer encoder
-│   │   └── tokenizer.py       #   CoordRep tokenizer
-│   │
-│   ├── coordrep_tools/        # Downstream tools
-│   │   ├── tool_a_donor.py    #   Tool A: Donor prediction
-│   │   ├── tool_b_repair.py   #   Tool B: Structure repair
-│   │   ├── baselines.py       #   Baseline methods
-│   │   └── validate.py        #   Syntax validation
-│   │
-│   ├── scripts/               # Evaluation & plotting scripts
-│   │
-│   └── outputs/
-│       └── fig5/
-│           └── reproducible_data/  # CSV data for Fig. 5 reproduction
-│
-├── checkpoints/
-│   └── pretrain_v3/           # Released model checkpoint
-│
-└── data/
-    └── coordrep/              # Train/val/test splits (JSONL)
-```
-
-## Installation
+## Start here
 
 ```bash
 git clone https://github.com/1701NJU/CoordRep.git
-cd coordrep
-pip install -e ".[all]"
+cd CoordRep
+git checkout jacs-revision
+python -m pip install -e "release/jacs-revision-20260826[dev]"
+python libcoordrep/scripts/check_jacs_revision_release.py
 ```
 
-### Requirements
+The full database rerun requires a licensed CCDC installation and local April
+2025 CSD access. See
+[`CSD_REDISTRIBUTION_NOTICE.md`](CSD_REDISTRIBUTION_NOTICE.md).
 
-- Python ≥ 3.9
-- PyTorch ≥ 2.0
-- RDKit ≥ 2023.03
-- NumPy, SciPy, pandas, scikit-learn, matplotlib
+## Repository map
 
-## Quick Start
+| Item | Location |
+|---|---|
+| Current frozen release | `release/jacs-revision-20260826/` |
+| All-metal CSD aggregate evidence | `release/jacs-revision-20260826/audits/full_csd/` |
+| Current Figure 1–6 artwork and source tables | `release/jacs-revision-20260826/figures/` |
+| Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` |
+| rc3 canonicalization evidence | `release/jacs-revision-20260826/canonicalization/` |
+| CoordRep 1.1.2rc3 source | `release/jacs-revision-20260826/{coordrep,coordrep_tools,brain}/` |
+| Current audit-methods/Table S9 excerpt | `release/jacs-revision-20260826/supporting_information/` |
 
-### Convert a structure to CoordRep (command line)
+## License and citation
 
-```bash
-# Single XYZ file
-python -m libcoordrep.scripts.convert --xyz complex.xyz --bo complex.BO
-
-# Quiet mode (output only the CoordRep string)
-python -m libcoordrep.scripts.convert --xyz complex.xyz --quiet
-
-# Batch-convert a tmQM dataset directory
-python -m libcoordrep.scripts.convert --tmqm-dir tmQM-master/tmQM --output results.jsonl
-
-# Batch-convert CIF files
-python -m libcoordrep.scripts.convert --cif-dir data/cod_cif/ --output results.jsonl --limit 1000
-```
-
-### Encode a structure as CoordRep (Python API)
-
-```python
-from coordrep import encode
-
-cc = encode(xyz_path="complex.xyz", bo_path="complex.BO")
-s = cc.canonicalize().to_string()
-print(s)
-# [Metal:Fe|ox:+2|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.23,8.10>{trans:L1:N:1--L2:Cl:1}|L1=NCCN|L2=Cl|
-```
-
-### Run Tool A evaluation (donor prediction)
-
-```bash
-python -m libcoordrep.scripts.run_tool_a_from_preds
-```
-
-### Run Tool B evaluation (structure repair)
-
-```bash
-python -m libcoordrep.scripts.run_tool_b_from_preds
-```
-
-### Reproduce Fig. 5 (CSV-only, no GPU required)
-
-```bash
-cd libcoordrep/outputs/fig5/reproducible_data
-python plot_fig5_from_csv.py
-```
-
-## Reproducibility
-
-We provide three levels of reproduction:
-
-1. **Full pipeline**: Train from scratch → evaluate → generate figures (requires GPU)
-2. **From checkpoint**: Load pretrained model → run Tool A/B evaluation → plot (requires GPU)
-3. **CSV-only**: Regenerate all Fig. 5 panels from precomputed CSV files (CPU only, ~30 seconds)
-
-All random seeds are fixed (see SI Section S10.3 for details).
-
-## Key Results
-
-| Metric | Value |
-|--------|-------|
-| Tool A: Overall Top-1 accuracy | 97.8% |
-| Tool A: Mean ΔTop-1 vs CondFreq | +4.26 pp |
-| Tool B: Validity uplift (overall) | +26.8 pp |
-| Canonicalization: Rotation invariance | 100% (4,000 trials) |
-| Syntax validity after training | >99.9% |
-
-## CoordRep Format
-
-A CoordRep string consists of four blocks:
-
-```
-[Metal:Fe|ox:+2|d:d6|CN:6]          ← Metal block
-<ShapeBest:Oh|Class:ideal|...>       ← Shape block (continuous CShM)
-{trans:L1:N:1--L2:Cl:1}             ← Stereochemistry constraints
-|L1=NCCN:N:1:N:2|L2=Cl:Cl:1|       ← Ligand dictionary
-```
-
-## Citation
-
-If you use CoordRep in your research, please cite:
+Code is released under the MIT License. CSD-derived outputs remain subject to
+the restrictions in `CSD_REDISTRIBUTION_NOTICE.md`.
 
 ```bibtex
-@article{luo2026coordrep,
-  title={CoordRep: A Canonical, Continuous, and Compositional Representation
-         for Machine Learning in Coordination Chemistry},
-  author={Luo, Wen-Lin and Li, Cheng-Hui},
-  year={2026},
-  journal={},
-  note={State Key Laboratory of Coordination Chemistry,
-        Nanjing University, Nanjing 210023, China}
+@software{coordrep2026,
+  title  = {CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry},
+  author = {Luo, Wen-Lin and Li, Cheng-Hui},
+  year   = {2026},
+  url    = {https://github.com/1701NJU/CoordRep}
 }
 ```
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-We thank the developers of the [tmQM dataset](https://github.com/bbskjelstad/tmqm) and the [Crystallography Open Database](https://www.crystallography.net/cod/) for making their data publicly available.

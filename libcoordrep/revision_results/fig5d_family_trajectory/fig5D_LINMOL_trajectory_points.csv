@@ -1,0 +1,4 @@
+point_rank,refcode,family_label,L3_key_hash,L0_key_hash,L1_shape_id,metal,CN,S_SP,S_Td,log_S_SP,log_S_Td,shape_boundary_flag,shape_label,trajectory_scalar,selected_for_render
+1,LINMOL,LINMOL,463888590564,443391701105,670659335015,Pd,4,11.6100,13.5000,1.0686,1.1335,False,SP-like,-1.8900,True
+2,LINMOL01,LINMOL,463888590564,825347327306,233955390089,Pd,4,9.6500,10.4700,0.9890,1.0241,True,SP-like,-0.8200,True
+3,LINMOL02,LINMOL,463888590564,886806765236,455884819515,Pd,4,19.7500,10.4200,1.2978,1.0220,False,Td-like,9.3300,True

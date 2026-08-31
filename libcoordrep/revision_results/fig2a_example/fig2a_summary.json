@@ -1,0 +1,69 @@
+{
+  "selected_example_id": "ZENBID",
+  "source": "tmQM (public)",
+  "metal": "Co",
+  "cn": 6,
+  "n_atoms": 31,
+  "n_ligands": 4,
+  "denticity_list": [
+    2,
+    2,
+    1,
+    1
+  ],
+  "donor_elements": [
+    [
+      "N",
+      "N"
+    ],
+    [
+      "N",
+      "N"
+    ],
+    [
+      "N"
+    ],
+    [
+      "N"
+    ]
+  ],
+  "smiles": [
+    "[H]N([H])C([H])([H])C([H])([H])N([H])[H]",
+    "[H]N([H])C([H])([H])C([H])([H])N([H])[H]",
+    "C1=N[SH]=1",
+    "C1=N[SH]=1"
+  ],
+  "best_shape": "Oh",
+  "shape_class": "ideal",
+  "L0_StateKey": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.10,5.29>{trans:L1:N:1--L2:N:1}{trans:L1:N:2--L2:N:2}{trans:L3:N:1--L4:N:1}|L1=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L2=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L3=C1=N[SH]=1|L4=C1=N[SH]=1|",
+  "L1_ShapeID": "Co|+3|Oh/TPr.ideal.D3|T3|C1=N[SH]=1;C1=N[SH]=1;[H]N([H])C([H])([H])C([H])([H])N([H])[H];[H]N([H])C([H])([H])C([H])([H])N([H])[H]",
+  "L2_TopoID": "Co|CN6|Oh|C1=N[SH]=1;C1=N[SH]=1;[H]N([H])C([H])([H])C([H])([H])N([H])[H];[H]N([H])C([H])([H])C([H])([H])N([H])[H]",
+  "L3_ConnID": "Co|CN6|C1=N[SH]=1;C1=N[SH]=1;[H]N([H])C([H])([H])C([H])([H])N([H])[H];[H]N([H])C([H])([H])C([H])([H])N([H])[H]",
+  "L0_length": 255,
+  "invariance_verification": {
+    "rotated_L0_match": true,
+    "permuted_L0_match": true,
+    "lig_traversal_L0_match": true
+  },
+  "transformed_inputs": {
+    "rotated": {
+      "mol_id": "ZENBID_rot42",
+      "L0": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.10,5.29>{trans:L1:N:1--L2:N:1}{trans:L1:N:2--L2:N:2}{trans:L3:N:1--L4:N:1}|L1=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L2=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L3=C1=N[SH]=1|L4=C1=N[SH]=1|"
+    },
+    "permuted": {
+      "mol_id": "ZENBID_perm42",
+      "L0": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.10,5.29>{trans:L1:N:1--L2:N:1}{trans:L1:N:2--L2:N:2}{trans:L3:N:1--L4:N:1}|L1=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L2=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L3=C1=N[SH]=1|L4=C1=N[SH]=1|"
+    },
+    "lig_traversal": {
+      "mol_id": "ZENBID_ligtrav",
+      "L0": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.10,5.29>{trans:L1:N:1--L2:N:1}{trans:L1:N:2--L2:N:2}{trans:L3:N:1--L4:N:1}|L1=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L2=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L3=C1=N[SH]=1|L4=C1=N[SH]=1|"
+    }
+  },
+  "files": [
+    "ZENBID_original.xyz",
+    "ZENBID_rotated.xyz",
+    "ZENBID_permuted.xyz",
+    "coordrep_block_diagram.txt",
+    "fig2a_summary.json"
+  ]
+}

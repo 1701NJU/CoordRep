@@ -1,0 +1,8 @@
+feature,category,count_in_ridge,odds_ratio,label_for_figure
+denticity_pattern,monodentate (1-1-1-1),532,3.09,monodentate ligands OR=3.09
+donor_set,"C,N,P",129,2.52,"C,N,P donors OR=2.52"
+metal,Ir,273,2.46,Ir OR=2.46
+metal,Ru,744,2.32,Ru OR=2.32
+metal_row,5d metals,1043,1.72,5d metals (row 6) OR=1.72
+metal,Re,257,1.85,Re OR=1.85
+metal,V,443,1.67,V OR=1.67

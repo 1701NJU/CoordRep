@@ -1,0 +1,11 @@
+metric,value
+n_CN5,14897
+fraction_delta_lt_0.1,0.0397
+fraction_delta_lt_0.5,0.2009
+fraction_delta_lt_1.0,0.4221
+fraction_delta_lt_2.0,0.6343
+ridge_width_IQR,3.2800
+ridge_enrichment_vs_random,4.42
+delta_median,1.2000
+delta_q25,0.6200
+delta_q75,3.9000

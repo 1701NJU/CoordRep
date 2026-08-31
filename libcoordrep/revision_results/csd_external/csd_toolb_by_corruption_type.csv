@@ -1,0 +1,6 @@
+corruption_type,total,valid_before,valid_after,exact_match,valid_rate_after,exact_rate
+delimiter_mismatch,145,145,145,0,1.0,0.0
+missing_bracket,109,0,98,0,0.8991,0.0
+missing_charge,54,54,54,0,1.0,0.0
+token_swap,55,35,35,0,0.6364,0.0
+truncation,99,30,65,0,0.6566,0.0

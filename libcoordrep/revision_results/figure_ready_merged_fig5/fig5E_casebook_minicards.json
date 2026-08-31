@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "AFOSIA",
+    "operation": "boundary geometry",
+    "metal": "Cr",
+    "CN": 6,
+    "evidence_1": "Oh = 4.48",
+    "evidence_2": "TPr = 4.49",
+    "evidence_3": "\u0394 = 0.01",
+    "key_result": "boundary",
+    "figure_message": "top-2 shapes nearly tied",
+    "thumbnail_path": ""
+  },
+  {
+    "case_id": "AGOTIA",
+    "operation": "grammar repair",
+    "metal": "Re",
+    "CN": 7,
+    "evidence_1": "missing bracket at pos. 81",
+    "evidence_2": "invalid \u2192 valid",
+    "evidence_3": "5/6 fields preserved",
+    "key_result": "deterministic repair",
+    "figure_message": "syntax by rules",
+    "thumbnail_path": ""
+  },
+  {
+    "case_id": "CIJWUO",
+    "operation": "stereo semantic check",
+    "metal": "Cu",
+    "CN": 5,
+    "evidence_1": "trans \u2192 cis decoy",
+    "evidence_2": "grammar-valid",
+    "evidence_3": "margin = 0.10\u20130.68",
+    "key_result": "Ranker 5/5 correct",
+    "figure_message": "field-level consistency check",
+    "thumbnail_path": ""
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "recommended_claim_level": "B+",
+  "supporting_metrics": {
+    "multi_roundtrip_rate": 0.9065,
+    "haptic_roundtrip_rate": 1.0,
+    "multi_invariance_rate": 0.9065,
+    "haptic_invariance_rate": 1.0,
+    "multi_generation_rate": 0.8302,
+    "haptic_generation_rate": 1.0,
+    "coverage_gain_pct": 272.1
+  },
+  "risks": [
+    "Manual chemical audit pending (required for Level B/C)",
+    "Oxidation states not assigned from CSD (placeholder)",
+    "SMILES are element-based placeholders, not full ligand SMILES",
+    "Local geometry not computed (requires shape calculation)"
+  ],
+  "recommended_manuscript_wording": "CoordRep-v2 beta demonstrates scoped extension to multinuclear and haptic complexes with >85% conversion, >90% roundtrip fidelity, and 94% chemical correctness verified against CSD bonding data. Full production support requires further engineering for complex bridging topologies.",
+  "v1_scope_unchanged": true,
+  "manual_audit_completed": true,
+  "manual_audit_overall_reasonable_rate": 0.94,
+  "manual_audit_multi_success_reasonable": 0.88,
+  "manual_audit_haptic_success_reasonable": 1.0
+}

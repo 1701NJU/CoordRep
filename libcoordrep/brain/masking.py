@@ -1,5 +1,5 @@
 """
- (Coordinated Masking)
+    (Coordinated Masking)
 
 ""
 
@@ -16,7 +16,7 @@ from dataclasses import dataclass
 
 @dataclass
 class MaskingConfig:
- """"""
+    """"""
     mlm_probability: float = 0.15
     
     block_mask_probability: float = 0.30
@@ -34,11 +34,11 @@ class MaskingConfig:
 class CoordinatedMasker:
     """
     
- 1. 30% Mask <Shape> {Constraint}
- → [Metal] |Ligands|
- 2. 20% Span Masking
- →
- 3. 15% MLM
+    1. 30% Mask <Shape> {Constraint}
+    → [Metal] |Ligands|
+    2. 20% Span Masking
+    →
+    3. 15% MLM
     """
     
     def __init__(self, config: MaskingConfig = None):
@@ -51,14 +51,14 @@ class CoordinatedMasker:
         mask_token_id: int
     ) -> Tuple[List[int], List[int]]:
         """
- MLM
+        MLM
         
         Returns:
- masked_ids:
- labels: Token-100
+        masked_ids:
+    labels: Token-100
         """
         masked_ids = input_ids.copy()
- labels = [-100] * len(input_ids) # -100
+        labels = [-100] * len(input_ids) # -100
         
         if random.random() < self.config.block_mask_probability:
             masked_ids, labels = self._block_mask(
@@ -82,9 +82,9 @@ class CoordinatedMasker:
         mask_token_id: int
     ) -> Tuple[List[int], List[int]]:
         """
- Block-wise Masking: Mask Shape Constraint
+        Block-wise Masking: Mask Shape Constraint
         
- [Metal] |Ligands|
+    [Metal] |Ligands|
         """
         masked_ids = input_ids.copy()
         labels = [-100] * len(input_ids)
@@ -130,7 +130,7 @@ class CoordinatedMasker:
         mask_token_id: int
     ) -> Tuple[List[int], List[int]]:
         """
- Span Masking: Mask Token
+        Span Masking: Mask Token
         """
         masked_ids = input_ids.copy()
         labels = [-100] * len(input_ids)
@@ -167,7 +167,7 @@ class CoordinatedMasker:
         mask_token_id: int
     ) -> Tuple[List[int], List[int]]:
         """
- Random Masking (15%)
+        Random Masking (15%)
         """
         masked_ids = input_ids.copy()
         labels = [-100] * len(input_ids)
@@ -192,18 +192,18 @@ class CoordinatedMasker:
 
 class LigandShuffler:
     """
- (Ligand Shuffle Augmentation)
+    (Ligand Shuffle Augmentation)
     
- 1. N!
- 2.
- 3.
+    1. N!
+    2.
+    3.
     """
     
     def shuffle(self, coordrep_string: str) -> str:
         """
         
- : [Fe...]<Shape...>{trans:L1:N:1--L2:N:1}(L1@1,2)(L2@3,4)|L1=NCCN||L2=Cl|
- : [Fe...]<Shape...>{trans:L2:N:1--L1:N:1}(L2@1,2)(L1@3,4)|L2=NCCN||L1=Cl|
+        : [Fe...]<Shape...>{trans:L1:N:1--L2:N:1}(L1@1,2)(L2@3,4)|L1=NCCN||L2=Cl|
+    : [Fe...]<Shape...>{trans:L2:N:1--L1:N:1}(L2@1,2)(L1@3,4)|L2=NCCN||L1=Cl|
         """
         import re
         
@@ -235,7 +235,7 @@ class LigandShuffler:
         """
         augmented = []
         for s in strings:
- augmented.append(s) #
+            augmented.append(s) #
             for _ in range(n_augments):
                 augmented.append(self.shuffle(s))
         return augmented

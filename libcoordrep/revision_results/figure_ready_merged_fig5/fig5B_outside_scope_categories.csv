@@ -1,0 +1,7 @@
+reason,count,percent_of_total_scanned,percent_of_rejected,label_for_figure
+no_TM,719643,50.92,55.86,no transition metal
+multinuclear,346468,24.52,26.89,multinuclear
+no_3d,78081,5.53,6.06,no compatible 3D
+disorder,64098,4.54,4.98,disorder / partial occupancy
+hapticity,51867,3.67,4.03,unsupported ηn / haptic / non-η1
+raw_mol_fail,18074,1.28,1.4,conversion failure

@@ -1,0 +1,65 @@
+{
+  "csd_release": "2024.3",
+  "total_entries_scanned": 1413222,
+  "valid_coordrep_records": 124837,
+  "n_CN4": 49375,
+  "n_CN5": 16563,
+  "n_CN6": 49478,
+  "cn5_intermediate_fraction": 0.4221,
+  "boundary_delta_lt_1": 17791,
+  "nontrivial_L3_families": 6358,
+  "families_with_multiple_L0": 6358,
+  "families_with_multiple_L1": 3739,
+  "families_crossing_shape_boundary": 1810,
+  "top_enriched_features_CN5_intermediate": [
+    "denticity_pattern=1-1-1-1 (OR=3.09)",
+    "donor_set=C,N,P (OR=2.519)",
+    "metal=Ir (OR=2.459)",
+    "metal=Ru (OR=2.319)",
+    "donor_set=P (OR=1.967)",
+    "donor_set=C,O (OR=1.958)",
+    "donor_set=C (OR=1.861)",
+    "metal=Re (OR=1.848)",
+    "metal_row=6 (OR=1.72)",
+    "metal=V (OR=1.669)"
+  ],
+  "top_case_families": [
+    {
+      "type": "CN5_pathway",
+      "refs": [
+        "XIPHEN",
+        "XIPVAX"
+      ]
+    },
+    {
+      "type": "CN4_boundary_family",
+      "refs": [
+        "LINMOL",
+        "LINMOL01",
+        "LINMOL02"
+      ]
+    },
+    {
+      "type": "CN6_distortion",
+      "refs": [
+        "GALFEJ",
+        "OWUQOO",
+        "WEMKUX"
+      ]
+    },
+    {
+      "type": "boundary_extreme",
+      "refs": [
+        "AFAFIA"
+      ]
+    },
+    {
+      "type": "CN4_trajectory",
+      "refs": [
+        "NIDTHC10",
+        "NIDTHC11"
+      ]
+    }
+  ],
+  "license_note": "CSD-derived analysis results only; raw coordinates are not redistributed."
+}

@@ -1,0 +1,5 @@
+challenge_category,definition,n_challenge_pairs,pool_size,expected_outcome,CoordRep_mechanism,metric
+invariance,"Same complex (polymorph pair), same L3 + constraint_sig. Rotation / permutation / traversal must not change ID.",20,4950,All representations produce identical identifier,Canonical string (L0 StateKey),collapse_accuracy
+stereo_different,Same L3 ConnID but different cis/trans or fac/mer. Representation must separate them.,20,745,Different stereochemical record; SMILES/InChI cannot distinguish,Explicit {trans:…} / {fm:…} tokens → different L1 ShapeID,separation_accuracy
+family_geometry_state,Same L3 ConnID but different L0/L1 (geometry) state. Representation must link them as same family and separate as different states.,20,3739,"Same connectivity identity, different geometry-resolved state",L3 ConnID identical; L1 ShapeID + L0 StateKey differ,family_linking_accuracy
+boundary_geometry,ΔCShM < 1.0 between top-2 shape assignments. Representation must not force a one-hot label.,20,17791,"Boundary-aware field present, not forced single shape","ShapeBest + _boundary tag + Delta bin + V:s1,s2 values",boundary_detection_availability

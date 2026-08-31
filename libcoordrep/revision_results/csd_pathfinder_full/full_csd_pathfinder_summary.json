@@ -1,0 +1,33 @@
+{
+  "csd_release": "2024.3",
+  "scan_date": "2026-05-14 03:50:07",
+  "total_entries_scanned": 1413222,
+  "valid_coordrep_v1_records": 124837,
+  "retention_rate": 0.0883,
+  "cn_distribution": {
+    "5": 16563,
+    "6": 49478,
+    "4": 49375,
+    "3": 3651,
+    "2": 5770
+  },
+  "top_metals": {
+    "Cu": 17373,
+    "Ni": 13387,
+    "Pd": 10746,
+    "Co": 10095,
+    "Zn": 9312,
+    "Pt": 8693,
+    "Fe": 8648,
+    "Ru": 6517,
+    "Au": 4692,
+    "Mn": 4555,
+    "Re": 4020,
+    "Ir": 3067,
+    "Mo": 3048,
+    "W": 2469,
+    "Rh": 2310
+  },
+  "boundary_fraction": 0.1425,
+  "license_note": "CSD-derived analysis results only; raw coordinates are not redistributed."
+}

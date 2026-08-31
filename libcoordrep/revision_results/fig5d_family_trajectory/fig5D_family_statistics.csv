@@ -1,0 +1,4 @@
+metric,value,label_for_figure
+nontrivial_L3_families,6358,"6,358 nontrivial L3 families"
+multiple_L1_shape_families,3739,"3,739 families with multiple L1 shapes"
+shape_boundary_crossing_families,1810,"1,810 families crossing shape boundary"

@@ -1,0 +1,40 @@
+{
+  "csd_release": "2024.3",
+  "scan_date": "2026-05-14 03:50:07",
+  "total_scanned": 1413222,
+  "retained": 124837,
+  "retention_rate": 0.0883,
+  "n_boundary": 17791,
+  "boundary_fraction": 0.1425,
+  "waterfall": {
+    "total_scanned": 1413222,
+    "has_3d": 1335141,
+    "transition_metal": 615498,
+    "mononuclear": 269030,
+    "eta1": 217163,
+    "cn_ok": 209826,
+    "no_disorder": 145728,
+    "no_polymer": 144271,
+    "donor_ok": 126197,
+    "valid_smiles": 126197,
+    "valid_coordrep": 124837
+  },
+  "top_rejections": {
+    "no_TM": 719643,
+    "multinuclear": 346468,
+    "no_3d": 78081,
+    "disorder": 64098,
+    "hapticity": 51867,
+    "raw_mol_fail": 18074,
+    "cn_7": 3338,
+    "cn_8": 1823,
+    "polymeric": 1457,
+    "invalid_coordrep": 1360,
+    "cn_9": 536,
+    "cn_0": 510,
+    "cn_1": 412,
+    "cn_10": 346,
+    "cn_12": 196
+  },
+  "elapsed_seconds": 7600.4
+}

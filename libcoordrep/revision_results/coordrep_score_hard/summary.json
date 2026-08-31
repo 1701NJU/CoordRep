@@ -1,0 +1,21 @@
+{
+  "n_complexes": 9998,
+  "n_decoys_total": 269204,
+  "mlm_field_top1": 0.0042,
+  "mlm_field_mrr": 0.1086,
+  "mlm_field_auroc": 0.5546,
+  "mlm_field_win_rate": 0.5715,
+  "mean_delta": 2.886,
+  "bl_random_top1": 0.0358,
+  "bl_random_mrr": 0.1421,
+  "bl_frequency_top1": 0.0172,
+  "bl_frequency_mrr": 0.1327,
+  "bl_rule_validator_top1": 0.0357,
+  "bl_rule_validator_mrr": 0.1385,
+  "boundary_hard_auroc": 0.5973,
+  "co_ligand_hard_auroc": 0.4928,
+  "ligand_hard_auroc": 0.6678,
+  "metal_hard_auroc": 0.6626,
+  "stereo_hard_auroc": 0.7435,
+  "mean_rule_pass_rate": 1.0
+}

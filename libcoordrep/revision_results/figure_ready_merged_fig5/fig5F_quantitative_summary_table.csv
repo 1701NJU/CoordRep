@@ -1,0 +1,6 @@
+application,full_csd_output,chemical_meaning,representative_evidence
+Scope audit,"1,413,222 scanned; 124,837 valid",deterministic v1 domain,Fig. 5B
+CN5 geometry ridge,"14,897 records; 42.2% intermediate",static structures populate an interconversion coordinate,Fig. 5C
+Family trajectories,"6,358 nontrivial L3 families",same connectivity spans multiple L0 states,Fig. 5D
+Shape polymorphism,"3,739 multi-L1 families; 1,810 crossing boundary",family-level geometry diversity,Fig. 5D
+Boundary mining,"17,791 records; 14.3%",boundary geometries are systematic,Fig. 5E / AFOSIA

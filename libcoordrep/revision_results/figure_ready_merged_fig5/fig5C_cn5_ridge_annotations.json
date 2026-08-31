@@ -1,0 +1,18 @@
+{
+  "n_cn5_atlas_records": 14897,
+  "intermediate_fraction_percent": 42.2,
+  "criterion": "delta < 1.0",
+  "enrichment_vs_random": 4.4,
+  "ridge_metals": {
+    "Cu": 1141,
+    "Ru": 744,
+    "Zn": 648,
+    "Fe": 553,
+    "V": 443
+  },
+  "ridge_enrichment": {
+    "monodentate_OR": 3.09,
+    "C_N_P_donors_OR": 2.52,
+    "Ir_Re_5d_OR": ">1.8"
+  }
+}

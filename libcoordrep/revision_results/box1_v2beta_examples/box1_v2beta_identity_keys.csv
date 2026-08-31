@@ -1,0 +1,11 @@
+example_id,refcode,record_type,key_level,key_name,key_value
+example_4,ETOREN,molecular_multinuclear_graph,L0,L0_GlobalState,af92e7b75cfa9b16
+example_4,ETOREN,molecular_multinuclear_graph,L1,L1_GlobalShape,d8d2b3f9e6f773de
+example_4,ETOREN,molecular_multinuclear_graph,L2,L2_MetalGraphTopo,31719ab392aa9df3
+example_4,ETOREN,molecular_multinuclear_graph,L3,L3_Connectivity,62a0bff1eb018e0d
+example_4,ETOREN,molecular_multinuclear_graph,local,LocalID_M1,c2ceb842c25e
+example_4,ETOREN,molecular_multinuclear_graph,local,LocalID_M2,fe826cba0da4
+example_5,FEROCE01,haptic_pi_site_object,L0,L0_HapticState,2bd4a4aa5ce2eca3
+example_5,FEROCE01,haptic_pi_site_object,L1,L1_HapticShape,2b54be2954c51b55
+example_5,FEROCE01,haptic_pi_site_object,L2,L2_SiteTopo,26b55e4def1a4338
+example_5,FEROCE01,haptic_pi_site_object,L3,L3_Connectivity,01455331a09c3178

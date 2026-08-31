@@ -1,0 +1,17 @@
+{
+  "subtask_name": "same_metal_cn",
+  "description": "Candidates share same metal element(s) AND same coordination number(s). Only higher-order fields (donor set, bridge topology, mu-pattern, shape) can discriminate.",
+  "n_pools": 41,
+  "mean_pool_size": 25.3,
+  "coordrep_top1": 100.0,
+  "coordrep_top5": 100.0,
+  "coordrep_auroc": 1.0,
+  "donor_top1": 87.8,
+  "donor_top5": 95.1,
+  "donor_auroc": 0.836,
+  "cshm_top1": 53.7,
+  "L3_top1": 75.6,
+  "random_top1": 41.5,
+  "delta_full_vs_donor_top1": 12.2,
+  "note": "In the hardest setting (same metal + CN), CoordRep achieves perfect retrieval (100%) while donor-only baseline drops to 87.8%."
+}

@@ -1,0 +1,5 @@
+decoy_type,n_real,n_decoy,detection_auroc,mean_real,mean_decoy
+boundary,3607,3607,0.617,-17.6936,-20.365
+ligand_swap,3991,3991,0.5194,-2.6157,-2.9141
+metal_swap,3608,3608,0.5938,-34.5567,-37.0797
+stereo_swap,2783,2783,0.9712,-0.9721,-14.0471

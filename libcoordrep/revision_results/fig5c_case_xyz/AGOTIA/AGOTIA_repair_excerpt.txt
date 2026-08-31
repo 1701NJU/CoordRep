@@ -1,0 +1,37 @@
+# AGOTIA — Grammar Repair Excerpt
+
+## 1. Clean string (around corruption position 129)
+```
+...H]|L2=[H]c1oc(C([H])([H])[H])c(O)c(=O)c1[H]|L3=O|L4=Cl|...
+       position 129 ──────^
+```
+
+## 2. Corrupted string (')' removed at position 129)
+```
+...H]|L2=[H]c1oc(C([H])([H])[H])cO)c(=O)c1[H]|L3=O|L4=Cl|...
+```
+
+## 3. Rule-repaired string (bracket re-inserted)
+```
+...H]|L2=[H]c1oc(C([H])([H])[H])cO()c(=O)c1[H]|L3=O|L4=Cl|...
+```
+
+## 4. Validator status
+- Before repair: **INVALID**
+- After repair:  **VALID**
+
+## 5. Field comparison summary
+| Field    | Preserved? |
+|----------|-----------|
+| metal    | ✓ |
+| cn       | ✓ |
+| ox       | ✓ |
+| shape    | ✓ |
+| ligands  | ✗ |
+| stereo   | ✓ |
+| **Total** | **5/6** |
+
+## Key message
+CoordRep's explicit grammar (brackets, delimiters, field structure) enables
+**deterministic** rule-based repair that restores syntactic validity and
+preserves 5/6 semantic fields — without any ML model.
