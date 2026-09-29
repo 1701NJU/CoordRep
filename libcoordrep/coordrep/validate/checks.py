@@ -10,7 +10,7 @@ from ..core import CoordComplex, CoordRepIssue, IssueCodes
 
 def validate_complex(cc: CoordComplex) -> List[CoordRepIssue]:
     """
- CoordComplex
+    CoordComplex
     
     Returns:
     """
@@ -29,7 +29,7 @@ def validate_complex(cc: CoordComplex) -> List[CoordRepIssue]:
 
 
 def _check_basic_structure(cc: CoordComplex) -> List[CoordRepIssue]:
- """"""
+    """"""
     issues = []
     
     if cc.metal is None:
@@ -58,7 +58,7 @@ def _check_basic_structure(cc: CoordComplex) -> List[CoordRepIssue]:
 
 
 def _check_geometry_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
- """"""
+    """"""
     issues = []
     
     if cc.shape is None:
@@ -93,7 +93,7 @@ def _check_geometry_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
 
 
 def _check_ligand_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
- """"""
+    """"""
     issues = []
     
     for lig in cc.ligands:
@@ -116,7 +116,7 @@ def _check_ligand_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
 
 
 def _check_constraint_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
- """"""
+    """"""
     issues = []
     
     seen_pairs = set()
@@ -148,10 +148,10 @@ def _check_constraint_consistency(cc: CoordComplex) -> List[CoordRepIssue]:
 
 def validate_batch(complexes: List[CoordComplex]) -> dict:
     """
- Statistics
+    Statistics
     
     Returns:
- Statistics
+        Statistics
     """
     stats = {
         'total': len(complexes),

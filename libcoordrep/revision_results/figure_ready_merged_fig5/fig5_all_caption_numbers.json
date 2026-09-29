@@ -1,0 +1,32 @@
+{
+  "csd_release": "2024.3",
+  "total_entries_scanned": 1413222,
+  "valid_coordrep_records": 124837,
+  "retention_rate_percent": 8.83,
+  "cn4_atlas_records": 47187,
+  "cn5_atlas_records": 14897,
+  "cn6_atlas_records": 41381,
+  "cn5_intermediate_fraction_percent": 42.2,
+  "cn5_enrichment_vs_random": 4.4,
+  "cn5_ridge_metals": {
+    "Cu": 1141,
+    "Ru": 744,
+    "Zn": 648,
+    "Fe": 553,
+    "V": 443
+  },
+  "cn5_monodentate_OR": 3.09,
+  "cn5_CNP_donor_OR": 2.52,
+  "nontrivial_L3_families": 6358,
+  "multiple_L1_shape_families": 3739,
+  "shape_boundary_crossing_families": 1810,
+  "top_trajectory_case": "Pd/CN4 LINMOL",
+  "top_trajectory_span": 10.1,
+  "boundary_records": 17791,
+  "boundary_fraction_percent": 14.3,
+  "casebook": {
+    "AFOSIA": "Oh 4.48 vs TPr 4.49; delta 0.01",
+    "AGOTIA": "missing bracket; invalid to valid; 5/6 fields preserved",
+    "CIJWUO": "trans to cis decoy; 5/5 correct; margin 0.10\u20130.68"
+  }
+}

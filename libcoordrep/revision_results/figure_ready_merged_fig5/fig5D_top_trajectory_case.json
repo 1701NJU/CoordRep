@@ -1,0 +1,18 @@
+{
+  "case_name": "LINMOL",
+  "metal": "Pd",
+  "CN": 4,
+  "trajectory_span": 10.1,
+  "message": "Top geometry-trajectory span among full-CSD L3 families.",
+  "n_records": 3,
+  "n_refcodes": 3,
+  "n_unique_L0": 3,
+  "n_unique_L1": 3,
+  "representative_refcodes": [
+    "LINMOL",
+    "LINMOL01",
+    "LINMOL02"
+  ],
+  "L3_key_hash": 463888590564,
+  "crosses_shape_boundary": true
+}

@@ -1,0 +1,20 @@
+metric,value,interpretation,figure_or_SI_location
+total_complexes,68288,combined tmQM + CSD retained,SI_table
+fraction_monodentate_only,0.239,23.9% of complexes are monodentate-only,main_text
+fraction_with_multidentate,0.761,76.1% contain at least one multidentate ligand,main_text
+fraction_with_bidentate,0.381,38.1% contain bidentate ligands,SI_table
+fraction_with_dent_ge3,0.460,46.0% contain tridentate or higher,SI_table
+CSD_fraction_with_multidentate,0.664,66.4% of CSD retained entries have multidentate ligands,main_text
+tmQM_fraction_with_multidentate,0.793,79.3% of tmQM entries have multidentate ligands,SI_table
+ligand_fraction_dent1,0.639,63.9% of individual ligands are monodentate,SI_table
+ligand_fraction_dent2,0.181,18.1% bidentate,SI_table
+ligand_fraction_dent_ge3,0.180,18.0% tridentate or higher,SI_table
+Tool_A_bidentate_per_donor_Top1,0.867,86.7% per-donor accuracy on bidentate ligands,main_text
+Tool_A_monodentate_Top1,0.847,84.7% per-donor accuracy on monodentate,main_text
+Tool_A_bidentate_per_ligand_AllCorrect,0.760,76.0% all-donors-correct for bidentate ligands,SI_table
+validator_hard_error_rate,0.0046,0.46% invalid donor combinations in bidentate subset,SI_table
+validator_issue_rate,0.068,6.8% of complexes have at least one validator issue,SI_table
+example_Pt_CN4_monodentate,Pt/CN4/Td,classic monodentate complex,SI_example
+example_Pd_bidentate,Pd/CN4/SP,bidentate chelate example,SI_example
+example_Ir_octahedral_multistereo,Ir/CN6/Oh,multi-stereo multidentate example,SI_example
+key_message,–,"CoordRep v1 is mononuclear η1 not monodentate-only; 76% of training data includes multidentate ligands",main_text

@@ -1,0 +1,11 @@
+stage,n_entries,fraction_of_scanned
+scanned,200000,1.0
+has_3d,186436,0.9322
+transition_metal,85573,0.4279
+mononuclear,37634,0.1882
+eta1,30309,0.1515
+cn_ok,29239,0.1462
+no_disorder,20804,0.104
+no_polymer,20619,0.1031
+donor_ok,17217,0.0861
+valid_coordrep,17038,0.0852

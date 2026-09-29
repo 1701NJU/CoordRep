@@ -1,0 +1,18 @@
+Fig_S2 — CoordRep record anatomy and validation
+
+Panel A: Record anatomy
+  Source: box1_coordrep_records/box1_full_records.jsonl (Example A)
+  Display: line-broken CoordRep string with colour-coded field annotations
+  Identity keys L0–L3 shown below with hash prefixes
+
+Panel B: Donor-reference resolution
+  Source: same as A (Example A: cis-[Pt(MeNH2)2I2])
+  Shows mapping from donor tokens (L1:N:1, etc.) to ligand dictionary entries
+
+Panel C: Validation checklist
+  Source: box1_coordrep_records/box1_validation_report.csv (Example A row)
+  9 checks displayed; all pass (✓)
+
+Bottom row: Mini validation table for all 4 Box 1 records
+  Source: box1_validation_report.csv + box1_full_records.jsonl
+  No transforms or thresholding applied.

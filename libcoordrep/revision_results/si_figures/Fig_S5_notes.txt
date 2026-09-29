@@ -1,0 +1,27 @@
+Fig_S5 — Full-CSD boundary records and L3-family statistics
+
+Panel A: Boundary fraction by CN
+  Source: cn4/5/6 atlas CSVs (ΔCShM computed); threshold = 1.0
+  Only CN = 4, 5, 6 shown (CN 2/3 not evaluated: no dual-shape competition)
+
+Panel B: Dominant boundary shape pairs
+  Source: same atlas CSVs; boundary count per shape pair
+  Horizontal bar chart; count of entries with ΔCShM < 1.0
+  Only the three dominant channels shown (one per evaluated CN)
+
+Panel C: L3 family size distribution
+  Source: l3_family_geometry_trajectories.csv
+  Families with ≥ 2 members; log-x histogram
+  6,358 nontrivial L3 families
+
+Panel D: L1-state diversity within L3 families
+  Source: same CSV; unique_L1 per family
+  Integer histogram
+
+Panel E: [CuCl₄]²⁻ L3 family — geometry spread
+  Source: cn4_sp_td_atlas.csv; L3_hash = 780320495607
+  433 members, 95 at boundary (ΔCShM < 1.0)
+  Main scatter: all CN = 4 background (faint) + family members
+  Zoom inset: boundary region with refcode labels
+  Note: Geometry spread is a static comparison among independently observed
+  crystal structures; it does not imply a dynamic interconversion pathway.

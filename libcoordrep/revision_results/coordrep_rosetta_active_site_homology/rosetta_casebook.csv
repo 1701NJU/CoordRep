@@ -1,0 +1,5 @@
+case_id,case_title,mof_source_id,molecular_refcode,homology_score,match_level,shared_features,differences,short_chemical_interpretation,recommended_for_main_figure
+case_1,Cu coordination motif: MOF node ↔ molecular analog,ABETEJ,ACACCV10,1.0,L3_collision,"Cu;O,O,O,O,O,O,O,O,O,O",periodic_truncation,Shared Cu coordination environment with similar donor set,True
+case_2,Zn coordination motif: MOF node ↔ molecular analog,ABUBUY,ACEXUB,0.7533,bridge_topology_match,"Zn;N,N,N,N,N,N,O,O,O,O,O,O,O,O,O,O,O,O,O,O",periodic_truncation,Shared Zn coordination environment,True
+case_3,Co coordination motif: framework node ↔ molecular analog,ABECUI,ABIYOA,1.0,L3_collision,"Co;N,N,O,O,O,O",periodic_truncation,Shared Co coordination environment,True
+case_4,Multinuclear bridged motif: framework SBU ↔ molecular cluster,ABETEJ,ACACCV10,1.0,L3_collision,Cu+Cu;bridged,periodic_truncation;cluster_size,Shared multinuclear bridged coordination topology,True

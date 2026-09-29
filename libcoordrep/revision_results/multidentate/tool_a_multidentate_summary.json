@@ -1,0 +1,18 @@
+{
+  "full_context_dent=1_top1": 0.8471,
+  "full_context_dent=1_top5": 0.9789,
+  "full_context_dent=1_all_correct": 0.8471,
+  "full_context_dent=2_top1": 0.8666,
+  "full_context_dent=2_top5": 0.9837,
+  "full_context_dent=2_all_correct": 0.7602,
+  "no_ligand_smiles_dent=1_top1": 0.614,
+  "no_ligand_smiles_dent=1_top5": 0.8389,
+  "no_ligand_smiles_dent=1_all_correct": 0.614,
+  "no_ligand_smiles_dent=2_top1": 0.6142,
+  "no_ligand_smiles_dent=2_top5": 0.836,
+  "no_ligand_smiles_dent=2_all_correct": 0.3852,
+  "bidentate_per_donor_top1": 0.8666,
+  "bidentate_per_ligand_all_correct": 0.7602,
+  "n_invalid_donor_combos": 1228,
+  "invalid_rate_in_bidentate": 0.2398
+}

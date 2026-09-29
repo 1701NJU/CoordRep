@@ -1,0 +1,16 @@
+panel,series,category,statistic,value,unit,denominator_or_calls
+A,legal-orbit population,2,records,2652,records,5173
+A,legal-orbit population,4,records,1675,records,5173
+A,legal-orbit population,6,records,284,records,5173
+A,legal-orbit population,8,records,67,records,5173
+A,legal-orbit population,12,records,78,records,5173
+A,legal-orbit population,24,records,184,records,5173
+A,legal-orbit population,36,records,15,records,5173
+A,legal-orbit population,48,records,120,records,5173
+A,legal-orbit population,120,records,98,records,5173
+B,Signature-only sort,Median,wall time per call,0.20889998995698988,ms,101000
+B,Signature-only sort,P95,wall time per call,0.37399999564513564,ms,101000
+B,Signature-only sort,Maximum,wall time per call,17.719099996611476,ms,101000
+B,Full exact search,Median,wall time per call,0.7409999961964786,ms,101000
+B,Full exact search,P95,wall time per call,6.523474989808054,ms,101000
+B,Full exact search,Maximum,wall time per call,63.83759999880567,ms,101000

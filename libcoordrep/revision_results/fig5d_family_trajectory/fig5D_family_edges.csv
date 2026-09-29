@@ -1,0 +1,6 @@
+source_L3_key_hash,target_L3_key_hash,source_family_label,target_family_label,edge_reason,ligand_similarity,donor_set_distance,same_metal,same_CN
+463888590564,459862244708,LINMOL,GADNOP,donor_set_distance<=1,0.000,0,True,True
+413504888459,473044553894,NIDTHC10,LARMEY,donor_set_distance<=1,0.000,0,True,True
+371011783775,590391935808,IKEXEC,VETTUM,donor_set_distance<=1,0.000,1,True,True
+371011783775,356898165187,IKEXEC,COXNIN,donor_set_distance<=1,0.000,0,True,True
+590391935808,356898165187,VETTUM,COXNIN,donor_set_distance<=1,0.000,1,True,True

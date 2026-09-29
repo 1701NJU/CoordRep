@@ -1,0 +1,7 @@
+target,unit,model,n_records,n_graph_clusters,mae,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,bootstrap_replicates
+hl_gap_ev,eV,table_s8_full,48057,46212,0.23074420151944444,,,
+hl_gap_ev,eV,graph_only,48057,46212,0.2422969203895222,,,
+hl_gap_ev,eV,graph_only_minus_table_s8_full,48057,46212,0.011552718870077751,0.010242599539436245,0.012875646537814528,20000
+dipole_moment,D,table_s8_full,48057,46212,1.4950538114689063,,,
+dipole_moment,D,graph_only,48057,46212,1.5685774430283967,,,
+dipole_moment,D,graph_only_minus_table_s8_full,48057,46212,0.07352363155949031,0.06429316036940579,0.0827380210304578,20000

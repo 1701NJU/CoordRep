@@ -1,0 +1,29 @@
+{
+  "n_supported_features": 8,
+  "n_excluded_features": 6,
+  "n_future_extensions": 4,
+  "supported": [
+    "Mononuclear transition-metal complexes",
+    "Atom-resolved eta-1 donors",
+    "Monodentate ligands",
+    "Bidentate eta-1 chelating ligands",
+    "Multidentate eta-1 chelating ligands",
+    "Coordination number 2-14",
+    "cis/trans, fac/mer, donor-relation tokens",
+    "CoordRep-ID L0-L3"
+  ],
+  "excluded": [
+    "Multinuclear complexes",
+    "MOFs / coordination polymers",
+    "Polyoxometalates",
+    "eta-n organometallics",
+    "Positional disorder / partial occupancy",
+    "Ambiguous donor assignment"
+  ],
+  "future": [
+    "CoordRep-Multi",
+    "CoordRep-Periodic",
+    "CoordRep-Haptic",
+    "CoordRep-Occ"
+  ]
+}

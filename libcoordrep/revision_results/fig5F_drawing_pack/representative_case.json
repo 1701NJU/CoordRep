@@ -1,0 +1,25 @@
+{
+  "case_title": "Cu2 paddlewheel: MOF node ↔ molecular dicopper carboxylate",
+  "query_type": "MOF_node",
+  "molecular_refcode": "ACACCV10",
+  "framework_id": "ABETEJ",
+  "shared_metal": "Cu+Cu",
+  "shared_CN": "5,5",
+  "shared_donor_set": "O,O,O,O,O,O,O,O,O,O",
+  "matching_higher_order_features": [
+    "bridging carboxylate O (mu2-O)",
+    "Cu–Cu metal-metal edge",
+    "square-pyramidal CN=5 geometry",
+    "L3 identity collision (identical CoordRep fingerprint)"
+  ],
+  "homology_score": 1.0,
+  "match_level": "L3_collision",
+  "explanation": "The MOF ABETEJ contains a Cu2 paddlewheel SBU with 4 bridging carboxylate groups and an apical donor on each Cu. The molecular complex ACACCV10 is a discrete dicopper tetracarboxylate with identical local coordination — same bridge topology, same CN=5 square-pyramidal geometry, same donor set. CoordRep assigns both the same L3 identity key, demonstrating exact cross-domain coordination-site homology.",
+  "hard_pool_context": {
+    "pool_key": "Cu+Cu (same metal)",
+    "n_candidates_in_pool": 90,
+    "n_positives": 30,
+    "n_negatives": 60,
+    "note": "Among 90 molecular Cu+Cu candidates, CoordRep correctly identifies the 30 structurally homologous paddlewheel complexes as top matches, discriminating from 60 candidates with different bridge topology or geometry."
+  }
+}

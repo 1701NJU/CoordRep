@@ -1,0 +1,104 @@
+[
+  {
+    "label": "A_monodentate_square_planar",
+    "description": "Monodentate-only square-planar Pt(II) CN=4, source: tmQM ABAMIA",
+    "mol_id": "ABAMIA",
+    "source": "tmQM_pipeline",
+    "full_coordrep": "[Metal:Pt|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:dist|Delta:2|V:3.14,7.62>{trans:L1:P:1--L3:Cl:1}{trans:L2:P:1--L4:Cl:1}|L1=P|L2=P|L3=Cl|L4=Cl|",
+    "pretty_coordrep": "[Metal:Pt|ox:+2|d:d8|CN:4]\n<ShapeBest:Td|Class:dist|Delta:2|V:3.14,7.62>\n{trans:L1:P:1--L3:Cl:1}\n{trans:L2:P:1--L4:Cl:1}\n|L1=P|\n|L2=P|\n|L3=Cl|\n|L4=Cl|",
+    "is_valid": true,
+    "L0_StateKey": "[Metal:Pt|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:dist|Delta:2|V:3.14,7.62>{trans:L1:P:1--L3:Cl:1}{trans:L2:P:1--L4:Cl:1}|L1=P|L2=P|L3=Cl|L4=Cl|",
+    "L1_ShapeID": "Pt|+2|Td/SP.dist.D2|T2|Cl;Cl;P;P",
+    "L2_TopoID": "Pt|CN4|Td|Cl;Cl;P;P",
+    "L3_ConnID": "Pt|CN4|Cl;Cl;P;P",
+    "best_shape": "Td",
+    "metal_block": "[Metal:Pt|ox:+2|d:d8|CN:4]",
+    "shape_block": "<ShapeBest:Td|Class:dist|Delta:2|V:3.14,7.62>",
+    "constraint_blocks": [
+      "{trans:L1:P:1--L3:Cl:1}",
+      "{trans:L2:P:1--L4:Cl:1}"
+    ],
+    "ligand_blocks": [
+      "L1=P",
+      "L2=P",
+      "L3=Cl",
+      "L4=Cl"
+    ],
+    "donor_sites": [
+      "L1:P:1",
+      "L3:Cl:1",
+      "L2:P:1",
+      "L4:Cl:1"
+    ],
+    "cn": 4,
+    "metal": "Pt"
+  },
+  {
+    "label": "B_bidentate_chelating",
+    "description": "Bidentate chelating Pd CN=4, dents=[2, 2], source: tmQM ABAFOZ",
+    "mol_id": "ABAFOZ",
+    "source": "tmQM_pipeline",
+    "full_coordrep": "[Metal:Pd|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:good|Delta:3|V:2.82,8.22>{trans:L1:N:1--L2:O:1}{trans:L1:N:2--L2:O:2}|L1=C18H24N2|L2=C22H16O2|",
+    "pretty_coordrep": "[Metal:Pd|ox:+2|d:d8|CN:4]\n<ShapeBest:Td|Class:good|Delta:3|V:2.82,8.22>\n{trans:L1:N:1--L2:O:1}\n{trans:L1:N:2--L2:O:2}\n|L1=C18H24N2|\n|L2=C22H16O2|",
+    "is_valid": true,
+    "L0_StateKey": "[Metal:Pd|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:good|Delta:3|V:2.82,8.22>{trans:L1:N:1--L2:O:1}{trans:L1:N:2--L2:O:2}|L1=C18H24N2|L2=C22H16O2|",
+    "L1_ShapeID": "Pd|+2|Td/SP.good.D3|T2|C18H24N2;C22H16O2",
+    "L2_TopoID": "Pd|CN4|Td|C18H24N2;C22H16O2",
+    "L3_ConnID": "Pd|CN4|C18H24N2;C22H16O2",
+    "best_shape": "Td",
+    "metal_block": "[Metal:Pd|ox:+2|d:d8|CN:4]",
+    "shape_block": "<ShapeBest:Td|Class:good|Delta:3|V:2.82,8.22>",
+    "constraint_blocks": [
+      "{trans:L1:N:1--L2:O:1}",
+      "{trans:L1:N:2--L2:O:2}"
+    ],
+    "ligand_blocks": [
+      "L1=C18H24N2",
+      "L2=C22H16O2"
+    ],
+    "donor_sites": [
+      "L1:N:1",
+      "L2:O:1",
+      "L1:N:2",
+      "L2:O:2"
+    ],
+    "cn": 4,
+    "metal": "Pd"
+  },
+  {
+    "label": "C_octahedral_multi_stereo",
+    "description": "Octahedral Ir CN=6, dents=[2, 2, 2], multiple trans constraints, source: tmQM ABAYUA",
+    "mol_id": "ABAYUA",
+    "source": "tmQM_pipeline",
+    "full_coordrep": "[Metal:Ir|CN:6]<ShapeBest:Oh|Class:dist|Delta:2|V:4.37,7.88>{trans:L1:C:1--L3:N:1}{trans:L1:N:1--L2:N:1}{trans:L2:C:1--L3:O:1}|L1=C11F2H6N|L2=C11F2H6N|L3=C15H14NO|",
+    "pretty_coordrep": "[Metal:Ir|CN:6]\n<ShapeBest:Oh|Class:dist|Delta:2|V:4.37,7.88>\n{trans:L1:C:1--L3:N:1}\n{trans:L1:N:1--L2:N:1}\n{trans:L2:C:1--L3:O:1}\n|L1=C11F2H6N|\n|L2=C11F2H6N|\n|L3=C15H14NO|",
+    "is_valid": true,
+    "L0_StateKey": "[Metal:Ir|CN:6]<ShapeBest:Oh|Class:dist|Delta:2|V:4.37,7.88>{trans:L1:C:1--L3:N:1}{trans:L1:N:1--L2:N:1}{trans:L2:C:1--L3:O:1}|L1=C11F2H6N|L2=C11F2H6N|L3=C15H14NO|",
+    "L1_ShapeID": "Ir|?|Oh/TPr.dist.D2|T3|C11F2H6N;C11F2H6N;C15H14NO",
+    "L2_TopoID": "Ir|CN6|Oh|C11F2H6N;C11F2H6N;C15H14NO",
+    "L3_ConnID": "Ir|CN6|C11F2H6N;C11F2H6N;C15H14NO",
+    "best_shape": "Oh",
+    "metal_block": "[Metal:Ir|CN:6]",
+    "shape_block": "<ShapeBest:Oh|Class:dist|Delta:2|V:4.37,7.88>",
+    "constraint_blocks": [
+      "{trans:L1:C:1--L3:N:1}",
+      "{trans:L1:N:1--L2:N:1}",
+      "{trans:L2:C:1--L3:O:1}"
+    ],
+    "ligand_blocks": [
+      "L1=C11F2H6N",
+      "L2=C11F2H6N",
+      "L3=C15H14NO"
+    ],
+    "donor_sites": [
+      "L1:C:1",
+      "L3:N:1",
+      "L1:N:1",
+      "L2:N:1",
+      "L2:C:1",
+      "L3:O:1"
+    ],
+    "cn": 6,
+    "metal": "Ir"
+  }
+]

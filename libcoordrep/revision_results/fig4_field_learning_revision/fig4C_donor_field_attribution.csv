@@ -1,0 +1,6 @@
+condition,description,donor_top1,donor_top5,n_samples,interpretation
+full_context_MLM,All fields visible; donor markers masked,85.7,98.1,19992,masked-field donor annotation baseline
+LigandFreq_lookup,Majority-vote donor from training-set ligand SMILES,86.2,100.0,19992,ligand identity alone recovers most donors
+no_geometry_stereo,Shape + stereo fields removed; ligand SMILES visible,85.5,98.1,19992,geometry/stereo fields contribute minimally
+ligand_SMILES_masked,Ligand SMILES replaced with length-matched masks,61.4,83.7,19984,removing ligand identity drops accuracy ~24 pts
+shuffled_ligand_SMILES,Ligand SMILES shuffled to random positions,21.6,47.5,19992,near-chance; confirms ligand-position specificity

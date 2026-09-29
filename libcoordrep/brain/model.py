@@ -20,7 +20,7 @@ from typing import Optional, Tuple
 
 @dataclass
 class CoordRepModelConfig:
- """"""
+    """"""
     vocab_size: int = 10000
     hidden_size: int = 384
     num_hidden_layers: int = 6
@@ -34,12 +34,12 @@ class CoordRepModelConfig:
     
     @classmethod
     def small(cls, max_length: int = 768):
- """RoBERTa-Small """
+        """RoBERTa-Small """
         return cls(max_position_embeddings=max_length)
     
     @classmethod
     def tiny(cls, max_length: int = 512):
- """"""
+        """"""
         return cls(
             hidden_size=256,
             num_hidden_layers=4,
@@ -50,7 +50,7 @@ class CoordRepModelConfig:
 
 
 class MultiHeadAttention(nn.Module):
- """"""
+    """"""
     
     def __init__(self, config: CoordRepModelConfig):
         super().__init__()
@@ -98,7 +98,7 @@ class MultiHeadAttention(nn.Module):
 
 
 class TransformerBlock(nn.Module):
- """Transformer """
+    """Transformer """
     
     def __init__(self, config: CoordRepModelConfig):
         super().__init__()
@@ -133,7 +133,7 @@ class TransformerBlock(nn.Module):
 
 
 class CoordRepEmbeddings(nn.Module):
- """"""
+    """"""
     
     def __init__(self, config: CoordRepModelConfig):
         super().__init__()
@@ -168,7 +168,7 @@ class CoordRepEmbeddings(nn.Module):
 
 
 class CoordRepEncoder(nn.Module):
- """CoordRep """
+    """CoordRep """
     
     def __init__(self, config: CoordRepModelConfig):
         super().__init__()
@@ -202,9 +202,9 @@ class CoordRepEncoder(nn.Module):
 
 class CoordRepForMLM(nn.Module):
     """
- CoordRep
+    CoordRep
     
- CoordRep
+    CoordRep
     """
     
     def __init__(self, config: CoordRepModelConfig):
@@ -263,9 +263,9 @@ class CoordRepForMLM(nn.Module):
 
 class CoordRepForRegression(nn.Module):
     """
- CoordRep Predict
+    CoordRep Predict
     
- +
+    +
     """
     
     def __init__(
@@ -319,7 +319,7 @@ class CoordRepForRegression(nn.Module):
 
 
 def count_parameters(model: nn.Module) -> int:
- """Statistics"""
+    """Statistics"""
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 
@@ -337,7 +337,7 @@ if __name__ == "__main__":
     input_ids = torch.randint(0, config.vocab_size, (batch_size, seq_len))
     attention_mask = torch.ones(batch_size, seq_len)
     labels = input_ids.clone()
- labels[labels != 4] = -100 # label
+    labels[labels != 4] = -100 # label
     
     logits, loss = model(input_ids, attention_mask, labels)
     

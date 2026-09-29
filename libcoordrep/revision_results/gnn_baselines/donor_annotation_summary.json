@@ -1,0 +1,86 @@
+{
+  "models": {
+    "Random": {
+      "model": "Random",
+      "n": 2000,
+      "precision": 0.21384166666666665,
+      "recall": 0.2663333333333333,
+      "f1": 0.22771944444444445,
+      "jaccard": 0.19210833333333335,
+      "all_correct": 0.102,
+      "top1": 0.2185,
+      "top5": 0.329
+    },
+    "GlobalFreq": {
+      "model": "GlobalFreq",
+      "n": 2000,
+      "precision": 0.33986607142857145,
+      "recall": 0.471375,
+      "f1": 0.3773203823953824,
+      "jaccard": 0.3319910714285714,
+      "all_correct": 0.2015,
+      "top1": 0.38,
+      "top5": 0.497
+    },
+    "CondFreq": {
+      "model": "CondFreq",
+      "n": 2000,
+      "precision": 0.34022440476190474,
+      "recall": 0.46795833333333337,
+      "f1": 0.3765261183261183,
+      "jaccard": 0.3308494047619047,
+      "all_correct": 0.2025,
+      "top1": 0.445,
+      "top5": 0.5
+    },
+    "LigandFreq": {
+      "model": "LigandFreq",
+      "n": 2000,
+      "precision": 0.8994964285714286,
+      "recall": 0.9172083333333333,
+      "f1": 0.8955226551226552,
+      "jaccard": 0.8708380952380952,
+      "all_correct": 0.797,
+      "top1": 0.9035,
+      "top5": 0.955
+    },
+    "GCN_ligand_only": {
+      "model": "GCN_ligand_only",
+      "n": 2000,
+      "precision": 0.8553353174603175,
+      "recall": 0.8553353174603175,
+      "f1": 0.8553353174603175,
+      "jaccard": 0.8289148268398269,
+      "all_correct": 0.756
+    },
+    "GIN_ligand_only": {
+      "model": "GIN_ligand_only",
+      "n": 2000,
+      "precision": 0.8614234126984127,
+      "recall": 0.8614234126984127,
+      "f1": 0.8614234126984127,
+      "jaccard": 0.8366813131313131,
+      "all_correct": 0.767
+    },
+    "GIN_ligand_context": {
+      "model": "GIN_ligand_context",
+      "n": 2000,
+      "precision": 0.9041275793650794,
+      "recall": 0.9041275793650794,
+      "f1": 0.9041275793650794,
+      "jaccard": 0.8850400432900433,
+      "all_correct": 0.832
+    }
+  },
+  "leakage": {
+    "train_val_mol_id_leak": 0,
+    "train_test_mol_id_leak": 0,
+    "val_test_mol_id_leak": 0,
+    "train_size": 16066,
+    "val_size": 1965,
+    "test_size": 1969,
+    "ligand_smiles_train_test_overlap": 1064,
+    "ligand_smiles_train_total": 7579,
+    "ligand_smiles_test_total": 1630
+  }
+}

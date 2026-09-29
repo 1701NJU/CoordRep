@@ -176,7 +176,7 @@ class CoordRepRepairer:
                 # Check each candidate
                 for tok, prob in preds[0]:
                     if tok == original:
- continue # token
+                        continue # token
                     
                     test_tokens = current_tokens.copy()
                     test_tokens[pos] = tok

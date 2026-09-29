@@ -1,0 +1,26 @@
+{
+  "claim_level": "v2 beta feasibility and scoped validation, not full production support",
+  "coordrep_v1_scope_unchanged": true,
+  "multinuclear_curated_cases": 55,
+  "haptic_curated_cases": 33,
+  "multinuclear_random_audit_n": 500,
+  "haptic_random_audit_n": 300,
+  "multi_curated_parse_roundtrip_rate": 1.0,
+  "haptic_curated_parse_roundtrip_rate": 1.0,
+  "multi_invariance_rate": 1.0,
+  "haptic_site_order_invariance_rate": 1.0,
+  "multi_random_estimated_pass_rate": 0.72,
+  "haptic_random_estimated_pass_rate": 0.68,
+  "major_failure_modes": [
+    "ambiguous_oxidation_state",
+    "complex_bridging_topology",
+    "mixed_haptic_and_bridging",
+    "polymeric_or_extended",
+    "disordered_metal_site",
+    "unusual_hapticity_eta7_plus",
+    "lanthanide_actinide_edge_case"
+  ],
+  "estimated_future_coverage_gain_percent": 228.1,
+  "estimated_future_coverage_gain_entries": 284725,
+  "license_note": "No raw CSD coordinates exported."
+}

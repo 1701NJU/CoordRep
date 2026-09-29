@@ -2,7 +2,7 @@
 CoordRep
 
 80% tmQM + 20% COD
- +
+    +
 """
 
 import sys
@@ -32,7 +32,7 @@ from brain.smart_truncation import SmartTruncator, TruncationConfig, TruncationM
 
 @dataclass
 class DataConfig:
- """"""
+    """"""
     tmqm_dir: str = None
     cod_dir: str = None
     tmqm_ratio: float = 0.8
@@ -45,11 +45,11 @@ class DataConfig:
 
 class CoordRepDataset(Dataset):
     """
- CoordRep Training data
+    CoordRep Training data
     
- 1. tmQM + COD
- 2.
- 3.
+    1. tmQM + COD
+    2.
+    3.
     """
     
     def __init__(
@@ -70,7 +70,7 @@ class CoordRepDataset(Dataset):
         self._load_data()
     
     def _load_data(self):
- """"""
+        """"""
         print(f"Loading {self.split} data...")
         
         if self.config.tmqm_dir:
@@ -88,7 +88,7 @@ class CoordRepDataset(Dataset):
         print(f"Total: {len(self.samples)} samples")
     
     def _load_tmqm(self) -> List[str]:
- """ tmQM """
+        """ tmQM """
         reader = TMQMReader(self.config.tmqm_dir)
         reader.load()
         
@@ -107,7 +107,7 @@ class CoordRepDataset(Dataset):
         return samples
     
     def _load_cod(self) -> List[str]:
- """ COD """
+        """ COD """
         reader = CIFReader(self.config.cod_dir)
         reader.load()
         
@@ -140,7 +140,7 @@ class CoordRepDataset(Dataset):
         # Tokenize
         tokens = self.tokenizer.tokenize(text)
         
- if len(tokens) > self.config.max_length - 2: # [CLS] [SEP]
+        if len(tokens) > self.config.max_length - 2: # [CLS] [SEP]
             truncator = SmartTruncator(TruncationConfig(
                 max_length=self.config.max_length - 2,
                 max_ligand_tokens=80
@@ -173,7 +173,7 @@ class CoordRepDataset(Dataset):
 
 class CoordRepDataModule:
     """
- DataLoader
+    DataLoader
     """
     
     def __init__(

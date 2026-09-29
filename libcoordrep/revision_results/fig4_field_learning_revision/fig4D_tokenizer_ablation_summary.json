@@ -1,0 +1,5 @@
+{
+  "main_message": "Factorized metal/CN fields enable independent evaluation.",
+  "composite_limitation": "independent metal and CN recovery are ill-posed when fused into one token",
+  "conclusion": "factorization changes evaluability but not the interpretation that donor recovery is not de novo ligand generation"
+}

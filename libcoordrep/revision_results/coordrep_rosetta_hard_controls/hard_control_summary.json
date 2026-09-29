@@ -1,0 +1,169 @@
+{
+  "n_mof_nodes": 500,
+  "n_molecular_refs": 4500,
+  "best_subtask": "B_same_metal",
+  "subtask_pool_stats": {
+    "A_same_metal_cn": {
+      "n_pools": 41,
+      "mean_pool_size": 25.3,
+      "total_positives": 478,
+      "total_negatives": 301
+    },
+    "B_same_metal": {
+      "n_pools": 143,
+      "mean_pool_size": 57.1,
+      "total_positives": 1827,
+      "total_negatives": 3023
+    },
+    "C_same_metal_donor": {
+      "n_pools": 0,
+      "mean_pool_size": 0.0,
+      "total_positives": 0,
+      "total_negatives": 0
+    }
+  },
+  "best_subtask_n_pools": 143,
+  "best_subtask_mean_pool_size": 57.1,
+  "methods_best_subtask": {
+    "coordrep_full": {
+      "top1_correct_rate": 0.8671,
+      "top5_correct_rate": 0.9441,
+      "mean_auroc": 0.9489,
+      "mean_fp_rate": 0.2909
+    },
+    "donor_baseline": {
+      "top1_correct_rate": 0.6783,
+      "top5_correct_rate": 0.9301,
+      "mean_auroc": 0.9041,
+      "mean_fp_rate": 0.3902
+    },
+    "cshm_only": {
+      "top1_correct_rate": 0.3846,
+      "top5_correct_rate": 0.7343,
+      "mean_auroc": 0.5973,
+      "mean_fp_rate": 0.649
+    },
+    "L3_only": {
+      "top1_correct_rate": 0.3636,
+      "top5_correct_rate": 0.6923,
+      "mean_auroc": 0.5246,
+      "mean_fp_rate": 0.7007
+    },
+    "random_same_donor": {
+      "top1_correct_rate": 0.1818,
+      "top5_correct_rate": 0.6014,
+      "mean_auroc": 0.5023,
+      "mean_fp_rate": 0.779
+    }
+  },
+  "all_subtask_methods": {
+    "A_same_metal_cn": {
+      "coordrep_full": {
+        "top1": 1.0,
+        "top5": 1.0,
+        "auroc": 1.0
+      },
+      "donor_baseline": {
+        "top1": 0.878,
+        "top5": 0.9512,
+        "auroc": 0.8358
+      },
+      "cshm_only": {
+        "top1": 0.5366,
+        "top5": 0.9512,
+        "auroc": 0.5
+      },
+      "L3_only": {
+        "top1": 0.7561,
+        "top5": 0.9512,
+        "auroc": 0.5674
+      },
+      "random_same_donor": {
+        "top1": 0.4146,
+        "top5": 0.8537,
+        "auroc": 0.4667
+      }
+    },
+    "B_same_metal": {
+      "coordrep_full": {
+        "top1": 0.8671,
+        "top5": 0.9441,
+        "auroc": 0.9489
+      },
+      "donor_baseline": {
+        "top1": 0.6783,
+        "top5": 0.9301,
+        "auroc": 0.9041
+      },
+      "cshm_only": {
+        "top1": 0.3846,
+        "top5": 0.7343,
+        "auroc": 0.5973
+      },
+      "L3_only": {
+        "top1": 0.3636,
+        "top5": 0.6923,
+        "auroc": 0.5246
+      },
+      "random_same_donor": {
+        "top1": 0.1818,
+        "top5": 0.6014,
+        "auroc": 0.5023
+      }
+    },
+    "C_same_metal_donor": {
+      "coordrep_full": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "auroc": 0.0
+      },
+      "donor_baseline": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "auroc": 0.0
+      },
+      "cshm_only": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "auroc": 0.0
+      },
+      "L3_only": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "auroc": 0.0
+      },
+      "random_same_donor": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "auroc": 0.0
+      }
+    }
+  },
+  "delta_full_vs_donor": {
+    "top1": 0.1888,
+    "auroc": 0.0448
+  },
+  "go_criteria": {
+    "full_beats_donor_top1": true,
+    "delta_top1_significant": true,
+    "full_auroc_above_0.6": true,
+    "full_beats_random": true,
+    "n_pools_sufficient": true
+  },
+  "decision": "GO_main_text",
+  "audit_summary": {
+    "coordrep_top1": {
+      "n": 30,
+      "homologous_rate": 0.9333
+    },
+    "donor_top1": {
+      "n": 30,
+      "homologous_rate": 0.5667
+    },
+    "hard_negative": {
+      "n": 30,
+      "homologous_rate": 0.0
+    }
+  },
+  "elapsed_seconds": 94
+}

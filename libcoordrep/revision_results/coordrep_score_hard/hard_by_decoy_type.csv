@@ -1,0 +1,6 @@
+decoy_type,n_real,n_decoy,detection_auroc,mean_real,mean_decoy
+boundary_hard,18867,18867,0.5973,-32.2264,-36.3188
+co_ligand_hard,78102,78102,0.4928,-2.7638,-2.7548
+ligand_hard,79911,79911,0.6678,-2.4518,-3.6866
+metal_hard,77168,77168,0.6626,-32.39,-39.1447
+stereo_hard,15156,15156,0.7435,-15.8503,-22.0994

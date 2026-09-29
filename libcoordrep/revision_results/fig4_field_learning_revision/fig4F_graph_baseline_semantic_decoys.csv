@@ -1,0 +1,6 @@
+task,model_or_representation,decoy_type,metric,score,n_pools,interpretation
+semantic_decoy_ranking,EGNN_3D,strict_semantic,AUROC,0.4864,1450,3D geometry alone cannot rank semantic decoys
+semantic_decoy_ranking,EGNN_3D+metadata,strict_semantic,AUROC,0.55,1450,adding metal/CN metadata provides modest signal
+semantic_decoy_ranking,CoordRep_Ranker,strict_semantic,AUROC,0.8,1501,CoordRep-Ranker detects grammar-valid inconsistencies
+semantic_decoy_ranking,EGNN_3D,stereo_hard,AUROC,0.5,1450,3D geometry has no stereo discrimination
+semantic_decoy_ranking,CoordRep_Ranker,stereo_hard,AUROC,0.9475,1501,CoordRep-Ranker excels at stereo consistency

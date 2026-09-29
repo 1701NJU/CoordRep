@@ -1,0 +1,13 @@
+category,n_entries,type,description
+total_CSD_entries,1413222,,Total CSD 2024.3 entries
+no_compatible_3D_or_atom_resolved_structure,78081,excluded,No 3D coordinates or atom-resolved structure
+no_transition_metal,719643,excluded,3D present but no transition metal
+transition_metal_candidate_entries,615498,checkpoint,Entries containing ≥1 transition metal with 3D
+multinuclear_or_extended_coordination,346468,excluded,"≥2 metal centers (dinuclear, cluster, MOF, etc.)"
+haptic_or_pi_coordination_eta_greater_than_1,51867,excluded,Mononuclear but with η>1 haptic/π coordination
+disorder_or_partial_occupancy,64098,excluded,Crystallographic disorder or partial occupancy
+incompatible_or_ambiguous_bonding_graph,26868,excluded,"CN outside 2–6, polymeric, or donor/SMILES failure"
+outside_current_v1_grammar_other,0,excluded,Other residual exclusions
+intended_v1_candidate_entries,126197,checkpoint,Entries within intended CoordRep v1 domain
+in_domain_conversion_failures,1360,excluded,In-domain but failed final CoordRep validation
+valid_CoordRep_v1_records,124837,retained,Successfully converted to valid CoordRep v1

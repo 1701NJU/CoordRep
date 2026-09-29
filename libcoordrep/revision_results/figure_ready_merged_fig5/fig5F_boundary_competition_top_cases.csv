@@ -1,0 +1,11 @@
+pair_label,CN,representative_refcode,metal,best_shape,best_CShM,second_shape,second_CShM,delta_CShM,short_note
+TPr–Oh,6,AFOSIA,Cr,TPr,4.48,Oh,4.49,0.01,Oh-TPr benchmark boundary case
+Oh–TPr,6,APUSEM,Ir,Oh,3.78,TPr,3.78,0.0,Tightest Oh–TPr competition (Δ≈0)
+Oh–TPr,6,EXOCOM,Fe,TPr,3.54,Oh,4.04,0.5,Typical Oh–TPr boundary (Δ≈0.5)
+Oh–TPr,6,BAQNOW,Re,Oh,6.76,TPr,7.68,0.92,Marginal Oh–TPr boundary (Δ≈0.9)
+SPY–TBP,5,AFAFIA,Ru,TBP,6.82,SPY,6.82,0.0,Tightest SPY–TBP competition (Δ≈0)
+SPY–TBP,5,JOJWIO,Ti,TBP,5.57,SPY,6.07,0.5,Typical SPY–TBP boundary (Δ≈0.5)
+SPY–TBP,5,QAYXEW,Cu,TBP,5.32,SPY,6.24,0.92,Marginal SPY–TBP boundary (Δ≈0.9)
+SP–Td,4,ESAWOL,Ir,Td,1.78,SP,1.78,0.0,Tightest SP–Td competition (Δ≈0)
+SP–Td,4,KEQNUS,Zn,Td,0.66,SP,1.18,0.52,Typical SP–Td boundary (Δ≈0.5)
+SP–Td,4,ZETWIE,Zn,Td,2.03,SP,2.95,0.92,Marginal SP–Td boundary (Δ≈0.9)

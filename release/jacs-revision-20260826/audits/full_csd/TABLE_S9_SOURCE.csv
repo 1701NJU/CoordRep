@@ -1,0 +1,12 @@
+Analysis,Quantity,Count,Fraction,Interpretation
+April 2025 CSD,All entries,1371757,100.0000%,Frozen database denominator
+Frozen metal-domain census,Metal-containing entries,783263,57.0993%,At least one symbol in the frozen 96-symbol CCDC-derived policy
+Frozen metal-domain census,Metal-containing entries without 3D,36752,4.6922%,Census only; no 3D structural record assigned
+Structural-audit target,Three-dimensional metal-containing entries,746511,95.3078%,Operational structure-record denominator
+Audit records,Schema-valid emitted records,746511,100.0000%,Closed typed audit outcomes
+Structural records,Entries with any structural metal site,741402,99.3156%,At least one native-source donor or metal relation
+Structural records,Entries with every metal site structural,733004,98.1906%,No audit-only site in the entry
+Metal-site records,All in-scope metal sites,2608448,100.0000%,Site-level denominator
+Metal-site records,Structural metal sites,2574081,98.6825%,Native-source structural relation retained
+Metal-site records,Audit-only metal sites,34367,1.3175%,No qualifying native-source structural relation
+Independent source reread,Records passing source-signature validation,746511,100.0000%,Agreement under the same frozen metal policy

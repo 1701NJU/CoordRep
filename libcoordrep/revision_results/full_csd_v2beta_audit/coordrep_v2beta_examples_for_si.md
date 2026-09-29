@@ -1,0 +1,222 @@
+# CoordRep-v2 Beta — Full-CSD Audit Examples
+
+## Multinuclear Examples
+
+### SAYYOG: CSD SAYYOG: 2-nuclear Re+Re
+```
+[Metals:
+  M1=[Re|ox:unk|CNsite:5|CNatom:5];
+  M2=[Re|ox:unk|CNsite:6|CNatom:6]]
+[LocalSphere:
+  M1={S1,S2,S3,S4,S9};
+  M2={S5,S6,S7,S8,S10,S11}]
+[Ligands:
+  L1=[Cl];
+  L2=[Cl];
+  L3=[Cl];
+  L4=[Cl];
+  L5=[Cl];
+  L6=[Cl];
+  L7=[Cl];
+  L8=[Re];
+  L9=[Re];
+  L10=[S];
+  L11=[S]]
+[ID:
+  L0_GlobalState=25f99843b8df52f0;
+  L1_GlobalShape=7180afadbefc46fc;
+  L2_MetalGraphTopo=8dc9ac151e0e9985;
+  L3_Connectivity=d3e78fba736bfa9b;
+  LocalID[M1]=4ae827818177;
+  LocalID[M2]=3554da750dd2]
+```
+
+### GUNWAQ: CSD GUNWAQ: 3-nuclear Zn+Zn+Zn
+```
+[Metals:
+  M1=[Zn|ox:unk|CNsite:1|CNatom:1];
+  M2=[Zn|ox:unk|CNsite:1|CNatom:1];
+  M3=[Zn|ox:unk|CNsite:6|CNatom:6]]
+[LocalSphere:
+  M1={S2};
+  M2={S5};
+  M3={S1,S3,S4,S6,S7,S8}]
+[Ligands:
+  L1=[N];
+  L2=[N];
+  L3=[N];
+  L4=[N];
+  L5=[N];
+  L6=[N];
+  L7=[O];
+  L8=[O]]
+[ID:
+  L0_GlobalState=72c63c03e7ff175a;
+  L1_GlobalShape=3b4e761a17e9ed24;
+  L2_MetalGraphTopo=7dc65bdf169fc7fa;
+  L3_Connectivity=6e9246ee2ec14ba1;
+  LocalID[M1]=d73666d0a834;
+  LocalID[M2]=eaf762b64188;
+  LocalID[M3]=26a5634412a7]
+```
+
+### WIZFER: CSD WIZFER: 2-nuclear Zn+Zn
+```
+[Metals:
+  M1=[Zn|ox:unk|CNsite:6|CNatom:6];
+  M2=[Zn|ox:unk|CNsite:6|CNatom:6]]
+[LocalSphere:
+  M1={S4,S5,S6,S10,S11,S12};
+  M2={S1,S2,S3,S7,S8,S9}]
+[Ligands:
+  L1=[N];
+  L2=[N];
+  L3=[N];
+  L4=[N];
+  L5=[N];
+  L6=[N];
+  L7=[O];
+  L8=[O];
+  L9=[O];
+  L10=[O];
+  L11=[O];
+  L12=[O]]
+[ID:
+  L0_GlobalState=cf14c3e3b5a3c44c;
+  L1_GlobalShape=a0c186d9466994a8;
+  L2_MetalGraphTopo=d02c9711fd26eab2;
+  L3_Connectivity=6d26655e07dc4ac8;
+  LocalID[M1]=2379907bfae0;
+  LocalID[M2]=baefdd8ed94e]
+```
+
+## Haptic Examples
+
+### BAHKUR: CSD BAHKUR: Rh haptic eta1
+```
+[Metal:
+  M1=[Rh|ox:unk|CNsite:11|eta_sum:11]]
+[Sites:
+  S1={type:atom|ligand:L1|atoms:CC1|eta:1};
+  S2={type:atom|ligand:L2|atoms:CC17|eta:1};
+  S3={type:atom|ligand:L3|atoms:CC18|eta:1};
+  S4={type:atom|ligand:L4|atoms:CC19|eta:1};
+  S5={type:atom|ligand:L5|atoms:CC2|eta:1};
+  S6={type:atom|ligand:L6|atoms:CC20|eta:1};
+  S7={type:atom|ligand:L7|atoms:CC21|eta:1};
+  S8={type:atom|ligand:L8|atoms:CC3|eta:1};
+  S9={type:atom|ligand:L9|atoms:CC4|eta:1};
+  S10={type:atom|ligand:L10|atoms:CC5|eta:1};
+  S11={type:atom|ligand:L11|atoms:CC6|eta:1}]
+[AtomDonors:
+  {S1:L1:CC1->M1};
+  {S2:L2:CC17->M1};
+  {S3:L3:CC18->M1};
+  {S4:L4:CC19->M1};
+  {S5:L5:CC2->M1};
+  {S6:L6:CC20->M1};
+  {S7:L7:CC21->M1};
+  {S8:L8:CC3->M1};
+  {S9:L9:CC4->M1};
+  {S10:L10:CC5->M1};
+  {S11:L11:CC6->M1}]
+[Ligands:
+  L1=[C];
+  L2=[C];
+  L3=[C];
+  L4=[C];
+  L5=[C];
+  L6=[C];
+  L7=[C];
+  L8=[C];
+  L9=[C];
+  L10=[C];
+  L11=[C]]
+[Geometry:
+  CNsite=11;
+  eta_sum=11]
+[ID:
+  L0_HapticState=d50dea14dfb2c21b;
+  L1_HapticShape=f72c5d2f3b6d616d;
+  L2_SiteTopo=0bd10db63c2f9f32;
+  L3_Connectivity=1d85c51355e955e2]
+```
+
+### LAZTEM: CSD LAZTEM: Mn haptic eta1
+```
+[Metal:
+  M1=[Mn|ox:unk|CNsite:8|eta_sum:8]]
+[Sites:
+  S1={type:atom|ligand:L1|atoms:CC15|eta:1};
+  S2={type:atom|ligand:L2|atoms:CC16|eta:1};
+  S3={type:atom|ligand:L3|atoms:CC17|eta:1};
+  S4={type:atom|ligand:L4|atoms:CC18|eta:1};
+  S5={type:atom|ligand:L5|atoms:CC19|eta:1};
+  S6={type:atom|ligand:L6|atoms:CC20|eta:1};
+  S7={type:atom|ligand:L7|atoms:CC21|eta:1};
+  S8={type:atom|ligand:L8|atoms:PP1|eta:1}]
+[AtomDonors:
+  {S1:L1:CC15->M1};
+  {S2:L2:CC16->M1};
+  {S3:L3:CC17->M1};
+  {S4:L4:CC18->M1};
+  {S5:L5:CC19->M1};
+  {S6:L6:CC20->M1};
+  {S7:L7:CC21->M1};
+  {S8:L8:PP1->M1}]
+[Ligands:
+  L1=[C];
+  L2=[C];
+  L3=[C];
+  L4=[C];
+  L5=[C];
+  L6=[C];
+  L7=[C];
+  L8=[P]]
+[Geometry:
+  CNsite=8;
+  eta_sum=8]
+[ID:
+  L0_HapticState=ad0138a42183c617;
+  L1_HapticShape=cf9378a6145dc985;
+  L2_SiteTopo=737d3d66848c89d0;
+  L3_Connectivity=0ee9f4d84330fd26]
+```
+
+### OGOBIV: CSD OGOBIV: Ir haptic eta1
+```
+[Metal:
+  M1=[Ir|ox:unk|CNsite:7|eta_sum:7]]
+[Sites:
+  S1={type:atom|ligand:L1|atoms:CC1|eta:1};
+  S2={type:atom|ligand:L2|atoms:CC2|eta:1};
+  S3={type:atom|ligand:L3|atoms:NN1|eta:1};
+  S4={type:atom|ligand:L4|atoms:NN2|eta:1};
+  S5={type:atom|ligand:L5|atoms:NN3|eta:1};
+  S6={type:atom|ligand:L6|atoms:OO1|eta:1};
+  S7={type:atom|ligand:L7|atoms:OO2|eta:1}]
+[AtomDonors:
+  {S1:L1:CC1->M1};
+  {S2:L2:CC2->M1};
+  {S3:L3:NN1->M1};
+  {S4:L4:NN2->M1};
+  {S5:L5:NN3->M1};
+  {S6:L6:OO1->M1};
+  {S7:L7:OO2->M1}]
+[Ligands:
+  L1=[C];
+  L2=[C];
+  L3=[N];
+  L4=[N];
+  L5=[N];
+  L6=[O];
+  L7=[O]]
+[Geometry:
+  CNsite=7;
+  eta_sum=7]
+[ID:
+  L0_HapticState=3c41df2e1fd0e008;
+  L1_HapticShape=23b2ac2bffbec2f7;
+  L2_SiteTopo=8c067cc273cab9cf;
+  L3_Connectivity=8a202536536ba505]
+```
