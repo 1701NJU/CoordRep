@@ -2,9 +2,12 @@
 
 This `jacs-revision` branch contains the public code and evidence for the
 current manuscript, **CoordRep: A Canonical, Continuous, and Compositional
-Representation for Machine Learning in Coordination Chemistry**. The
-authoritative package is
-[`release/jacs-revision-20260826`](release/jacs-revision-20260826/).
+Representation for Machine Learning in Coordination Chemistry**. The frozen
+manuscript base is
+[`release/jacs-revision-20260826`](release/jacs-revision-20260826/). The
+additive second-round methods and control package is
+[`release/jacs-revision-20260929`](release/jacs-revision-20260929/); it does not
+replace or silently reprocess the earlier figures.
 
 ## Current evidence lock
 
@@ -13,9 +16,11 @@ authoritative package is
   783,263 entries are metal-containing; 746,511 deposited structures meet the
   three-dimensional structural-audit criterion, while 36,752 remain in the
   census without a 3D structural record.
-- **Record emission and source fidelity:** all 746,511 targets yielded a
-  schema-valid audit record, and 746,511/746,511 passed an independent reread
-  of the native CSD object.
+- **Record emission and source consistency:** all 746,511 targets yielded a
+  schema-valid audit record, and 746,511/746,511 passed a separate reread of
+  the native CSD object against the emitted source-derived signatures. This
+  checks transcription under the extraction policy, not independent chemical
+  correctness of the deposited assignments.
 - **Structural coverage:** at least one structural metal-site record was
   retained in 741,402/746,511 entries; every in-scope metal site is structural
   in 733,004/746,511 entries. At site level, 2,574,081/2,608,448 metal sites
@@ -29,7 +34,10 @@ authoritative package is
   an ambiguous collective-π candidate without forcing hapticity.
 - **Periodic collection:** 15,905/15,906 public CSD MOF Collection entries were
   processed. The 10,948 state-bearing entries yielded 172,332 local states;
-  74,354 (43.15%) contain a nonzero translation-labelled edge.
+  74,354 (43.15%) contain a nonzero translation-labelled edge. A separate
+  code-only raw-CIF rerun of the pinned full archive reproduced the primary
+  36,552-MID, 60,139-SID, and 23,587-split-MID atlas and all 11 primary
+  public Figure 6 summary fields.
 
 These are source-faithful structural-transcription results, not a claim that
 every site has a unique exact CoordRep identity, a supported CShM vector, or a
@@ -47,6 +55,23 @@ numerical auditing and rerunning the explicitly documented public analyses.
 Trained checkpoint weights are not included, and the repository does not claim
 that every figure can be regenerated from aggregate CSV files alone. Full CSD
 extraction requires a locally licensed April 2025 CSD installation.
+
+The 2026-09-29 addendum provides an executable, code-only periodic MID/SID
+canonicalizer and public-ZIP adapter; constructed L1 collision and chelate
+controls; and two parameter-matched graph-only learning controls, one paired
+directly with the original Table S8 base hybrid and one with the separately
+trained relation-aware hybrid. The original-base full-cohort gap/dipole MAEs
+are 0.230744 eV/1.495054 D, versus 0.242297 eV/1.568577 D when its
+CoordRep side fields are masked. These results are not substituted for the
+distinct relation-aware protocol's absolute metrics.
+
+The public ZIP adapter requires a locally authorized CCDC Python API and the
+pinned CSD MOF Collection archive. Its full 15,906-CIF run processed 15,905
+entries and reported one `site_extract:ValueError`; the secondary
+corrected-CShM shape-conflict statistic was outside the minimal runner's
+scope. The graph-only package contains runnable training code and aggregate
+metrics, but not the licensed or row-level inputs or trained weights needed
+to reproduce the exact frozen predictions.
 
 ## Canonicalization version boundary
 
@@ -79,12 +104,16 @@ python libcoordrep/scripts/check_jacs_revision_release.py
 The full database rerun requires a licensed CCDC installation and local April
 2025 CSD access. See
 [`CSD_REDISTRIBUTION_NOTICE.md`](CSD_REDISTRIBUTION_NOTICE.md).
+For the second-round controls, start with the addendum
+[`README`](release/jacs-revision-20260929/README.md) and its
+[`SHA256SUMS.txt`](release/jacs-revision-20260929/SHA256SUMS.txt).
 
 ## Repository map
 
 | Item | Location |
 |---|---|
-| Current frozen release | `release/jacs-revision-20260826/` |
+| Frozen manuscript base | `release/jacs-revision-20260826/` |
+| Second-round code and aggregate controls | `release/jacs-revision-20260929/` |
 | All-metal CSD aggregate evidence | `release/jacs-revision-20260826/audits/full_csd/` |
 | Current Figure 1–6 artwork and source tables | `release/jacs-revision-20260826/figures/` |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` |

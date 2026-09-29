@@ -1,9 +1,11 @@
 # Current-data manifest — JACS revision
 
-All current publication artifacts are under
+The frozen manuscript figures, CSD census, and base analyses remain under
 `release/jacs-revision-20260826/`. `RELEASE_MANIFEST.json`,
-`PUBLIC_ARTIFACT_MANIFEST.json`, and `RELEASE_SHA256SUMS.txt` form the
-release-level machine lock.
+`PUBLIC_ARTIFACT_MANIFEST.json`, and `RELEASE_SHA256SUMS.txt` lock that base.
+The additive second-round controls are under
+`release/jacs-revision-20260929/`, with a separate `SHA256SUMS.txt`. Neither
+release directory supersedes the other's evidence without an explicit note.
 
 | Manuscript item | Current public artifact | Primary evidence |
 |---|---|---|
@@ -19,6 +21,22 @@ release-level machine lock.
 | Full-CSD audit | `release/jacs-revision-20260826/audits/full_csd/` | all-metal census, record audit, source fidelity, provenance, source tables, and internal-ledger commitments |
 | Audit methods/Table S9 excerpt | `release/jacs-revision-20260826/supporting_information/` | synchronized SM1 and Tables S9A–S9B |
 | Periodic protocol | `release/jacs-revision-20260826/protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json` | frozen canonical local-state specification |
+
+## Second-round evidence addendum
+
+| Question | Public artifact | Evidential boundary |
+|---|---|---|
+| L1 cis/trans and fac/mer collisions; chelate donor pointers | `release/jacs-revision-20260929/identity/` | Constructed idealized controls run through the 1.1.2rc3 serializer; not CSD prevalence estimates. L0 differs and L1–L3 merge for each controlled stereoisomer pair. |
+| Periodic MID/SID construction and full-ZIP replay | `release/jacs-revision-20260929/periodic/` | Code-only canonicalizer, ABADUG deposited-CIF example, and aggregate-only rerun of all 15,906 pinned public MOF CIFs. 15,905 processed; 172,332 sites, 36,552 MIDs, 60,139 SIDs, and 23,587 split MIDs; all 11 primary Figure 6 summary fields match. One `site_extract:ValueError` is retained. Corrected-CShM shape-conflict and the separate 400-entry re-expression challenge are outside this minimal rerun. |
+| Direct Table S8 graph-only property control | `release/jacs-revision-20260929/ml/base_graph_only_*` | Equal-parameter masking of all 80–81 side fields in the exact original base-hybrid protocol. Gap MAE 0.242297→0.230744 eV and dipole MAE 1.568577→1.495054 D when fields are restored. Aggregate outputs only. |
+| Separate relation-aware graph-only control | `release/jacs-revision-20260929/ml/graph_only_*` | Equal-parameter masking of all 198–200 side fields in the separately trained relation-aware protocol; aggregate full-cohort and 34-pair results. Its full model is not the Table S8 base full. |
+| Ligand-context and strict-field checks | `release/jacs-revision-20260929/ml/pair_control_audit.json` and `strict_context_pair_*.csv` | Aggregate context-equality and restricted-pair summaries. No checkpoint weights or row-level CSD-derived inputs are distributed. |
+
+The addendum intentionally excludes CIF files, coordinates, per-site or
+per-refcode ledgers, record-level training tables, trained model weights, and
+private-path QA artifacts. Its aggregate ML summaries do not independently
+regenerate the reported out-of-fold predictions without the original input
+cohort and retraining.
 
 ## Full-CSD numerical lock
 
