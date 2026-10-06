@@ -6,6 +6,9 @@ The frozen manuscript figures, CSD census, and base analyses remain under
 The additive second-round controls are under
 `release/jacs-revision-20260929/`, with a separate `SHA256SUMS.txt`. Neither
 release directory supersedes the other's evidence without an explicit note.
+An additive pretrained-model release is documented under
+`release/jacs-revision-20261006-pretrained/`; its binary checkpoints are
+published as linked GitHub Release assets, with per-file and archive hashes.
 
 | Manuscript item | Current public artifact | Primary evidence |
 |---|---|---|
@@ -21,6 +24,7 @@ release directory supersedes the other's evidence without an explicit note.
 | Full-CSD audit | `release/jacs-revision-20260826/audits/full_csd/` | all-metal census, record audit, source fidelity, provenance, source tables, and internal-ledger commitments |
 | Audit methods/Table S9 excerpt | `release/jacs-revision-20260826/supporting_information/` | synchronized SM1 and Tables S9A–S9B |
 | Periodic protocol | `release/jacs-revision-20260826/protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json` | frozen canonical local-state specification |
+| Pretrained sequence-model inference | `release/jacs-revision-20261006-pretrained/` plus linked Release assets | Exact archived production MLM, factorized MLM and semantic ranker parameters; tokenizer/configuration matching, source/export SHA-256 and synthetic inference checks. S5 and S14B mappings are specified per model. |
 
 ## Second-round evidence addendum
 
@@ -72,11 +76,16 @@ contact is added. Public files contain aggregate values, protocols, artwork,
 source tables, and cryptographic commitments. Raw coordinates and licensed
 row-level structure ledgers are excluded.
 
-The public package contains no trained checkpoint weights. It provides code,
-configurations, permitted aggregate/source tables, selected split and metric
-summaries, artwork, and checksums for numerical audit and the documented
-rerunnable analyses. It does not claim CSV-only regeneration of every figure;
-licensed row-level CSD analyses require a local CSD installation.
+The public package includes three pretrained sequence-model checkpoints in
+the 2026-10-06 Release assets, together with matching tokenizers,
+configurations, synthetic inference examples and checksums. Every exported
+tensor equals its archived source. Table S4's separately retrained
+three-seed tokenizer models and Figure 4/Table S8/S8A property models did not
+save checkpoint files and are not included. Code, permitted aggregate/source
+tables, selected split and metric summaries, artwork and checksums support
+numerical audit and the documented rerunnable analyses. The package does
+not claim CSV-only regeneration of every figure; licensed row-level CSD
+analyses require a local CSD installation.
 
 The historical 2026-08-23 d-block package is retained in Git history at commit
 `bba8300`; it is explicitly superseded and is not present in the active release

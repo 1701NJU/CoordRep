@@ -1,0 +1,17 @@
+{
+  "description": "Synthetic token-level smoke test only; not a dataset record or a complete molecular structure.",
+  "model": "factorized_mlm",
+  "tokens": [
+    "[CLS]",
+    "[MASK]",
+    ";ox=+2",
+    ";d=6",
+    ";CN=6",
+    "<Shape:",
+    "Oh",
+    "=",
+    "V_000",
+    ">",
+    "[SEP]"
+  ]
+}

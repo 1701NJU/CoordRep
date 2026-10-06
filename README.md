@@ -8,6 +8,11 @@ manuscript base is
 additive second-round methods and control package is
 [`release/jacs-revision-20260929`](release/jacs-revision-20260929/); it does not
 replace or silently reprocess the earlier figures.
+The separately released
+[`pretrained weights`](release/jacs-revision-20261006-pretrained/) add model
+inference assets without changing those frozen results. Availability statements
+inside the older release directories describe those packages, not this later
+checkpoint release.
 
 ## Current evidence lock
 
@@ -52,9 +57,15 @@ The release provides source code, public aggregate/source tables, model
 configurations, split and metric summaries where redistribution is permitted,
 publication artwork, manifests, and checksums. These materials support
 numerical auditing and rerunning the explicitly documented public analyses.
-Trained checkpoint weights are not included, and the repository does not claim
-that every figure can be regenerated from aggregate CSV files alone. Full CSD
-extraction requires a locally licensed April 2025 CSD installation.
+Three pretrained CoordRep checkpoints are now published with matching
+tokenizers, explicit configurations and inference examples in the
+[`2026-10-06 pretrained release`](release/jacs-revision-20261006-pretrained/).
+They are the production MLM, the archived factorized MLM and the fine-tuned
+semantic ranker used in the documented frozen inference analyses. They are
+not the separately retrained Table S4 models or the Figure 4/Table S8/S8A
+property models, whose checkpoint files were not saved. The repository does
+not claim that every figure can be regenerated from aggregate CSV files
+alone. Full CSD extraction requires a locally licensed April 2025 CSD installation.
 
 The 2026-09-29 addendum provides an executable, code-only periodic MID/SID
 canonicalizer and public-ZIP adapter; constructed L1 collision and chelate
@@ -114,6 +125,7 @@ For the second-round controls, start with the addendum
 |---|---|
 | Frozen manuscript base | `release/jacs-revision-20260826/` |
 | Second-round code and aggregate controls | `release/jacs-revision-20260929/` |
+| Released pretrained checkpoints, configurations and inference | `release/jacs-revision-20261006-pretrained/` and its linked GitHub Release assets |
 | All-metal CSD aggregate evidence | `release/jacs-revision-20260826/audits/full_csd/` |
 | Current Figure 1–6 artwork and source tables | `release/jacs-revision-20260826/figures/` |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` |
