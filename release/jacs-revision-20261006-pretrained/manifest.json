@@ -44,7 +44,7 @@
       "all_exported_tensors_equal_source": true,
       "vocabulary_size": 376,
       "analyses": [
-        "Supplementary Table S5: archived factorized MLM frozen inference; not the separately retrained Table S4 models"
+        "Archived factorized MLM: separate frozen metal/CN field-order control; not a reported Table S5 row or the separately retrained Table S4 models"
       ],
       "files": [
         {

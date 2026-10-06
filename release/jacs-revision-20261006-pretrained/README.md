@@ -10,7 +10,7 @@ its archived source. Optimizer states and training metadata are omitted.
 | Model | Published vocabulary | Verified analysis mapping |
 |---|---:|---|
 | `production_mlm` | 657 tokens | Supplementary Table S5 production-MLM frozen inference; Table S14B conditional donor-field inference |
-| `factorized_mlm` | 376 tokens | Table S5 archived factorized-MLM frozen inference; **not** the separately retrained three-seed Table S4 models |
+| `factorized_mlm` | 376 tokens | Archived model for the separate frozen metal/CN field-order control; not a reported Table S5 row or the separately retrained three-seed Table S4 models |
 | `semantic_ranker` | 657 tokens | Table S5 semantic-decoy ranking frozen inference |
 
 The tensor-only checkpoints are downloadable assets on the
@@ -32,7 +32,7 @@ python inference.py --bundle downloaded/models --model factorized_mlm --tokens-j
 python inference.py --bundle downloaded/models --model semantic_ranker --tokens-json examples/semantic_ranker.json
 ```
 
-The downloader checks the archive SHA-256 before extraction and all model,
+The downloader checks each model archive's SHA-256 before extraction and all model,
 configuration and tokenizer digests afterwards. Existing output directories
 are not overwritten. `manifest.json` records both source and exported
 checkpoint digests; `download_manifest.json` records the archive digest.
