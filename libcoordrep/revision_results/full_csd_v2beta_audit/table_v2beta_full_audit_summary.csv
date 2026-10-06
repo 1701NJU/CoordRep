@@ -1,0 +1,3 @@
+pool,n_sampled,n_pool_total,generated,generated_rate,parse_valid_rate,roundtrip_valid_rate,invariance_rate,manual_correctness
+multinuclear,5000,346468,4151,0.8302,1.0,0.9065,0.9065,PENDING
+haptic,2000,52003,2000,1.0,1.0,1.0,1.0,PENDING

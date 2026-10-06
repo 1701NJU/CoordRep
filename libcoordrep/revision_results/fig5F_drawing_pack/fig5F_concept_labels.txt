@@ -1,0 +1,67 @@
+══════════════════════════════════════════════════════
+Fig 5F: CoordRep-Rosetta Hard-Control Benchmark
+══════════════════════════════════════════════════════
+
+── Panel Layout ──
+
+Left side (concept schematic):
+  [Molecular complex]  ──→  [Shared CoordRep space]  ←──  [Framework node]
+
+Center/Right (bar chart):
+  Top-1 retrieval accuracy (%)
+
+Bottom (audit):
+  Manual audit: chemically homologous rate (%)
+
+── Text Labels for Figure ──
+
+Box labels:
+  • Molecular complex
+  • Framework node
+  • Shared CoordRep space
+
+Hard-control constraint annotation:
+  Hard control: same metal / same CN / same donor context
+
+Discriminative features annotation:
+  Higher-order fields: geometry, bridge topology, hapticity, relation signatures
+
+Axis labels:
+  • Top-1 retrieval accuracy (%)
+  • Method
+
+Bar labels (legend):
+  • CoordRep full
+  • Donor baseline (metal + CN + donor)
+  • CShM only
+  • L3 only
+  • Random (same metal)
+
+Audit panel labels:
+  • Manual audit
+  • Chemically homologous (%)
+  • CoordRep top-1
+  • Donor top-1
+  • Hard negative
+
+Inset (optional, hardest sub-task):
+  Same metal + CN pool: CoordRep 100% vs Donor 88%
+
+── Caption Wording ──
+
+"Hard-control retrieval benchmark. Candidate pools share the same metal
+element(s); only CoordRep higher-order fields (donor environment, bridge
+topology, mu-pattern) can discriminate true homologs from hard negatives.
+CoordRep full achieves 86.7% top-1 correct vs 67.8% for donor-only
+baseline (+18.9 pp). Manual chemical audit confirms 93.3% of CoordRep
+top-1 matches are chemically homologous, vs 56.7% for donor baseline."
+
+── Color Suggestion ──
+
+  coordrep_full:    #2563EB  (blue, primary)
+  donor_baseline:   #F59E0B  (amber)
+  cshm_only:        #6B7280  (gray)
+  L3_only:          #9CA3AF  (light gray)
+  random:           #D1D5DB  (lightest gray)
+  audit_positive:   #10B981  (green)
+  audit_negative:   #EF4444  (red)

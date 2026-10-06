@@ -1,0 +1,34 @@
+case_id,refcode,description,metal,cn_site,eta_sum,haptic_modes,n_pi_sites,shape
+haptic_001,FEROCE01,Ferrocene Fe(eta5-Cp)2,Fe,2,10,Cp,2,linear
+haptic_002,TICPDC01,Cp2TiCl2 titanocene dichloride,Ti,4,12,Cp,2,pseudo-Td
+haptic_003,CPMNCO,CpMn(CO)3 piano-stool,Mn,4,8,Cp,1,pseudo-OC
+haptic_004,RUCPCL,Ru(Cp*)(cod)Cl mixed haptic,Ru,3,10,Cp*;cod,2,pseudo-OC
+haptic_005,NICPNI,Nickelocene Ni(eta5-Cp)2,Ni,2,10,Cp,2,linear
+haptic_006,COCPCO,Cobaltocene Co(eta5-Cp)2,Co,2,10,Cp,2,linear
+haptic_007,ZRCPDC,Cp2ZrCl2 zirconocene dichloride,Zr,4,12,Cp,2,pseudo-Td
+haptic_008,HFCPDC,Cp2HfCl2 hafnocene dichloride,Hf,4,12,Cp,2,pseudo-Td
+haptic_009,ZEISSE01,Zeise's salt Pt(eta2-C2H4)Cl3,Pt,4,5,alkene,1,SP
+haptic_010,NIEPPH,Ni(eta2-C2H4)(PPh3)2,Ni,3,4,alkene,1,TP
+haptic_011,PTETHY,Pt(eta2-C2H4)(PPh3)2,Pt,3,4,alkene,1,TP
+haptic_012,CUALKN,Cu(eta2-alkene)(OTf),Cu,2,3,alkene,1,L
+haptic_013,PDALLY,Pd(eta3-allyl)Cl(PPh3),Pd,3,5,allyl,1,TP
+haptic_014,MOALLY,Mo(eta3-allyl)(CO)2(bipy)Cl,Mo,5,7,allyl,1,SPY
+haptic_015,NIALL3,Ni(eta3-allyl)2 bis-allyl,Ni,2,6,allyl,2,
+haptic_016,FEBUDN,Fe(eta4-butadiene)(CO)3,Fe,4,7,diene,1,
+haptic_017,RHCODN,Rh(eta4-cod)Cl(PPh3),Rh,3,6,cod,1,
+haptic_018,IRCODC,Ir(eta4-cod)Cl(py),Ir,3,6,cod,1,
+haptic_019,RUCODC,Ru(eta4-cod)2 bis-cod,Ru,2,8,cod,2,
+haptic_020,BZCRCB01,Cr(eta6-C6H6)(CO)3,Cr,4,9,arene,1,pseudo-OC
+haptic_021,CRBISC,Cr(eta6-C6H6)2 bis-benzene,Cr,2,12,arene,2,linear
+haptic_022,RUCYME,Ru(eta6-cymene)Cl2(PPh3),Ru,4,9,arene,1,pseudo-OC
+haptic_023,MOAREN,Mo(eta6-mesitylene)(CO)3,Mo,4,9,arene,1,pseudo-OC
+haptic_024,VECPCO,V(eta5-Cp)(CO)4,V,5,9,Cp,1,
+haptic_025,CRCP2H,Cr(eta5-Cp)(CO)3H,Cr,5,9,Cp,1,
+haptic_026,FECPFE,Fe(eta5-Cp)(CO)2I,Fe,4,8,Cp,1,
+haptic_027,RECPRE,Re(eta5-Cp)(CO)3,Re,4,8,Cp,1,
+haptic_028,WECPCO,W(eta5-Cp)(CO)3Me,W,5,9,Cp,1,
+haptic_029,IRCP2H,Ir(eta5-Cp*)(H)2(PPh3),Ir,4,8,Cp*,1,
+haptic_030,RHCPST,Rh(eta5-Cp*)(eta2-C2H4)2,Rh,3,9,Cp*;alkene,3,
+haptic_031,OSBZCO,Os(eta6-C6H6)(eta2-C2H4)(CO),Os,3,9,alkene;arene,2,
+haptic_032,NBCPNB,Nb(eta5-Cp)2Cl2 niobocene,Nb,4,12,Cp,2,pseudo-Td
+haptic_033,TACPME,Ta(eta5-Cp)2Me3,Ta,5,13,Cp,2,

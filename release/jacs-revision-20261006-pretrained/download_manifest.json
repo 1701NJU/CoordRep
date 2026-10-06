@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "model_key": "production_mlm",
+      "file": "coordrep-production_mlm-20261006.zip",
+      "bytes": 55322012,
+      "sha256": "883371564b11b9bdde62efe349594eb0ee3afd4577b2992658ea7275909fd9dc",
+      "url": "https://github.com/1701NJU/CoordRep/releases/download/coordrep-pretrained-20261006/coordrep-production_mlm-20261006.zip"
+    },
+    {
+      "model_key": "factorized_mlm",
+      "file": "coordrep-factorized_mlm-20261006.zip",
+      "bytes": 55174741,
+      "sha256": "991657399c1057e2a514716a723531bd7ab8c77ae38f1bb91c2d2a5110b730cc",
+      "url": "https://github.com/1701NJU/CoordRep/releases/download/coordrep-pretrained-20261006/coordrep-factorized_mlm-20261006.zip"
+    },
+    {
+      "model_key": "semantic_ranker",
+      "file": "coordrep-semantic_ranker-20261006.zip",
+      "bytes": 55559495,
+      "sha256": "83affe9145328cba4ca058da456906764467d37638b9b789592a939445463092",
+      "url": "https://github.com/1701NJU/CoordRep/releases/download/coordrep-pretrained-20261006/coordrep-semantic_ranker-20261006.zip"
+    }
+  ]
+}

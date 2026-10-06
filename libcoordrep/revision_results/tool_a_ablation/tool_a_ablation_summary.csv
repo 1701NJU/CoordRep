@@ -1,0 +1,7 @@
+ablation_mode,n,top1_acc,top5_acc,mrr,mean_nll
+full_context,19992,0.8571,0.9813,0.9108,0.5082
+no_ligand_smiles_keep_length,19984,0.6141,0.8374,0.7243,2.5143
+no_ligand_smiles_collapsed,19992,0.5947,0.9009,0.7193,2.3525
+no_geometry_stereo,19992,0.8547,0.9814,0.9095,0.5158
+metal_cn_only,19984,0.6004,0.8306,0.7129,2.5376
+shuffled_ligand_smiles_control,19992,0.2158,0.4748,0.3381,11.4485

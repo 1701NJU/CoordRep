@@ -1,0 +1,58 @@
+{
+  "schema_version": "coordstatepairs-oof-v1",
+  "pair_prediction_file": "pair_predictions_long.csv",
+  "pair_prediction_columns": [
+    "schema_version",
+    "subset",
+    "model",
+    "fold",
+    "seed",
+    "target",
+    "pair_id",
+    "graph_group",
+    "canonical_graph",
+    "graph_group_size",
+    "left_id",
+    "right_id",
+    "y_true_left",
+    "y_true_right",
+    "y_pred_left",
+    "y_pred_right",
+    "true_delta",
+    "pred_delta",
+    "true_abs_delta",
+    "material_threshold",
+    "abs_delta_error",
+    "concordance",
+    "prediction_tie",
+    "prediction_tie_tolerance"
+  ],
+  "pair_metric_file": "pair_metrics.csv",
+  "pair_comparison_merge_keys": [
+    "subset",
+    "target",
+    "metric"
+  ],
+  "frozen_pair_levels": [
+    "G0",
+    "S1",
+    "S2",
+    "CONTEXT_EXACT",
+    "S3"
+  ],
+  "pair_level_flag_columns": {
+    "G0": "is_g0",
+    "S1": "is_s1",
+    "S2": "is_s2",
+    "CONTEXT_EXACT": "is_context_exact",
+    "S3": "is_s3"
+  },
+  "thresholds": {
+    "hl_gap_ev": 0.1,
+    "dipole_moment": 1.0
+  },
+  "material_pair_rule": "absolute frozen true pair delta >= the target threshold",
+  "orientation": "true_delta and pred_delta are left_mol_id minus right_mol_id",
+  "concordance_policy": "sign match scores 1, sign mismatch scores 0, and abs(pred_delta) <= prediction_tie_tolerance scores 0.5",
+  "fallback_note": "Without a frozen pairs manifest only G0 can be reconstructed from canonical graphs; S1/S2/CONTEXT_EXACT/S3 require pairs.csv."
+}

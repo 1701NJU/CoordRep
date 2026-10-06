@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coordrep-periodic-v3-smoke"
+version = "0.1.0"
+description = "Code-only periodic MID/SID canonicalizer, public-ZIP batch runner, and ABADUG CIF example"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24,<3"]
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+include = ["periodic_v3*"]

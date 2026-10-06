@@ -1,0 +1,29 @@
+{
+  "description": "CoordRep-Rosetta maps molecular complexes and MOF nodes into shared record space",
+  "molecular_example": {
+    "refcode": "ACACCV10",
+    "record_type": "molecular"
+  },
+  "mof_example": {
+    "source_id": "ABETEJ",
+    "record_type": "mof_node"
+  },
+  "shared_fields": [
+    "metal element + oxidation",
+    "coordination number",
+    "donor element set",
+    "local geometry (CShM)",
+    "bridge topology",
+    "haptic modes",
+    "L0/L1/L2/L3 identity keys"
+  ],
+  "homology_score_components": [
+    "metal_score (0.25)",
+    "donor_set_score (0.25)",
+    "CN_score (0.20)",
+    "shape_similarity (0.05)",
+    "bridge_or_haptic_score (0.10)",
+    "topology_score (0.10)",
+    "stereo_or_relation_score (0.05)"
+  ]
+}

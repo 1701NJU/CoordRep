@@ -1,0 +1,23 @@
+Fig_S7 — Multidentate donor-set evaluation
+
+Panel A: Metric schematic
+  No source data — annotation-only panel
+  Illustrates difference between token-level (per-donor) accuracy
+  and ligand-level exact match for bidentate ligands.
+  Partial recovery is labelled "no exact match (mismatch),"
+  not "FAIL" or "invalid completion."
+
+Panel B: Mono- and bidentate donor-set recovery
+  Source: multidentate/donor_set_recovery_by_denticity.csv
+  (actual file: multidentate/tool_a_by_denticity_final.csv, full_context rows)
+  Grouped bar: per-donor Top-1 (pale grey) vs ligand exact match (dark grey)
+  x = denticity (d=1, d=2); y = accuracy (%)
+  No tridentate or higher-denticity data available.
+
+Panel C: Bidentate masking-regime comparison
+  Source: same CSV; dent=2 rows across all ablation modes
+  Six regimes: full context, no geometry/stereo, ligand masked,
+  ligand collapsed, metal+CN only, shuffled ligand (control)
+  Grouped bar: per-donor Top-1 vs ligand exact match
+  Orange bar = full-context exact match (reference); all others blue-grey
+  Shuffled-ligand control confirms near-chance performance.

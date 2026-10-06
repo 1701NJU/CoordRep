@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coordrep"
+version = "1.1.2rc3"
+description = "A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Cheng-Hui Li"},
+    {name = "Wen-Lin Luo", email = "luowenlin862@gmail.com"},
+]
+keywords = ["coordination chemistry", "machine learning", "representation", "tokenizer", "identity"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "networkx>=2.8",
+    "pandas>=2.0",
+    "tqdm>=4.65",
+]
+
+[project.urls]
+Homepage = "https://github.com/1701NJU/CoordRep"
+Documentation = "https://github.com/1701NJU/CoordRep#readme"
+Repository = "https://github.com/1701NJU/CoordRep.git"
+Issues = "https://github.com/1701NJU/CoordRep/issues"
+
+[project.optional-dependencies]
+ml = ["torch>=2.0", "torch_geometric>=2.3"]
+chem = ["rdkit>=2023.03", "gemmi>=0.6.4"]
+csd = ["ccdc"]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+include = ["coordrep*", "coordrep_tools*", "brain*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short --ignore=tests/test_invariance.py"

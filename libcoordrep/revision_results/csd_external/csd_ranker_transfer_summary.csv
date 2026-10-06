@@ -1,0 +1,11 @@
+metric,value
+n_test,500
+top1,0.022
+mrr,0.171
+win_rate,0.5423
+overall_auroc,0.6125
+boundary_hard_auroc,0.5519
+co_ligand_hard_auroc,0.5163
+ligand_hard_auroc,0.612
+metal_hard_auroc,0.5838
+stereo_hard_auroc,0.9383

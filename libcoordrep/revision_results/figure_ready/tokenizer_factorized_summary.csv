@@ -1,0 +1,9 @@
+task,composite,factorized,improvement,interpretation,caveat
+metal_Top1,0.138,0.678,+54.0 pts,"Factorized tokenizer recovers metal identity independently; composite fuses metal+CN into opaque block","Matched short training only; not directly comparable to full pretrained Tool A"
+CN_Top1,0.138,0.490,+35.3 pts,"CN prediction improves dramatically with factorized tokens","Same caveat: matched training comparison"
+joint_metal_CN_Top1,0.138,0.294,+15.6 pts,"Joint metal+CN recovery from 13.8% to 29.4%","Product of independent improvements"
+joint_metal_only_Top1,0.138,0.662,+52.4 pts,"Metal recovery in joint evaluation","Strong independent field recovery"
+donor_Top1,0.151,0.275,+12.4 pts,"Donor prediction also improves with factorized tokens","Donor task is secondary; main gain is field interpretability"
+donor_Top5,0.364,0.639,+27.5 pts,"Donor top-5 improves substantially","Wider prediction coverage"
+audit_finding,composite_has_191_fused_tokens,factorized_defined_but_unused,–,"Tokenizer audit found [Metal:Fe|ox:+2|d:d6|CN:6] treated as single token; factorized tokens were defined in code but never activated","Bug fix: revised default = factorized metal-field tokenizer"
+key_message,–,–,–,"Main conclusion: independent field recovery and tokenizer interpretability; factorized tokenizer enables auditable per-field prediction","Not a retraining of full model; demonstrates tokenizer design principle"

@@ -1,0 +1,19 @@
+category,feature,details
+supported_v1,Mononuclear transition-metal complexes,"3d/4d/5d metals, single metal center"
+supported_v1,Atom-resolved eta-1 donors,Each donor atom tracked by element and rank
+supported_v1,Monodentate ligands,"Single-donor ligands (e.g., Cl, NH3, H2O)"
+supported_v1,Bidentate eta-1 chelating ligands,"e.g., en, bpy, acac, oxalate"
+supported_v1,Multidentate eta-1 chelating ligands,"dent >= 3 (e.g., EDTA, tpy, porphyrin)"
+supported_v1,Coordination number 2-14,Full CN range from linear to high-coordinate
+supported_v1,"cis/trans, fac/mer, donor-relation tokens",Stereochemical constraint grammar
+supported_v1,CoordRep-ID L0-L3,"Hierarchical identity: StateKey, ShapeID, TopoID, ConnID"
+out_of_scope_v1,Multinuclear complexes,"Multiple metal centers, bridging ligands"
+out_of_scope_v1,MOFs / coordination polymers,Periodic / extended lattice structures
+out_of_scope_v1,Polyoxometalates,Large cluster metal-oxide frameworks
+out_of_scope_v1,eta-n organometallics,"Metallocenes, allyl, arene complexes (eta > 1)"
+out_of_scope_v1,Positional disorder / partial occupancy,Crystallographic disorder
+out_of_scope_v1,Ambiguous donor assignment,Weak interactions below distance threshold
+future_extension,CoordRep-Multi,Multi-metal graph + bridging ligand relations
+future_extension,CoordRep-Periodic,Metal node / linker / periodic topology
+future_extension,CoordRep-Haptic,eta-n fragment token + centroid / slippage geometry
+future_extension,CoordRep-Occ,Occupancy-aware disorder representation

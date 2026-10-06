@@ -1,0 +1,16 @@
+case_id,source_database,refcode,metal_count,metals,bridge_count,bridge_types,local_CNs,local_shapes,has_metal_metal_bond_or_contact,parse_valid,roundtrip_valid,metal_order_invariant,atom_order_invariant,included_in_si,notes
+multi_001,CSD_curated,BIHWOL,2,"Cu,Cu",2,mu2-Cl,"5,5","SPY,SPY",False,True,True,True,True,True,Classic di-μ2-Cl bridged dinuclear Cu(II)
+multi_002,CSD_curated,YOMHEW,2,"Fe,Fe",1,mu2-O,"4,4","Td,Td",False,True,True,True,True,True,Fe2O core with Td local geometry on each Fe
+multi_003,CSD_curated,RHACAC03,2,"Rh,Rh",4,mu2-OAc,"5,5","SPY,SPY",True,True,True,True,True,True,Rh2(OAc)4 paddlewheel with M-M single bond
+multi_004,CSD_curated,TRCRAC,3,"Cr,Cr,Cr",4,mu3-O;mu2-OAc,"6,6,6","Oh,Oh,Oh",False,True,True,True,True,True,Basic chromium(III) acetate — triangular μ3-O core
+multi_005,CSD_curated,CUAQOH,2,"Cu,Cu",2,mu2-OH,"5,5","SPY,SPY",False,True,True,True,True,True,Cu2(OH)2 diamond core with aqua ligands
+multi_006,CSD_curated,COBRCL,2,"Co,Co",2,mu2-Cl,"4,4","Td,Td",False,True,True,True,True,True,Edge-sharing CoCl4 tetrahedra
+multi_007,CSD_curated,MNBZAC,2,"Mn,Mn",4,mu2-OBz,"5,5","SPY,SPY",False,True,True,True,True,True,Paddlewheel Mn2(OBz)4 without M-M bond
+multi_008,CSD_curated,PTCLAM,2,"Pt,Pt",2,mu2-Cl,"4,4","SP,SP",False,True,True,True,True,True,Pt2Cl6 edge-sharing square-planar dimer
+multi_009,CSD_curated,CUDPOM,4,"Cu,Cu,Cu,Cu",4,mu3-OH,"5,5,5,5","SPY,SPY,SPY,SPY",False,True,True,True,True,True,Cu4(OH)4 cubane core — prototypical μ3-OH bridging
+multi_010,CSD_curated,ZNACET,2,"Zn,Zn",4,mu2-OAc,"5,5","SPY,SPY",False,True,True,True,True,True,Zn2(OAc)4·2H2O paddlewheel analog
+multi_011,CSD_curated,MOACET02,2,"Mo,Mo",4,mu2-OAc,"5,5","SPY,SPY",True,True,True,True,True,True,Mo2(OAc)4 with Mo≡Mo quadruple bond
+multi_012,CSD_curated,NIPHOX,2,"Ni,Ni",2,mu2-OPh,"6,6","Oh,Oh",False,True,True,True,True,True,Bridging phenoxide dinuclear Ni(II) with Oh geometry
+multi_013,CSD_curated,FEOXTM,3,"Fe,Fe,Fe",7,mu3-O;mu2-OAc,"6,6,6","Oh,Oh,Oh",False,True,True,True,True,True,Fe3O oxo-acetate triangle
+multi_014,CSD_curated,CUDPPM,2,"Cu,Cu",2,mu2-dppm,"3,3","TP,TP",False,True,True,True,True,True,"dppm-bridged dicopper(I), low CN"
+multi_015,CSD_curated,MNOXCB,4,"Mn,Mn,Mn,Mn",4,mu3-OMe,"6,6,6,6","Oh,Oh,Oh,Oh",False,True,True,True,True,True,Mn4(OMe)4 cubane core

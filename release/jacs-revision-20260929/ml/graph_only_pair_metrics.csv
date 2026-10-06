@@ -1,0 +1,16 @@
+cohort,target,model,n_pairs,n_graph_clusters,pair_delta_mae,n_predicted_ties,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,bootstrap_replicates
+automatic34_target_blind,dipole_moment,full,34,34,1.3278990306106266,2,,,
+automatic34_target_blind,dipole_moment,relation_hidden,34,34,5.218489352394552,2,,,
+automatic34_target_blind,dipole_moment,graph_only,34,34,5.868914735083487,34,,,
+automatic34_target_blind,dipole_moment,graph_only_minus_full,34,34,4.541015704472861,,3.397312724882482,5.740593916528364,20000
+automatic34_target_blind,dipole_moment,relation_hidden_minus_full,34,34,3.8905903217839266,,2.8582016532911974,4.971450457152198,20000
+clean110_target_unconditioned,hl_gap_ev,full,110,72,0.15835055112838745,0,,,
+clean110_target_unconditioned,hl_gap_ev,relation_hidden,110,72,0.13938094341393673,0,,,
+clean110_target_unconditioned,hl_gap_ev,graph_only,110,72,0.24082324396480217,110,,,
+clean110_target_unconditioned,hl_gap_ev,graph_only_minus_full,110,72,0.08247269283641467,,-0.011297352748538799,0.2315537527013356,20000
+clean110_target_unconditioned,hl_gap_ev,relation_hidden_minus_full,110,72,-0.01896960771445075,,-0.039892041826744364,0.0021228438631125937,20000
+clean44_gap_target_conditioned,hl_gap_ev,full,44,31,0.2661240344697779,0,,,
+clean44_gap_target_conditioned,hl_gap_ev,relation_hidden,44,31,0.2302956292123506,0,,,
+clean44_gap_target_conditioned,hl_gap_ev,graph_only,44,31,0.5355943143367767,44,,,
+clean44_gap_target_conditioned,hl_gap_ev,graph_only_minus_full,44,31,0.26947027986699884,,0.06520459774152311,0.5395340276696284,20000
+clean44_gap_target_conditioned,hl_gap_ev,relation_hidden_minus_full,44,31,-0.035828405257427295,,-0.07487982077284809,0.010355281642130676,20000

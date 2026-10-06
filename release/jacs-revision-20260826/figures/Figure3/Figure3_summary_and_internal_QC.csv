@@ -1,0 +1,5 @@
+scope,n,reference_a,nearest_reference_a_n,reference_b,nearest_reference_b_n,boundary_margin_lt_1_n,boundary_margin_lt_1_percent,internal_frozen_label_retained_n,internal_frozen_label_retained_percent
+CN4,16682,SP,13011,Td,3671,39,0.2337849178755545,9192,55.101306797746076
+CN5,6356,SPY,5319,TBP,1037,693,10.90308370044053,2871,45.16991818753933
+CN6,10825,Oh,5580,TPr,5245,294,2.715935334872979,6264,57.866050808314085
+CN4-CN6,33863,,,,,1026,3.0298555946017776,18327,54.121017039246375

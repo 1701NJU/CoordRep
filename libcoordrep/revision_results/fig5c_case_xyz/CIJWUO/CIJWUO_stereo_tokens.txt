@@ -1,0 +1,36 @@
+# CIJWUO — Stereo Semantic Consistency Tokens
+
+## 1. Real stereo token
+```
+{trans:L1:N:1--L2:N:1}
+```
+Meaning: L1:N:1 and L2:N:1 are in **trans** disposition.
+
+## 2. Decoy stereo token (flipped)
+```
+{cis:L1:N:1--L2:N:1}
+```
+Meaning: L1:N:1 and L2:N:1 claimed to be in **cis** disposition (incorrect).
+
+## 3. Decoy is grammar-valid
+The flipped string passes `is_valid_coordrep()` — syntax alone cannot distinguish
+real from decoy. This is a **semantic** test.
+
+## 4. Ranker scores (all 5 test cases)
+
+| Refcode | Metal/CN | Flip | Score(real) | Score(decoy) | Margin | Correct |
+|---------|----------|------|-------------|-------------|--------|---------|
+| CIJWUO | Cu/5 | trans→cis | -2.479 | -3.164 | +0.685 | ✓ |
+| BATTIZ | Pd/4 | trans→cis | -4.653 | -4.979 | +0.326 | ✓ |
+| CIRRUS | Pt/4 | trans→cis | 3.932 | 3.592 | +0.340 | ✓ |
+| CEHZIZ | Mn/6 | trans→cis | -0.717 | -0.813 | +0.097 | ✓ |
+| BECDUK | Cu/2 | trans→cis | -10.531 | -11.170 | +0.639 | ✓ |
+
+## 5. Score margins
+- Range: 0.10 – 0.69
+- All 5/5 correct: CoordRep-Ranker consistently scores real stereo higher.
+
+## 6. Key statement
+The stereo decoy is **grammar-valid** (passes all structural checks).
+Only a learned model that understands field-level semantic compatibility
+can distinguish real from decoy — this is a semantic-level test, not a syntax test.

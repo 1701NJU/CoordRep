@@ -1,0 +1,11 @@
+metric,value
+n_families,765
+mean_family_size,2.84
+L0_within_family_match,0.2147
+L1_within_family_match,0.6112
+L2_within_family_match,0.796
+L3_within_family_match,0.8891
+false_nonduplicate_L0,515
+boundary_fraction_in_families,0.1004
+cn_mismatch_families,21
+stereo_mismatch_families,134

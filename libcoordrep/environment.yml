@@ -1,0 +1,18 @@
+name: coordrep
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - numpy>=1.22
+  - scipy>=1.9
+  - pandas>=1.5
+  - scikit-learn>=1.2
+  - pytorch>=2.0
+  - pyg>=2.3
+  - rdkit>=2022.03
+  - pytest>=7.0
+  - pip:
+    - e2cnn

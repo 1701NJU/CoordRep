@@ -1,0 +1,12 @@
+{
+  "valid_v1_records": 124837,
+  "multinuclear_excluded": 346468,
+  "haptic_excluded": 51867,
+  "multinuclear_curated_cases": 55,
+  "haptic_curated_cases": 33,
+  "multi_parse_roundtrip_rate": 1.0,
+  "haptic_parse_roundtrip_rate": 1.0,
+  "multi_invariance_rate": 1.0,
+  "haptic_site_order_invariance_rate": 1.0,
+  "estimated_coverage_gain_percent": 228.1
+}

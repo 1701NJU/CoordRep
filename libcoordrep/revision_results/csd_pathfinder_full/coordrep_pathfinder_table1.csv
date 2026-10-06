@@ -1,0 +1,6 @@
+Application,Full_CSD_query,Output_count,Representative_evidence,Chemical_interpretation
+Full-CSD scope audit,valid v1 conversion,124837 records,Fig. 5B,deterministic v1 domain
+Geometry pathway atlas,CN5 TBPY-SPY projection,"16563 CN5 records, 42% intermediate",Fig. 3B / Table 1,static snapshots populate interconversion coordinate
+Family geometry trajectories,"same L3, multiple L0/L1",6358 families,top case,connectivity family spans multiple geometry states
+Boundary geometry mining,delta_CShM < 1.0,17791 records,AFOSIA,shape assignment uncertainty is systematic
+Stereo-diverse families,"same L3, multiple stereo fields",3739 families,top case,connectivity alone does not define coordination state

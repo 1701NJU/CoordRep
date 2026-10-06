@@ -1,0 +1,5 @@
+test,n_complexes,n_trials_each,total_trials,L0_retention,L1_retention,L2_retention,L3_retention
+atom_permutation,1000,10,10000,1.0,1.0,1.0,1.0
+rigid_rotation,1000,10,10000,1.0,1.0,1.0,1.0
+translation,1000,10,10000,1.0,1.0,1.0,1.0
+round_trip_parse,1000,1,1000,1.0,1.0,1.0,1.0
