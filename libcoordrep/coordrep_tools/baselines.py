@@ -2,7 +2,7 @@
 """
 Baseline
 
- RandomFrequencyConditional Frequency baseline
+        RandomFrequencyConditional Frequency baseline
 """
 
 import random
@@ -20,14 +20,14 @@ STRUCTURE_TOKENS = ['L', 'Td', 'SP', 'Oh', 'TP', 'TBP', 'SPY', 'TPr', '(', ')', 
 
 class RandomBaseline:
     """
- baseline
+        baseline
     """
     
     def __init__(self, candidate_set: List[str] = None, seed: int = 42):
         """
         Args:
- candidate_set: token DONOR_ATOMS
- seed:
+        candidate_set: token DONOR_ATOMS
+        seed:
         """
         self.candidate_set = candidate_set or DONOR_ATOMS
         self.seed = seed
@@ -36,10 +36,10 @@ class RandomBaseline:
     
     def predict(self, context: dict = None, k: int = 5) -> List[Tuple[str, float]]:
         """
- Predict top-k
+        Predict top-k
         
         Args:
- context: baseline
+        context: baseline
             k: top-k
         
         Returns:
@@ -55,7 +55,7 @@ class RandomBaseline:
         return [(tok, prob) for tok in shuffled[:k]]
     
     def predict_batch(self, contexts: List[dict], k: int = 5) -> List[List[Tuple[str, float]]]:
- """Predict"""
+        """Predict"""
         return [self.predict(ctx, k) for ctx in contexts]
     
     def get_accuracy(self, samples: List[dict], target_field: str = 'target_token') -> Dict:
@@ -63,8 +63,8 @@ class RandomBaseline:
         Compute accuracy
         
         Args:
- samples:
- target_field:
+        samples:
+        target_field:
         
         Returns:
             {'top1_acc': float, 'top5_acc': float, 'n': int}
@@ -93,14 +93,14 @@ class RandomBaseline:
 
 class FrequencyBaseline:
     """
- baseline token
+        baseline token
     """
     
     def __init__(self, training_samples: List[dict] = None, target_field: str = 'target_token'):
         """
         Args:
- training_samples:
- target_field:
+        training_samples:
+        target_field:
         """
         self.target_field = target_field
         self.freq = Counter()
@@ -109,7 +109,7 @@ class FrequencyBaseline:
             self.fit(training_samples)
     
     def fit(self, samples: List[dict]):
- """"""
+        """"""
         self.freq = Counter()
         for sample in samples:
             if self.target_field in sample:
@@ -124,14 +124,14 @@ class FrequencyBaseline:
     
     def predict(self, context: dict = None, k: int = 5) -> List[Tuple[str, float]]:
         """
- Predict top-k
+        Predict top-k
         """
         if not self.ranked:
             return []
         return self.ranked[:k]
     
     def predict_batch(self, contexts: List[dict], k: int = 5) -> List[List[Tuple[str, float]]]:
- """Predict"""
+        """Predict"""
         return [self.predict(ctx, k) for ctx in contexts]
     
     def get_accuracy(self, samples: List[dict]) -> Dict:
@@ -160,7 +160,7 @@ class FrequencyBaseline:
 
 class ConditionalFrequencyBaseline:
     """
- baseline (metal, cn) Predict
+        baseline (metal, cn) Predict
     """
     
     def __init__(self, training_samples: List[dict] = None, 
@@ -168,9 +168,9 @@ class ConditionalFrequencyBaseline:
                  condition_fields: List[str] = None):
         """
         Args:
- training_samples:
- target_field:
- condition_fields: ['metal', 'cn']
+        training_samples:
+        target_field:
+        condition_fields: ['metal', 'cn']
         """
         self.target_field = target_field
         self.condition_fields = condition_fields or ['metal', 'cn']
@@ -181,7 +181,7 @@ class ConditionalFrequencyBaseline:
             self.fit(training_samples)
     
     def _get_condition_key(self, sample: dict) -> tuple:
- """ key"""
+        """ key"""
         meta = sample.get('meta', sample)
         values = []
         for field in self.condition_fields:
@@ -190,7 +190,7 @@ class ConditionalFrequencyBaseline:
         return tuple(values)
     
     def fit(self, samples: List[dict]):
- """"""
+        """"""
         self.cond_freq = defaultdict(Counter)
         self.global_freq = Counter()
         
@@ -220,7 +220,7 @@ class ConditionalFrequencyBaseline:
     
     def predict(self, context: dict, k: int = 5) -> List[Tuple[str, float]]:
         """
- Predict top-k
+        Predict top-k
         """
         cond_key = self._get_condition_key(context)
         
@@ -232,7 +232,7 @@ class ConditionalFrequencyBaseline:
         return self.global_ranked[:k]
     
     def predict_batch(self, contexts: List[dict], k: int = 5) -> List[List[Tuple[str, float]]]:
- """Predict"""
+        """Predict"""
         return [self.predict(ctx, k) for ctx in contexts]
     
     def get_accuracy(self, samples: List[dict]) -> Dict:
@@ -261,8 +261,8 @@ class ConditionalFrequencyBaseline:
 
 class KNNBaseline:
     """
- kNN baseline
- Vote
+        kNN baseline
+        Vote
     """
     
     def __init__(self, training_samples: List[dict] = None,
@@ -270,9 +270,9 @@ class KNNBaseline:
                  k_neighbors: int = 10):
         """
         Args:
- training_samples:
- target_field:
- k_neighbors:
+        training_samples:
+        target_field:
+        k_neighbors:
         """
         self.target_field = target_field
         self.k_neighbors = k_neighbors

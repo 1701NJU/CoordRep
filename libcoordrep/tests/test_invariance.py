@@ -20,7 +20,7 @@ from coordrep.io.tmqm_reader import TMQMReader, RawMolecule, Atom
 
 
 def random_rotation(coords: np.ndarray, seed: int = None) -> np.ndarray:
- """"""
+    """"""
     if seed is not None:
         np.random.seed(seed)
     
@@ -29,7 +29,7 @@ def random_rotation(coords: np.ndarray, seed: int = None) -> np.ndarray:
 
 
 def random_permutation(atoms: list, seed: int = None) -> list:
- """"""
+    """"""
     if seed is not None:
         np.random.seed(seed)
     
@@ -50,7 +50,7 @@ def random_permutation(atoms: list, seed: int = None) -> list:
 
 
 def add_noise(atoms: list, sigma: float = 0.01, seed: int = None) -> list:
- """"""
+    """"""
     if seed is not None:
         np.random.seed(seed)
     
@@ -69,7 +69,7 @@ def add_noise(atoms: list, sigma: float = 0.01, seed: int = None) -> list:
 
 
 def test_rotation_invariance(mol: RawMolecule, n_rotations: int = 100) -> dict:
- """"""
+    """"""
     config = CoordRepConfig.default()
     
     original_cc = encode_molecule(mol, config)
@@ -119,7 +119,7 @@ def test_rotation_invariance(mol: RawMolecule, n_rotations: int = 100) -> dict:
 
 
 def test_permutation_invariance(mol: RawMolecule, n_permutations: int = 100) -> dict:
- """"""
+    """"""
     config = CoordRepConfig.default()
     
     original_cc = encode_molecule(mol, config)
@@ -162,7 +162,7 @@ def test_permutation_invariance(mol: RawMolecule, n_permutations: int = 100) -> 
 
 
 def test_noise_stability(mol: RawMolecule, sigmas: list = [0.01, 0.02], n_trials: int = 50) -> dict:
- """"""
+    """"""
     config = CoordRepConfig.default()
     
     results = {}
@@ -191,7 +191,7 @@ def test_noise_stability(mol: RawMolecule, sigmas: list = [0.01, 0.02], n_trials
                 else:
                     jumps += 1
             else:
- stable += 1 #
+                stable += 1
         
         results[f'sigma={sigma}'] = {
             'stable': stable,
@@ -203,7 +203,7 @@ def test_noise_stability(mol: RawMolecule, sigmas: list = [0.01, 0.02], n_trials
 
 
 def run_invariance_tests(data_dir: str, n_samples: int = 50, n_trials: int = 100):
- """"""
+    """"""
     print("=" * 60)
     print("CoordRep Invariance Tests")
     print("=" * 60)

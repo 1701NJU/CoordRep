@@ -165,9 +165,9 @@ def plot_fig5b_casecards(output_dir: Path):
         if row == 0:
             cell.set_text_props(fontweight='bold')
         cell.set_edgecolor('#CCCCCC')
- if col == 2 and row > 0: # CondFreq
+        if col == 2 and row > 0:  # CondFreq
             cell.set_text_props(color=COLORS['negative'])
- if col == 3 and row > 0: # Model
+        if col == 3 and row > 0:  # Model
             cell.set_text_props(color=COLORS['positive'])
     
     ax.set_title('Model Corrects CondFreq Mistakes (1,899 cases total)', 

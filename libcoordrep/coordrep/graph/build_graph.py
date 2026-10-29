@@ -55,7 +55,7 @@ METAL_INFO = {
 
 @dataclass
 class GraphBuildResult:
- """"""
+    """Graph build result."""
     metal_idx: int
     metal_state: MetalState
     donor_indices: List[int]
@@ -65,13 +65,13 @@ class GraphBuildResult:
 
 
 class GraphBuilder:
- """"""
+    """Graph builder."""
     
     def __init__(self, config: CoordRepConfig = None):
         self.config = config or CoordRepConfig.default()
     
     def _find_metal(self, mol: RawMolecule) -> Tuple[Optional[int], List[CoordRepIssue]]:
- """"""
+        """Find metal center."""
         issues = []
         metal_indices = [i for i, a in enumerate(mol.atoms) if a.element in TRANSITION_METALS]
         
@@ -93,7 +93,7 @@ class GraphBuilder:
         return metal_indices[0], issues
     
     def _get_bo_threshold(self, mol: RawMolecule, metal_idx: int) -> float:
- """ BO """
+        """Get BO threshold."""
         if self.config.bo_threshold_mode == "fixed":
             return self.config.bo_threshold_fixed
         
@@ -110,7 +110,7 @@ class GraphBuilder:
         return max(0.1, min(0.5, threshold))
     
     def _find_donors(self, mol: RawMolecule, metal_idx: int) -> Tuple[List[int], Dict[int, float], List[CoordRepIssue]]:
- """ (donors)"""
+        """Find donor atoms."""
         issues = []
         donors = []
         bond_orders = {}
@@ -138,7 +138,7 @@ class GraphBuilder:
                 dist = np.linalg.norm(atom.coords - metal_coord)
                 if dist < 2.8:
                     donors.append(i)
- bond_orders[i] = 1.0 / dist # BO
+                    bond_orders[i] = 1.0 / dist
         
         if len(donors) == 0:
             issues.append(CoordRepIssue(
@@ -151,7 +151,7 @@ class GraphBuilder:
     
     def _estimate_oxidation_state(self, mol: RawMolecule, metal_idx: int, 
                                   donors: List[int]) -> Optional[int]:
- """"""
+        """Estimate oxidation state."""
         metal = mol.atoms[metal_idx].element
         cn = len(donors)
         
@@ -171,10 +171,10 @@ class GraphBuilder:
         if metal in common_ox:
             return common_ox[metal].get(cn, 2)
         
- return None #
+        return None
     
     def _get_d_count(self, metal: str, oxidation: Optional[int]) -> Optional[int]:
- """ d """
+        """Get d-electron count."""
         if oxidation is None:
             return None
         
@@ -188,7 +188,7 @@ class GraphBuilder:
     
     def _create_metal_state(self, mol: RawMolecule, metal_idx: int, 
                            donors: List[int]) -> MetalState:
- """"""
+        """Create metal state."""
         metal_atom = mol.atoms[metal_idx]
         element = metal_atom.element
         
@@ -205,13 +205,13 @@ class GraphBuilder:
         return MetalState(
             element=element,
             oxidation=oxidation,
- spin=None, # v1
+            spin=None,
             dcount=d_count,
             phys_vec=phys_vec
         )
     
     def _build_molecular_graph(self, mol: RawMolecule) -> nx.Graph:
- """"""
+        """Build molecular graph."""
         G = nx.Graph()
         
         for atom in mol.atoms:
@@ -222,7 +222,7 @@ class GraphBuilder:
             for i in range(n):
                 for j in range(i + 1, n):
                     bo = mol.bond_orders[i, j]
- if bo > 0.1: #
+                    if bo > 0.1:
                         G.add_edge(i, j, bond_order=bo)
         else:
             coords = mol.get_coords()
@@ -230,13 +230,13 @@ class GraphBuilder:
             for i in range(n):
                 for j in range(i + 1, n):
                     dist = np.linalg.norm(coords[i] - coords[j])
- if dist < 1.8: #
+                    if dist < 1.8:
                         G.add_edge(i, j, bond_order=1.0)
         
         return G
     
     def build(self, mol: RawMolecule) -> GraphBuildResult:
- """"""
+        """Build graph for molecule."""
         all_issues = []
         
         metal_idx, issues = self._find_metal(mol)

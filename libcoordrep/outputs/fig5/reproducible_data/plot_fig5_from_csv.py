@@ -36,7 +36,7 @@ COLORS = {
 
 
 def plot_panel_b(data_dir: Path, output_dir: Path):
- """Panel B: ΔTop1 + Top gains"""
+    """Panel B: ΔTop1 + Top gains"""
     hist = pd.read_csv(data_dir / 'panel_b_delta_histogram.csv')
     gains = pd.read_csv(data_dir / 'panel_b_top_gains.csv')
     summary = pd.read_csv(data_dir / 'panel_b_summary.csv').iloc[0]

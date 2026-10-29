@@ -33,12 +33,12 @@ ATOMIC_NUMBERS = {
 
 @dataclass
 class NeighborInfo:
- """"""
+    """Neighbor information."""
     atom_idx: int
     element: str
     distance: float
     bond_order: float
- score: float #
+    score: float
     
     def get_sort_key(self) -> tuple:
         """
@@ -98,7 +98,7 @@ def get_coordination_neighbors(mol: RawMolecule,
                     element=atom.element,
                     distance=dist,
                     bond_order=bo,
- score=bo # = BO
+                    score=bo
                 )
     
     for i, atom in enumerate(mol.atoms):
@@ -126,7 +126,7 @@ def get_coordination_neighbors(mol: RawMolecule,
             )
     
     for info in candidates.values():
- bo_score = info.bond_order * 2.0 # BO
+        bo_score = info.bond_order * 2.0
         dist_score = 1.0 / max(info.distance, 0.5)
         info.score = bo_score + dist_score
     
@@ -148,12 +148,12 @@ def stabilize_neighbors(neighbors: List[NeighborInfo],
 
 
 def get_donor_indices(neighbors: List[NeighborInfo]) -> List[int]:
- """ donor """
+    """Get donor atom indices."""
     return [n.atom_idx for n in neighbors]
 
 
 def validate_donors(mol: RawMolecule, donor_indices: List[int]) -> List[str]:
- """ donors """
+    """Validate donors."""
     issues = []
     
     for idx in donor_indices:

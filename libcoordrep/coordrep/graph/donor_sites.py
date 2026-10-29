@@ -35,9 +35,9 @@ def compute_donor_canonical_rank(mol: RawMolecule,
                                  metal_idx: int,
                                  ligand_smiles: str = None) -> int:
     """
- donor canonical rank
+    donor canonical rank
     
- 1.
+    1.
  2. multiset
  3.
     """
@@ -74,9 +74,9 @@ def assign_donor_ranks(mol: RawMolecule,
                       ligand: LigandModule,
                       metal_idx: int) -> Dict[int, DonorSite]:
     """
- donor canonical rank
+    donor canonical rank
     
- donor_idx -> DonorSite
+    donor_idx -> DonorSite
     """
     donor_indices = ligand.attach_atoms
     
@@ -104,7 +104,7 @@ def assign_donor_ranks(mol: RawMolecule,
             result[donor_idx] = DonorSite(
                 lig_id=ligand.lig_id,
                 donor_element=element,
- donor_rank=donor_order # order raw rank
+                donor_rank=donor_order # order raw rank
             )
     
     return result
@@ -115,7 +115,7 @@ def build_all_donor_sites(mol: RawMolecule,
                          metal_idx: int,
                          mol_graph=None) -> Dict[int, DonorSite]:
     """
- donor site
+    donor site
     """
     all_sites = {}
     
@@ -128,7 +128,7 @@ def build_all_donor_sites(mol: RawMolecule,
 
 def validate_donor_sites(donor_sites: Dict[int, DonorSite],
                         mol: RawMolecule) -> List[str]:
- """ donor sites """
+    """Validate donor sites."""
     issues = []
     
     for donor_idx, site in donor_sites.items():

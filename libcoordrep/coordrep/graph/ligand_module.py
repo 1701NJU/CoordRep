@@ -21,7 +21,7 @@ except ImportError:
 
 
 class LigandExtractor:
- """"""
+    """"""
     
     def __init__(self, strict_sanitize: bool = False):
         self.strict_sanitize = strict_sanitize
@@ -33,8 +33,8 @@ class LigandExtractor:
                        donor_indices: List[int]) -> Tuple[List[LigandModule], List[CoordRepIssue]]:
         """
         
- 1.
- 2. →
+        1.
+        2. →
  3. canonical SMILES
  4. attachment points (donors)
         """
@@ -76,11 +76,11 @@ class LigandExtractor:
             ligand = LigandModule(
                 lig_id=f"L{lig_counter}",
                 smiles=smiles,
- attach_atoms=donors, #
+                attach_atoms=donors, #
                 donor_elements=donor_elements,
                 dent=len(donors),
                 eta=eta,
- charge=None, # v1
+                charge=None, # v1
                 meta={'mw': mol_weight, 'atoms': list(comp)}
             )
             
@@ -92,7 +92,7 @@ class LigandExtractor:
     def _generate_smiles(self, atoms: List[Atom], 
                         full_graph: nx.Graph,
                         atom_indices: set) -> Tuple[str, float, Optional[CoordRepIssue]]:
- """ canonical SMILES"""
+        """Generate canonical SMILES."""
         issue = None
         mol_weight = 0.0
         
@@ -196,7 +196,7 @@ class LigandExtractor:
                          atoms: List[Atom],
                          full_graph: nx.Graph,
                          atom_indices: set) -> Optional[int]:
- """ hapticity (η)"""
+        """Detect hapticity."""
         if len(donors) < 2:
             return None
         

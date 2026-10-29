@@ -17,7 +17,7 @@ from scipy.spatial.distance import cdist
 
 
 def _normalize_template(coords: np.ndarray) -> np.ndarray:
- """Normalize + 1"""
+    """Normalize + 1"""
     coords = coords - coords.mean(axis=0)
     avg_dist = np.linalg.norm(coords, axis=1).mean()
     if avg_dist > 1e-6:
@@ -101,14 +101,14 @@ IDEAL_GEOMETRIES = {
 
 def compute_atom_signature(sorted_distances: np.ndarray) -> int:
     """
- tie-break
+    tie-break
     
     """
     discretized = np.round(sorted_distances * 10000).astype(np.int64)
     
     signature = 0
- for i, d in enumerate(discretized[:6]): # 6
- signature = signature * 100003 + int(d) #
+    for i, d in enumerate(discretized[:6]):
+        signature = signature * 100003 + int(d)
     
     return signature % (10**15)
 
@@ -116,9 +116,9 @@ def compute_atom_signature(sorted_distances: np.ndarray) -> int:
 def compute_cshm_with_tiebreak(P: np.ndarray, Q_template: np.ndarray, 
                                atom_signatures: np.ndarray) -> Tuple[float, np.ndarray]:
     """
- CShM - tie-break
+    CShM - tie-break
     
- Sprint 2
+    Sprint 2
  1.
  2.
  3. assignment
@@ -150,7 +150,7 @@ def compute_cshm_with_tiebreak(P: np.ndarray, Q_template: np.ndarray,
             if j in assigned:
                 continue
             cost = np.sum((P_features[i] - Q_features[j]) ** 2)
- cost += 1e-10 * j # j
+            cost += 1e-10 * j # j
             if cost < best_cost:
                 best_cost = cost
                 best_j = j
@@ -172,12 +172,12 @@ def compute_cshm_with_tiebreak(P: np.ndarray, Q_template: np.ndarray,
 
 @dataclass
 class ShapeResult:
- """Compute results"""
+    """Compute results"""
     cn: int
     ref_shapes: List[str]
- values: np.ndarray # CShM
- values_rounded: np.ndarray #
- assignments: Dict[str, np.ndarray] #
+    values: np.ndarray
+    values_rounded: np.ndarray
+    assignments: Dict[str, np.ndarray]
     
     best_shape: str = ""
     best_cshm: float = 0.0
@@ -185,7 +185,7 @@ class ShapeResult:
     shape_class: str = ""  # "ideal" / "distorted" / "ambiguous"
     
     def to_canonical_string(self) -> str:
- """"""
+        """"""
         if not self.ref_shapes:
             return ""
         
@@ -212,16 +212,16 @@ class ShapeResult:
 
 
 class ShapeCalculator:
- """ (Assignment-Invariant, Rotation-Invariant)"""
+    """ (Assignment-Invariant, Rotation-Invariant)"""
     
     def __init__(self, rounding_decimals: int = 2):
         self.rounding_decimals = rounding_decimals
     
     def _compute_atom_signatures(self, donor_coords: np.ndarray, metal_coord: np.ndarray) -> np.ndarray:
         """
- donor
+        donor
         
- + donors
+        + donors
         """
         n = len(donor_coords)
         signatures = np.zeros(n, dtype=np.int64)
@@ -243,7 +243,7 @@ class ShapeCalculator:
                                   metal_coord: np.ndarray,
                                   signatures: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
         """
- donor
+        donor
         
         """
         n = len(donor_coords)

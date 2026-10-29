@@ -89,14 +89,14 @@ for name in IDEAL_GEOMETRIES:
 
 def kabsch_rmsd(P: np.ndarray, Q: np.ndarray) -> Tuple[float, np.ndarray]:
     """
- Kabsch RMSD
+    Kabsch RMSD
     
     Args:
- P: (N, 3)
+        P: (N, 3)
  Q: (N, 3)
     
     Returns:
- rmsd: RMSD
+        rmsd: RMSD
  R:
     """
     P_centered = P - P.mean(axis=0)
@@ -122,16 +122,16 @@ def kabsch_rmsd(P: np.ndarray, Q: np.ndarray) -> Tuple[float, np.ndarray]:
 def compute_shape_measure(coords: np.ndarray, 
                          template_name: str) -> float:
     """
- CShM
+    CShM
     
     CShM = 100 * min_permutation(RMSD^2) / <r^2>
     
     Args:
- coords: (N, 3)
+        coords: (N, 3)
  template_name:
     
     Returns:
- CShM
+        CShM
     """
     template = IDEAL_GEOMETRIES.get(template_name)
     if template is None:
@@ -161,13 +161,13 @@ def compute_shape_measure(coords: np.ndarray,
 
 
 class ShapeCalculator:
- """"""
+    """"""
     
     def __init__(self, config: CoordRepConfig = None):
         self.config = config or CoordRepConfig.default()
     
     def get_reference_shapes(self, cn: int) -> List[str]:
- """ CN """
+        """ CN """
         if cn == 2:
             return ['L-2']
         elif cn == 3:
@@ -185,11 +185,11 @@ class ShapeCalculator:
         """
         
         Args:
- coords:
- cn:
+            coords:
+     cn:
         
         Returns:
- ShapeVector
+            ShapeVector
         """
         ref_shapes = self.get_reference_shapes(cn)
         
@@ -217,7 +217,7 @@ class ShapeCalculator:
         )
     
     def get_dominant_geometry(self, shape_vector: ShapeVector) -> Optional[str]:
- """CShM """
+        """CShM """
         if len(shape_vector.ref_shapes) == 0:
             return None
         
