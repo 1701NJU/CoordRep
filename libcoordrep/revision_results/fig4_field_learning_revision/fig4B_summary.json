@@ -1,0 +1,4 @@
+{
+  "validity_reaches_100_percent_at_steps": 2800,
+  "interpretation": "typed CoordRep syntax is learnable; syntax-level validity is still enforced by deterministic validators"
+}

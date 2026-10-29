@@ -1,0 +1,16 @@
+subtask,method,n_queries,top1_correct_rate,top5_correct_rate,mean_auroc,mean_fp_rate
+A_same_metal_cn,coordrep_full,41,1.0,1.0,1.0,0.122
+A_same_metal_cn,donor_baseline,41,0.878,0.9512,0.8358,0.2878
+A_same_metal_cn,cshm_only,41,0.5366,0.9512,0.5,0.5463
+A_same_metal_cn,L3_only,41,0.7561,0.9512,0.5674,0.4
+A_same_metal_cn,random_same_donor,41,0.4146,0.8537,0.4667,0.5756
+B_same_metal,coordrep_full,143,0.8671,0.9441,0.9489,0.2909
+B_same_metal,donor_baseline,143,0.6783,0.9301,0.9041,0.3902
+B_same_metal,cshm_only,143,0.3846,0.7343,0.5973,0.649
+B_same_metal,L3_only,143,0.3636,0.6923,0.5246,0.7007
+B_same_metal,random_same_donor,143,0.1818,0.6014,0.5023,0.779
+C_same_metal_donor,coordrep_full,0,0.0,0.0,0.0,0.0
+C_same_metal_donor,donor_baseline,0,0.0,0.0,0.0,0.0
+C_same_metal_donor,cshm_only,0,0.0,0.0,0.0,0.0
+C_same_metal_donor,L3_only,0,0.0,0.0,0.0,0.0
+C_same_metal_donor,random_same_donor,0,0.0,0.0,0.0,0.0

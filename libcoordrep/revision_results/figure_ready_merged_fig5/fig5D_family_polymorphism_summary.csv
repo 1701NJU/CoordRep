@@ -1,0 +1,4 @@
+category,count,definition,label_for_figure
+nontrivial_L3_families,6358,size >= 2 and unique L0 >= 2,"6,358 nontrivial L3 families"
+multiple_L1_shape_families,3739,same L3 family contains multiple L1 ShapeIDs,"3,739 families with multiple L1 shapes"
+shape_boundary_crossing_families,1810,same L3 family crosses a shape-boundary criterion,"1,810 families crossing shape boundary"

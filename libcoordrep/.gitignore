@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data — never commit raw CSD
+csd_retained_entries.jsonl
+*.cif
+*.mol2
+data/CSD_raw/
+checkpoints/
+
+# CSD-derived files that may contain refcodes or full strings
+revision_results/csd_external/csd_family_examples_for_figure.jsonl
+revision_results/csd_external/csd_toolb_failure_examples.csv
+revision_results/csd_casebook/casebook_selected*.json
+revision_results/csd_casebook/casebook_all*.json
+revision_results/csd_casebook/casebook_candidates.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs that are regenerated
+outputs/
+probing/
+tools/
+
+# Large files
+*.pt
+*.pth
+*.ckpt
+*.h5

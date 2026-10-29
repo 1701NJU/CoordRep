@@ -1,0 +1,28 @@
+{
+  "record_fields": [
+    "Metal",
+    "CN",
+    "Shape",
+    "Stereo",
+    "Ligand SMILES",
+    "Donor markers"
+  ],
+  "probes": [
+    {
+      "name": "donor-marker mask",
+      "visible_context": "Ligand SMILES visible",
+      "interpretation": "donor-field annotation"
+    },
+    {
+      "name": "ligand + donor mask",
+      "visible_context": "Ligand SMILES hidden",
+      "interpretation": "ligand-dependence control"
+    },
+    {
+      "name": "semantic decoys",
+      "visible_context": "grammar-valid stereo/topology perturbations",
+      "interpretation": "record-level consistency"
+    }
+  ],
+  "note_for_figure": "Donor masking tests field recovery, not ligand generation."
+}

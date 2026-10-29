@@ -1,0 +1,9 @@
+case_id,refcode,parse_valid,roundtrip_valid,haptic_site_detected,eta_value_assigned,atom_set_order_invariant,centroid_or_pi_fragment_serialized,no_raw_coordinates_exported
+haptic_001,FEROCE01,True,True,True,True,True,True,True
+haptic_002,ZEISSE01,True,True,True,True,True,True,True
+haptic_003,PDALLY,True,True,True,True,True,True,True
+haptic_004,BZCRCB01,True,True,True,True,True,True,True
+haptic_005,RUCPCL,True,True,True,True,True,True,True
+haptic_006,NIEPPH,True,True,True,True,True,True,True
+haptic_007,CPMNCO,True,True,True,True,True,True,True
+haptic_008,TICPDC01,True,True,True,True,True,True,True

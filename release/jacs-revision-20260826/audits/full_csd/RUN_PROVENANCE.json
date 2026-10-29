@@ -1,0 +1,831 @@
+{
+  "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
+  "input_artifact_sha256": {
+    "claim_ready_summary": "2d88c67b9d7d971be9e906cf5e2ba548f52296046075beda3339c6dff72ba4f0",
+    "metal_domain_census": "1f4d5c47a7b520d78616984c59bf1ef1779c52d01d781020f585a6fd035fedbb",
+    "metal_policy_probe": "d9d0f000561b7d24c0b5714ed46a66e02cac9c09f4475e954cdfb8d46123c427",
+    "record_audit_summary": "00da0d8e9afa8cf781c2606eccfe760b86c0ec93f552002ce6258373a96cb10f",
+    "source_fidelity_summary": "d680980c813627745db5f81063a3f3793a45a28e63e5e2c884f7231c93055008"
+  },
+  "internal_ledger_commitments": {
+    "failures_internal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outcomes_internal_sha256": "8d5bc39ef17da15acb45cb1f0289d98740a9f06b9365a939951f1aebcf091acd",
+    "records_internal_sha256": "75883aa49e916d5357cd8120de4bc04da53dcd351b4a81a5bcfc4b2776519d35"
+  },
+  "metal_policy_id": "ccdc-3.6.0-is_metal-frozen-20260825-v1",
+  "metal_policy_sha256": "66f463ebb426898470c660174b38eebdf65140ed5fc5d31f03b5a0fba6e7c792",
+  "packaging_script_sha256": "d4ebece82311eb553bb32794f6fe97c834a152cdb3cf99f50d35596205a151b6",
+  "policy_probe": {
+    "ccdc_version": "3.6.0",
+    "metal_symbols": [
+      "Li",
+      "Be",
+      "Na",
+      "Mg",
+      "Al",
+      "K",
+      "Ca",
+      "Sc",
+      "Ti",
+      "V",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Co",
+      "Ni",
+      "Cu",
+      "Zn",
+      "Ga",
+      "Ge",
+      "Rb",
+      "Sr",
+      "Y",
+      "Zr",
+      "Nb",
+      "Mo",
+      "Tc",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Ag",
+      "Cd",
+      "In",
+      "Sn",
+      "Sb",
+      "Cs",
+      "Ba",
+      "La",
+      "Ce",
+      "Pr",
+      "Nd",
+      "Pm",
+      "Sm",
+      "Eu",
+      "Gd",
+      "Tb",
+      "Dy",
+      "Ho",
+      "Er",
+      "Tm",
+      "Yb",
+      "Lu",
+      "Hf",
+      "Ta",
+      "W",
+      "Re",
+      "Os",
+      "Ir",
+      "Pt",
+      "Au",
+      "Hg",
+      "Tl",
+      "Pb",
+      "Bi",
+      "Po",
+      "Fr",
+      "Ra",
+      "Ac",
+      "Th",
+      "Pa",
+      "U",
+      "Np",
+      "Pu",
+      "Am",
+      "Cm",
+      "Bk",
+      "Cf",
+      "Es",
+      "Fm",
+      "Md",
+      "No",
+      "Lr",
+      "Rf",
+      "Db",
+      "Sg",
+      "Bh",
+      "Hs",
+      "Mt",
+      "Ds",
+      "Rg",
+      "Cn",
+      "Nh",
+      "Fl",
+      "Mc",
+      "Lv",
+      "Ts",
+      "Og"
+    ],
+    "rows": [
+      {
+        "atomic_number": 1,
+        "error": null,
+        "is_metal": false,
+        "symbol": "H"
+      },
+      {
+        "atomic_number": 2,
+        "error": null,
+        "is_metal": false,
+        "symbol": "He"
+      },
+      {
+        "atomic_number": 3,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Li"
+      },
+      {
+        "atomic_number": 4,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Be"
+      },
+      {
+        "atomic_number": 5,
+        "error": null,
+        "is_metal": false,
+        "symbol": "B"
+      },
+      {
+        "atomic_number": 6,
+        "error": null,
+        "is_metal": false,
+        "symbol": "C"
+      },
+      {
+        "atomic_number": 7,
+        "error": null,
+        "is_metal": false,
+        "symbol": "N"
+      },
+      {
+        "atomic_number": 8,
+        "error": null,
+        "is_metal": false,
+        "symbol": "O"
+      },
+      {
+        "atomic_number": 9,
+        "error": null,
+        "is_metal": false,
+        "symbol": "F"
+      },
+      {
+        "atomic_number": 10,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Ne"
+      },
+      {
+        "atomic_number": 11,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Na"
+      },
+      {
+        "atomic_number": 12,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Mg"
+      },
+      {
+        "atomic_number": 13,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Al"
+      },
+      {
+        "atomic_number": 14,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Si"
+      },
+      {
+        "atomic_number": 15,
+        "error": null,
+        "is_metal": false,
+        "symbol": "P"
+      },
+      {
+        "atomic_number": 16,
+        "error": null,
+        "is_metal": false,
+        "symbol": "S"
+      },
+      {
+        "atomic_number": 17,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Cl"
+      },
+      {
+        "atomic_number": 18,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Ar"
+      },
+      {
+        "atomic_number": 19,
+        "error": null,
+        "is_metal": true,
+        "symbol": "K"
+      },
+      {
+        "atomic_number": 20,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ca"
+      },
+      {
+        "atomic_number": 21,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sc"
+      },
+      {
+        "atomic_number": 22,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ti"
+      },
+      {
+        "atomic_number": 23,
+        "error": null,
+        "is_metal": true,
+        "symbol": "V"
+      },
+      {
+        "atomic_number": 24,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cr"
+      },
+      {
+        "atomic_number": 25,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Mn"
+      },
+      {
+        "atomic_number": 26,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Fe"
+      },
+      {
+        "atomic_number": 27,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Co"
+      },
+      {
+        "atomic_number": 28,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ni"
+      },
+      {
+        "atomic_number": 29,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cu"
+      },
+      {
+        "atomic_number": 30,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Zn"
+      },
+      {
+        "atomic_number": 31,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ga"
+      },
+      {
+        "atomic_number": 32,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ge"
+      },
+      {
+        "atomic_number": 33,
+        "error": null,
+        "is_metal": false,
+        "symbol": "As"
+      },
+      {
+        "atomic_number": 34,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Se"
+      },
+      {
+        "atomic_number": 35,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Br"
+      },
+      {
+        "atomic_number": 36,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Kr"
+      },
+      {
+        "atomic_number": 37,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Rb"
+      },
+      {
+        "atomic_number": 38,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sr"
+      },
+      {
+        "atomic_number": 39,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Y"
+      },
+      {
+        "atomic_number": 40,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Zr"
+      },
+      {
+        "atomic_number": 41,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Nb"
+      },
+      {
+        "atomic_number": 42,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Mo"
+      },
+      {
+        "atomic_number": 43,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Tc"
+      },
+      {
+        "atomic_number": 44,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ru"
+      },
+      {
+        "atomic_number": 45,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Rh"
+      },
+      {
+        "atomic_number": 46,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pd"
+      },
+      {
+        "atomic_number": 47,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ag"
+      },
+      {
+        "atomic_number": 48,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cd"
+      },
+      {
+        "atomic_number": 49,
+        "error": null,
+        "is_metal": true,
+        "symbol": "In"
+      },
+      {
+        "atomic_number": 50,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sn"
+      },
+      {
+        "atomic_number": 51,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sb"
+      },
+      {
+        "atomic_number": 52,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Te"
+      },
+      {
+        "atomic_number": 53,
+        "error": null,
+        "is_metal": false,
+        "symbol": "I"
+      },
+      {
+        "atomic_number": 54,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Xe"
+      },
+      {
+        "atomic_number": 55,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cs"
+      },
+      {
+        "atomic_number": 56,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ba"
+      },
+      {
+        "atomic_number": 57,
+        "error": null,
+        "is_metal": true,
+        "symbol": "La"
+      },
+      {
+        "atomic_number": 58,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ce"
+      },
+      {
+        "atomic_number": 59,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pr"
+      },
+      {
+        "atomic_number": 60,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Nd"
+      },
+      {
+        "atomic_number": 61,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pm"
+      },
+      {
+        "atomic_number": 62,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sm"
+      },
+      {
+        "atomic_number": 63,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Eu"
+      },
+      {
+        "atomic_number": 64,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Gd"
+      },
+      {
+        "atomic_number": 65,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Tb"
+      },
+      {
+        "atomic_number": 66,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Dy"
+      },
+      {
+        "atomic_number": 67,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ho"
+      },
+      {
+        "atomic_number": 68,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Er"
+      },
+      {
+        "atomic_number": 69,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Tm"
+      },
+      {
+        "atomic_number": 70,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Yb"
+      },
+      {
+        "atomic_number": 71,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Lu"
+      },
+      {
+        "atomic_number": 72,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Hf"
+      },
+      {
+        "atomic_number": 73,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ta"
+      },
+      {
+        "atomic_number": 74,
+        "error": null,
+        "is_metal": true,
+        "symbol": "W"
+      },
+      {
+        "atomic_number": 75,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Re"
+      },
+      {
+        "atomic_number": 76,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Os"
+      },
+      {
+        "atomic_number": 77,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ir"
+      },
+      {
+        "atomic_number": 78,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pt"
+      },
+      {
+        "atomic_number": 79,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Au"
+      },
+      {
+        "atomic_number": 80,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Hg"
+      },
+      {
+        "atomic_number": 81,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Tl"
+      },
+      {
+        "atomic_number": 82,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pb"
+      },
+      {
+        "atomic_number": 83,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Bi"
+      },
+      {
+        "atomic_number": 84,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Po"
+      },
+      {
+        "atomic_number": 85,
+        "error": null,
+        "is_metal": false,
+        "symbol": "At"
+      },
+      {
+        "atomic_number": 86,
+        "error": null,
+        "is_metal": false,
+        "symbol": "Rn"
+      },
+      {
+        "atomic_number": 87,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Fr"
+      },
+      {
+        "atomic_number": 88,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ra"
+      },
+      {
+        "atomic_number": 89,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ac"
+      },
+      {
+        "atomic_number": 90,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Th"
+      },
+      {
+        "atomic_number": 91,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pa"
+      },
+      {
+        "atomic_number": 92,
+        "error": null,
+        "is_metal": true,
+        "symbol": "U"
+      },
+      {
+        "atomic_number": 93,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Np"
+      },
+      {
+        "atomic_number": 94,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Pu"
+      },
+      {
+        "atomic_number": 95,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Am"
+      },
+      {
+        "atomic_number": 96,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cm"
+      },
+      {
+        "atomic_number": 97,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Bk"
+      },
+      {
+        "atomic_number": 98,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cf"
+      },
+      {
+        "atomic_number": 99,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Es"
+      },
+      {
+        "atomic_number": 100,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Fm"
+      },
+      {
+        "atomic_number": 101,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Md"
+      },
+      {
+        "atomic_number": 102,
+        "error": null,
+        "is_metal": true,
+        "symbol": "No"
+      },
+      {
+        "atomic_number": 103,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Lr"
+      },
+      {
+        "atomic_number": 104,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Rf"
+      },
+      {
+        "atomic_number": 105,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Db"
+      },
+      {
+        "atomic_number": 106,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Sg"
+      },
+      {
+        "atomic_number": 107,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Bh"
+      },
+      {
+        "atomic_number": 108,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Hs"
+      },
+      {
+        "atomic_number": 109,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Mt"
+      },
+      {
+        "atomic_number": 110,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ds"
+      },
+      {
+        "atomic_number": 111,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Rg"
+      },
+      {
+        "atomic_number": 112,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Cn"
+      },
+      {
+        "atomic_number": 113,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Nh"
+      },
+      {
+        "atomic_number": 114,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Fl"
+      },
+      {
+        "atomic_number": 115,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Mc"
+      },
+      {
+        "atomic_number": 116,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Lv"
+      },
+      {
+        "atomic_number": 117,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Ts"
+      },
+      {
+        "atomic_number": 118,
+        "error": null,
+        "is_metal": true,
+        "symbol": "Og"
+      }
+    ]
+  },
+  "release_kind": "public aggregate evidence; no licensed CSD rows",
+  "source_release": "CSD-April-2025-v6.00"
+}

@@ -1,0 +1,4 @@
+pool_name,n_entries,source_category,priority_order,notes
+multinuclear_candidates,346468,multinuclear_or_extended_coordination,1,"Detected via >=2 TM centers; expected ~346,468"
+haptic_pi_candidates,52003,haptic_or_pi_coordination_eta_greater_than_1,2,"Mononuclear with pi/delocalized bonds; expected ~51,867"
+overlap_or_complex,0,overlap,3,"Waterfall is priority-ordered; multi classified before haptic, no overlap"

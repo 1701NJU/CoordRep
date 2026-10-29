@@ -1,0 +1,49 @@
+{
+  "boundary_records": 17791,
+  "boundary_fraction_percent": 14.3,
+  "total_valid_records": 124837,
+  "criterion": "delta_CShM < 1.0",
+  "cn_boundary_distribution": {
+    "CN4": 1371,
+    "CN5": 6699,
+    "CN6": 9721
+  },
+  "top_shape_competition_pairs": [
+    {
+      "CN": 6,
+      "pair": "Oh\u2013TPr",
+      "n": 9721,
+      "fraction": 0.5464
+    },
+    {
+      "CN": 5,
+      "pair": "SPY\u2013TBP",
+      "n": 6699,
+      "fraction": 0.3765
+    },
+    {
+      "CN": 4,
+      "pair": "SP\u2013Td",
+      "n": 1371,
+      "fraction": 0.0771
+    }
+  ],
+  "direction_stats": {
+    "SPY\u2013TBP": {
+      "SPY_dominant": 2394,
+      "TBP_dominant": 4305,
+      "ratio": "1.8:1"
+    },
+    "SP\u2013Td": {
+      "SP_dominant": 474,
+      "Td_dominant": 897,
+      "ratio": "1.9:1"
+    },
+    "Oh\u2013TPr": {
+      "Oh_dominant": 5725,
+      "TPr_dominant": 3996,
+      "ratio": "1.4:1"
+    }
+  },
+  "message": "Boundary geometries concentrate in recurrent shape-competition channels rather than isolated anomalies."
+}

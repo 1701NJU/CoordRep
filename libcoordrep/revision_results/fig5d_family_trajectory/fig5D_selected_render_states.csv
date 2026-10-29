@@ -1,0 +1,4 @@
+render_order,refcode,family_label,L3_key_hash,L0_key_hash,L1_shape_id,shape_label,shape_boundary_flag,S_SP,S_Td,log_S_SP,log_S_Td,trajectory_scalar,selection_reason,xyz_file,xyz_first_sphere_file,xyz_polyhedron_file
+1,LINMOL,LINMOL,463888590564,443391701105,670659335015,SP-like,False,11.6100,13.5000,1.0686,1.1335,-1.8900,trajectory start (lowest S_SP - S_Td),LINMOL_state01_full.xyz,LINMOL_state01_first_sphere.xyz,LINMOL_state01_polyhedron.xyz
+2,LINMOL01,LINMOL,463888590564,825347327306,233955390089,SP-like,True,9.6500,10.4700,0.9890,1.0241,-0.8200,boundary-like state (delta < 1.0),LINMOL_state02_full.xyz,LINMOL_state02_first_sphere.xyz,LINMOL_state02_polyhedron.xyz
+3,LINMOL02,LINMOL,463888590564,886806765236,455884819515,Td-like,False,19.7500,10.4200,1.2978,1.0220,9.3300,trajectory end (highest S_SP - S_Td),LINMOL_state03_full.xyz,LINMOL_state03_first_sphere.xyz,LINMOL_state03_polyhedron.xyz

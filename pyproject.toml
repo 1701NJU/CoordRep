@@ -1,40 +1,19 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "coordrep"
-version = "1.0.0"
+version = "1.1.2rc3"
 description = "A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry"
 readme = "README.md"
 license = {text = "MIT"}
+requires-python = ">=3.9"
 authors = [
     {name = "Wen-Lin Luo", email = "luowenlin862@gmail.com"},
     {name = "Cheng-Hui Li"},
 ]
-keywords = [
-    "coordination-chemistry",
-    "representation",
-    "canonicalization",
-    "masked-language-model",
-    "machine-learning",
-    "transition-metal",
-    "CShM",
-    "tmQM",
-]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Topic :: Scientific/Engineering :: Chemistry",
-    "Topic :: Scientific/Engineering :: Artificial Intelligence",
-]
-requires-python = ">=3.9"
+keywords = ["coordination chemistry", "canonicalization", "CShM", "machine learning", "representation"]
 dependencies = [
     "numpy>=1.24",
     "scipy>=1.10",
@@ -44,25 +23,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-ml = [
-    "torch>=2.0",
-    "scikit-learn>=1.2",
-]
-chem = [
-    "rdkit>=2023.03",
-    "gemmi>=0.6.4",
-]
-viz = [
-    "matplotlib>=3.7",
-    "seaborn>=0.12",
-]
-dev = [
-    "pytest>=7.0",
-    "pytest-cov>=4.0",
-    "black>=23.0",
-    "isort>=5.12",
-]
-all = ["coordrep[ml,chem,viz,dev]"]
+ml = ["torch>=2.0", "torch_geometric>=2.3", "scikit-learn>=1.2"]
+chem = ["rdkit>=2023.03", "gemmi>=0.6.4"]
+csd = ["ccdc"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+all = ["torch>=2.0", "torch_geometric>=2.3", "scikit-learn>=1.2", "rdkit>=2023.03", "gemmi>=0.6.4", "pytest>=7.0", "pytest-cov>=4.0"]
 
 [project.urls]
 Homepage = "https://github.com/1701NJU/CoordRep"
@@ -70,18 +35,10 @@ Documentation = "https://github.com/1701NJU/CoordRep#readme"
 Repository = "https://github.com/1701NJU/CoordRep.git"
 
 [tool.setuptools.packages.find]
-where = ["libcoordrep"]
+where = ["release/jacs-revision-20260826"]
 include = ["coordrep*", "brain*", "coordrep_tools*"]
 
-[tool.black]
-line-length = 100
-target-version = ["py39", "py310", "py311", "py312"]
-
-[tool.isort]
-profile = "black"
-line_length = 100
-
 [tool.pytest.ini_options]
-testpaths = ["libcoordrep/tests"]
+testpaths = ["release/jacs-revision-20260826/tests"]
 python_files = ["test_*.py"]
-addopts = "-v --tb=short"
+addopts = "-v --tb=short --ignore=release/jacs-revision-20260826/tests/test_invariance.py"

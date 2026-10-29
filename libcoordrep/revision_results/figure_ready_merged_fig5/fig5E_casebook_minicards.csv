@@ -1,0 +1,4 @@
+case_id,operation,metal,CN,evidence_1,evidence_2,evidence_3,key_result,figure_message
+AFOSIA,boundary geometry,Cr,6,Oh = 4.48,TPr = 4.49,Δ = 0.01,boundary,top-2 shapes nearly tied
+AGOTIA,grammar repair,Re,7,missing bracket at pos. 81,invalid → valid,5/6 fields preserved,deterministic repair,syntax by rules
+CIJWUO,stereo semantic check,Cu,5,trans → cis decoy,grammar-valid,margin = 0.10–0.68,Ranker 5/5 correct,field-level consistency check

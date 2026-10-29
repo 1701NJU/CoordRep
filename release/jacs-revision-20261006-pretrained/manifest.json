@@ -1,0 +1,102 @@
+{
+  "release": "coordrep-pretrained-20261006",
+  "format": "inference-only PyTorch state_dict",
+  "export_policy": "Tensor parameters and buffers are unchanged. Optimizer states and training metadata are omitted. No retraining was performed.",
+  "analysis_mapping_evidence": "Frozen field_order_ablation_production_v1 source manifest and multidentate_conditional_tail analysis metadata.",
+  "license": "MIT",
+  "models": [
+    {
+      "key": "production_mlm",
+      "source_checkpoint_sha256": "6a32c978a4cac181402bc23826a1648fd67a2266337c232aad4263114e3771da",
+      "exported_checkpoint_sha256": "8a295c39ca0812394b67996797fce26f1f75648695156fc5f54418cc2600b3c5",
+      "exported_bytes": 59801346,
+      "tensor_keys": 107,
+      "all_exported_tensors_equal_source": true,
+      "vocabulary_size": 657,
+      "analyses": [
+        "Supplementary Table S5: production MLM frozen inference",
+        "Supplementary Table S14B: conditional donor-field inference"
+      ],
+      "files": [
+        {
+          "path": "models/production_mlm/config.json",
+          "bytes": 282,
+          "sha256": "88995fd13e0b54c1c02bca8c3aaccc247d5fd3bf128f2e18bfc82bce58837bc2"
+        },
+        {
+          "path": "models/production_mlm/model.pt",
+          "bytes": 59801346,
+          "sha256": "8a295c39ca0812394b67996797fce26f1f75648695156fc5f54418cc2600b3c5"
+        },
+        {
+          "path": "models/production_mlm/tokenizer.json",
+          "bytes": 13946,
+          "sha256": "4b34dd9f65ccacfd282e070580e1482e4196abdfaf9d30f7de311af0216325a2"
+        }
+      ]
+    },
+    {
+      "key": "factorized_mlm",
+      "source_checkpoint_sha256": "754af574e26542bae32b2f39b86de6c7f6bfcd359ef99cc875e9c475cc386915",
+      "exported_checkpoint_sha256": "24a49c2bbf138f37c91d6c3a74ade6e086a941a989ad620f9f583df4de262f86",
+      "exported_bytes": 59801346,
+      "tensor_keys": 107,
+      "all_exported_tensors_equal_source": true,
+      "vocabulary_size": 376,
+      "analyses": [
+        "Archived factorized MLM: separate frozen metal/CN field-order control; not a reported Table S5 row or the separately retrained Table S4 models"
+      ],
+      "files": [
+        {
+          "path": "models/factorized_mlm/config.json",
+          "bytes": 282,
+          "sha256": "88995fd13e0b54c1c02bca8c3aaccc247d5fd3bf128f2e18bfc82bce58837bc2"
+        },
+        {
+          "path": "models/factorized_mlm/model.pt",
+          "bytes": 59801346,
+          "sha256": "24a49c2bbf138f37c91d6c3a74ade6e086a941a989ad620f9f583df4de262f86"
+        },
+        {
+          "path": "models/factorized_mlm/tokenizer.json",
+          "bytes": 6620,
+          "sha256": "7a67a9fd86df5df1abe802b4d6c53c9906366edc085992d35ab8f1a846a0ab0e"
+        }
+      ]
+    },
+    {
+      "key": "semantic_ranker",
+      "source_checkpoint_sha256": "f9e3608ca7076a27b86803af7c211155f9828b5e778245608b7d609df9043c6b",
+      "exported_checkpoint_sha256": "5f0fe12552308040350cb28524dbd49f86e0ab4671e381c00b60e370ea9cd421",
+      "exported_bytes": 60055038,
+      "tensor_keys": 107,
+      "all_exported_tensors_equal_source": true,
+      "vocabulary_size": 657,
+      "analyses": [
+        "Supplementary Table S5: semantic-decoy ranking frozen inference"
+      ],
+      "files": [
+        {
+          "path": "models/semantic_ranker/config.json",
+          "bytes": 303,
+          "sha256": "5d01de20aacc11f34b2f4813964ea56f7ff8543c1723fd313fe18c31f685ad35"
+        },
+        {
+          "path": "models/semantic_ranker/model.pt",
+          "bytes": 60055038,
+          "sha256": "5f0fe12552308040350cb28524dbd49f86e0ab4671e381c00b60e370ea9cd421"
+        },
+        {
+          "path": "models/semantic_ranker/tokenizer.json",
+          "bytes": 13946,
+          "sha256": "4b34dd9f65ccacfd282e070580e1482e4196abdfaf9d30f7de311af0216325a2"
+        }
+      ]
+    }
+  ],
+  "not_included": [
+    "Figure 4 and Tables S8/S8A property-prediction model weights",
+    "Table S4 separately retrained three-seed tokenizer-ablation weights",
+    "Licensed CSD records, coordinates, row-level property inputs, splits, and predictions"
+  ]
+}

@@ -1,0 +1,10 @@
+decoy_type,method,auroc
+stereo_hard,EGNN_3D_ranker,0.5002
+stereo_hard,CoordRep_Ranker,0.9475
+stereo_hard,GIN_Ranker,0.5001
+metal_hard,EGNN_3D_ranker,0.5001
+metal_hard,CoordRep_Ranker,0.7913
+metal_hard,GIN_Ranker,0.5000
+boundary_hard,EGNN_3D_ranker,0.5001
+boundary_hard,CoordRep_Ranker,0.6979
+boundary_hard,GIN_Ranker,0.5000

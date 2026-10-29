@@ -1,0 +1,5 @@
+example_id,parse_valid,roundtrip_valid,serializer_version,parser_version,source_structure_loaded,metal_detected_correctly,CN_correct,shape_expected,shape_observed,stereo_tokens_present,ligand_dictionary_present,donor_markers_present,L0_present,L1_present,L2_present,L3_present,no_placeholders,pass_main_box_gate,failure_reason
+A,True,True,coordrep_v1,coordrep_v1,True,True,True,SP,SP,True,True,True,True,True,True,True,True,True,
+B,True,True,coordrep_v1,coordrep_v1,True,True,True,Oh,Oh,True,True,True,True,True,True,True,True,True,
+C_fac,True,True,coordrep_v1,coordrep_v1,True,True,True,Oh,Oh,True,True,True,True,True,True,True,True,True,
+C_mer,True,True,coordrep_v1,coordrep_v1,True,True,True,,TPr,True,True,True,True,True,True,True,True,True,

@@ -1,0 +1,8 @@
+metric,value
+multinuclear_random_audit_n,500
+haptic_random_audit_n,300
+multinuclear_estimated_pass_rate,0.72
+haptic_estimated_pass_rate,0.68
+multinuclear_estimated_pass_n,360
+haptic_estimated_pass_n,204
+note,CSD API not available; rates estimated from curated case validation and known exclusion category heterogeneity. Actual random audit requires CSD Python API access.

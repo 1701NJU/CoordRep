@@ -1,0 +1,19 @@
+=== CoordRep Block Diagram ===
+
+Metal block:    Co, CN=6
+                [Metal:Co|CN:6]
+
+Shape block:    Best=Oh, CShM=[Oh=0.10, TPr=5.29]
+                <ShapeBest:Oh|Class:ideal|Delta:3|V:0.10,5.29>
+
+Stereo block:
+                {trans:L1:N:1--L2:N:1}
+                {trans:L1:N:2--L2:N:2}
+                {trans:L3:N:1--L4:N:1}
+
+Ligand dict:
+  L1: dent=2, donors=['N', 'N'], SMILES=[H]N([H])C([H])([H])C([H])([H])N([H])[H]
+  L2: dent=2, donors=['N', 'N'], SMILES=[H]N([H])C([H])([H])C([H])([H])N([H])[H]
+  L3: dent=1, donors=['N'], SMILES=C1=N[SH]=1
+  L4: dent=1, donors=['N'], SMILES=C1=N[SH]=1
+                |L1=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L2=[H]N([H])C([H])([H])C([H])([H])N([H])[H]|L3=C1=N[SH]=1|L4=C1=N[SH]=1|

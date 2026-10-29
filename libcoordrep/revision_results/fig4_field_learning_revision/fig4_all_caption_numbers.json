@@ -1,0 +1,16 @@
+{
+  "syntax_validity_step": 2800,
+  "donor_full_context_top1": 85.7,
+  "ligandfreq_top1": 86.2,
+  "ligand_smiles_masked_top1": 61.4,
+  "factorized_metal_top1": 67.8,
+  "factorized_cn_top1": 49.0,
+  "factorized_joint_top1": 29.4,
+  "factorized_donor_top1": 27.5,
+  "multidentate_coverage_percent": 51.2,
+  "bidentate_top1": 86.66,
+  "bidentate_hard_error_rate": 23.98,
+  "egnn_donor_f1": 0.9983,
+  "coordrep_ranker_strict_auroc": 0.8,
+  "coordrep_ranker_stereo_hard_auroc": 0.9475
+}

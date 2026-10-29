@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "figure_size_mm": [
+    178.0,
+    103.0
+  ],
+  "export_dpi": 600,
+  "source_audit": {
+    "structure": "cis-[PtCl2(NH3)2] in cisplatin DMF monosolvate",
+    "csd_refcode": "CUKRAB02",
+    "doi": "10.1107/S1600536812024014",
+    "cif": "pk2417sup1.cif",
+    "cif_sha256": "4ce775bfa24ed10cc92247a0f477669f6ad944d8596a5c3649f07a2a371c0140",
+    "cshm_T-4": 33.28683439619154,
+    "cshm_SP-4": 0.3037450578815674,
+    "delta_S": 32.983089338309966,
+    "best_shape": "SP-4",
+    "coordrep_sha256": "1a888e5c1ebada233e303007615597c2e0d61794df7204c1f77a89347c5e1f09",
+    "trans_pairs": 2,
+    "cis_pairs": 4,
+    "donor_pairs_total": 6
+  },
+  "assertions": [
+    "public IUCr CIF parsed successfully",
+    "corrected coordinate-space CShM matches frozen full-scan values",
+    "CoSyMLib 0.11.1 SP-4 and T-4 reference geometries and measures match the frozen values",
+    "all live SVG text uses Arial and no DejaVu substitution is present",
+    "canonical record SHA-256 matches frozen CoordRep/L0 hash",
+    "relation field contains 2 trans + 4 cis = 6 donor pairs",
+    "Panel A exposes the fixed metal, shape, relations, and ligands field order",
+    "Panel B distinguishes input donor indices from the canonical L1–L4 donor order",
+    "Panel C view limits include the complete SP-4 donor spheres and strokes",
+    "Panel D parses, validates, and reserializes the same typed field order",
+    "superseded [2.99, 8.29] distance-matrix values are not used"
+  ]
+}

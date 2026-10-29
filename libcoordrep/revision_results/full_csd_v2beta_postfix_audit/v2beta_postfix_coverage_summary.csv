@@ -1,0 +1,6 @@
+denominator,entries,v1_valid,v2_multi_molecular,v2_haptic,v2_multi_polymeric_future,total_coordrep,coverage_pct
+All CSD,1413222,124837,323459,52003,22866,500299,35.4
+TM candidates,615498,124837,323459,52003,22866,500299,81.28
+Molecular multi candidates,323601,0,323459,0,0,323459,99.96
+Haptic candidates,52003,0,0,52003,0,52003,100.0
+Polymeric/extended (future scope),22866,0,0,0,22866,0,0.0

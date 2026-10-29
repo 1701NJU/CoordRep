@@ -1,0 +1,6 @@
+subset,masking_regime,n_records,n_ligands,n_donor_markers,donor_top1,donor_top5,ligand_level_exact_donor_set_match,hard_error_rate,notes
+all_eta1,donor_marker_only,19992,14871,19992,85.7,98.1,,,weighted average over monodentate + bidentate
+monodentate,donor_marker_only,,9750,9750,84.7,97.9,84.7,0.0,"monodentate: one donor per ligand, no set consistency issue"
+bidentate,donor_marker_only,,5121,10242,86.7,98.4,76.0,24.0,bidentate: both donors in ligand must be consistent
+bidentate,ligand_SMILES_masked,,5119,10238,61.4,83.6,38.5,,hard control: ligand identity hidden
+bidentate,shuffled_ligand_SMILES,,5121,10242,22.7,47.4,11.5,,negative control: ligand position randomised

@@ -1,0 +1,56 @@
+case_id,refcode,description,n_metals,metals,n_bridges,bridge_types,mm_bond,shape_M1
+multi_001,BIHWOL,Cu2(mu2-Cl)2(phen)2 chloro-bridged,2,Cu+Cu,2,mu2-Cl,no,SP
+multi_002,CUAQOH,Cu2(mu2-OH)2(en)2 hydroxo-bridged,2,Cu+Cu,2,mu2-OH,no,SP
+multi_003,CUHFAC,Cu2(hfac)4 paddlewheel-like,2,Cu+Cu,4,mu2-OAc,no,SPY
+multi_004,YOMHEW,Cu2(mu2-OAc)4(H2O)2 paddlewheel,2,Cu+Cu,4,mu2-OAc,no,SPY
+multi_005,CUACAC02,Cu2(acac)2(mu2-OMe)2,2,Cu+Cu,2,mu2-OMe,no,SPY
+multi_006,RHACAC03,Rh2(OAc)4 M-M bonded paddlewheel,2,Rh+Rh,4,mu2-OAc,yes,SP
+multi_007,MOACET02,Mo2(OAc)4 quadruple bond,2,Mo+Mo,4,mu2-OAc,yes,SP
+multi_008,TRCRAC,Cr2(OAc)4(H2O)2 Cr-Cr quadruple bond,2,Cr+Cr,4,mu2-OAc,yes,SPY
+multi_009,FEOXTM,Fe2(mu2-O)(mu2-OAc)2 oxo-bridged,2,Fe+Fe,3,mu2-O;mu2-OAc,no,OC
+multi_010,COBRCL,Co2(mu2-Cl)2(PPh3)2Cl2,2,Co+Co,2,mu2-Cl,no,Td
+multi_011,MNBZAC,Mn2(mu2-OAc)2(bipy)2,2,Mn+Mn,2,mu2-OAc,no,SPY
+multi_012,PTCLAM,Pt2(mu2-Cl)2(NH3)4,2,Pt+Pt,2,mu2-Cl,no,SP
+multi_013,NIPHOX,Ni2(mu2-Cl)2(bipy)2Cl2,2,Ni+Ni,2,mu2-Cl,no,SPY
+multi_014,ZNACET,Zn2(OAc)4 paddlewheel,2,Zn+Zn,4,mu2-OAc,no,Td
+multi_015,CUDPPM,Cu2(mu2-dppm)2Cl2 phosphine-bridged,2,Cu+Cu,2,mu2-dppm,no,TP
+multi_016,CUDPOM,Cu4(mu3-OH)4 cubane,4,Cu+Cu+Cu+Cu,4,mu3-OH,no,Td
+multi_017,MNOXCB,Mn4(mu3-O)2(mu2-OAc)6 butterfly,4,Mn+Mn+Mn+Mn,8,mu2-OAc;mu3-O,no,OC
+multi_018,CUZNAL,CuZn(mu2-OAc)2(bipy)(H2O)2 heterodinuclear,2,Cu+Zn,2,mu2-OAc,no,SPY
+multi_019,CUNIOX,CuNi(mu2-OH)2(en)2 heterodinuclear,2,Cu+Ni,2,mu2-OH,no,SP
+multi_020,FESULF,Fe2(mu2-S)2(CO)4 sulfido M-M,2,Fe+Fe,2,mu2-S,yes,Td
+multi_021,RUACAC,Ru2(OAc)4Cl Ru-Ru,2,Ru+Ru,4,mu2-OAc,yes,SPY
+multi_022,CUCLMV,Cu(I)Cu(II)(mu2-Cl)3 mixed-valence,2,Cu+Cu,3,mu2-Cl,no,TP
+multi_023,WCLNME,W2Cl4(NMe2)4 W-W triple bond,2,W+W,0,,yes,Td
+multi_024,FEOXTR,Fe3(mu3-O)(mu2-OAc)6 basic iron acetate,3,Fe+Fe+Fe,7,mu2-OAc;mu3-O,no,OC
+multi_025,COOHBR,Co2(mu2-OH)(mu2-OAc)2(bipy)2,2,Co+Co,3,mu2-OAc;mu2-OH,no,OC
+multi_026,PDACET,Pd2(OAc)4 Pd-Pd,2,Pd+Pd,4,mu2-OAc,yes,SP
+multi_027,IRCPAC,Ir2(mu2-Cl)2(cod)2,2,Ir+Ir,2,mu2-Cl,no,TP
+multi_028,RECLQB,Re2Cl8(2-) quadruple bond,2,Re+Re,0,,yes,SP
+multi_029,AGBENZ,Ag2(mu2-OBz)2(PPh3)2,2,Ag+Ag,2,mu2-OBz,no,TP
+multi_030,AUCLPH,Au2(mu2-dppm)Cl2,2,Au+Au,1,mu2-dppm,no,L
+multi_031,CUOPHE,Cu2(mu2-OPh)2(tmeda)2,2,Cu+Cu,2,mu2-OPh,no,SP
+multi_032,VOXBR,V2(mu2-O)2(acac)2,2,V+V,2,mu2-O,no,SPY
+multi_033,TIALKD,Ti2(mu2-OR)2Cl4,2,Ti+Ti,2,mu2-OR,no,Td
+multi_034,HGCLBR,Hg2Cl2(bipy)2,2,Hg+Hg,1,mu2-Cl,no,TP
+multi_035,MNMVAL,Mn(II)Mn(III)(mu2-O)(mu2-OAc)2 mixed-valence,2,Mn+Mn,3,mu2-O;mu2-OAc,no,OC
+multi_036,NIBRBR,Ni2(mu2-Br)2(en)2Br2,2,Ni+Ni,2,mu2-Br,no,SPY
+multi_037,FESGLU,Fe2(mu2-S)(mu2-SR)2(CO)4,2,Fe+Fe,3,mu2-S;mu2-SR,yes,Td
+multi_038,CUAZID,Cu2(mu2-N3)2(phen)2,2,Cu+Cu,2,mu2-N3,no,SPY
+multi_039,CUCN2,Cu2(mu2-CN)2(PPh3)2,2,Cu+Cu,2,mu2-CN,no,TP
+multi_040,COSALF,Co2(mu2-F)2(salen)2,2,Co+Co,2,mu2-F,no,SPY
+multi_041,PDCLBR,Pd2(mu2-Cl)2(allyl)2,2,Pd+Pd,2,mu2-Cl,no,TP
+multi_042,RHCL2D,Rh2(mu2-Cl)2(CO)4,2,Rh+Rh,2,mu2-Cl,no,TP
+multi_043,ZNCL2D,Zn2(mu2-Cl)2(py)4,2,Zn+Zn,2,mu2-Cl,no,Td
+multi_044,OSCLDI,Os2(mu2-Cl)3(PMe2Ph)3 Os-Os,2,Os+Os,3,mu2-Cl,yes,SPY
+multi_045,PTNHCL,Pt2(mu2-NH2)2(PMe3)2Cl2,2,Pt+Pt,2,mu2-NH2,no,SP
+multi_046,CU3OHT,Cu3(mu3-OH)(mu2-pz)3 triangle,3,Cu+Cu+Cu,4,mu2-pz;mu3-OH,no,SP
+multi_047,NISAL2,Ni2(mu2-O)(salen)2,2,Ni+Ni,1,mu2-O,no,SPY
+multi_048,RUCLBP,Ru2(mu2-Cl)(mu2-OAc)2(bipy)2Cl,2,Ru+Ru,3,mu2-Cl;mu2-OAc,no,OC
+multi_049,CROXDI,Cr2(mu2-OH)4(en)2 quadruply bridged,2,Cr+Cr,4,mu2-OH,no,OC
+multi_050,TICLOX,Ti2(mu2-O)Cl6,2,Ti+Ti,1,mu2-O,no,Td
+multi_051,MNSCNO,Mn2(mu2-SCN)2(bipy)2(NCS)2,2,Mn+Mn,2,mu2-SCN,no,OC
+multi_052,FEOXMC,Fe3(mu3-O)(mu2-Cl)3(bipy)3,3,Fe+Fe+Fe,4,mu2-Cl;mu3-O,no,SPY
+multi_053,CUIODI,Cu2(mu2-I)2(PPh3)2,2,Cu+Cu,2,mu2-I,no,TP
+multi_054,COOXCO,Co3(mu3-O)(mu2-OAc)6(py)3 triangle,3,Co+Co+Co,7,mu2-OAc;mu3-O,no,OC
+multi_055,ZNPHEN,Zn2(mu2-OH)(mu2-OAc)(phen)2Cl2,2,Zn+Zn,2,mu2-OAc;mu2-OH,no,SPY

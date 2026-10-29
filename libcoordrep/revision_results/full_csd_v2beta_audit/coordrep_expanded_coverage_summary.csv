@@ -1,0 +1,7 @@
+denominator,entries,v1_valid,v2beta_multi_valid,v2beta_haptic_valid,v2beta_overlap_adjusted_valid,total_coordrep_compatible,coverage_percent,notes
+All CSD,1413222,124837,287637,52003,0,464477,32.87,
+TM candidates,615498,124837,287637,52003,0,464477,75.46,
+Intended v1 domain,126197,124837,0,0,0,124837,98.92,v1 scope unchanged
+Multinuclear candidates,346468,0,287637,0,0,287637,83.02,Projected from 5000-sample audit
+Haptic/pi candidates,52003,0,0,52003,0,52003,100.0,Projected from 2000-sample audit
+Expanded v2beta candidate domain,524668,124837,287637,52003,0,464477,88.53,Union of v1 + multi + haptic candidate sets

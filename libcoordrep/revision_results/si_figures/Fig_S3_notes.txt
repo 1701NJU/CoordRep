@@ -1,0 +1,32 @@
+Fig_S3 — CoordRep-ID robustness across identity layers
+
+Panel A: Deterministic invariance tests
+  Source: identity_robustness/rigid_body_invariance_test.csv
+  x = test type; y = L0 retention (%)
+  All nuisance transformations preserve L0, confirming deterministic
+  canonicalization under the adopted rules.
+
+Panel B: Coordinate perturbation sweep
+  Source: identity_robustness/perturbation_sweep.csv
+  x = perturbation σ (Å), log10 scale; y = identity retention (%)
+  Lines: L0 (dark grey), L1 (mid grey), L3 (accent orange)
+  L0 is most sensitive because it preserves the exact geometry-resolved
+  state, whereas L1–L3 progressively abstract continuous geometry.
+
+Panel C: CSD refcode-family validation
+  Source: identity_robustness/csd_refcode_family_validation.csv
+  Families defined by CSD refcode families (independent of CoordRep).
+  x = identity level; y = within-family match rate (%)
+  n = 4,099 CSD refcode families with ≥2 members.
+  L0 = 11.4%, L1 = 54.3%, L3 = 93.7%
+  Demonstrates that coarser identity layers are more stable across
+  independent experimental redeterminations.
+  Case study: OPEVUD (40 members,
+  38 unique L0 → 1 shared L3)
+
+Panel D: Bond-scaling robustness
+  Source: identity_robustness/bond_scaling_sweep.csv
+  x = uniform bond scaling factor; y = retention (%)
+  Lines: L0, L1, L3
+  CShM is approximately scale-invariant, so higher-level keys are robust
+  to uniform bond-length changes; L0 is affected by numerical CShM shifts.

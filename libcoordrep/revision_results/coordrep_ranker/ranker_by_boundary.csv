@@ -1,0 +1,4 @@
+metal_row,bl_random_top1,bl_frequency_top1,bl_rule_validator_top1,mlm_pll_top1,ranker_frozen_top1,ranker_finetuned_top1,n
+3d,0.066,0.0532,0.066,0.0,0.0298,0.1213,470
+4d,0.0713,0.0539,0.0765,0.0035,0.0539,0.153,575
+5d,0.0768,0.0439,0.0614,0.0088,0.0329,0.1118,456

@@ -1,0 +1,67 @@
+{
+  "full": {
+    "ablation": "full",
+    "n_groups": 1501,
+    "top1": 0.1233,
+    "mrr": 0.3325,
+    "win_rate": 0.7428,
+    "auroc": 0.6996,
+    "auroc_boundary_hard": 0.6979,
+    "auroc_co_ligand_hard": 0.554,
+    "auroc_ligand_hard": 0.6547,
+    "auroc_metal_hard": 0.7917,
+    "auroc_stereo_hard": 0.9475
+  },
+  "no_stereo": {
+    "ablation": "no_stereo",
+    "n_groups": 1501,
+    "top1": 0.06,
+    "mrr": 0.2311,
+    "win_rate": 0.6384,
+    "auroc": 0.6597,
+    "auroc_boundary_hard": 0.7003,
+    "auroc_co_ligand_hard": 0.5338,
+    "auroc_ligand_hard": 0.6675,
+    "auroc_metal_hard": 0.7974,
+    "auroc_stereo_hard": 0.5
+  },
+  "no_metal": {
+    "ablation": "no_metal",
+    "n_groups": 1501,
+    "top1": 0.0227,
+    "mrr": 0.1336,
+    "win_rate": 0.4633,
+    "auroc": 0.6151,
+    "auroc_boundary_hard": 0.5,
+    "auroc_co_ligand_hard": 0.571,
+    "auroc_ligand_hard": 0.6773,
+    "auroc_metal_hard": 0.5,
+    "auroc_stereo_hard": 0.955
+  },
+  "no_shape": {
+    "ablation": "no_shape",
+    "n_groups": 1501,
+    "top1": 0.1213,
+    "mrr": 0.3319,
+    "win_rate": 0.7433,
+    "auroc": 0.6991,
+    "auroc_boundary_hard": 0.6977,
+    "auroc_co_ligand_hard": 0.554,
+    "auroc_ligand_hard": 0.6535,
+    "auroc_metal_hard": 0.7915,
+    "auroc_stereo_hard": 0.9472
+  },
+  "no_ligand": {
+    "ablation": "no_ligand",
+    "n_groups": 1501,
+    "top1": 0.0033,
+    "mrr": 0.1563,
+    "win_rate": 0.5462,
+    "auroc": 0.5866,
+    "auroc_boundary_hard": 0.5886,
+    "auroc_co_ligand_hard": 0.5161,
+    "auroc_ligand_hard": 0.5009,
+    "auroc_metal_hard": 0.6283,
+    "auroc_stereo_hard": 0.8246
+  }
+}

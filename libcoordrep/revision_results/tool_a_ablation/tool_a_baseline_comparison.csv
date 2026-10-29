@@ -1,0 +1,4 @@
+method,top1_acc,top5_acc,mrr
+"CondFreq(metal,CN)",0.802,0.9948,0.8815
+LigandFreq(SMILES),0.8623,1.0,0.9301
+"ContextFreq(M,CN,shape,stereo)",0.8021,0.9963,0.8826

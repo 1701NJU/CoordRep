@@ -1,0 +1,5 @@
+metric,value,label_for_figure
+csd_release,2024.3,CSD release
+total_entries_scanned,1413222,"1,413,222 CSD entries scanned"
+valid_coordrep_v1_records,124837,"124,837 valid CoordRep v1 records"
+retention_rate_percent,8.83,8.83% retained

@@ -1,0 +1,4 @@
+cohort,target,reference_model,comparison_model,n_pairs,n_graph_clusters,mae_reduction_positive_favors_full,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,post_hoc_restricted_set
+automatic34_target_blind,dipole_moment,coordrep_relation_masked,coordrep_relation_full,34,34,3.8905903217839257,2.8609204432543587,4.943471254086963,True
+clean110_target_unconditioned,hl_gap_ev,hybrid_mask_shape,hybrid,24,13,0.11111886302630102,-0.05574150268848115,0.28185747918628506,True
+clean44_gap_target_conditioned,hl_gap_ev,hybrid_mask_shape,hybrid,13,8,0.23891509496248678,-0.06201871236165371,0.38149930947068805,True

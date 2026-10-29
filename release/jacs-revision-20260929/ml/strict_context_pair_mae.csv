@@ -1,0 +1,16 @@
+cohort,model,target,pair_orientation,n_pairs,n_graph_clusters,pair_difference_mae,descriptive_only
+automatic34_target_blind,gine_wide,dipole_moment,cis_minus_trans,34,34,5.868914682507983,True
+automatic34_target_blind,coordrep_relation_masked,dipole_moment,cis_minus_trans,34,34,5.218489352394553,True
+automatic34_target_blind,coordrep_relation_full,dipole_moment,cis_minus_trans,34,34,1.3278990306106269,True
+automatic34_target_blind,schnet_3d,dipole_moment,cis_minus_trans,34,34,0.8001627407821954,True
+automatic34_target_blind,visnet_3d,dipole_moment,cis_minus_trans,34,34,0.4814681819840974,True
+clean110_target_unconditioned,gine_wide,hl_gap_ev,left_minus_right,24,13,0.5343976037369834,True
+clean110_target_unconditioned,hybrid_mask_shape,hl_gap_ev,left_minus_right,24,13,0.30928578476111085,True
+clean110_target_unconditioned,hybrid,hl_gap_ev,left_minus_right,24,13,0.1981669217348098,True
+clean110_target_unconditioned,schnet_3d,hl_gap_ev,left_minus_right,24,13,0.3718803624312083,True
+clean110_target_unconditioned,visnet_3d,hl_gap_ev,left_minus_right,24,13,0.34097141358587474,True
+clean44_gap_target_conditioned,gine_wide,hl_gap_ev,left_minus_right,13,8,0.939106760880886,True
+clean44_gap_target_conditioned,hybrid_mask_shape,hl_gap_ev,left_minus_right,13,8,0.5241018655972602,True
+clean44_gap_target_conditioned,hybrid,hl_gap_ev,left_minus_right,13,8,0.2851867706347734,True
+clean44_gap_target_conditioned,schnet_3d,hl_gap_ev,left_minus_right,13,8,0.628148262317364,True
+clean44_gap_target_conditioned,visnet_3d,hl_gap_ev,left_minus_right,13,8,0.597019592920939,True

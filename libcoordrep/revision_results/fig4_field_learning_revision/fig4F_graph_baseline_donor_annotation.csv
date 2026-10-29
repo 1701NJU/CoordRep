@@ -1,0 +1,6 @@
+task,model_or_representation,input_information,metric,score,n_samples,interpretation
+donor_annotation,EGNN_3D,full 3D coordinates,F1,0.9983,1500,3D equivariant model: near-optimal upper bound
+donor_annotation,GIN_ligand_context,2D ligand graph + metal/CN context,F1,0.9041,2000,2D GNN with coordination context
+donor_annotation,GIN_ligand_only,2D ligand graph only,F1,0.8614,2000,ligand graph without metal/CN context
+donor_annotation,LigandFreq_lookup,ligand SMILES → training-set majority vote,F1,0.8955,2000,non-neural lookup; ligand-intrinsic baseline
+donor_annotation,CoordRep_MLM_donor_probe,CoordRep string (donor markers masked),Top-1,0.8571,19992,masked-field donor annotation

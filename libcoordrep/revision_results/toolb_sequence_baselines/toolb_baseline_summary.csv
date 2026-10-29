@@ -1,0 +1,11 @@
+dataset,method,n,valid_before,valid_after,strict_valid_after,exact_match,valid_rate_before,valid_rate_after,strict_valid_rate,exact_rate,field_match_rate,recovery_rate
+synthetic,corrupted_only,2000,1018,1018,957,0,0.509,0.509,0.4785,0.0,0.8402,0.0
+synthetic,rule_only,2000,1018,1995,1995,247,0.509,0.9975,0.9975,0.1235,0.8592,0.9949
+synthetic,edit_distance,2000,1018,2000,2000,247,0.509,1.0,1.0,0.1235,0.8592,1.0
+synthetic,char_bigram,2000,1018,2000,2000,247,0.509,1.0,1.0,0.1235,0.8592,1.0
+synthetic,coordrep_mlm,500,251,379,366,0,0.502,0.758,0.732,0.0,0.599,0.5141
+csd_transfer,corrupted_only,1876,1062,1062,991,0,0.5661,0.5661,0.5283,0.0,0.8488,0.0
+csd_transfer,rule_only,1876,1062,1876,1871,461,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+csd_transfer,edit_distance,1876,1062,1876,1871,461,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+csd_transfer,char_bigram,1876,1062,1876,1871,461,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+csd_transfer,coordrep_mlm,500,301,426,410,0,0.602,0.852,0.82,0.0,0.6063,0.6281

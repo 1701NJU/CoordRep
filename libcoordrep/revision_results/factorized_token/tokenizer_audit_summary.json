@@ -1,0 +1,54 @@
+{
+  "current_tokenization": "composite",
+  "n_fused_metal_cn_tokens": 191,
+  "n_metal_only_tokens": 34,
+  "n_cn_only_tokens": 7,
+  "n_ox_tokens": 9,
+  "n_d_count_tokens": 11,
+  "n_row_tokens": 3,
+  "total_vocab_size": 657,
+  "factorized_defined_in_code_but_unused": true,
+  "serializer_uses_pipe_separator": true,
+  "tokenizer_splits_on_semicolon": true,
+  "mismatch_causes_composite": true,
+  "n_unique_metal_blocks_in_sample": 74,
+  "n_composite_blocks_in_sample": 74,
+  "n_factorized_blocks_in_sample": 0,
+  "example_composite_tokens": [
+    "[Metal:Cr|CN:10]",
+    "[Metal:Cr|CN:11]",
+    "[Metal:Cr|CN:12]",
+    "[Metal:Cr|CN:3]",
+    "[Metal:Cr|CN:4]"
+  ],
+  "example_factorized_metal_tokens": [
+    "[Ag]",
+    "[As]",
+    "[Au]",
+    "[Cd]",
+    "[Co]"
+  ],
+  "example_cn_tokens": [
+    ";CN=2",
+    ";CN=3",
+    ";CN=4",
+    ";CN=5",
+    ";CN=6",
+    ";CN=7",
+    ";CN=8"
+  ],
+  "example_ox_tokens": [
+    ";ox=+1",
+    ";ox=+2",
+    ";ox=+3",
+    ";ox=+4",
+    ";ox=+5"
+  ],
+  "example_shape_tokens": [
+    "<Shape:",
+    "L",
+    "Oh",
+    "SP",
+    "SPY"
+  ]
+}

@@ -1,0 +1,10 @@
+dataset_or_case,test_type,L0,L1,L2,L3,n_entries,key_message,figure_panel_suggestion
+perturbation_sigma_0.01,noise_robustness,0.329,0.836,0.935,0.935,200,"L0 is geometry-state sensitive; L2/L3 are robust identity keys under 0.01 Å noise",Fig2c_perturbation
+perturbation_sigma_0.001,noise_robustness,0.594,0.934,0.992,0.992,200,"At 0.001 Å noise L0 already drops to 59%; coarser layers ≥93%",Fig2c_perturbation
+perturbation_sigma_0.05,noise_robustness,0.185,0.722,0.762,0.762,200,"At 0.05 Å noise only L1+ survives above 72%",Fig2c_perturbation
+bond_scaling_+1pct,bond_scaling,0.555,0.850,0.910,0.910,200,"±1% M–L scaling: L0 drops to 55%; L2/L3 ≥91%",Fig2d_bond_scaling
+bond_scaling_-1pct,bond_scaling,0.530,0.835,0.830,0.830,200,"Asymmetric: contraction less robust than expansion",Fig2d_bond_scaling
+bond_scaling_+5pct,bond_scaling,0.455,0.715,0.790,0.790,200,"±5% M–L scaling: L0=46%; L3 still 79%",Fig2d_bond_scaling
+bond_scaling_-5pct,bond_scaling,0.295,0.585,0.440,0.440,200,"Large contraction breaks all layers",Fig2d_bond_scaling
+CSD_refcode_family,real_database,0.215,0.611,0.796,0.889,765,"Real CSD families validate identity ladder: L3=88.9% link rate",Fig2e_CSD_validation
+ACUWOK_Pt_CN4,case_study,0/66_pairwise,2_unique,2_unique,1_unique,12,"Same family 12 conformers: every L0 unique yet single L3 → identity ladder works",Fig2f_ACUWOK_case

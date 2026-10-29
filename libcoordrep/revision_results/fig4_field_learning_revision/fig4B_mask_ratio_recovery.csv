@@ -1,0 +1,5 @@
+mask_ratio,top1_accuracy,top5_accuracy,validity_percent,random_baseline
+0.15,85.7,98.1,100.0,21.6
+0.3,79.2,95.8,100.0,21.6
+0.5,70.1,91.4,100.0,21.6
+0.75,58.3,83.6,100.0,21.6

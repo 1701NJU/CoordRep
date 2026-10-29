@@ -1,0 +1,6 @@
+layer,n_entries,label,fraction_of_previous,fraction_of_total,bar_color
+All CSD entries,1413222,"1,413,222 entries (CSD 2024.3)",1.0,1.0,grey
+Transition-metal candidates,615498,"615,498 TM entries",0.4355,0.4355,blue_grey
+Mononuclear η1 coordination candidates,217163,"217,163 coordination candidates",0.3528,0.1537,blue_grey
+Intended CoordRep v1 domain,126197,"126,197 v1 candidates",0.5811,0.0893,blue_grey
+Valid CoordRep v1 records,124837,"124,837 valid records",0.9892,0.0883,orange

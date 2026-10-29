@@ -1,0 +1,82 @@
+{
+  "identity_methods": {
+    "SMILES_multiset": {
+      "method": "SMILES_multiset",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 653,
+      "within_family_recall": 0.9807,
+      "cross_family_precision": 0.5354,
+      "within_pairs": 6261,
+      "within_matches": 6140
+    },
+    "Metal+SMILES": {
+      "method": "Metal+SMILES",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 753,
+      "within_family_recall": 0.9709,
+      "cross_family_precision": 0.7992,
+      "within_pairs": 6261,
+      "within_matches": 6079
+    },
+    "WL_hash": {
+      "method": "WL_hash",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 730,
+      "within_family_recall": 0.9828,
+      "cross_family_precision": 0.7997,
+      "within_pairs": 6261,
+      "within_matches": 6153
+    },
+    "CoordRep_L0": {
+      "method": "CoordRep_L0",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 1723,
+      "within_family_recall": 0.2436,
+      "cross_family_precision": 0.9537,
+      "within_pairs": 6261,
+      "within_matches": 1525
+    },
+    "CoordRep_L1": {
+      "method": "CoordRep_L1",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 1119,
+      "within_family_recall": 0.7183,
+      "cross_family_precision": 0.8944,
+      "within_pairs": 6261,
+      "within_matches": 4497
+    },
+    "CoordRep_L2": {
+      "method": "CoordRep_L2",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 906,
+      "within_family_recall": 0.7737,
+      "cross_family_precision": 0.8501,
+      "within_pairs": 6261,
+      "within_matches": 4844
+    },
+    "CoordRep_L3": {
+      "method": "CoordRep_L3",
+      "n_families": 765,
+      "n_entries": 2172,
+      "n_unique_keys": 820,
+      "within_family_recall": 0.8299,
+      "cross_family_precision": 0.8161,
+      "within_pairs": 6261,
+      "within_matches": 5196
+    }
+  },
+  "similarity_retrieval": {
+    "method": "ECFP_Tanimoto_retrieval",
+    "n_entries": 878,
+    "recall_at_5": 0.8869,
+    "recall_at_10": 0.925
+  },
+  "n_families": 765,
+  "n_entries": 17038
+}

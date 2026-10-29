@@ -1,0 +1,4 @@
+CN,shape_a,shape_b,pair_label,n_boundary_records,fraction_of_all_boundary_records,fraction_within_CN_boundary,mean_delta_CShM,median_delta_CShM,example_refcodes,recommended_edge_color,label_for_figure
+6,Oh,TPr,Oh–TPr,9721,0.5464,1.0,0.44,0.41,APUSEM;VITLER;QETDUO,orange,Oh–TPr
+5,SPY,TBP,SPY–TBP,6699,0.3765,1.0,0.509,0.52,AFAFIA;XACDIR;YOTCUG,orange,SPY–TBP
+4,SP,Td,SP–Td,1371,0.0771,1.0,0.51,0.52,ESAWOL;ANIHUD;VUFDUW,orange,SP–Td

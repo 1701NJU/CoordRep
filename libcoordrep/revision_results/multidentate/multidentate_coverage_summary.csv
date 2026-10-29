@@ -1,0 +1,10 @@
+metric,count,fraction
+total_complexes,68288,1.0
+monodentate_only,16348,0.2394
+contains_bidentate,26015,0.381
+contains_dent_ge3,31392,0.4597
+total_ligands,214721,
+dent=1,137301,0.6394
+dent=2,38841,0.1809
+dent=3,17264,0.0804
+dent>=4,21315,0.0993

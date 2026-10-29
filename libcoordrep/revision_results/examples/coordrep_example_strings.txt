@@ -1,0 +1,9 @@
+# A_monodentate_square_planar (Monodentate-only square-planar Pt(II) CN=4, source: tmQM ABAMIA)
+[Metal:Pt|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:dist|Delta:2|V:3.14,7.62>{trans:L1:P:1--L3:Cl:1}{trans:L2:P:1--L4:Cl:1}|L1=P|L2=P|L3=Cl|L4=Cl|
+
+# B_bidentate_chelating (Bidentate chelating Pd CN=4, dents=[2, 2], source: tmQM ABAFOZ)
+[Metal:Pd|ox:+2|d:d8|CN:4]<ShapeBest:Td|Class:good|Delta:3|V:2.82,8.22>{trans:L1:N:1--L2:O:1}{trans:L1:N:2--L2:O:2}|L1=C18H24N2|L2=C22H16O2|
+
+# C_octahedral_multi_stereo (Octahedral Ir CN=6, dents=[2, 2, 2], multiple trans constraints, source: tmQM ABAYUA)
+[Metal:Ir|CN:6]<ShapeBest:Oh|Class:dist|Delta:2|V:4.37,7.88>{trans:L1:C:1--L3:N:1}{trans:L1:N:1--L2:N:1}{trans:L2:C:1--L3:O:1}|L1=C11F2H6N|L2=C11F2H6N|L3=C15H14NO|
+

@@ -1,0 +1,12 @@
+dataset,method,valid_after,strict_valid,exact,field_match,recovery,interpretation
+synthetic,corrupted_only,0.502,0.476,0.000,0.842,0.000,"No repair: ~50% of corrupted strings happen to pass loose validation"
+synthetic,rule_only,1.000,1.000,0.122,0.860,1.000,"Grammar-aware rules restore 100% validity; 12.2% exact match; 86% field match"
+synthetic,edit_distance,1.000,1.000,0.122,0.860,1.000,"Edit-distance repair converges to same result as rule_only"
+synthetic,char_bigram,1.000,1.000,0.122,0.860,1.000,"Generic char model also converges to same structural fixes"
+synthetic,coordrep_mlm,0.758,0.732,0.000,0.599,0.514,"MLM achieves lower validity than rules; reformats header destroying field parsability"
+csd_transfer,corrupted_only,0.602,0.570,0.000,0.845,0.000,"CSD data: 60% of corruptions happen to pass loose validation"
+csd_transfer,rule_only,1.000,0.996,0.314,0.898,1.000,"Grammar rules: 100% valid; 31.4% exact; 89.8% field match on real CSD data"
+csd_transfer,edit_distance,1.000,0.996,0.314,0.898,1.000,"Same as rule_only on CSD data"
+csd_transfer,char_bigram,1.000,0.996,0.314,0.898,1.000,"Same as rule_only on CSD data"
+csd_transfer,coordrep_mlm,0.852,0.820,0.000,0.606,0.628,"MLM: 85% valid but 0% exact; 61% field match — systematically worse than rules"
+key_message,–,–,–,–,–,–,"Syntax-level errors are best handled by deterministic CoordRep grammar repair; MLM should be framed as semantic field completion / consistency probe not bracket repair"

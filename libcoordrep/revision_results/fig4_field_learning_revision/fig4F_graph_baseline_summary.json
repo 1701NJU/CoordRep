@@ -1,0 +1,6 @@
+{
+  "main_message": "Graph baselines separate local geometry from record-level semantics.",
+  "local_geometry_result": "3D equivariant models are near-optimal for local donor annotation.",
+  "record_semantics_result": "CoordRep-Ranker better detects grammar-valid but stereochemically inconsistent records.",
+  "do_not_claim": "CoordRep replaces GNNs"
+}

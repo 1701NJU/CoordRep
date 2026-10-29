@@ -1,0 +1,6 @@
+decoy_type,auroc,n_pairs
+boundary_hard,0.5519,940
+co_ligand_hard,0.5163,1994
+ligand_hard,0.612,2000
+metal_hard,0.5838,1994
+stereo_hard,0.9383,952

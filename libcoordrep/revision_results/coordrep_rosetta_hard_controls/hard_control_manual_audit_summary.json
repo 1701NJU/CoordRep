@@ -1,0 +1,14 @@
+{
+  "coordrep_top1": {
+    "n": 30,
+    "homologous_rate": 0.9333
+  },
+  "donor_top1": {
+    "n": 30,
+    "homologous_rate": 0.5667
+  },
+  "hard_negative": {
+    "n": 30,
+    "homologous_rate": 0.0
+  }
+}

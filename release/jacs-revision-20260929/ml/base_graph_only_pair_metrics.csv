@@ -1,0 +1,4 @@
+cohort,target,model,n_pairs,n_graph_clusters,pair_delta_mae,n_predicted_ties,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,bootstrap_replicates
+automatic34_target_blind,dipole_moment,table_s8_full,34,34,5.258339980069328,2,,,
+automatic34_target_blind,dipole_moment,graph_only,34,34,5.868914749108109,34,,,
+automatic34_target_blind,dipole_moment,graph_only_minus_table_s8_full,34,34,0.6105747690387799,,0.26476022677094324,1.036199992778254,20000
