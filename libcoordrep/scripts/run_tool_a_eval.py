@@ -69,7 +69,7 @@ def run_evaluation(
     output_dir: str,
     device: str = "cuda"
 ) -> Dict:
- """"""
+    """Run Tool A donor prediction evaluation."""
     
     print("=" * 50)
     print("Tool A: Donor Prediction Evaluation")
@@ -95,7 +95,7 @@ def run_evaluation(
     print("\nComparing with baselines...")
     comparison = compare_with_baselines(
         samples, checkpoint_path, tokenizer_path, device,
- training_samples=samples # baseline
+        training_samples=samples,  # baseline
     )
     
     print(f"\n=== Comparison ===")
