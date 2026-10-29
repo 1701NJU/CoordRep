@@ -57,7 +57,7 @@ def export_panel_b_data(all_preds: list, output_dir: Path):
         'condfreq_top5': 0,
     })
     
- corrections = [] # CondFreq
+    corrections = []  # CondFreq corrections
     
     for p in donor_preds:
         metal = p['group'].get('metal_element')
@@ -110,7 +110,7 @@ def export_panel_b_data(all_preds: list, output_dir: Path):
     # 1. Export detailed data for each (metal, CN) group
     metal_cn_data = []
     for (metal, cn), stats in groups.items():
- if stats['total'] >= 10: # 10
+        if stats['total'] >= 10:  # min samples
             model_top1_acc = stats['model_top1'] / stats['total']
             condfreq_top1_acc = stats['condfreq_top1'] / stats['total']
             model_top5_acc = stats['model_top5'] / stats['total']
@@ -280,7 +280,7 @@ def export_panel_c_data(all_preds: list, output_dir: Path):
             if cond_ranked[key][0] == donor:
                 by_donor[donor]['condfreq_top1'] += 1
     
- random_baseline = 1.0 / 15 # 15 donor atoms
+    random_baseline = 1.0 / 15  # 15 donor atoms
     
     donor_data = []
     for donor, stats in by_donor.items():
@@ -387,7 +387,7 @@ def export_panel_e_data(all_preds: list, output_dir: Path):
     cn_data = []
     for cn in sorted(by_cn.keys()):
         stats = by_cn[cn]
- if stats['total'] >= 10: # 10
+        if stats['total'] >= 10:  # min samples
             top1_acc = stats['correct_top1'] / stats['total']
             top5_acc = stats['correct_top5'] / stats['total']
             
@@ -443,7 +443,7 @@ def main():
     # Export data for each panel
     export_panel_b_data(all_preds, output_dir)
     export_panel_c_data(all_preds, output_dir)
- export_panel_d_data(output_dir.parent) #
+    export_panel_d_data(output_dir.parent)
     export_panel_e_data(all_preds, output_dir)
     
     import shutil

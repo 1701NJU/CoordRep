@@ -68,7 +68,7 @@ def run_structure_recovery_eval(
     output_dir: str,
     device: str = "cuda"
 ) -> Dict:
- """ token """
+    """Run Tool B structure token recovery evaluation."""
     
     print("=" * 50)
     print("Tool B: Structure Token Recovery Evaluation")
@@ -118,7 +118,7 @@ def run_repair_eval(
     output_dir: str,
     device: str = "cuda"
 ) -> Dict:
- """"""
+    """Run Tool B repair evaluation on synthetic corruption."""
     
     print("=" * 50)
     print("Tool B: Repair Evaluation on Synthetic Corruption")
