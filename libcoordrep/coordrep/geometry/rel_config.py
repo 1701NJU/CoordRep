@@ -28,13 +28,13 @@ def classify_angle(angle: float,
                   trans_range: Tuple[float, float] = (165.0, 195.0),
                   cis_range: Tuple[float, float] = (75.0, 105.0)) -> AngleClass:
     """
- -
+    -
     
     TRANS: > 165°
     CIS: 75° - 105°
- OTHER:
+    OTHER:
     
- 155-165° OTHER
+     155-165° OTHER
     """
     if angle >= trans_range[0]:
         return AngleClass.TRANS
@@ -45,12 +45,12 @@ def classify_angle(angle: float,
 
 
 class ConstraintDetector:
- """ - Sprint 2 """
+    """ - Sprint 2 """
     
     def __init__(self, config: CoordRepConfig = None):
         self.config = config or CoordRepConfig.default()
         
- self.trans_min = 165.0 #
+        self.trans_min = 165.0 #
         self.cis_min = 75.0
         self.cis_max = 105.0
     
@@ -59,7 +59,7 @@ class ConstraintDetector:
                           metal_idx: int,
                           donor_indices: List[int],
                           ligands: List[LigandModule]) -> ConstraintSet:
- """"""
+        """Detect constraints."""
         donor_sites = self._build_simple_donor_sites(donor_indices, ligands, mol, metal_idx)
         return self.detect_constraints_with_sites(
             mol, metal_idx, donor_indices, ligands, donor_sites
@@ -72,9 +72,9 @@ class ConstraintDetector:
                                      ligands: List[LigandModule],
                                      donor_sites: Dict[int, DonorSite]) -> ConstraintSet:
         """
- donor sites
+        donor sites
         
- TRANS CIS
+        TRANS CIS
         """
         trans_pairs = []
         cis_pairs = []
@@ -128,7 +128,7 @@ class ConstraintDetector:
                                   ligands: List[LigandModule],
                                   mol: RawMolecule,
                                   metal_idx: int) -> Dict[int, DonorSite]:
- """ donor sites canonical rank"""
+        """Build simple donor sites."""
         from ..graph.donor_sites import assign_donor_ranks
         
         result = {}
@@ -151,7 +151,7 @@ class ConstraintDetector:
         return result
     
     def _compute_angle(self, p1: np.ndarray, vertex: np.ndarray, p2: np.ndarray) -> float:
- """ p1-vertex-p2 """
+        """ p1-vertex-p2 """
         v1 = p1 - vertex
         v2 = p2 - vertex
         
@@ -170,7 +170,7 @@ class ConstraintDetector:
                        trans_pairs: List[Tuple[DonorSite, DonorSite]],
                        cis_pairs: List[Tuple[DonorSite, DonorSite]],
                        ligands: List[LigandModule]) -> Optional[str]:
- """ fac/mer"""
+        """Detect fac/mer isomerism."""
         lig_trans = defaultdict(int)
         lig_cis = defaultdict(int)
         

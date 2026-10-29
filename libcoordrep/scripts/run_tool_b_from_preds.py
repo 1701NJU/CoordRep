@@ -61,7 +61,7 @@ def main():
     cn_data = []
     for cn in sorted(by_cn.keys()):
         stats = by_cn[cn]
- if stats['total'] >= 50: #
+        if stats['total'] >= 50:  # min samples
             cn_data.append({
                 'cn': cn,
                 'n_samples': stats['total'],
