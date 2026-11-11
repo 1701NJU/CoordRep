@@ -134,7 +134,8 @@ For the second-round controls, start with the addendum
 | Second-round code and aggregate controls | `release/jacs-revision-20260929/` |
 | Released pretrained checkpoints, configurations and inference | `release/jacs-revision-20261006-pretrained/` and its linked GitHub Release assets |
 | All-metal CSD aggregate evidence | `release/jacs-revision-20260826/audits/full_csd/` |
-| Current Figure 1–6 artwork and source tables | `release/jacs-revision-20260826/figures/` |
+| August Figure 1–6 artwork and source tables (original Figure 4C,D) | `release/jacs-revision-20260826/figures/` |
+| Verification source tables for Figure 4C,D and Tables S6–S8A, model inputs and weights | [November package](release/jacs-revision-20261111-property-verification/) |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` |
 | rc3 canonicalization evidence | `release/jacs-revision-20260826/canonicalization/` |
 | CoordRep 1.1.2rc3 source | `release/jacs-revision-20260826/{coordrep,coordrep_tools,brain}/` |

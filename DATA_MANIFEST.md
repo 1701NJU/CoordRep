@@ -80,15 +80,18 @@ It does not assert an exact canonical CoordRep identity, a supported CShM
 vector, or a distance-completed first sphere for every metal site. Audit
 relations use the native CSD molecular bond graph, and no distance-derived
 contact is added. Public files contain aggregate values, protocols, artwork,
-source tables, and cryptographic commitments. Raw coordinates and licensed
-row-level structure ledgers are excluded.
+source tables, and cryptographic commitments. Raw CSD coordinates and licensed
+row-level CSD ledgers are excluded. The separate property-verification inputs
+are derived from public tmQM structures, not native CSD records.
 
 The public package includes three pretrained sequence-model checkpoints in
 the 2026-10-06 Release assets, together with matching tokenizers,
 configurations, synthetic inference examples and checksums. Every exported
 tensor equals its archived source. Table S4's separately retrained
-three-seed tokenizer models and Figure 4/Table S8/S8A property models did not
-save checkpoint files and are not included. Code, permitted aggregate/source
+three-seed tokenizer models and the original Figure 4/Table S8/S8A property
+models did not retain their weights. The [November verification release](https://github.com/1701NJU/CoordRep/releases/tag/coordrep-property-verification-20261111)
+instead supplies 135 new property checkpoints and their corresponding inputs,
+outer/inner splits, pair manifests, inference and scoring code. Code, permitted aggregate/source
 tables, selected split and metric summaries, artwork and checksums support
 numerical audit and the documented rerunnable analyses. The package does
 not claim CSV-only regeneration of every figure; licensed row-level CSD
