@@ -10,13 +10,20 @@ An additive pretrained-model release is documented under
 `release/jacs-revision-20261006-pretrained/`; its binary checkpoints are
 published as linked GitHub Release assets, with per-file and archive hashes.
 
+For the **November property verification** see the [versioned result and weight
+index](release/jacs-revision-20261111-property-verification/). These are **new
+validation-selected weights and predictions**, not the missing checkpoints for
+the historical model runs. The entries below for August/September property
+results document those historical runs.
+
 | Manuscript item | Current public artifact | Primary evidence |
 |---|---|---|
 | CoordRep 1.1.2rc3 | `release/jacs-revision-20260826/coordrep/` | attachment-aware canonicalization and typed record grammar |
 | Figure 1 | `release/jacs-revision-20260826/figures/Figure1/` | cisplatin-centered 3C record anatomy |
 | Figure 2 | `release/jacs-revision-20260826/figures/Figure2/` | N = 1,000, K = 100 three-arm invariance, legal-orbit challenge, idealized fac/mer specificity |
 | Figure 3 | `release/jacs-revision-20260826/figures/Figure3/` | 33,863-record CN4–CN6 CShM atlas and two CN5 examples |
-| Figure 4 | `release/jacs-revision-20260826/figures/Figure4/` | frozen pre-rc3 property benchmark (relation inputs: rc2; shape inputs: rc1) and Cartesian controls |
+| Figure 4 (original) | `release/jacs-revision-20260826/figures/Figure4/` | Original artwork and frozen property predictions (relation: rc2; shape: rc1); the original C,D values are historical. |
+| Figure 4C,D and Tables S6–S8A (verification) | [November package](release/jacs-revision-20261111-property-verification/) | New held-out predictions from 135 verification checkpoints; 34 dipole pairs, 44 gap pairs and 48,057 records. Figure 4A,B are not retrained-model results. |
 | Figure 5 | `release/jacs-revision-20260826/figures/Figure5/` | all-metal April 2025 CSD census, structural-record audit, and typed complexity flags |
 | Figure 6 | `release/jacs-revision-20260826/figures/Figure6/` | rc3 re-encoding of the unchanged frozen molecular-family cohort plus periodic-v3 MID/SID analysis |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` | exact-orbit tractability (S1) and ΔS-threshold sensitivity (S2) |
