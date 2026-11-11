@@ -14,6 +14,12 @@ inference assets without changing those frozen results. Availability statements
 inside the older release directories describe those packages, not this later
 checkpoint release.
 
+**Property prediction: use the [November verification package](release/jacs-revision-20261111-property-verification/)
+for the new checkpoint-backed results for Figure 4C,D and Tables S6–S8A.**
+It covers 9 settings × 5 folds × 3 seeds. The November models were trained
+anew; they are not recovered weights for the historical predictions. Original
+property results and other evidence remain available in their dated directories.
+
 ## Current evidence lock
 
 - **April 2025 CSD census:** 1,371,757 entries were examined with CCDC Python
@@ -63,7 +69,8 @@ tokenizers, explicit configurations and inference examples in the
 They are the production MLM, the archived factorized MLM and the fine-tuned
 semantic ranker used in the documented frozen inference analyses. They are
 not the separately retrained Table S4 models or the Figure 4/Table S8/S8A
-property models, whose checkpoint files were not saved. The repository does
+historical property models, whose original checkpoint files were not saved. For the
+separate November property-model weights, see the verification package above. The repository does
 not claim that every figure can be regenerated from aggregate CSV files
 alone. Full CSD extraction requires a locally licensed April 2025 CSD installation.
 
@@ -71,7 +78,7 @@ The 2026-09-29 addendum provides an executable, code-only periodic MID/SID
 canonicalizer and public-ZIP adapter; constructed L1 collision and chelate
 controls; and two parameter-matched graph-only learning controls, one paired
 directly with the original Table S8 base hybrid and one with the separately
-trained relation-aware hybrid. The original-base full-cohort gap/dipole MAEs
+trained relation-aware hybrid. In that historical run the original-base full-cohort gap/dipole MAEs
 are 0.230744 eV/1.495054 D, versus 0.242297 eV/1.568577 D when its
 CoordRep side fields are masked. These results are not substituted for the
 distinct relation-aware protocol's absolute metrics.
@@ -80,7 +87,7 @@ The public ZIP adapter requires a locally authorized CCDC Python API and the
 pinned CSD MOF Collection archive. Its full 15,906-CIF run processed 15,905
 entries and reported one `site_extract:ValueError`; the secondary
 corrected-CShM shape-conflict statistic was outside the minimal runner's
-scope. The graph-only package contains runnable training code and aggregate
+scope. The September graph-only package contains runnable training code and aggregate
 metrics, but not the licensed or row-level inputs or trained weights needed
 to reproduce the exact frozen predictions.
 
@@ -95,8 +102,8 @@ relative to rc2. Figure 2 and Supplementary Figure S1 are the locked rc3
 canonicalization evidence. Figure 6A–C report rc3 re-encoding of the exactly
 unchanged frozen molecular-family cohort (3,491 families; 9,056 records); the
 selection and rerun denominators are disclosed separately in the Figure 6
-evidence. Figure 4 remains the frozen pre-rc3 property benchmark reported in
-the manuscript: its relation hybrids use rc2 inputs and its shape hybrids use
+evidence. The historical Figure 4 and the November property verification use
+pre-rc3 property inputs: their relation hybrids use rc2 inputs and their shape hybrids use
 rc1 inputs, as disclosed with the figure. No Figure 4 result is relabelled as
 rc3. Release-wide CSD counts are typed-record census
 quantities and do not depend on final rc3 string ordering. Figure 6D–E use the
