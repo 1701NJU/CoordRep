@@ -1,0 +1,91 @@
+{
+  "status": "NUMERIC_ALIGNMENT_PASS",
+  "document_sha256": {
+    "manuscript": "cfebb1fa918a53e5604fb86a705c310f1aabcb1657c8c358ec35ed3ab05db781",
+    "si": "54b2cd13eb3956e6dbc624db079d9c7c8277ff2e0c77ddfc711b9a6ee3cfebac",
+    "reply": "6b0bd5de704430a154e32f2564b58a29e9b865d13b7289bd91d50d5433f110aa"
+  },
+  "property_table_rows_checked": 24,
+  "main_embedded_figure4_equals_published_TIFF": true,
+  "Figure4_TIFF_sha256": "729f25362c6f52becf2568f32662fa03bee2dfa1c4621998fe76d76df8707860",
+  "chemical_validation_summary": {
+    "schema": "CoordRep-public-literature-reference-comparison-summary/1",
+    "fixed_panel": {
+      "structures": 84,
+      "external_Fe_structures": 44,
+      "ordered_periodic_structures": 20,
+      "disorder_labelled_structures": 20,
+      "all_cases_retained": true
+    },
+    "molecular_execution": {
+      "structures_processed": 44,
+      "local_Fe_records": 47,
+      "fresh_process_cases_reproduced": 44,
+      "single_Fe_published_CN_comparisons": 41,
+      "single_Fe_published_CN_agreements": 40,
+      "remaining_CN_case": "28"
+    },
+    "molecular_complete_references": {
+      "qualified_local_sets": 21,
+      "exact_complete_sets": 21,
+      "assigned_donors": 103,
+      "retained_donors": 103,
+      "missing": 0,
+      "additional": 0
+    },
+    "crystal_complete_references": {
+      "entries": 12,
+      "qualified_metal_targets": 19,
+      "exact_complete_sets": 17,
+      "assigned_nonmetal_contacts": 107,
+      "retained_nonmetal_contacts": 107,
+      "missing": 0,
+      "additional": 4,
+      "additional_contact_cases": [
+        "NUXNIG:Cu1",
+        "NUXNIG:Cu2"
+      ],
+      "separate_directed_Au_Tl_relations": 6
+    },
+    "disorder_complete_references": {
+      "qualified_local_alternatives": 16,
+      "exact_complete_sets": 16,
+      "assigned_donor_images": 72,
+      "retained_donor_images": 72,
+      "missing": 0,
+      "additional": 0,
+      "third_BF4_orientation_unscored_candidates": 2,
+      "conditional_records_emitted_including_unscored": 18
+    },
+    "stability_controls": {
+      "Fe_centre_level_trials": 470,
+      "Fe_centre_level_trials_passed": 470,
+      "additional_case13_centre_level_trials": 2000,
+      "additional_case13_centre_level_trials_passed": 2000,
+      "native_crystal_outputs_replayed": 40,
+      "conditional_CIF_input_control_runs": 24,
+      "conditional_local_record_comparisons": 216,
+      "conditional_local_record_comparisons_passed": 216
+    },
+    "implementation_versions": {
+      "molecular_XYZ": "1.1.2rc3+xyz3.20261113",
+      "conditional_CIF": "cifcfg1.20261113",
+      "native_source_route": "unchanged; evaluated separately"
+    },
+    "scope": {
+      "prospective_or_human_blind_benchmark": false,
+      "unseen_holdout_benchmark": false,
+      "whole_CSD_chemical_accuracy_estimated": false,
+      "complete_global_disorder_ensemble_established": false,
+      "molecular_execution_is_distinct_from_complete_reference_qualification": true
+    },
+    "redistribution": {
+      "raw_CSD_or_third_party_coordinates_included": false,
+      "licensed_atom_mappings_included": false,
+      "third_party_papers_included": false,
+      "external_public_XYZ_reference_atom_indices_included": true,
+      "native_CSD_reference_atom_indices_included": false
+    }
+  },
+  "scope_note": "Numbers, model provenance, Figure4 and qualified-reference denominators are aligned. No manuscript, SI, review text or licensed inputs are distributed."
+}

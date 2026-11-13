@@ -1,0 +1,383 @@
+{
+  "schema": "CoordRep-external-public-XYZ-donor-reference/1",
+  "index_base": 0,
+  "source_domain": "External published Proppe/Reiher optimized XYZ only; no native CSD atoms",
+  "cases": [
+    {
+      "case_id": "01",
+      "input_basename": "01.xyz",
+      "input_sha256": "d84bc36b6b84169e9cc2eb61540a0532a12bc8279952a41d9519a956ef255b5b",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "source_SI_figure": 6,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "02",
+      "input_basename": "02.xyz",
+      "input_sha256": "42186218e0c8f375460ba459e1af069252e81fa24edc69c95971bc7a5eb40fbe",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        4,
+        5,
+        18,
+        21,
+        22
+      ],
+      "source_SI_figure": 6,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "03",
+      "input_basename": "03.xyz",
+      "input_sha256": "1b4d6bdd6c7ffdc1d9793d6434f0467fa4ca975900270be5ed95b484951f5274",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        33,
+        41
+      ],
+      "source_SI_figure": 6,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "04",
+      "input_basename": "04.xyz",
+      "input_sha256": "b5797caeafb9e8dee3813a68a17cd5617f00396d1b94e0416d8d86d18b367633",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_SI_figure": 6,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "06",
+      "input_basename": "06.xyz",
+      "input_sha256": "0dcc1bf49c0cef296f8082f9cac28bf78807562de08ddba8869c8a4422c48871",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_SI_figure": 7,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "08",
+      "input_basename": "08.xyz",
+      "input_sha256": "794f2218a1802749cfc2c1b327bc31c7d066f365eb6133525988a520304a5fd4",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_SI_figure": 7,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "09",
+      "input_basename": "09.xyz",
+      "input_sha256": "a730fa070f85190c98ca5f1615dd3c67617c861cc23a17a9496ec6687ff91d44",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        45
+      ],
+      "source_SI_figure": 8,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "11",
+      "input_basename": "11.xyz",
+      "input_sha256": "a63af6761e0f009bc3465ca50461ecb0f550cd737bc1d86f0af63dfdc3715c46",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        43,
+        44
+      ],
+      "source_SI_figure": 8,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "12",
+      "input_basename": "12.xyz",
+      "input_sha256": "958617c3a87d883411454b3f215efecc685ff712d89a1feaf2cd54e00615a2ad",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_SI_figure": 8,
+      "source_PDF_page": 15,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "16",
+      "input_basename": "16.xyz",
+      "input_sha256": "e4e52dcbd23c9427b989ffa92157255489553d4ee3570baf7e6190e46dcaaf5d",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        23
+      ],
+      "source_SI_figure": 9,
+      "source_PDF_page": 16,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "17",
+      "input_basename": "17.xyz",
+      "input_sha256": "2b321463ee868497f1f35ed981e9a4db355cbba22c90b5a8aacd28ba52e47e1f",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_SI_figure": 10,
+      "source_PDF_page": 16,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "19",
+      "input_basename": "19.xyz",
+      "input_sha256": "a0804d366fe57831f25aae604a8ffcc073de4a997a25453ae015b5bb291cf7ed",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        23
+      ],
+      "source_SI_figure": 10,
+      "source_PDF_page": 16,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "20",
+      "input_basename": "20.xyz",
+      "input_sha256": "d65838d2955aebfa05e2d2c6041f9809ddb364d880ba9d840697c935885032f0",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        21,
+        40
+      ],
+      "source_SI_figure": 10,
+      "source_PDF_page": 16,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "24",
+      "input_basename": "24.xyz",
+      "input_sha256": "063c04490b1eb7d93ef25cb82bae7696c8dd933afad315e17bf0f33a55f96ff5",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "source_SI_figure": 11,
+      "source_PDF_page": 16,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "27",
+      "input_basename": "27.xyz",
+      "input_sha256": "c909b8c5ced1621202b0b205f8591a58612507d5c86a8c50ab2c214b30b9f1e4",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_SI_figure": 12,
+      "source_PDF_page": 17,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "29",
+      "input_basename": "29.xyz",
+      "input_sha256": "6f988a1175dc8bb0a709f69e132b0fedda041d3d30196357a7e52696cecacae1",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        17,
+        21
+      ],
+      "source_SI_figure": 13,
+      "source_PDF_page": 17,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "30",
+      "input_basename": "30.xyz",
+      "input_sha256": "5393a2e480e756e66f96156f9da5a4c47fa588a209be255f3eedc5e79f0dbe38",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        52
+      ],
+      "source_SI_figure": 13,
+      "source_PDF_page": 17,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "31",
+      "input_basename": "31.xyz",
+      "input_sha256": "b6668df2cc01d311cfdf983dbf20e643a535be7db183fb18592522e12c94ca8b",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_SI_figure": 13,
+      "source_PDF_page": 17,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "37",
+      "input_basename": "37.xyz",
+      "input_sha256": "481e936c5f04bda69f2fe84e76cc2741def1e6f4707bf0338f328e1e4b5c3397",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        23
+      ],
+      "source_SI_figure": 15,
+      "source_PDF_page": 18,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "42",
+      "input_basename": "42.xyz",
+      "input_sha256": "243f3676cdeed321ea1a46fc0d17f83d86dddd21bf780763f4a41d14f97216cb",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_SI_figure": 16,
+      "source_PDF_page": 18,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    },
+    {
+      "case_id": "43",
+      "input_basename": "43.xyz",
+      "input_sha256": "453323472808628b8d86a52136e1a182ce34e46d79567dfe4a974af210fbe21f",
+      "metal_index0": 0,
+      "expected_donor_indices0": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_SI_figure": 16,
+      "source_PDF_page": 18,
+      "reference": "S1",
+      "doi": "10.1021/acs.jctc.7b00235",
+      "reference_type": "COMPLETE_AUTHOR_GRAPHICAL_HEAVY_DONOR_SET_UNIQUE_ELEMENT_MAPPING"
+    }
+  ]
+}

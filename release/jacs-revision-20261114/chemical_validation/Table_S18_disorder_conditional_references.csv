@@ -1,0 +1,3 @@
+case_id,refcode,reference_alternatives,reference,doi,qualified_local_alternatives,complete_local_sets,expected_physical_donor_images,matched_physical_donor_images,missing_donors,additional_donors,separately_retained_unscored_candidates
+D017,BOWCAV,Six split-site Zn pairs; two ZnN2I2 alternatives per pair,S5,10.1107/S2052252524004871,12,12,48,48,0,0,0
+D019,MAXNUY01,Two Na sites under each of the first two BF4 orientations; four NaF6 alternatives,S6,10.1021/acs.inorgchem.1c03506,4,4,24,24,0,0,2

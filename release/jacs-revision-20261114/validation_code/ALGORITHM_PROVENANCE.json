@@ -1,0 +1,237 @@
+{
+  "schema": "CoordRep-public-algorithm-provenance/1",
+  "source_snapshot": "final-xyz3-and-conditional-CIF-v6-20261113",
+  "algorithm_file_count": 44,
+  "all_source_files_byte_identical": true,
+  "excluded_private_orchestration": "run_cif_config.py",
+  "wrapper_version": "publication-wrapper/1",
+  "algorithm_thresholds_changed": false,
+  "source_versions": {
+    "neighbour_submodule": "xyz2.20261113",
+    "xyz": "1.1.2rc3+xyz3.20261113",
+    "conditional_cif": "cifcfg1.20261113",
+    "periodic": "CR-PLS/2"
+  },
+  "files": [
+    {
+      "path": "coordrep_cifcfg/__init__.py",
+      "sha256": "eb37afbe01cfb574232ecc4f72e98f836e3ec113e8ad9b0d475e8432c744797d",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "coordrep_cifcfg/adapter.py",
+      "sha256": "bca1c165584ba2cfcb0970b68cb7469e5a3c06327589ffe88212f4a49df076eb",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_canonical_periodic_site.py",
+      "sha256": "292afd4db89d1dd552f9a03433b207fd648bb30e9ded717bfb8dbce17d4694ac",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/__init__.py",
+      "sha256": "b140284e72c3e3c9ba3c86f023b7e627a7dd7b878bb8913be0e6cd72a057df50",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/audit/__init__.py",
+      "sha256": "4a8aa735f4b80b3c001a28725d4fb4a6d8cb84f466dd9da3684a5e73babf597d",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/audit/csd_adapter.py",
+      "sha256": "6189c841de702982c7c30a4cc88b75a56b34b531a93882716dbd6e08f71c1c0d",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/audit/distance_first_sphere_v2.py",
+      "sha256": "faa683541e3461c6925ca35066a5fc7c6fce39c3dd618578ab1673ac8ebb5653",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/audit/metal_policy.py",
+      "sha256": "6755372f97d1ded71423cbe9aa0279eeeae7c0b8b8ed726edf7f43dc800b8594",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/audit/records.py",
+      "sha256": "46802c608ef098c4446bf5300ccdf51a225996dfdebd1ee1a23b95681ad1b18d",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/canonical/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/canonical/canonicalize.py",
+      "sha256": "753f13ed93dd9b41221097f72cd8f2a037c27bd3c202097a07df5c1b91866967",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/core.py",
+      "sha256": "9aeb73a0eab0461c5937ab8ddb333c17f86ca4004706a9c61235cd29f405a84a",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/encode.py",
+      "sha256": "93f3a1c0438ef2a6d6e5e46d9814383ba9c9bf3fcd52781add6594044f6e5524",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/features/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/features/to_features.py",
+      "sha256": "a4a19ff9e56b4c67f1d91eb1242c039a413383094b9396a1dc2948692fae2ef4",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/geometry/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/geometry/cshm.py",
+      "sha256": "9d6f1be6c76b29a327e2dd32c1ca3484fa4ec72f50ef83eb95d2505cf10b12f3",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/geometry/rel_config.py",
+      "sha256": "9854495bc8b836576733137f7bcbd32b83d97182dbbdfe24a14930c130a78748",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/geometry/shape.py",
+      "sha256": "ee0e00809453e8bfc89eff343ac0db09029a73aae70ad6551c2e37b6521e3653",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/graph/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/graph/build_graph.py",
+      "sha256": "c8d81c485efe98e5714f3277ebca54907698ea79ae8ae809325c8d73a164a906",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/graph/donor_sites.py",
+      "sha256": "1b34b342e4cada9a81a09c9c65077fa14dd91b25baf5e16c3102f55fcf91a35c",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/graph/ligand_module.py",
+      "sha256": "636a9e7e4467a9f3375e8ac3750e5c44d6d8ce1b2ab36916a03522e3d6ba2f52",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/graph/neighbors.py",
+      "sha256": "e540be930759a381c804c8dcf0ce7c443b0814b0df087ec156b2d681011d2456",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/identity/__init__.py",
+      "sha256": "2715fb897951644f0ecc75f78f8c0d9720d2d125859cf00c78ef82e2a1ffd03e",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/identity/identity_keys.py",
+      "sha256": "c7c39ab5c5c5f203b938faca3f6bd2335de22cc83fe476b2668d6e4e7dc68798",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/identity/shape_binning.py",
+      "sha256": "3212062a6f292e7ec1e9a4fcc06682b418f42466b91f3065a3797ed84028215e",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/identity/stability_consensus.py",
+      "sha256": "b4ed6fca4402ee1ba0d22b524bbf4ba5ed8d25216e050d802ca61b099d569928",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/io/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/io/cif_reader.py",
+      "sha256": "0d46fd1ddbc680e9d9348d4daba571fc89d98e8ab7df46189265f64b44201f0f",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/io/tmqm_reader.py",
+      "sha256": "e39d24e96bb534725b588269152340ccd9dfb293f0573ebae5327446f17d53b9",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/serialize/__init__.py",
+      "sha256": "5c3a2a89566085cff1e430a812d96b0e7a524a70eda58ebd863cccea4ec68350",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/serialize/parse_string.py",
+      "sha256": "efcb1cc3bca0555a49f4a7f67ee33c3054fab4f0f6a52668265192cfafdb8a3a",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/serialize/to_string.py",
+      "sha256": "3b91a30edd894c67ce81a9247973532b50344b60f86fd8b6ebde75f5bad16750",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/__init__.py",
+      "sha256": "4909ff3600320dd1ea2fedfb2d2c729dd7f180eb6f9949fcab69c73a1d2ba079",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/canonicalize.py",
+      "sha256": "0de34f3f73237fdfd1da043d4388747bb65bbe4c13ca4d782f19c42e9ed14032",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/cases_haptic.py",
+      "sha256": "f94cc03de2b9c955faa727a8281d6c62d4c95204a0c5fc0a8024735dd84c3795",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/cases_multi.py",
+      "sha256": "45673bc080b5a00cb354c2cdf0d2348e25d106a1ce04c9da9a2bb77ad626afbc",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/core.py",
+      "sha256": "9cc9aec945ef2b037268ad042612e32b5ff571990347bad45cb9bf449f254564",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/csd_v2beta_adapter.py",
+      "sha256": "50b4059670c44d177c9367710c8b084c8c5ac4137efcd6faec88d6363ae8a01d",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/serialize.py",
+      "sha256": "c001d4f81d9bac2a5b5f730cb97423cff7c16e04f559e56e743fd93833c5f376",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/v2beta/validate.py",
+      "sha256": "d1c2261ec7151c1a6f72ff4f5440cc65a80efc492d732daaacc7bd76aa6476e5",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/validate/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "byte_identical_to_final_source": true
+    },
+    {
+      "path": "frozen_xyz3_runtime/coordrep/validate/checks.py",
+      "sha256": "65d1441d7a3790d00d03fe8389ee75f79fe8ace1352976ceb70e83c5d4f64b28",
+      "byte_identical_to_final_source": true
+    }
+  ]
+}

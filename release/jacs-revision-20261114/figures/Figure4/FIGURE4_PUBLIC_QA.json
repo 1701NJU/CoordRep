@@ -1,0 +1,177 @@
+{
+  "status": "NUMERIC_AND_AB_PRESERVATION_PASS",
+  "source_image_sha256": "6c5cbcd9589d004a3ce7cd988c2a8049e433b51ffef57c46471ffa2f1ed29ae5",
+  "source_image_size": [
+    2704,
+    2034
+  ],
+  "ab_preserved_native_rectangle": [
+    0,
+    0,
+    2704,
+    1000
+  ],
+  "ab_native_pixels_identical": true,
+  "ab_redrawn": false,
+  "all_new_text_font_family": [
+    "Arial"
+  ],
+  "high_resolution_size": [
+    4200,
+    3159
+  ],
+  "raster_dpi": 600,
+  "exact_plot_artist_positions_and_asymmetric_CI_checked": true,
+  "C": [
+    {
+      "panel": "C",
+      "model": "gine_wide",
+      "value": 5.868914663808486,
+      "ci95_low": 4.708608538586206,
+      "ci95_high": 7.055229757982795,
+      "direction": 0.5,
+      "direction_ci95_low": 0.5,
+      "direction_ci95_high": 0.5,
+      "n_pairs": 34,
+      "n_graph_clusters": 34,
+      "bootstrap_replicates": 20000,
+      "unit": "D"
+    },
+    {
+      "panel": "C",
+      "model": "coordrep_relation_masked",
+      "value": 5.197942815574945,
+      "ci95_low": 4.131777051675554,
+      "ci95_high": 6.303160959949679,
+      "direction": 0.7352941176470589,
+      "direction_ci95_low": 0.5882352941176471,
+      "direction_ci95_high": 0.8676470588235294,
+      "n_pairs": 34,
+      "n_graph_clusters": 34,
+      "bootstrap_replicates": 20000,
+      "unit": "D"
+    },
+    {
+      "panel": "C",
+      "model": "coordrep_relation_full",
+      "value": 1.3403754210939598,
+      "ci95_low": 0.9714040230302252,
+      "ci95_high": 1.7526061404569482,
+      "direction": 0.9411764705882353,
+      "direction_ci95_low": 0.8676470588235294,
+      "direction_ci95_high": 1.0,
+      "n_pairs": 34,
+      "n_graph_clusters": 34,
+      "bootstrap_replicates": 20000,
+      "unit": "D"
+    },
+    {
+      "panel": "C",
+      "model": "schnet_3d",
+      "value": 0.7628661674611713,
+      "ci95_low": 0.5513463081098073,
+      "ci95_high": 1.002977214490666,
+      "direction": 1.0,
+      "direction_ci95_low": 1.0,
+      "direction_ci95_high": 1.0,
+      "n_pairs": 34,
+      "n_graph_clusters": 34,
+      "bootstrap_replicates": 20000,
+      "unit": "D"
+    },
+    {
+      "panel": "C",
+      "model": "visnet_3d",
+      "value": 0.5296187354069131,
+      "ci95_low": 0.3517692391778911,
+      "ci95_high": 0.7329323765693929,
+      "direction": 0.9705882352941176,
+      "direction_ci95_low": 0.9117647058823529,
+      "direction_ci95_high": 1.0,
+      "n_pairs": 34,
+      "n_graph_clusters": 34,
+      "bootstrap_replicates": 20000,
+      "unit": "D"
+    }
+  ],
+  "D": [
+    {
+      "panel": "D",
+      "model": "gine_wide",
+      "value": 0.5355943062088706,
+      "ci95_low": 0.27565081953823384,
+      "ci95_high": 0.8663582554757595,
+      "direction": 0.5,
+      "direction_ci95_low": 0.5,
+      "direction_ci95_high": 0.5,
+      "n_pairs": 44,
+      "n_graph_clusters": 31,
+      "bootstrap_replicates": 20000,
+      "unit": "eV"
+    },
+    {
+      "panel": "D",
+      "model": "hybrid_mask_shape",
+      "value": 0.3578728229710549,
+      "ci95_low": 0.2378414402163124,
+      "ci95_high": 0.4934055214000744,
+      "direction": 0.7613636363636364,
+      "direction_ci95_low": 0.6,
+      "direction_ci95_high": 0.8977272727272727,
+      "n_pairs": 44,
+      "n_graph_clusters": 31,
+      "bootstrap_replicates": 20000,
+      "unit": "eV"
+    },
+    {
+      "panel": "D",
+      "model": "hybrid",
+      "value": 0.25526187004465045,
+      "ci95_low": 0.19982819370552743,
+      "ci95_high": 0.30470836587661254,
+      "direction": 0.8863636363636364,
+      "direction_ci95_low": 0.7777777777777778,
+      "direction_ci95_high": 0.972972972972973,
+      "n_pairs": 44,
+      "n_graph_clusters": 31,
+      "bootstrap_replicates": 20000,
+      "unit": "eV"
+    },
+    {
+      "panel": "D",
+      "model": "schnet_3d",
+      "value": 0.35149867426265363,
+      "ci95_low": 0.20148438159741608,
+      "ci95_high": 0.5124375773829289,
+      "direction": 0.7954545454545454,
+      "direction_ci95_low": 0.6341463414634146,
+      "direction_ci95_high": 0.9285714285714286,
+      "n_pairs": 44,
+      "n_graph_clusters": 31,
+      "bootstrap_replicates": 20000,
+      "unit": "eV"
+    },
+    {
+      "panel": "D",
+      "model": "visnet_3d",
+      "value": 0.399868295951323,
+      "ci95_low": 0.2576745907911379,
+      "ci95_high": 0.5479867395090331,
+      "direction": 0.7727272727272727,
+      "direction_ci95_low": 0.6,
+      "direction_ci95_high": 0.9215686274509803,
+      "n_pairs": 44,
+      "n_graph_clusters": 31,
+      "bootstrap_replicates": 20000,
+      "unit": "eV"
+    }
+  ],
+  "relative_reduction_C": 0.7421334807536353,
+  "relative_reduction_D": 0.2867246304833371,
+  "graphic_scope": "C/D editable vector; A/B original submitted raster retained without redraw",
+  "source_hashes": {
+    "cis_trans_metrics.csv": "954c2837f20029866e8464c910e6a0aa55604e64e410683b9e74231320dd21ca",
+    "different_shape_pair_metrics.csv": "119c8737c9acd8d1bf771520fbb7d584d60fc6e1389492188a0b995bb866a31b"
+  },
+  "note": "No manuscript or workstation paths are included. The source_image_sha256 commits to the complete submitted source PNG; the distributed A/B crop has its own file checksum."
+}

@@ -16,3 +16,12 @@
 release/jacs-revision-20260826/coordrep/geometry/rel_config.py -whitespace
 release/jacs-revision-20260826/coordrep/graph/donor_sites.py -whitespace
 release/jacs-revision-20260826/coordrep/graph/ligand_module.py -whitespace
+
+# Preserve the exact bytes covered by the November publication manifest,
+# including the frozen algorithms and checksum indexes on every platform.
+release/jacs-revision-20261114/** -text whitespace=cr-at-eol
+PUBLIC_EVIDENCE_SHA256SUMS.txt -text whitespace=cr-at-eol
+release/jacs-revision-20261114/validation_code/coordrep_cifcfg/__init__.py -whitespace
+release/jacs-revision-20261114/validation_code/frozen_xyz3_runtime/coordrep/geometry/rel_config.py -whitespace
+release/jacs-revision-20261114/validation_code/frozen_xyz3_runtime/coordrep/graph/donor_sites.py -whitespace
+release/jacs-revision-20261114/validation_code/frozen_xyz3_runtime/coordrep/graph/ligand_module.py -whitespace

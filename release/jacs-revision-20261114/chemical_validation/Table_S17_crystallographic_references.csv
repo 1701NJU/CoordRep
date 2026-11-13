@@ -1,0 +1,13 @@
+case_id,refcode,compound_or_motif,reference_local_environment,reference,doi,qualified_metal_targets,complete_sets_equal,assigned_nonmetal_contacts,retained_nonmetal_contacts,missing_nonmetal_donors,additional_nonmetal_donors,directed_metal_metal_relations_expected,directed_metal_metal_relations_retained
+D002,TAXDOL,dppf-containing Au complex,Ferrocenyl Fe; two eta5 Cp sites,S7,10.1021/ja9517678,1,1,10,10,0,0,0,0
+D003,PIVHEI,Ni-dinitrobenzoate/bipyridine polymer,Two NiN2O4 environments,S8,10.1016/j.ica.2007.03.038,2,2,12,12,0,0,0,0
+D004,TAVKAF,O-bridged dinuclear oxovanadium complex,One VO4N environment,S9,10.1021/acs.inorgchem.6b02322,1,1,5,5,0,0,0,0
+D008,MOGFUL,Dinuclear zirconium-oxalate unit,One original asymmetric-unit ZrO8 target,S10,10.1002/chem.201403638,1,1,8,8,0,0,0,0
+D012,NUXNIG,Cu-aminopyridine/terephthalate chain,Two author-defined CuN2O2 primary spheres,S3,10.3390/polym12061281,2,0,8,8,0,4,0,0
+D014,BECTEJ,La-double-betaine/nitrate/water polymer,One LaO10 environment,S11,10.1016/S0277-5387(03)00396-6,1,1,10,10,0,0,0,0
+D015,TEGVAD,Au-Tl chain,Two Au:2C+2Tl and one Tl:2N+2Au environments,S4,10.1021/om051030j,3,3,6,6,0,0,6,6
+D016,GENCEL,Fluoride-centred trinuclear Ni cluster,Three NiO5F environments sharing one fluoride,S12,10.1134/S1070328422090068,3,3,18,18,0,0,0,0
+P006,NATCER,Zn-maleate/phenanthroline/water chain,One ZnN2O4 environment,S13,10.1107/S1600536805020271,1,1,6,6,0,0,0,0
+P013,DAFHEZ,Co-isophthalate framework,Two CoO6 environments,S14,10.1039/c1dt10070j,2,2,12,12,0,0,0,0
+P014,LAMKUH,Cd-cyanamide/DMF polymer,One CdN4O2 environment,S15,10.1107/S1600536812001924,1,1,6,6,0,0,0,0
+P015,WAMCAS12,Cyanide-linked Fe-Au framework,One FeN6 target: three pyridyl N and three cyanide N,S16,10.1039/D0CC07326A,1,1,6,6,0,0,0,0

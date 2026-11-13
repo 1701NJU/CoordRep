@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "checks": {
+    "Figure4_updated_20261114.pdf": {
+      "page_count": 1,
+      "fonts": [
+        "/ELUGPM+ArialMT",
+        "/ELUGPM+Arial-BoldMT"
+      ],
+      "embedded_image_count": 1,
+      "size_points": [
+        504.0,
+        379.1183433817
+      ],
+      "sha256": "3e6ec5c2a38259b961fea0928dab6afc15aab589acfc5efdd34aa7062504dddd"
+    },
+    "Figure4C_updated.pdf": {
+      "page_count": 1,
+      "fonts": [
+        "/ELUGPM+ArialMT",
+        "/ELUGPM+Arial-BoldMT"
+      ],
+      "embedded_image_count": 0,
+      "size_points": [
+        252.559172,
+        185.272189
+      ],
+      "sha256": "c5d5956e1d3c9334dd18ee27dbd693f6f473f1c64dcfec918e364c48cd15fb87"
+    },
+    "Figure4D_updated.pdf": {
+      "page_count": 1,
+      "fonts": [
+        "/ELUGPM+ArialMT",
+        "/ELUGPM+Arial-BoldMT"
+      ],
+      "embedded_image_count": 0,
+      "size_points": [
+        250.508876,
+        185.272189
+      ],
+      "sha256": "862524c2b2bf441c31a199e63e580196af3db1ab02e3ee1b8681595ec676468e"
+    },
+    "Figure4CD_updated.pdf": {
+      "page_count": 1,
+      "fonts": [
+        "/ELUGPM+ArialMT",
+        "/ELUGPM+Arial-BoldMT"
+      ],
+      "embedded_image_count": 0,
+      "size_points": [
+        504.0,
+        185.272189
+      ],
+      "sha256": "11cb853dd0136769162c3c73eb37f80b32aed5f2047445be857ee1acdf579696"
+    }
+  }
+}

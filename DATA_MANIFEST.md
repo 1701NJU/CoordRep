@@ -16,6 +16,13 @@ validation-selected weights and predictions**, not the missing checkpoints for
 the historical model runs. The entries below for August/September property
 results document those historical runs.
 
+The current Figure 4 artwork and the literature-referenced 84-case validation
+are in [`release/jacs-revision-20261114/`](release/jacs-revision-20261114/).
+Its `PUBLICATION_MANIFEST.json` and `SHA256SUMS.txt` identify every distributed
+file and its scope. `PUBLIC_EVIDENCE_SHA256SUMS.txt` at repository root checks
+the current documentation and release indexes. No historical checksum file is
+silently regenerated.
+
 | Manuscript item | Current public artifact | Primary evidence |
 |---|---|---|
 | CoordRep 1.1.2rc3 | `release/jacs-revision-20260826/coordrep/` | attachment-aware canonicalization and typed record grammar |
@@ -24,6 +31,9 @@ results document those historical runs.
 | Figure 3 | `release/jacs-revision-20260826/figures/Figure3/` | 33,863-record CN4–CN6 CShM atlas and two CN5 examples |
 | Figure 4 (original) | `release/jacs-revision-20260826/figures/Figure4/` | Original artwork and frozen property predictions (relation: rc2; shape: rc1); the original C,D values are historical. |
 | Figure 4C,D and Tables S6–S8A (verification) | [November package](release/jacs-revision-20261111-property-verification/) | New held-out predictions from 135 verification checkpoints; 34 dipole pairs, 44 gap pairs and 48,057 records. Figure 4A,B are not retrained-model results. |
+| Figure 4 current artwork | `release/jacs-revision-20261114/figures/Figure4/` | A/B original pixels retained; C/D point estimates and asymmetric 95% intervals match the checkpoint-backed source CSV. Editable vector C/D and standalone plotting scripts are included. |
+| SM7.9, Supplementary Results 5 and Tables S16-S18 | `release/jacs-revision-20261114/chemical_validation/` | Sanitized 84-case source/status index, complete-reference comparison counts and source bibliography; no native CSD coordinates or native atom maps. Public-XYZ molecular reference indices are separately labelled. |
+| Molecular XYZ and conditional periodic/disorder input routes | `release/jacs-revision-20261114/validation_code/` | Versioned authors' implementation, reproduction commands and constructed controls. Real-source reruns require separately obtained authorized inputs. |
 | Figure 5 | `release/jacs-revision-20260826/figures/Figure5/` | all-metal April 2025 CSD census, structural-record audit, and typed complexity flags |
 | Figure 6 | `release/jacs-revision-20260826/figures/Figure6/` | rc3 re-encoding of the unchanged frozen molecular-family cohort plus periodic-v3 MID/SID analysis |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` | exact-orbit tractability (S1) and ΔS-threshold sensitivity (S2) |
@@ -72,6 +82,34 @@ edge; 63 entries retain an ambiguous collective-π candidate.
 
 Metal-block signatures partition the target into 33,532 s-only, 54,888
 p-only, 548,730 d-only, 48,805 f-only, and 60,556 mixed-block entries.
+
+## Literature-referenced chemical validation
+
+The panel retains all 44 original external Fe structures (47 local Fe
+records), 20 periodic entries and 20 disorder-labelled entries. All 44
+molecular inputs reproduce in fresh processes; 40/41 single-Fe CN annotations
+agree. Case 28 compares different experimental and optimized geometries and
+is not silently promoted to an independently confirmed extra Fe-O bond.
+
+The complete-reference endpoints are 21/21 molecular primary donor sets and
+103/103 donor assignments with no extras; 17/19 complete crystal donor sets
+with all 107 assigned nonmetal contacts retained and four additional longer
+Cu-O contacts; and 16/16 conditional local environments with 72/72 physical
+donor images and no missing or additional donors. Six directed Au-Tl
+relations are a separate field. The third BF4 orientation yields two retained
+candidates outside the independently referenced 16-environment denominator.
+
+The 470 molecular perturbation comparisons, 2,000 additional centre-level
+comparisons, and 24 input-control runs (216 local comparisons) test
+reproducibility and input dependence, not additional independent chemical
+cases. The public case register reports qualified references and unassessed
+cases without releasing the native coordinate/mapping ledger. This panel is
+literature-referenced validation and regression testing, not an unseen
+expert-blind assessment or a whole-CSD chemical accuracy estimate.
+
+The final XYZ/CIF validation input routes have separate version locks and do
+not change the published CSD census, periodic atlas, property input versions,
+training protocols or saved model weights.
 
 ## Interpretation and redistribution boundaries
 

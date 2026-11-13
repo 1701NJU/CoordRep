@@ -1,0 +1,22 @@
+case_id,primary_donor_composition,chemical_description,reference,doi,source_SI_figure,source_PDF_page,expected_donor_count,retained_donor_count,missing_donors,additional_donors,complete_set_equal
+01,N4,Four N-bound thiocyanates,S1,10.1021/acs.jctc.7b00235,6,15,4,4,0,0,True
+02,N4Cl2,Four amine N donors and two chlorides,S1,10.1021/acs.jctc.7b00235,6,15,6,6,0,0,True
+03,N4,Two pyridyl N and two beta-diketiminate N donors,S1,10.1021/acs.jctc.7b00235,6,15,4,4,0,0,True
+04,S3P,Three thioether S donors and one phosphine P donor,S1,10.1021/acs.jctc.7b00235,6,15,4,4,0,0,True
+06,S4,Four primary S donors; peripheral carbonyl O excluded from the reference sphere,S1,10.1021/acs.jctc.7b00235,7,15,4,4,0,0,True
+08,S4,Four thiolate S donors,S1,10.1021/acs.jctc.7b00235,7,15,4,4,0,0,True
+09,N4,Four macrocyclic N donors,S1,10.1021/acs.jctc.7b00235,8,15,4,4,0,0,True
+11,N4,Four porphyrin N donors,S1,10.1021/acs.jctc.7b00235,8,15,4,4,0,0,True
+12,P4,Four phosphine P donors,S1,10.1021/acs.jctc.7b00235,8,15,4,4,0,0,True
+16,S5N,"Four basal S, one pyridyl N and one axial thioether S donor",S1,10.1021/acs.jctc.7b00235,9,16,6,6,0,0,True
+17,S2O2Cl,Two S/O chelate ends and one chloride,S1,10.1021/acs.jctc.7b00235,10,16,5,5,0,0,True
+19,S4NP,"Four S, one pyridyl N and one axial P donor",S1,10.1021/acs.jctc.7b00235,10,16,6,6,0,0,True
+20,S4N2,"Four S, one pyridyl N and one nitrosyl N donor",S1,10.1021/acs.jctc.7b00235,10,16,6,6,0,0,True
+24,S4,Four thiolate S donors,S1,10.1021/acs.jctc.7b00235,11,16,4,4,0,0,True
+27,N4Cl,Four macrocyclic N donors and one apical chloride,S1,10.1021/acs.jctc.7b00235,12,17,5,5,0,0,True
+29,S4P2,Four S donors and two axial P donors,S1,10.1021/acs.jctc.7b00235,13,17,6,6,0,0,True
+30,N5O,"Four macrocyclic N, one acetonitrile N and one terminal oxo O donor",S1,10.1021/acs.jctc.7b00235,13,17,6,6,0,0,True
+31,S4P,Four S donors and one axial P donor,S1,10.1021/acs.jctc.7b00235,13,17,5,5,0,0,True
+37,S4N2,"Four S, one pyridyl N and one nitrosyl N donor",S1,10.1021/acs.jctc.7b00235,15,18,6,6,0,0,True
+42,N4Cl,Four amide-type N donors and one chloride,S1,10.1021/acs.jctc.7b00235,16,18,5,5,0,0,True
+43,C5,Five C-bound carbonyl ligands,S1,10.1021/acs.jctc.7b00235,16,18,5,5,0,0,True

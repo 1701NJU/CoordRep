@@ -20,6 +20,14 @@ It covers 9 settings × 5 folds × 3 seeds. The November models were trained
 anew; they are not recovered weights for the historical predictions. Original
 property results and other evidence remain available in their dated directories.
 
+**Current Figure 4 artwork and literature-referenced chemical validation:**
+[`release/jacs-revision-20261114`](release/jacs-revision-20261114/) contains the
+new C/D artwork (with A/B unchanged), the sanitized 84-case source register,
+Supplementary Tables S16-S18 comparison data, and versioned XYZ/CIF input and
+validation code. Use its Figure 4 files with the November saved-weight
+statistics, not the August C/D artwork. Raw CSD files, atomic coordinate
+ledgers and PyMOL scenes are not redistributed.
+
 ## Current evidence lock
 
 - **April 2025 CSD census:** 1,371,757 entries were examined with CCDC Python
@@ -57,6 +65,19 @@ periodic relations in the release-wide audit are derived from the CSD-native
 molecular bond graph; no distance-derived contact is added. Raw licensed CSD
 coordinates and row-level ledgers are not redistributed.
 
+The separate [literature-referenced validation](release/jacs-revision-20261114/chemical_validation/)
+processes all 44 external Fe structures (47 local Fe records) and retains
+all 40 selected crystal entries. Complete-reference agreement is 21/21
+molecular primary donor sets (103 donors), 17/19 crystal donor sets (all
+107 assigned nonmetal contacts retained, with four additional contacts at two
+Cu sites), and 16/16 disorder-conditional environments (72 physical donor
+images). Six directed Au-Tl relations are checked separately. The third BF4
+orientation has two saved candidates but no complete independent donor
+reference. Processing, invariance and chemical agreement are different
+endpoints; these results are not 84/84 chemical accuracy or an expert-blind
+benchmark. Source identifiers and comparison counts in the public register
+are not licensed atom-resolved native CSD ledgers.
+
 ## Reproducibility boundary
 
 The release provides source code, public aggregate/source tables, model
@@ -73,6 +94,13 @@ historical property models, whose original checkpoint files were not saved. For 
 separate November property-model weights, see the verification package above. The repository does
 not claim that every figure can be regenerated from aggregate CSV files
 alone. Full CSD extraction requires a locally licensed April 2025 CSD installation.
+
+The [November 14 package](release/jacs-revision-20261114/) adds executable
+raw-XYZ and conditional CIF construction routes, configurable comparison
+commands, and source-independent synthetic controls. Re-extraction of the
+licensed crystal examples requires the reader's own authorized source data.
+The publication Figure 4 can be redrawn from the public aggregate CSV and
+preserved A/B artwork without CSD access or model inference.
 
 The 2026-09-29 addendum provides an executable, code-only periodic MID/SID
 canonicalizer and public-ZIP adapter; constructed L1 collision and chelate
@@ -109,6 +137,11 @@ rc3. Release-wide CSD counts are typed-record census
 quantities and do not depend on final rc3 string ordering. Figure 6D–E use the
 separate frozen periodic-v3 identity construction.
 
+The XYZ input version `1.1.2rc3+xyz3.20261113` and conditional CIF input
+version `cifcfg1.20261113` in the November 14 validation package have their
+own source hashes and scope. They do not relabel the earlier property inputs
+or alter the release-wide census or the Figure 6 atlas.
+
 ## Start here
 
 ```bash
@@ -136,6 +169,9 @@ For the second-round controls, start with the addendum
 | All-metal CSD aggregate evidence | `release/jacs-revision-20260826/audits/full_csd/` |
 | August Figure 1–6 artwork and source tables (original Figure 4C,D) | `release/jacs-revision-20260826/figures/` |
 | Verification source tables for Figure 4C,D and Tables S6–S8A, model inputs and weights | [November package](release/jacs-revision-20261111-property-verification/) |
+| Current Figure 4 artwork and plotting inputs | `release/jacs-revision-20261114/figures/Figure4/` |
+| Literature-referenced validation and S16-S18 source comparisons | `release/jacs-revision-20261114/chemical_validation/` |
+| Final validation input routes and reproduction commands | `release/jacs-revision-20261114/validation_code/` |
 | Supplementary Figures S1–S2 | `release/jacs-revision-20260826/figures/Supplementary/` |
 | rc3 canonicalization evidence | `release/jacs-revision-20260826/canonicalization/` |
 | CoordRep 1.1.2rc3 source | `release/jacs-revision-20260826/{coordrep,coordrep_tools,brain}/` |
@@ -145,6 +181,9 @@ For the second-round controls, start with the addendum
 
 Code is released under the MIT License. CSD-derived outputs remain subject to
 the restrictions in `CSD_REDISTRIBUTION_NOTICE.md`.
+`PUBLIC_EVIDENCE_SHA256SUMS.txt` checks the current root documentation and
+November 14 release indexes; each versioned package also supplies its own
+file-level checksums.
 
 ```bibtex
 @software{coordrep2026,
