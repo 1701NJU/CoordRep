@@ -1,0 +1,19 @@
+{
+  "csd_release": "2024.3",
+  "total_entries_scanned": 1413222,
+  "valid_coordrep_v1_records": 124837,
+  "retention_rate_percent": 8.83,
+  "waterfall_stages": {
+    "has_3d": 1335141,
+    "transition_metal": 615498,
+    "mononuclear": 269030,
+    "eta1": 217163,
+    "cn_ok": 209826,
+    "no_disorder": 145728,
+    "no_polymer": 144271,
+    "donor_ok": 126197,
+    "valid_smiles": 126197,
+    "valid_coordrep": 124837
+  },
+  "license_note": "CSD-derived analysis results only; raw coordinates are not redistributed."
+}

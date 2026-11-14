@@ -1,0 +1,155 @@
+{
+  "release_id": "jacs-revision-20260826",
+  "status": "current",
+  "supersedes": "jacs-revision-20260823",
+  "branch": "jacs-revision",
+  "manuscript_sync_date": "2026-08-28",
+  "manuscript_title": "CoordRep: A Canonical, Continuous, and Compositional Representation for Machine Learning in Coordination Chemistry",
+  "record_language_version": "1.1.2rc3",
+  "audit_record_schema": "CoordRep-Record/3",
+  "authoritative_artifacts": {
+    "implementation": "coordrep-1.1.2rc3 source tree in this directory",
+    "canonicalization_evidence": "canonicalization",
+    "full_csd_audit": "audits/full_csd",
+    "figure_1": "figures/Figure1",
+    "figure_2": "figures/Figure2",
+    "figure_3": "figures/Figure3",
+    "figure_4": "figures/Figure4",
+    "figure_5": "figures/Figure5",
+    "figure_6": "figures/Figure6",
+    "figure_6_molecular_rc3_validation": "figures/Figure6/validation/molecular_rc3",
+    "manuscript_captions": "figures/Figure1/Figure1_manuscript_caption_20260828.txt through figures/Figure6/Figure6_manuscript_caption_20260828.txt",
+    "supplementary_figures": "figures/Supplementary",
+    "supporting_information_audit_excerpt": "supporting_information",
+    "periodic_protocol": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
+    "artifact_manifest": "PUBLIC_ARTIFACT_MANIFEST.json",
+    "checksums": "RELEASE_SHA256SUMS.txt"
+  },
+  "audit_protocol": {
+    "protocol_id": "csd-all-metal-structure-audit-20260825-v1",
+    "source_release": "CSD-April-2025-v6.00",
+    "database_entries": 1371757,
+    "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
+    "metal_policy": "frozen 96-symbol CCDC 3.6.0 is_metal policy",
+    "metal_policy_id": "ccdc-3.6.0-is_metal-frozen-20260825-v1",
+    "metal_policy_sha256": "66f463ebb426898470c660174b38eebdf65140ed5fc5d31f03b5a0fba6e7c792",
+    "target_definition": "metal-containing deposited structure meeting the 3D structural-audit criterion",
+    "shards": 48,
+    "runtime": {
+      "python": "3.10.19",
+      "ccdc": "3.6.0",
+      "numpy": "2.2.6",
+      "scipy": "1.13.1"
+    }
+  },
+  "molecular_rc3_revalidation": {
+    "source_release": "April 2025 CSD v6.00",
+    "record_language_version": "1.1.2rc3",
+    "frozen_rc2_selection_denominators": {
+      "strict_molecular_records": 101878,
+      "connectivity_supported_records": 84453
+    },
+    "rc3_end_to_end_eligibility": {
+      "strict_molecular_records": 101794,
+      "connectivity_supported_records": 84449
+    },
+    "active_family_cohort": {
+      "multi_record_families": 3491,
+      "records": 9056,
+      "membership_exactly_unchanged": true,
+      "membership_digest_sha256": "0ecb6c26bd2012c42855dbf6b96fe396773dcafe488771107b952fab547b06fd",
+      "missing_identity_keys": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 0
+      }
+    },
+    "mean_pairwise_within_family_agreement_percent": {
+      "L0": 11.269240969344349,
+      "L1": 83.48603147935867,
+      "L2": 96.59930509710813,
+      "L3": 97.34216769617237
+    },
+    "complete_family_counts": {
+      "L0": 357,
+      "L1": 2836,
+      "L2": 3350,
+      "L3": 3378
+    },
+    "public_evidence": "figures/Figure6/validation/molecular_rc3",
+    "scope_boundary": "Figure 6A-C report rc3 identity values for the exactly unchanged frozen 3,491-family/9,056-record cohort; frozen selection and rc3 eligibility denominators are reported separately. Figure 6D-E remain periodic-v3 evidence."
+  },
+  "property_figure_4": {
+    "status": "frozen_pre_rc3_manuscript_benchmark",
+    "relation_hybrid_coordrep_version": "1.1.2rc2",
+    "shape_hybrid_coordrep_version": "1.1.2rc1",
+    "active_source": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_source_data.csv",
+    "scope_boundary": "The active Figure 4 is retained unchanged to match the manuscript; it is not described as an rc3 model result."
+  },
+  "full_csd_audit": {
+    "all_entries": 1371757,
+    "metal_containing_entries": 783263,
+    "metal_containing_census_only_without_3d": 36752,
+    "target_entries": 746511,
+    "schema_valid_records": 746511,
+    "source_fidelity": {
+      "passed": 746511,
+      "failed": 0
+    },
+    "entry_coverage": {
+      "at_least_one_structural_site": 741402,
+      "all_metal_sites_structural": 733004
+    },
+    "site_coverage": {
+      "structural": 2574081,
+      "audit_only": 34367,
+      "total": 2608448
+    },
+    "mutually_exclusive_target_partition": {
+      "nonpolymeric_single_metal": 298932,
+      "nonpolymeric_multimetal": 295164,
+      "polymeric": 152415
+    },
+    "mutually_exclusive_metal_block_signatures": {
+      "s_only": 33532,
+      "p_only": 54888,
+      "d_only": 548730,
+      "f_only": 48805,
+      "mixed": 60556
+    },
+    "terminal_entry_outcomes": {
+      "resolved": 342524,
+      "partial": 112519,
+      "disorder_ambiguous": 286359,
+      "all_sites_audit_only": 5109
+    },
+    "geometry_fields": {
+      "cshm": 1922425,
+      "distance_angle": 623137,
+      "metal_graph": 25918,
+      "topology_only": 36968
+    },
+    "nonexclusive_relations": {
+      "shared_donor_entries": 213595,
+      "confirmed_haptic_pi_entries": 113726,
+      "resolved_nonzero_translation_edge_entries": 129092,
+      "ambiguous_collective_pi_candidate_entries": 63
+    }
+  },
+  "scope_boundary": "The release-wide audit transcribes native CSD donor, metal, haptic/pi, and periodic relations. It does not add distance-derived contacts and does not assert exact identity or supported CShM for every site.",
+  "periodic_mof_collection": {
+    "collection_entries": 15906,
+    "processed_entries": 15905,
+    "state_bearing_entries": 10948,
+    "local_states": 172332,
+    "states_with_nonzero_translation_edge": 74354,
+    "translation_edge_fraction_percent": 43.15,
+    "metric_ids": 36552,
+    "stereo_ids": 60139,
+    "metric_ids_split_into_two_stereo_ids": 23587,
+    "family_disjoint_entries": 400,
+    "family_disjoint_local_sites": 5920
+  },
+  "redistribution_policy": "aggregate/public source tables, code, protocols, small fixtures, and cryptographic commitments only; no raw CSD coordinates or licensed row-level exports"
+}

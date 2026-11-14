@@ -1,0 +1,23 @@
+{
+  "execution_release_id": "jacs-revision-20260823",
+  "current_public_release_id": "jacs-revision-20260826",
+  "coordrep_version": "1.1.2rc3",
+  "experiment": "general canonical-invariance stress test",
+  "population": "fixed graph-disjoint tmQMg/PBE CN4-6 molecular snapshots",
+  "selection": {
+    "eligible_unique_graphs": 6427,
+    "locked_records": 1000,
+    "cn4_cn5_cn6": [334, 333, 333],
+    "selection_seed": 20260822
+  },
+  "trials": {
+    "per_record_per_arm": 100,
+    "arms": ["proper rigid motion", "atom/connection-table reindexing", "combined"],
+    "coordrep_exact_matches": 300000,
+    "coordrep_total_variants": 300000
+  },
+  "implementation": "six-file attachment-aware repair documented in CANONICAL_ATTACHMENT_FIX_REPORT.md",
+  "source_archive_sha256": "e0d15a70bcba294717cd9f9792e7fac99ef0c5c61c3a6e08dcc8a8643f53660a",
+  "redistribution": "coordinate archive and licensed CSD structures are not redistributed; manifests retain identifiers and hashes only",
+  "compatibility_boundary": "Figure 2 validates rc3 canonicalization. This experiment does not by itself establish downstream property or family results. Figure 4 remains the frozen pre-rc3 manuscript benchmark (relation hybrids: rc2; shape hybrids: rc1) and is not rerun or relabelled as rc3. Figure 6A-C has separate rc3 molecular-identity revalidation artifacts."
+}

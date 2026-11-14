@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "figure_id": "Figure4-Compositional-coordination-states-20260806",
+  "analysis_source": "coordstatepairs-cartesian-complete-radius-postprocessing-v3-clean-shapes",
+  "input_version_boundary": {
+    "relation_full_and_masked": "CoordRep 1.1.2rc2",
+    "shape_full_and_masked": "CoordRep 1.1.2rc1",
+    "status": "frozen_pre_rc3_manuscript_benchmark",
+    "claim": "No active Figure 4 model or metric is relabelled as rc3."
+  },
+  "panel_A": {
+    "cis_refcode": "SUHQIW",
+    "trans_refcode": "SUHQOC",
+    "chemical_identity": "bis(beta-alaninato)platinum(II)",
+    "drawing_scope": "idealized 2D heavy-atom connectivity; two six-membered N,O-chelate rings per complex",
+    "style_reference": "Figure 1E atom colors and ball-and-stick line language",
+    "coordinate_claim": "none; the 2D drawings do not reproduce crystal coordinates"
+  },
+  "clean_material_gap_pairs": 44,
+  "clean_material_gap_graph_clusters": 31,
+  "input_sha256": {
+    "audit": "3c088b685133a25026d3f3836b4a5f981b97aec87ea990c52248dec409a12aa0",
+    "checksums": "8b124637aabc3cf4c35004526621e322c35a22f294f0fdb254e84d62d18660a9",
+    "cis_predictions": "20fea93b71900f3b7434765abfafd7bdb617bc5eff9da90bf03621ea435fdd14",
+    "cis_metrics": "666a56641fb1f590f0c58d662d55828ae79cfcba9bec48b563b5a01e443dadd5",
+    "cis_contrasts": "67c4d088d19d6fbd56d26575249943ccf8016fd1c3fff6372b6efa101c58c458",
+    "shape_metrics": "64b023e3f51593512c7814aad445348bf5c780b3c955a09968d1b3eb92dcb3d8",
+    "shape_contrasts": "5090be3be356201390b7c705c39311ddd0ac792c12173556cc461b6ea68e2815",
+    "shape_predictions": "34102c796226e939fccd4b7c0d076e1d751d409f86bd3b5a043e02076507e9b6",
+    "clean44": "1928631f8ace7beeffdfb033a4545f82d94fdf57eb48c7a746a23992a9034fae"
+  },
+  "historical_output_sha256_before_final_artwork": {
+    "Figure4_Compositional_coordination_states_JACS_20260806.svg": "9525b90306b9d73cd5e76cece647f44b19caf83376dc18dd0731616c11da8996",
+    "Figure4_Compositional_coordination_states_JACS_20260806.pdf": "3c8f56b6be49bd6158d331806ec23871b12e0cfac7e2161a7b52777fa2637520",
+    "Figure4_Compositional_coordination_states_JACS_20260806.png": "473bc3db31184e201da0d4165d5608655a9c904deba3bfc5e046d6e464a0f801",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.svg": "eada10afc9c4751d4cd2bf6770fb98679ec9adc125f8ba566d0c6e7e944382eb",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.pdf": "de9e6962c6bf2b6e77d11b8605453195dfe00feb4d2518f35f617824953b75a2",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.png": "c020ff5b3e1494dd22915420b55cb728d58fd64e4eaf9d3844932fbdbb73a3e2",
+    "Figure4_Compositional_coordination_states_JACS_20260806_source_data.csv": "edb82d1c2c3aa25029d06967da1584c32f4086311bbb3aa786897fbdebc861b6",
+    "Figure4_Compositional_coordination_states_JACS_20260806_source_data_internal_licensed.csv": "c3d81d470d321bab0c5bff1b67f07fde758fcc7585ce0920457eb477db9b4a54",
+    "Figure4_Compositional_coordination_states_JACS_20260806_caption.txt": "58150a35e5bd56a8cef40690aa1dc3dae00adb3c112644560e6a105a689f7d79"
+  },
+  "current_public_output_sha256": {
+    "Figure4_Compositional_coordination_states_JACS_20260806.svg": "6a5baedbc22650fb2f6e3980c933d53c588588746e01f42f84f702bd0ae612b9",
+    "Figure4_Compositional_coordination_states_JACS_20260806.pdf": "7cf3617fb7398a85a195a8439d1d61940d96fb69aaba3b58550a66c068b158a8",
+    "Figure4_Compositional_coordination_states_JACS_20260806.png": "473bc3db31184e201da0d4165d5608655a9c904deba3bfc5e046d6e464a0f801",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.svg": "3feda084471832888602d51aa9d23948ef204bcd84e2c7c5b4dc145a8df2ae0b",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.pdf": "de9e6962c6bf2b6e77d11b8605453195dfe00feb4d2518f35f617824953b75a2",
+    "Figure4A_Pt_cis_trans_2D_JACS_20260806.png": "c020ff5b3e1494dd22915420b55cb728d58fd64e4eaf9d3844932fbdbb73a3e2",
+    "Figure4_Compositional_coordination_states_JACS_20260806_source_data.csv": "32dc5eef81c9778eb70385d337928b346cd19e669c303ddd2fcbb305f0e79e01",
+    "Figure4_Compositional_coordination_states_JACS_20260806_caption.txt": "e661115c38ac0b18297f745f09207f15c55c91c992bfa132a817a659db56b8b9",
+    "Figure4_manuscript_caption_20260828.txt": "8504dfcfb9796eaa95594326bc518c7266f87f03f6728b5b02ded30f149e0b20"
+  }
+}

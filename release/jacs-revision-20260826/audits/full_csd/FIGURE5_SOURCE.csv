@@ -1,0 +1,18 @@
+Panel,Metric,Count,Denominator,Percent,Note
+B,All April 2025 CSD entries,1371757,1371757,100.0000%,Frozen release
+B,Metal-containing census,783263,1371757,57.0993%,Frozen 96-symbol policy
+B,3D structural-audit target,746511,783263,95.3078%,Operational target
+B,Nonpolymeric single-metal entries,298932,746511,40.0439%,Mutually exclusive target class
+B,Nonpolymeric multimetal entries,295164,746511,39.5391%,Mutually exclusive target class
+B,Polymeric entries,152415,746511,20.4170%,Mutually exclusive target class
+C,Entries with any structural site,741402,746511,99.3156%,Entry-level coverage
+C,Entries with every site structural,733004,746511,98.1906%,Entry-level all-site coverage
+C,Structural metal sites,2574081,2608448,98.6825%,Site-level coverage
+C,Resolved structural-object outcomes,342524,746511,45.8833%,Does not imply exact ID or CShM
+C,Partial outcomes,112519,746511,15.0727%,Explicitly retained
+C,Disorder-ambiguous outcomes,286359,746511,38.3596%,Explicitly retained
+C,All-sites audit-only outcomes,5109,746511,0.6844%,No native structural relation at any metal site
+D,Shared-donor entries,213595,746511,28.6124%,Nonexclusive flag
+D,Confirmed haptic/pi entries,113726,746511,15.2343%,Nonexclusive flag
+D,Entries with a resolved nonzero translation edge,129092,746511,17.2927%,Nonexclusive flag
+D,Ambiguous collective-pi candidates,63,746511,0.0084%,No forced hapticity

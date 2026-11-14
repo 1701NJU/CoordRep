@@ -1,0 +1,13 @@
+{
+  "schema": "CoordRep-private-source-hash-commitments/1",
+  "hashes": {
+    "private_reference_register_sha256": "4f48400eab3c9daf862d7c284ff178a23eb50277b610d83a9bc7c8b1cad5ad41",
+    "private_final_status_sha256": "f44d15413a120eb59e0d45f8d7f2cb9523583ef093c3e5cb2a830c9b179413ac",
+    "molecular_fresh_replay_receipt_sha256": "43438eb5d3c9349c835a2e2e38877b8c5fd9e4bbf239419626d188c9598d809e",
+    "native_crystal_fresh_replay_receipt_sha256": "7235caea5430608041d39d299a85bbc5691470b70375bb963a70db7f55342264",
+    "molecular_stress_summary_sha256": "86a1352a7218f5b7be58c01afc5ecd10389245676c206b0bf170b15a185f5c3b",
+    "case13_stress_summary_sha256": "50190013c855040e34c8dedd30684571321cd0f89265dab864b19a0544be25c1",
+    "conditional_input_control_report_sha256": "6488e9bfcfba0fcabddb9c937e64be43c42351cf6ddda646391c8aae5ff2be7a"
+  },
+  "note": "These bind the archived author-side comparison sources. Hashes do not make licensed inputs publicly available."
+}

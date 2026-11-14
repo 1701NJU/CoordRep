@@ -1,0 +1,4 @@
+# Full CSD scan retained entries — large file, do not upload
+full_csd_retained_entries.jsonl
+full_csd_valid_records_index.csv
+_scan_output/

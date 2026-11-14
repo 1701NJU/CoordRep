@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "scope": "frozen graph-identical OOF pair controls; no retraining or re-selection",
+  "graph_fold_leakage_count": 0,
+  "record_count": 48057,
+  "canonical_graph_clusters": 46212,
+  "cohorts": {
+    "automatic34_target_blind": {
+      "pairs": 34,
+      "graph_clusters": 34,
+      "same_graph_and_fold": 34,
+      "same_all_ligand_fields": 34,
+      "same_all_nongeometry_context": 34,
+      "same_relation_tokens": 0,
+      "field_equality_counts": {
+        "metal": 34,
+        "cn": 34,
+        "oxidation": 34,
+        "dcount": 34,
+        "total_charge": 34,
+        "spin_multiplicity": 34,
+        "ligand_payloads_json": 34,
+        "ligand_denticities_json": 34,
+        "donor_elements_json": 34
+      },
+      "relation_fingerprint_identifiable_pairs": 31,
+      "relation_fingerprint_nonidentifiable_pairs": 3
+    },
+    "clean110_target_unconditioned": {
+      "pairs": 110,
+      "graph_clusters": 72,
+      "same_graph_and_fold": 110,
+      "same_all_ligand_fields": 24,
+      "same_all_nongeometry_context": 24,
+      "same_relation_tokens": 51,
+      "field_equality_counts": {
+        "metal": 110,
+        "cn": 33,
+        "oxidation": 94,
+        "dcount": 94,
+        "total_charge": 110,
+        "spin_multiplicity": 110,
+        "ligand_payloads_json": 81,
+        "ligand_denticities_json": 26,
+        "donor_elements_json": 25
+      }
+    },
+    "clean44_gap_target_conditioned": {
+      "pairs": 44,
+      "graph_clusters": 31,
+      "same_graph_and_fold": 44,
+      "same_all_ligand_fields": 13,
+      "same_all_nongeometry_context": 13,
+      "same_relation_tokens": 17,
+      "field_equality_counts": {
+        "metal": 44,
+        "cn": 16,
+        "oxidation": 40,
+        "dcount": 40,
+        "total_charge": 44,
+        "spin_multiplicity": 44,
+        "ligand_payloads_json": 30,
+        "ligand_denticities_json": 14,
+        "donor_elements_json": 13
+      }
+    }
+  },
+  "strict_metric_table": "strict_context_pair_mae.csv",
+  "strict_contrast_table": "strict_context_pair_contrasts.csv",
+  "input_sha256": {
+    "revision_experiments/results/coordstate_pairs_manifest_v1/records.csv": "c5f8f0a4dfb7cb9d06acff264774ad502732131345c4db6822eb110b324beb4e",
+    "revision_experiments/results/coordstate_pairs_manifest_v1/graph_groups.csv": "0d0eda97e6c0eac1cb9eaff13bbe56451625c1308e440eb9f39ed711197bf1d7",
+    "revision_experiments/results/coordstatepairs_explicit_cis_trans_selection_lock_v1/selection_lock_automatic_34.csv": "19dcf8ae55992670256b6e9a8aa3efc5868b19586f6862ef6b1bcfb7961baee1",
+    "revision_experiments/results/coordstatepairs_explicit_cis_trans_selection_lock_v1/selection_lock_fingerprint_identifiable_31.csv": "fb1799d9f2adb9ca9a7c908ae6e911f78e89d100d2e50f2227f6dfa145c255ee",
+    "revision_experiments/results/coordstatepairs_cartesian_complete_radius_postprocessing_v3_clean_shapes/different_shape_pair_predictions.csv": "34102c796226e939fccd4b7c0d076e1d751d409f86bd3b5a043e02076507e9b6",
+    "revision_experiments/results/coordstatepairs_cartesian_complete_radius_postprocessing_v3_clean_shapes/clean44_gap_pair_predictions.csv": "1928631f8ace7beeffdfb033a4545f82d94fdf57eb48c7a746a23992a9034fae",
+    "revision_experiments/results/coordstatepairs_cartesian_complete_radius_postprocessing_v3_clean_shapes/cis_trans_pair_predictions.csv": "20fea93b71900f3b7434765abfafd7bdb617bc5eff9da90bf03621ea435fdd14"
+  },
+  "limitations": [
+    "Automatic34 was discovered post hoc, although locked without targets or predictions before full OOF analysis.",
+    "Clean44 is conditioned on observed absolute gap difference > 0.10 eV; restricted MAEs are descriptive.",
+    "Exact attributed-graph equality controls 2D connectivity and ligand identity, not optimized Cartesian conformations, packing, or electronic state.",
+    "Equality of frozen ligand-payload fields is an additional conservative parser-level check; its failure need not imply different molecular ligand identity when the attributed graph is identical."
+  ]
+}

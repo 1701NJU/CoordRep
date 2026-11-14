@@ -1,0 +1,11 @@
+reason,count,fraction_of_rejected
+no_transition_metal,100863,0.5513
+multinuclear,47939,0.262
+no_3d_structure,13564,0.0741
+disorder,8435,0.0461
+hapticity,7325,0.04
+raw_mol_conversion_failed,3402,0.0186
+cn_out_of_range_7,517,0.0028
+cn_out_of_range_8,249,0.0014
+polymeric,185,0.001
+invalid_coordrep,179,0.001

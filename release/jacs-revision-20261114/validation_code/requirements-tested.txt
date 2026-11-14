@@ -1,0 +1,7 @@
+# Exact versions used for publication-wrapper QA (Python 3.9.23).
+# CCDC Python API 3.4.0 is separately required only for the licensed native route.
+numpy==2.0.2
+scipy==1.13.1
+networkx==3.2.1
+rdkit==2025.9.1
+gemmi==0.7.4

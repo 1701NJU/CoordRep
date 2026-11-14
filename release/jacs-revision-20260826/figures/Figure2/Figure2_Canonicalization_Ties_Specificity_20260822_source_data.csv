@@ -1,0 +1,86 @@
+panel,record,quantity,value,unit,notes
+A,canonicalization path,stage order,1,step,chemical and attachment keys
+A,canonicalization path,stage order,2,step,rotation-invariant distance refinement
+A,canonicalization path,stage order,3,step,legal residual-tie enumeration
+A,canonicalization path,stage order,4,step,lexicographic minimum of complete State
+B,general invariance cohort,selected structures,1000,structures,graph-disjoint tmQMg/PBE CN4-6 fixed snapshots
+B,general invariance cohort,trials per arm,100,variants/structure,proper rigid motion; atom/connection-table reindexing; both
+B,rigid · raw_ordered_cartesian,fully collapsed structures,0,structures,of 1000
+B,rigid · raw_ordered_cartesian,fully collapsed fraction,0.000,%,plotted cell value; linear fill
+B,rigid · raw_ordered_cartesian,exact variant matches,0,variants,of 100000
+B,rigid · ordered_distance_matrix,fully collapsed structures,1000,structures,of 1000
+B,rigid · ordered_distance_matrix,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,rigid · ordered_distance_matrix,exact variant matches,100000,variants,of 100000
+B,rigid · connectivity_only,fully collapsed structures,1000,structures,of 1000
+B,rigid · connectivity_only,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,rigid · connectivity_only,exact variant matches,100000,variants,of 100000
+B,rigid · source_order,fully collapsed structures,997,structures,of 1000
+B,rigid · source_order,fully collapsed fraction,99.700,%,plotted cell value; linear fill
+B,rigid · source_order,exact variant matches,99838,variants,of 100000
+B,rigid · coordrep_state,fully collapsed structures,1000,structures,of 1000
+B,rigid · coordrep_state,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,rigid · coordrep_state,exact variant matches,100000,variants,of 100000
+B,permutation · raw_ordered_cartesian,fully collapsed structures,0,structures,of 1000
+B,permutation · raw_ordered_cartesian,fully collapsed fraction,0.000,%,plotted cell value; linear fill
+B,permutation · raw_ordered_cartesian,exact variant matches,1722,variants,of 100000
+B,permutation · ordered_distance_matrix,fully collapsed structures,0,structures,of 1000
+B,permutation · ordered_distance_matrix,fully collapsed fraction,0.000,%,plotted cell value; linear fill
+B,permutation · ordered_distance_matrix,exact variant matches,1822,variants,of 100000
+B,permutation · connectivity_only,fully collapsed structures,1000,structures,of 1000
+B,permutation · connectivity_only,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,permutation · connectivity_only,exact variant matches,100000,variants,of 100000
+B,permutation · source_order,fully collapsed structures,50,structures,of 1000
+B,permutation · source_order,fully collapsed fraction,5.000,%,plotted cell value; linear fill
+B,permutation · source_order,exact variant matches,18570,variants,of 100000
+B,permutation · coordrep_state,fully collapsed structures,1000,structures,of 1000
+B,permutation · coordrep_state,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,permutation · coordrep_state,exact variant matches,100000,variants,of 100000
+B,combined · raw_ordered_cartesian,fully collapsed structures,0,structures,of 1000
+B,combined · raw_ordered_cartesian,fully collapsed fraction,0.000,%,plotted cell value; linear fill
+B,combined · raw_ordered_cartesian,exact variant matches,0,variants,of 100000
+B,combined · ordered_distance_matrix,fully collapsed structures,0,structures,of 1000
+B,combined · ordered_distance_matrix,fully collapsed fraction,0.000,%,plotted cell value; linear fill
+B,combined · ordered_distance_matrix,exact variant matches,1746,variants,of 100000
+B,combined · connectivity_only,fully collapsed structures,1000,structures,of 1000
+B,combined · connectivity_only,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,combined · connectivity_only,exact variant matches,100000,variants,of 100000
+B,combined · source_order,fully collapsed structures,50,structures,of 1000
+B,combined · source_order,fully collapsed fraction,5.000,%,plotted cell value; linear fill
+B,combined · source_order,exact variant matches,18586,variants,of 100000
+B,combined · coordrep_state,fully collapsed structures,1000,structures,of 1000
+B,combined · coordrep_state,fully collapsed fraction,100.000,%,plotted cell value; linear fill
+B,combined · coordrep_state,exact variant matches,100000,variants,of 100000
+B,CoordRep-State · all arms,exact variant matches,300000,variants,of 300000; zero mismatches
+C,real legal-orbit screen,strict eligible unique graphs,6427,graphs,full fixed screening denominator
+C,real legal-orbit screen,challenge-eligible records,5173,records,at least one legal ligand/donor permutation after invariant refinement
+C,locked legal-orbit cohort,selected structures,1000,structures,"CN quotas={""4"": 716, ""5"": 74, ""6"": 210}"
+C,locked legal-orbit cohort,atom reindexings per structure,100,variants/structure,same variants evaluated by both algorithms
+C,invariant-key sort only,fully collapsed structures,380,structures,of 1000
+C,invariant-key sort only,fully collapsed fraction,38.000,%,plotted horizontal bar
+C,invariant-key sort only,exact variant matches,64834,variants,of 100000
+C,full exact legal-tie search,fully collapsed structures,1000,structures,of 1000
+C,full exact legal-tie search,fully collapsed fraction,100.000,%,plotted horizontal bar
+C,full exact legal-tie search,exact variant matches,100000,variants,of 100000
+C,non-automorphic attachment control,false merges,0,pairs,adjacent and opposite attachment sets remain distinct
+C,missing attachment identity control,fail closed,true,boolean,repeated payload without attachment key is rejected
+C,full challenge-eligible population,candidate-count distribution,2652,records,exact candidates=2
+C,full challenge-eligible population,candidate-count distribution,1675,records,exact candidates=4
+C,full challenge-eligible population,candidate-count distribution,284,records,exact candidates=6
+C,full challenge-eligible population,candidate-count distribution,67,records,exact candidates=8
+C,full challenge-eligible population,candidate-count distribution,78,records,exact candidates=12
+C,full challenge-eligible population,candidate-count distribution,184,records,exact candidates=24
+C,full challenge-eligible population,candidate-count distribution,15,records,exact candidates=36
+C,full challenge-eligible population,candidate-count distribution,120,records,exact candidates=48
+C,full challenge-eligible population,candidate-count distribution,98,records,exact candidates=120
+D,idealized fac-[Co(NH3)3Cl3],trans pair,N–Cl,relation,N1–Cl1; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized fac-[Co(NH3)3Cl3],trans pair,N–Cl,relation,N2–Cl2; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized fac-[Co(NH3)3Cl3],trans pair,N–Cl,relation,N3–Cl3; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized mer-[Co(NH3)3Cl3],trans pair,N–N,relation,N1–N2; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized mer-[Co(NH3)3Cl3],trans pair,N–Cl,relation,N3–Cl1; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized mer-[Co(NH3)3Cl3],trans pair,Cl–Cl,relation,Cl2–Cl3; angle=180.000 deg; exact ±x/±y/±z octahedral coordinates
+D,idealized fac/mer control,shared metal context,Co(III)/CN6,field,identical for both models
+D,idealized fac/mer control,shared geometry field,O_h,field,same exact ideal-octahedral donor coordinates
+D,idealized fac/mer control,shared ligand/attachment field,3 × kappa1-NH3 + 3 × kappa1-Cl,field,same ligand payload and monodentate attachments
+D,idealized fac/mer control,fac relation inventory,3 × N-Cl trans,relation field,"NH3 donors at +x,+y,+z"
+D,idealized fac/mer control,mer relation inventory,N-N + N-Cl + Cl-Cl trans,relation field,"NH3 donors at +x,-x,+y"
+D,idealized fac/mer control,CSD record,false,boolean,schematic relation-level control; no experimental CShM values implied

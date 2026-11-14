@@ -1,0 +1,16 @@
+S1. Proppe, J.; Reiher, M. J. Chem. Theory Comput. 2017, 13, 3297-3317. https://doi.org/10.1021/acs.jctc.7b00235.
+S2. Harrop, T. C.; Tonzetich, Z. J.; Reisner, E.; Lippard, S. J. J. Am. Chem. Soc. 2008, 130, 15602-15610. https://doi.org/10.1021/ja8054996.
+S3. Chen, K.-T.; et al. Polymers 2020, 12, 1281. https://doi.org/10.3390/polym12061281.
+S4. Fernandez, E. J.; et al. Organometallics 2006, 25, 1689-1695. https://doi.org/10.1021/om051030j.
+S5. Carroll, R. C.; Coles, S. J. IUCrJ 2024, 11, 578-586. https://doi.org/10.1107/S2052252524004871.
+S6. Chen, X.-X.; et al. Inorg. Chem. 2022, 61, 2219-2226. https://doi.org/10.1021/acs.inorgchem.1c03506.
+S7. Canales, F.; et al. J. Am. Chem. Soc. 1996, 118, 4839-4845. https://doi.org/10.1021/ja9517678.
+S8. Hu, D.-X.; et al. Inorg. Chim. Acta 2007, 360, 4077-4084. https://doi.org/10.1016/j.ica.2007.03.038.
+S9. Schmidt, A.-C.; et al. Inorg. Chem. 2017, 56, 1319-1332. https://doi.org/10.1021/acs.inorgchem.6b02322.
+S10. Roques, N.; et al. Chem. Eur. J. 2014, 20, 11690-11694. https://doi.org/10.1002/chem.201403638.
+S11. Zhang, L.-P.; Mak, T. C. W. Polyhedron 2003, 22, 2787-2798. https://doi.org/10.1016/S0277-5387(03)00396-6.
+S12. Tereshchenko, D. S.; et al. Russ. J. Coord. Chem. 2022, 48, 557-564. https://doi.org/10.1134/S1070328422090068.
+S13. Li, M.-T.; Fu, X.-C.; Wang, C.-G. Acta Crystallogr. E 2005, 61, m1436-m1438. https://doi.org/10.1107/S1600536805020271.
+S14. Chen, W.-X.; et al. Dalton Trans. 2011, 40, 10237-10241. https://doi.org/10.1039/c1dt10070j.
+S15. Chiniforoshan, H.; Jazestani, M.; Notash, B. Acta Crystallogr. E 2012, 68, m232. https://doi.org/10.1107/S1600536812001924.
+S16. Ahmed, M.; et al. Chem. Commun. 2021, 57, 85-88. https://doi.org/10.1039/D0CC07326A.

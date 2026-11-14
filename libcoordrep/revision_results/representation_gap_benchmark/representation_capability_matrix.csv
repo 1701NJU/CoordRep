@@ -1,0 +1,37 @@
+representation,capability,support,note
+canonical_SMILES,collapse_invariance,P,Canonicalization of organic fragment only; metal coordination topology not canonical
+canonical_SMILES,stereo_separation,N,No field for coordination cis/trans or fac/mer
+canonical_SMILES,family_linking,N,
+canonical_SMILES,boundary_detection,N,
+canonical_SMILES,grammar_validation,N,
+canonical_SMILES,multi_resolution_ID,N,
+InChI_InChIKey,collapse_invariance,P,Organic-only canonicalization; transition-metal complexes poorly defined
+InChI_InChIKey,stereo_separation,N,
+InChI_InChIKey,family_linking,N,
+InChI_InChIKey,boundary_detection,N,
+InChI_InChIKey,grammar_validation,P,InChI has structural validation but not for coordination grammar
+InChI_InChIKey,multi_resolution_ID,N,
+raw_3D_coords,collapse_invariance,N,Not rotation/translation invariant; requires alignment
+raw_3D_coords,stereo_separation,P,Angles recoverable from coords but no explicit stereo label
+raw_3D_coords,family_linking,N,
+raw_3D_coords,boundary_detection,N,
+raw_3D_coords,grammar_validation,N,
+raw_3D_coords,multi_resolution_ID,N,
+CShM_vector,collapse_invariance,N,
+CShM_vector,stereo_separation,N,
+CShM_vector,family_linking,N,
+CShM_vector,boundary_detection,P,Delta computable but no structured boundary field
+CShM_vector,grammar_validation,N,
+CShM_vector,multi_resolution_ID,N,
+CoordRep_full,collapse_invariance,Y,Canonical string; rotation/permutation invariant by construction
+CoordRep_full,stereo_separation,Y,Explicit {trans:…} and {fm:…} tokens
+CoordRep_full,family_linking,Y,L3 ConnID groups same-connectivity complexes
+CoordRep_full,boundary_detection,Y,Explicit _boundary tag + delta bin in shape token
+CoordRep_full,grammar_validation,Y,Parseable grammar with CN/donor/ligand cross-checks
+CoordRep_full,multi_resolution_ID,Y,L0–L3 hierarchy by design
+CoordRep_ID_L0_L3,collapse_invariance,Y,
+CoordRep_ID_L0_L3,stereo_separation,Y,
+CoordRep_ID_L0_L3,family_linking,Y,
+CoordRep_ID_L0_L3,boundary_detection,Y,
+CoordRep_ID_L0_L3,grammar_validation,Y,
+CoordRep_ID_L0_L3,multi_resolution_ID,Y,

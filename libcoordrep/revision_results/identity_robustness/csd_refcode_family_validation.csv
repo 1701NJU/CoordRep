@@ -1,0 +1,4 @@
+level,within_family_match_rate,n_families_evaluated,n_families_all_agree
+L0,0.1139,4099,467
+L1,0.5433,4099,2227
+L3,0.9373,4099,3842

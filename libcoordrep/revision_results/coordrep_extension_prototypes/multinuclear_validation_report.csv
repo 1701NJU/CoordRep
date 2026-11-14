@@ -1,0 +1,16 @@
+case_id,refcode,parse_valid,roundtrip_valid,metal_order_invariant,atom_order_invariant,local_spheres_detected,bridges_detected,global_metal_graph_detected,no_raw_coordinates_exported
+multi_001,BIHWOL,True,True,True,True,True,True,True,True
+multi_002,YOMHEW,True,True,True,True,True,True,True,True
+multi_003,RHACAC03,True,True,True,True,True,True,True,True
+multi_004,TRCRAC,True,True,True,True,True,True,True,True
+multi_005,CUAQOH,True,True,True,True,True,True,True,True
+multi_006,COBRCL,True,True,True,True,True,True,True,True
+multi_007,MNBZAC,True,True,True,True,True,True,True,True
+multi_008,PTCLAM,True,True,True,True,True,True,True,True
+multi_009,CUDPOM,True,True,True,True,True,True,True,True
+multi_010,ZNACET,True,True,True,True,True,True,True,True
+multi_011,MOACET02,True,True,True,True,True,True,True,True
+multi_012,NIPHOX,True,True,True,True,True,True,True,True
+multi_013,FEOXTM,True,True,True,True,True,True,True,True
+multi_014,CUDPPM,True,True,True,True,True,True,True,True
+multi_015,MNOXCB,True,True,True,True,True,True,True,True

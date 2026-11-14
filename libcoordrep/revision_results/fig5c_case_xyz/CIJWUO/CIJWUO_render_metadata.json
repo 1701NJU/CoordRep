@@ -1,0 +1,15 @@
+{
+  "case_id": "CIJWUO",
+  "source": "CSD",
+  "metal": "Cu",
+  "CN": 5,
+  "ligand_summary": "2 × diamine (bid N,N), 1 × selenourea (monodent N via Se)",
+  "purpose": "stereo",
+  "decoy_type": "trans_to_cis",
+  "grammar_valid_decoy": true,
+  "ranker_correct": "5/5",
+  "margin_range": "0.10-0.69",
+  "recommended_render": "CIJWUO_first_sphere.xyz or CIJWUO_stereo_view.xyz",
+  "figure_message": "CoordRep fields enable semantic consistency checking beyond raw geometry.",
+  "license_note": "CSD-derived coordinates for internal figure rendering only; do not redistribute raw XYZ."
+}

@@ -1,0 +1,12 @@
+{
+  "n_complexes_total": 68288,
+  "fraction_monodentate_only": 0.2394,
+  "fraction_with_bidentate": 0.381,
+  "fraction_with_dent_ge3": 0.4597,
+  "n_ligands_total": 214721,
+  "ligand_fraction_dent1": 0.6394,
+  "ligand_fraction_dent2": 0.1809,
+  "ligand_fraction_dent_ge3": 0.1797,
+  "csd_fraction_with_multidentate": 0.6642,
+  "n_segmentation_failures": 3428
+}

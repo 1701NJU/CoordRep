@@ -1,0 +1,6 @@
+method,top1_correct_rate,top5_correct_rate,mean_auroc,mean_fp_rate
+coordrep_full,0.8671,0.9441,0.9489,0.2909
+donor_baseline,0.6783,0.9301,0.9041,0.3902
+cshm_only,0.3846,0.7343,0.5973,0.649
+L3_only,0.3636,0.6923,0.5246,0.7007
+random_same_donor,0.1818,0.6014,0.5023,0.779

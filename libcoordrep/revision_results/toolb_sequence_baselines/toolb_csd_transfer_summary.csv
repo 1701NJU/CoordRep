@@ -1,0 +1,6 @@
+method,n,valid_rate_before,valid_rate_after,strict_valid_rate,exact_rate,field_match_rate,recovery_rate
+corrupted_only,1876,0.5661,0.5661,0.5283,0.0,0.8488,0.0
+rule_only,1876,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+edit_distance,1876,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+char_bigram,1876,0.5661,1.0,0.9973,0.2457,0.8902,1.0
+coordrep_mlm,500,0.602,0.852,0.82,0.0,0.6063,0.6281

@@ -1,0 +1,57 @@
+{
+  "claim_boundary": "Only a full run with exact locked counts is a CIF-level reproduction of the atlas",
+  "elapsed_seconds": 2850.751,
+  "environment": {
+    "ccdc_api": "3.4.0",
+    "numpy": "2.0.2"
+  },
+  "error_counts": {
+    "site_extract:ValueError": 1
+  },
+  "gate_counts_nonexclusive": {
+    "cn_outside_2_6": 26336,
+    "emitted_sites": 172332,
+    "haptic_suspect": 310,
+    "nonemitted_sites": 51065,
+    "suspect_chemistry": 30839,
+    "vector_witness_failed": 362
+  },
+  "metric_to_stereo_multiplicity": {
+    "1": 12965,
+    "2": 23587
+  },
+  "paired_entries_by_flag": {
+    "not flagged Sohncke": 7721
+  },
+  "paired_families_by_flag": {
+    "Sohncke": 0,
+    "mixed": 6,
+    "not flagged Sohncke": 6732
+  },
+  "private_frozen_QA": "not_requested",
+  "seconds_per_selected_entry": 0.179,
+  "selected_entries": 15906,
+  "source_archive_sha256": "ABF9F2A7288FD83E2A59F19B717C202414E744A1B2C8C1F9EEC1F909554346FA",
+  "start_index": 0,
+  "state_bearing_entries_by_flag": {
+    "Sohncke": 1759,
+    "not flagged Sohncke": 9189
+  },
+  "state_bearing_families_by_flag": {
+    "Sohncke": 1583,
+    "mixed": 7,
+    "not flagged Sohncke": 7984
+  },
+  "status": "full_zip_run_requires_claim_review",
+  "totals": {
+    "emitted_sites": 172332,
+    "metal_sites": 223397,
+    "periodic_atom_orbits": 7348811,
+    "processing_failed": 1,
+    "processing_success": 15905,
+    "sites_with_nonzero_translation": 74354
+  },
+  "unique_metric_ids": 36552,
+  "unique_stereo_ids": 60139,
+  "workers": 2
+}

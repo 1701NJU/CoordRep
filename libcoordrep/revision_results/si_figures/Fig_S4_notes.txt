@@ -1,0 +1,26 @@
+Fig_S4 — Extended CShM geometry atlases and threshold sensitivity
+
+Panel A: CN=4 SP–Td atlas
+  Source: csd_pathfinder_full/cn4_sp_td_atlas.csv
+  x = CShM(Td), y = CShM(SP); hexbin density, log(count+1) colour scaling
+  Axis range clipped to ≈99th percentile; n = 47,187 entries
+  Dashed diagonal = equal CShM (boundary-like region)
+
+Panel B: CN=5 SPY–TBPY atlas
+  Source: csd_pathfinder_full/cn5_tbpy_spy_atlas.csv
+  x = CShM(TBPY), y = CShM(SPY); hexbin density, log(count+1)
+  n = 14,897 entries
+
+Panel C: CN=6 Oh–TPr atlas
+  Source: csd_pathfinder_full/cn6_oh_distortion_atlas.csv
+  x = CShM(TPr), y = CShM(Oh); hexbin density, log(count+1)
+  n = 41,381 entries
+
+Shared colorbar: log₁₀(count+1) relative density; grey-to-blue-grey cmap.
+Each panel uses log-scaled hexbin counts; colorbar placed below Panel C.
+
+Panel D: Boundary-threshold sensitivity
+  Source: computed from CN4/5/6 atlas data
+  x = ΔCShM threshold; y = boundary fraction (%)
+  Lines: CN 4/5/6 in muted grey/blue-grey tones
+  Vertical dotted orange line at Δ=1.0 (default CoordRep threshold)

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "verification_date": "2026-10-06",
+  "scope": "Faithful inference-only packaging of archived diagnostic checkpoints; synthetic checks are not experimental benchmark results or fold-result reproduction.",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.5.1+cu121",
+    "device": "cpu",
+    "intraop_threads": 1,
+    "interop_threads": 1
+  },
+  "checkpoint_loading": {
+    "weights_only": true,
+    "strict_state_dict": true,
+    "unsafe_pickle_fallback": false
+  },
+  "models": [
+    {
+      "model_key": "production_mlm",
+      "source_checkpoint_sha256": "6a32c978a4cac181402bc23826a1648fd67a2266337c232aad4263114e3771da",
+      "exported_checkpoint_sha256": "8a295c39ca0812394b67996797fce26f1f75648695156fc5f54418cc2600b3c5",
+      "state_tensor_count": 107,
+      "state_keys_exact_equal": true,
+      "state_tensors_exact_equal": true,
+      "state_max_abs_difference": 0,
+      "strict_load_passed": true,
+      "synthetic_example": "examples/production_mlm.json",
+      "synthetic_token_count": 8,
+      "synthetic_unknown_token_count": 0,
+      "synthetic_cpu_output_shape": [
+        1,
+        8,
+        10000
+      ],
+      "synthetic_cpu_inference_exact_equal": true,
+      "synthetic_cpu_inference_max_abs_difference": 0,
+      "unknown_token_warns_and_maps_to_unk_without_insertion": true,
+      "input_length_768_accepted": true,
+      "input_length_769_rejected": true,
+      "missing_cls_rejected": true
+    },
+    {
+      "model_key": "factorized_mlm",
+      "source_checkpoint_sha256": "754af574e26542bae32b2f39b86de6c7f6bfcd359ef99cc875e9c475cc386915",
+      "exported_checkpoint_sha256": "24a49c2bbf138f37c91d6c3a74ade6e086a941a989ad620f9f583df4de262f86",
+      "state_tensor_count": 107,
+      "state_keys_exact_equal": true,
+      "state_tensors_exact_equal": true,
+      "state_max_abs_difference": 0,
+      "strict_load_passed": true,
+      "synthetic_example": "examples/factorized_mlm.json",
+      "synthetic_token_count": 11,
+      "synthetic_unknown_token_count": 0,
+      "synthetic_cpu_output_shape": [
+        1,
+        11,
+        10000
+      ],
+      "synthetic_cpu_inference_exact_equal": true,
+      "synthetic_cpu_inference_max_abs_difference": 0,
+      "unknown_token_warns_and_maps_to_unk_without_insertion": true,
+      "input_length_768_accepted": true,
+      "input_length_769_rejected": true,
+      "missing_cls_rejected": true
+    },
+    {
+      "model_key": "semantic_ranker",
+      "source_checkpoint_sha256": "f9e3608ca7076a27b86803af7c211155f9828b5e778245608b7d609df9043c6b",
+      "exported_checkpoint_sha256": "5f0fe12552308040350cb28524dbd49f86e0ab4671e381c00b60e370ea9cd421",
+      "state_tensor_count": 107,
+      "state_keys_exact_equal": true,
+      "state_tensors_exact_equal": true,
+      "state_max_abs_difference": 0,
+      "strict_load_passed": true,
+      "synthetic_example": "examples/semantic_ranker.json",
+      "synthetic_token_count": 8,
+      "synthetic_unknown_token_count": 0,
+      "synthetic_cpu_output_shape": [
+        1
+      ],
+      "synthetic_cpu_inference_exact_equal": true,
+      "synthetic_cpu_inference_max_abs_difference": 0,
+      "unknown_token_warns_and_maps_to_unk_without_insertion": true,
+      "input_length_768_accepted": true,
+      "input_length_769_rejected": true,
+      "missing_cls_rejected": true
+    }
+  ],
+  "sequence_interface_check": {
+    "production_tokenizer_retains_composite_metal_header": true,
+    "composite_probe": "[Metal:Fe|ox:+2|d:d6|CN:6]",
+    "composite_probe_tokens": [
+      "[Metal:Fe|ox:+2|d:d6|CN:6]"
+    ],
+    "factorized_probe": "[Fe;ox=+2;d=6;CN=6]",
+    "factorized_probe_tokens": [
+      "[Fe]",
+      ";ox=+2",
+      ";d=6",
+      ";CN=6"
+    ],
+    "production_and_factorized_vocabularies_are_interchangeable": false,
+    "inference_entry_point_requires_explicit_pretokenized_lists": true,
+    "note": "The supplied production tokenizer retains a composite header as one token; later factorizing tokenizers must not replace it. These lexical probes and synthetic inference checks do not establish experimental cohort or fold-result reproducibility."
+  },
+  "cli_three_model_smoke_test_passed": true
+}

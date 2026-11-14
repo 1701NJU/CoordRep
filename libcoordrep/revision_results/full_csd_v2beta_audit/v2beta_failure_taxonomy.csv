@@ -1,0 +1,4 @@
+pool,failure_category,n_entries,fraction_of_pool,example_refcodes,interpretation,future_fix
+multi,polymeric_or_extended_network,330,0.3887,IJIGEQ;MOTKUE;CUDQAU,,
+multi,ambiguous_bonding_graph,91,0.1072,JANMOB;VEJNUU;XUYPIQ02,,
+multi,roundtrip_failure,428,0.5041,UTOVUV;NIXSOF;ICOYUY,,

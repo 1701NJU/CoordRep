@@ -1,0 +1,2502 @@
+{
+  "release_id": "jacs-revision-20260826",
+  "manifest_date": "2026-08-28",
+  "algorithm": "SHA-256 over canonical-LF text bytes and raw binary bytes",
+  "scope": "all public release files except this manifest and RELEASE_SHA256SUMS.txt",
+  "n_files": 356,
+  "total_bytes": 28375094,
+  "files": [
+    {
+      "path": "CANONICALIZATION_UPGRADE_REPORT.md",
+      "bytes": 13225,
+      "sha256": "6385631099d762517ed4afede1fb74981c981c98be64c584ec25208ea01b0b9e",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "CANONICAL_ATTACHMENT_FIX_REPORT.md",
+      "bytes": 7502,
+      "sha256": "de636374b16f6c17abc6ea57e21a765095d5ba086ebe900632165d296bb84b7c",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1089,
+      "sha256": "a26d0725db311c8829cbac3391dbc3c58a5be7d85650c5376251c449d2ce7ca6",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 4013,
+      "sha256": "8bd835adb858e689a9878c1f4aecd54adbd5ae24434a5ebf92a7f77d1d99cd51",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4442,
+      "sha256": "06614ff081a2a36e851b322775856e340eea989384fc3cc6a99f4c8e5d78408c",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "RELEASE_MANIFEST.json",
+      "bytes": 6138,
+      "sha256": "ec08068541ff8234dac6abd61c61d2fc4f240cc4f3f0992464164c28eb450de9",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "archive/SUPERSEDED_FIGURES_20260819.md",
+      "bytes": 361,
+      "sha256": "124484ca05e8a272525849a5b737ea2fab55ecc12d39841b5c3dc763449d829d",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_AUDIT.json",
+      "bytes": 6163,
+      "sha256": "e495239c77383cdada4e995277ebf3f470698d2347262dd7dbb8bedf76d4ced9",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_cis_trans_application_E3_complete_radius_JACS_20260803_source_data.csv",
+      "bytes": 11678,
+      "sha256": "151a6eaaff4e7def467b0bb67fd3580df2a10e6edd3e233650350e2e7c7c77c2",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.pdf",
+      "bytes": 82548,
+      "sha256": "102635d77be5cf844c45e2c855a669f3b98d23875cc18b7942eb897b3b9bc89d",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804.svg",
+      "bytes": 70953,
+      "sha256": "f8c11dc20256ccaea89c1e34f12cc5064377f99c7c82204f5ad1c492ac351706",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_AUDIT.json",
+      "bytes": 2237,
+      "sha256": "be514b5c999ee71bd540c470cab74ea40ef53e8667b8f754c23b71533f23b0cb",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/Figure4_CoordRep_field_advantage_E3_boundary_JACS_20260804_source_data.csv",
+      "bytes": 10321,
+      "sha256": "32dc5eef81c9778eb70385d337928b346cd19e669c303ddd2fcbb305f0e79e01",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_figure4/README.md",
+      "bytes": 459,
+      "sha256": "5d0f127a0bf0e5f422050ca876918abf820fb076d5dded746396258b92e4c14e",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/README.md",
+      "bytes": 526,
+      "sha256": "dc3d1b4d79b4bbff36fd7c244c2582485130658095743d7cc80cbb669b01385f",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/audit_v2beta_exact_canonicalization.py",
+      "bytes": 10281,
+      "sha256": "455932adb128106fcf793a1cbfe575976323803597eb1468e8e7c7d7a6a46b4c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_csd_casebook.py",
+      "bytes": 29478,
+      "sha256": "3c4a93b74014e2b6fb613cb402e7adf20d8bdc87f48996e204b6a5e7d535aace",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_highlighted_manuscript.py",
+      "bytes": 21854,
+      "sha256": "c00fdec94f44fa92f8a9d7cb5ff459932f4cc6f8b7ce8a4eae62412538accaaa",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/build_merged_fig5.py",
+      "bytes": 29300,
+      "sha256": "e05d7958be4795c0b156243805c776bd20323d670ecf926287a97c9cd08879c8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/check_revision_package.py",
+      "bytes": 9050,
+      "sha256": "9ead6ac88475a8430418d23852cf7d868e1c6bfd43c4f7a5e2bbb9cf3fcf596c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/csd_toolb_transfer_eval.py",
+      "bytes": 17873,
+      "sha256": "e058549ea2a6611bb380b0ac9b15ac0a8ef83d01c5df5e8d2fc57a106b83aeda",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5c_case_xyz.py",
+      "bytes": 24683,
+      "sha256": "84dd23e417609a810267b179034420f805a8280838761ff71897d8b764e68c36",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_family_trajectory.py",
+      "bytes": 21001,
+      "sha256": "af99ef9d7442d958b8430cbce8b7d7bb522d2780c2b64ece9f9c0d5c72dc8c04",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_gazkun_trajectory.py",
+      "bytes": 19172,
+      "sha256": "71ec300612068e1a40c7916483b87f34741ef35f51f307567c6d21ddfb7721c3",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_linmol_trajectory.py",
+      "bytes": 25012,
+      "sha256": "53338ba04acc214ada5667980b3dbae44f44399f19b039edc5faab9781ee77da",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/export_fig5d_maintext_subset.py",
+      "bytes": 13528,
+      "sha256": "284d389f409b6792293ba634e04fd7721e04f11051a8c418383f21929a3eaef7",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/factorized_token_qc_and_standard_eval.py",
+      "bytes": 24170,
+      "sha256": "459a0b983d9c3d894d801e6a50e2b3bc1f253c8335c53924cf1073b07662d918",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_csd_scope_waterfall.py",
+      "bytes": 25941,
+      "sha256": "a53162f533fc181ed8542b51efecf1704d8b8d6c6b0ea17df1f1e61cfa584709",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_full_csd_v2beta_audit.py",
+      "bytes": 39049,
+      "sha256": "285f5ccaaa50e75ec2f0513b5616f2e40f96b1a4331e8b861c936e7a314f1188",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_rosetta_hard_controls.py",
+      "bytes": 39253,
+      "sha256": "a13eaff0f5ed42b51e54a2a24a9e21bec00a7b8a1401a2dce38853f9534abfd6",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_rosetta_homology.py",
+      "bytes": 57523,
+      "sha256": "b91105fe7cbc47ea22c782dfa8af6708cbc9c4499f34bba15c1ca74d67001334",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_v2beta_extension.py",
+      "bytes": 26753,
+      "sha256": "f280e769fcb613b779df6945721deff908d13e44a1f07351a521cac5fad3839e",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/generate_v2beta_postfix_audit.py",
+      "bytes": 29850,
+      "sha256": "7f74115923bb8421bf14e6309bef3a0b64b230422bb33ce1819e8942bc3aefd9",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/make_figure_ready_tables.py",
+      "bytes": 1837,
+      "sha256": "bfab52239b8919c9baeb80095a12a8ba8c7c69850b8d18f20a7e411f31b04bde",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/make_rebuttal_evidence_matrix.py",
+      "bytes": 2369,
+      "sha256": "cc7c683de5c798c9fe174aeee214444e75fe6b44865fd5291b2d8f3c3bb5f570",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/multidentate_tool_a_eval.py",
+      "bytes": 8024,
+      "sha256": "92cfc219adb208a394af138ef05012ad4c88220865ce314e40c206c8a51094b8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_csd_pathfinder.py",
+      "bytes": 45682,
+      "sha256": "f817a9af13d6fe124beae490d430a745a7af21d0455be7fbd61994a7cc5ee0f0",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_full_csd_scan.py",
+      "bytes": 7238,
+      "sha256": "d0e1c5486add875ae3cdd7addf98ba6543b151489a2b500749b08305fd772408",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_manual_chemical_audit.py",
+      "bytes": 22918,
+      "sha256": "3c108f235b931cb7236179fda4b5145c96cea14e928f4aa6e38935ebf95d11e4",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_ablation.py",
+      "bytes": 18868,
+      "sha256": "6a26ed4a7c943d3fd05a6f9586dd17c5b2bb3f6c98d44fa0d6c124fd9496b750",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_ablation_gpu.py",
+      "bytes": 21999,
+      "sha256": "0e14b9ebc6da0bef5b7c52b120d0e6fd77881db311e53a6f3bc0afca040ee56f",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_from_preds.py",
+      "bytes": 7568,
+      "sha256": "e429f6998ab521451ffd4f04c7d5b69303f29bbb246f11f91b8cb09125c74750",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_tool_a_from_preds_ablation.py",
+      "bytes": 8896,
+      "sha256": "8917dd9b16bdc9c13075b1d027aaafd3d3a76180f75cc5cba139811698dbd870",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/run_toolb_baselines.py",
+      "bytes": 36092,
+      "sha256": "56aca05b406cb8b494827e83707165875bf24247a2120277104316a90e3fdaa3",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_revision_scripts/screen_visual_families.py",
+      "bytes": 18343,
+      "sha256": "7d670ee8a0eb0319559b3208a60b18ee4866137a764fabb18c25888c5b27cfea",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/README.md",
+      "bytes": 370,
+      "sha256": "b4704108e41a1971197fba607de53dd8af9326a766a3667577d45309df6b6d92",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/generate_identity_robustness_data.py",
+      "bytes": 7774,
+      "sha256": "4e970ee73441987cd119da1e1845305b811fa2ed4253bc03efa32d05f2abced4",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/generate_s3_data.py",
+      "bytes": 8357,
+      "sha256": "811e826fa8fb5a25ed482f258427b0fcc988f1e54db8fbfefd9e706eea46376a",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/jacs_style.py",
+      "bytes": 3881,
+      "sha256": "89448d7170f441d2dcdb2efa68f80662e4977f2f57823c5482bd4bd7d35f7b98",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/make_all_si_figures.py",
+      "bytes": 1943,
+      "sha256": "a65dfa4bbcffaef683341777cb1d056348f9fbf8049806fbd95ac56a847e45cd",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s2.py",
+      "bytes": 11278,
+      "sha256": "0c8d25ce83410f1cd3684e29e741760673aee386870ec869312d7e1dfd3af49c",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s3.py",
+      "bytes": 9328,
+      "sha256": "d7f0afc27d758052693447514ff27d2703dd548b9e9efc51f6dcb23aa7d78aec",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s4.py",
+      "bytes": 8216,
+      "sha256": "f213290639ef634a84f55b054f9d3a5948baa020fced63b463db5ade6c94933b",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s5.py",
+      "bytes": 13205,
+      "sha256": "e8146caefad44a8346a574a95984649ad724b395ee84eda196fd01076562a8d8",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s6.py",
+      "bytes": 11210,
+      "sha256": "f35a5bd601f328e6afa23c9642dea28314d91e6b70a560ea47b27ff7dcc2433b",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "archive/legacy_si_figures/plot_fig_s7.py",
+      "bytes": 9614,
+      "sha256": "a728ed6980d192c36b6a27e4677fa80c8f567e31c087d7a9ed1324571d3b4144",
+      "role": "release documentation or supporting source",
+      "publication_status": "historical/superseded"
+    },
+    {
+      "path": "audits/README.md",
+      "bytes": 651,
+      "sha256": "17d4336a357b055acf15316b93f86bcefa92e0abee4f08fbe06031247720748a",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/ALL_METAL_CLAIM_READY_SUMMARY.json",
+      "bytes": 61857,
+      "sha256": "111d7e5dded328d8f3aad386701da028c662135f1d1078c10ba125e711c4f373",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/FIGURE5_SOURCE.csv",
+      "bytes": 1383,
+      "sha256": "d10268b54eb310b84140b2fe91a8f347cfc7cb399282384615bd95a333f0861e",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/METAL_DOMAIN_CENSUS_PUBLIC.json",
+      "bytes": 5883,
+      "sha256": "2f89bb8779a84d9f0acf676f7aaf0079787dd5b12ae7461c3cc1151a0774486f",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/README.md",
+      "bytes": 1562,
+      "sha256": "d46155243bd7e435b703544d5639f2a4003d52d73db524909f975ec62e3d10fb",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/RUN_PROVENANCE.json",
+      "bytes": 16499,
+      "sha256": "e5354f2ff56651c8a0dbd91e360b4d0a87a1abf6d7ed3bf602e2794ad9be6f1e",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/SHA256SUMS.txt",
+      "bytes": 728,
+      "sha256": "8972acf78e5a271471cfe6d8df4411bad0037f177adf7fabe049c249a1f007e4",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/SOURCE_FIDELITY_PUBLIC.json",
+      "bytes": 692,
+      "sha256": "c704e08e8393e194975030f3f4e54673987aac165305acd2d620cd27ec817b10",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/STRUCTURAL_RECORD_AUDIT_PUBLIC.json",
+      "bytes": 6785,
+      "sha256": "35cff7e38651237d47231f87c6bb0942a3aa7d9b3f60753ee2c51e5c9faa5930",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "audits/full_csd/TABLE_S9_SOURCE.csv",
+      "bytes": 1244,
+      "sha256": "701ab8cf69d14eed1deed80e18c305aa9dd0e4da952df8787be121553a976b75",
+      "role": "full-CSD aggregate evidence",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/__init__.py",
+      "bytes": 598,
+      "sha256": "2ac17d3b03b9f325a7a8edab1ebb52d120f8f01da4e5e415d8bdc03e31591375",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/dataloader.py",
+      "bytes": 6745,
+      "sha256": "98212a8f80be898588ad2783a78bd2d38c14098d8dda6ee8c41a8b305580520e",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/masking.py",
+      "bytes": 7423,
+      "sha256": "5ee8a555520c711845b1179d36733af9d2e34cb92bfa81e9443f7cd27fecef55",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/model.py",
+      "bytes": 10245,
+      "sha256": "3f8e801dcb2d8953bf5a8e5d4b4f4e3a11514c845b489e13ef909ce6f33c4c54",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/tokenizer.py",
+      "bytes": 11155,
+      "sha256": "72b96f9152af8329f7573245116638dc070b82121f1eeae7fd0722db634d9e46",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "brain/train_v3.py",
+      "bytes": 12861,
+      "sha256": "98f286827ddc8c140ef2d7b3eb4303db9d35d8d2414efdfdf35d0def3bf8b69f",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/expanded_record_regressions/README.md",
+      "bytes": 857,
+      "sha256": "48e2866560e8142561b1fd56878b375c39ba2cb23050ce5b54424cbc7f138660",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/expanded_record_regressions/SHA256SUMS.txt",
+      "bytes": 237,
+      "sha256": "92d95971fd311673845f295e6a25cb6ba688eb28a08f8486bd290f82dbdbc73a",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/expanded_record_regressions/source_data.csv",
+      "bytes": 293,
+      "sha256": "50715adcb8ec69f69911dfa57414fa629c0ee486a854736ef1487abaaa8775de",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/expanded_record_regressions/summary.json",
+      "bytes": 455,
+      "sha256": "82000d77afee5f3e0ab922dea4d3f5432917f17539e9fda3327a15d81ee69002",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/PUBLIC_PROVENANCE.json",
+      "bytes": 1352,
+      "sha256": "376d4692ff3e82c8c31525a1356b931357557c91e3aa9c298362c4714e0c4b42",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/README.md",
+      "bytes": 5023,
+      "sha256": "139f48001c6ce9f4e2fedf1052095d08c8928e81fe81834969a369e751911045",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/SHA256SUMS.txt",
+      "bytes": 684,
+      "sha256": "40ed1cedf2eea721a857739ac3b290013a1ce06e3cfb8cd9648f48796b05f4a8",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/cohort_manifest.csv",
+      "bytes": 617465,
+      "sha256": "b4314d5b3d1f7a06d3d83af3df14df970aab73681b0210f2efa251cbaa35f1ae",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/fac_mer_specificity.csv",
+      "bytes": 1577,
+      "sha256": "f29acbc827c04096eeb2384852490a7bf6ce239d6ea295497da80df56d85a535",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/mismatch_variants.csv",
+      "bytes": 162,
+      "sha256": "7bb865ad70959e8dd5e73744c0597cc3ef115ec55014e12501340c0e4f99ff0b",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/run_canonical_stress.py",
+      "bytes": 62430,
+      "sha256": "1e41a850c8ced6cfa6482f0e9a48b17e1d630d90b0b0227f7a8d83c7993bef52",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/summary.json",
+      "bytes": 17919,
+      "sha256": "b13bfb38d75db8aa45482510e71b6e9d8d3a64b0608b6cc1fede787a04a549de",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/general_invariance/variant_summary.csv",
+      "bytes": 3090741,
+      "sha256": "9cecf452d3d785475d70d73c92b707914216b67237ec550669518cdcd01b0ad0",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/README.md",
+      "bytes": 827,
+      "sha256": "265cd5b64b87f3db7ed9a759e52aa3a15d7450e345fa192e54465470ecc88694",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/SHA256SUMS.txt",
+      "bytes": 647,
+      "sha256": "9de209a25f6cb8d85849ee4d27b82185db75f9269c26baff2c44ae6d52f43678",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/manifest.csv",
+      "bytes": 253297,
+      "sha256": "eb7776a2040682782f528861b5409679ed430b0e459b189fc9ba3138285203e0",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/protocol.md",
+      "bytes": 5507,
+      "sha256": "2d3a8f90464996acc16c71c287edb7204b7eaee3e1724adc259308d9406121d6",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/run_log.txt",
+      "bytes": 773,
+      "sha256": "160d30a0db04703bff293ca70c0dc84083c804b1b6a668b08ea5558725c668df",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/run_orbit_challenge.py",
+      "bytes": 39872,
+      "sha256": "a6541ad0fd29f08280af5045abdb260dac6db6d76610f6403bce06754b742314",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/screen_manifest.csv",
+      "bytes": 2535498,
+      "sha256": "7a52d3ee33b202fe61fc5dd10503e74e497a851be4e20a2e3f9367f12ff95b3b",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/source_data.csv",
+      "bytes": 336008,
+      "sha256": "5fbb52ca7a18e875d4cef0f0ca15bc780829e65937e9ab18a388aee9c7f367ec",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "canonicalization/legal_orbit_challenge/summary.json",
+      "bytes": 5240,
+      "sha256": "bc0bd26e23408c581f16182cfe540783ccc3bacf196ec34c116f372571b340fb",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/__init__.py",
+      "bytes": 929,
+      "sha256": "cd26d915aaad1e032eb3e523d37658aff58509658f952711bc8312f673c8f1bb",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/audit/__init__.py",
+      "bytes": 959,
+      "sha256": "4a8aa735f4b80b3c001a28725d4fb4a6d8cb84f466dd9da3684a5e73babf597d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/audit/csd_adapter.py",
+      "bytes": 53150,
+      "sha256": "6189c841de702982c7c30a4cc88b75a56b34b531a93882716dbd6e08f71c1c0d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/audit/distance_first_sphere_v2.py",
+      "bytes": 34538,
+      "sha256": "faa683541e3461c6925ca35066a5fc7c6fce39c3dd618578ab1673ac8ebb5653",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/audit/metal_policy.py",
+      "bytes": 3213,
+      "sha256": "6755372f97d1ded71423cbe9aa0279eeeae7c0b8b8ed726edf7f43dc800b8594",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/audit/records.py",
+      "bytes": 21246,
+      "sha256": "46802c608ef098c4446bf5300ccdf51a225996dfdebd1ee1a23b95681ad1b18d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/canonical/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/canonical/canonicalize.py",
+      "bytes": 10073,
+      "sha256": "753f13ed93dd9b41221097f72cd8f2a037c27bd3c202097a07df5c1b91866967",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/core.py",
+      "bytes": 11276,
+      "sha256": "6bc9c204c0ba53f08a09003dda777d161eb82ad741e9929489ebfee4db1bd08f",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/encode.py",
+      "bytes": 9814,
+      "sha256": "cbfb61492de3cb8853deb0eb24c7a0182fb455ca5d94f30da8f10f70a014d9a5",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/features/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/features/to_features.py",
+      "bytes": 4085,
+      "sha256": "9f837510598937d593e11dc2bd5fcf3e3311a57883c78a74af6365f3b56d7c67",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/geometry/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/geometry/cshm.py",
+      "bytes": 5014,
+      "sha256": "9d6f1be6c76b29a327e2dd32c1ca3484fa4ec72f50ef83eb95d2505cf10b12f3",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/geometry/rel_config.py",
+      "bytes": 6574,
+      "sha256": "9854495bc8b836576733137f7bcbd32b83d97182dbbdfe24a14930c130a78748",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/geometry/shape.py",
+      "bytes": 16982,
+      "sha256": "ee0e00809453e8bfc89eff343ac0db09029a73aae70ad6551c2e37b6521e3653",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/graph/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/graph/build_graph.py",
+      "bytes": 8526,
+      "sha256": "f1c9825b9767d2270bb0297c6e54d9f2ee1fd4a314548b75345e422eab335e77",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/graph/donor_sites.py",
+      "bytes": 5364,
+      "sha256": "0461a81a250f3f80f4d8110773420cd98cc4f0f2df36011b225baf3178e82648",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/graph/ligand_module.py",
+      "bytes": 13173,
+      "sha256": "4320ed2e0ca7565c35d231cb7216b7200e3f2664b86a5c2655c106783854949a",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/graph/neighbors.py",
+      "bytes": 3951,
+      "sha256": "ffa7e86de82e8e61733740e9451d605cb33c291a52819113a2962a2201f41038",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/identity/__init__.py",
+      "bytes": 735,
+      "sha256": "2715fb897951644f0ecc75f78f8c0d9720d2d125859cf00c78ef82e2a1ffd03e",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/identity/identity_keys.py",
+      "bytes": 10882,
+      "sha256": "b5c75abbde2986cdfdc0d3f9cdfc1bbe50cd9059254c26d88687993c335e2479",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/identity/shape_binning.py",
+      "bytes": 8232,
+      "sha256": "3212062a6f292e7ec1e9a4fcc06682b418f42466b91f3065a3797ed84028215e",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/identity/stability_consensus.py",
+      "bytes": 8015,
+      "sha256": "b4ed6fca4402ee1ba0d22b524bbf4ba5ed8d25216e050d802ca61b099d569928",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/io/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/io/cif_reader.py",
+      "bytes": 9182,
+      "sha256": "0d46fd1ddbc680e9d9348d4daba571fc89d98e8ab7df46189265f64b44201f0f",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/io/tmqm_reader.py",
+      "bytes": 9577,
+      "sha256": "e39d24e96bb534725b588269152340ccd9dfb293f0573ebae5327446f17d53b9",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/serialize/__init__.py",
+      "bytes": 281,
+      "sha256": "5c3a2a89566085cff1e430a812d96b0e7a524a70eda58ebd863cccea4ec68350",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/serialize/parse_string.py",
+      "bytes": 1217,
+      "sha256": "efcb1cc3bca0555a49f4a7f67ee33c3054fab4f0f6a52668265192cfafdb8a3a",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/serialize/to_string.py",
+      "bytes": 4428,
+      "sha256": "9bf507cad69d7de95adb1201a4117704e2bc5382bd23b616176e79de8dbfdc43",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/__init__.py",
+      "bytes": 329,
+      "sha256": "4909ff3600320dd1ea2fedfb2d2c729dd7f180eb6f9949fcab69c73a1d2ba079",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/canonicalize.py",
+      "bytes": 22441,
+      "sha256": "0de34f3f73237fdfd1da043d4388747bb65bbe4c13ca4d782f19c42e9ed14032",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/cases_haptic.py",
+      "bytes": 11708,
+      "sha256": "f94cc03de2b9c955faa727a8281d6c62d4c95204a0c5fc0a8024735dd84c3795",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/cases_multi.py",
+      "bytes": 29726,
+      "sha256": "45673bc080b5a00cb354c2cdf0d2348e25d106a1ce04c9da9a2bb77ad626afbc",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/core.py",
+      "bytes": 9365,
+      "sha256": "9cc9aec945ef2b037268ad042612e32b5ff571990347bad45cb9bf449f254564",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/csd_v2beta_adapter.py",
+      "bytes": 20997,
+      "sha256": "50b4059670c44d177c9367710c8b084c8c5ac4137efcd6faec88d6363ae8a01d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/serialize.py",
+      "bytes": 7816,
+      "sha256": "c001d4f81d9bac2a5b5f730cb97423cff7c16e04f559e56e743fd93833c5f376",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/v2beta/validate.py",
+      "bytes": 13937,
+      "sha256": "d1c2261ec7151c1a6f72ff4f5440cc65a80efc492d732daaacc7bd76aa6476e5",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/validate/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep/validate/checks.py",
+      "bytes": 5786,
+      "sha256": "65d1441d7a3790d00d03fe8389ee75f79fe8ace1352976ceb70e83c5d4f64b28",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/__init__.py",
+      "bytes": 1214,
+      "sha256": "f32436750463e08909fa41f0f8c6f696fad422bbbd62fcbf8f2f8c876505fe6c",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/ablation_masking.py",
+      "bytes": 17394,
+      "sha256": "8111b24ae848db55362b1f853ceff5324999e2f1ee8d53f14662d2f31b49df8a",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/baselines.py",
+      "bytes": 10296,
+      "sha256": "ca49479eff4dfa7f9ee2241e0b2be2648a76c5b7737694ae960714ac07f21ce7",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/compatibility_benchmark.py",
+      "bytes": 19510,
+      "sha256": "fb0b3e861bb826b8d9ae45f35e4e0ad325a93899fd715e0a1dabc45dd2fb3688",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/coordrep_ranker.py",
+      "bytes": 8228,
+      "sha256": "d82ddc29184ace91a862665235b6896050bec709d869c0a8e8d6bb5796b2afc2",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/coordrep_score.py",
+      "bytes": 17103,
+      "sha256": "87dd467d77543473fbf950090c858e6bdab1dcd4648886e891210525a2b17845",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/counterfactual_decoys.py",
+      "bytes": 14714,
+      "sha256": "c38e535f1f61ea262e6c06dab772850d5c2bdb68403c78d55d169a5fda977369",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/csd_adapter.py",
+      "bytes": 6230,
+      "sha256": "c1f69ce3cb1f9fbcfb13db1bf2ab7c36cd3ff48156c720528ce3e8ff0ad64fdd",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/csd_filtering_stats.py",
+      "bytes": 5151,
+      "sha256": "728530151f2d8c5192c889b46307790010e468d686a57403adaf3b055566bea8",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/csd_mof_periodic.py",
+      "bytes": 3934,
+      "sha256": "e25b8ba22dbe151e0a6de1942ab7f6a668273b39e20bc88e8faa3fe114c86eaf",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/gnn_baselines/__init__.py",
+      "bytes": 65,
+      "sha256": "4b12fcd8fba5d85807790082de4662d78642b0973f2d2c413029bf23a58c017a",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/gnn_baselines/datasets.py",
+      "bytes": 14871,
+      "sha256": "13f5b29fdf7b24294c642250277c38790d049d5a2607cb5c7a9e4bf52fba8a29",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/gnn_baselines/models.py",
+      "bytes": 8783,
+      "sha256": "6cd4ad68598841b9ae638a9fd17e25b80669e2215ccac1c1d9f990dc871521f0",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/gnn_baselines/non_neural.py",
+      "bytes": 6934,
+      "sha256": "6a4c12a8473228be21ae91e580c004d24869a2705bed14d04db50bdada472a5e",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/hard_decoys.py",
+      "bytes": 16387,
+      "sha256": "5fba6b8ac4f4f4d4547a4557f2059244ded2ee6a130ce070bec9f872f7f975e0",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/infer.py",
+      "bytes": 6701,
+      "sha256": "d6a1fac3b52272c653398c94f81bc0e8708080df06ec1b4cbd0ee6ce0fb6c00d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/minphys_features.py",
+      "bytes": 7374,
+      "sha256": "c49d07b39a4302b01b6e1e90da013fa85c654586aea9080328d7eb118bfb5be8",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/minphys_tokens.py",
+      "bytes": 2893,
+      "sha256": "118b7fa7190a05f4d04863832d3190422906a6abf0e4c0551603fd06188f7aef",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/ranker_dataset.py",
+      "bytes": 7083,
+      "sha256": "4e02ce752abd32593219ef67234a10be38db796208560fc92ab60bb5c27e58fa",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/ranker_losses.py",
+      "bytes": 2233,
+      "sha256": "5f75d64f191122726b04a75e5d255c996f62bc959a9c6b3c57bfac782f558d2d",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/tokenizer_variants.py",
+      "bytes": 4084,
+      "sha256": "5ca4c7fd3bc1382aa8c3b9c41a33d2bb8e3e40a8572164e7327c778cc743a3e4",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/tool_a_ablation_eval.py",
+      "bytes": 12628,
+      "sha256": "6125c72f0083b5084a0f960e7884f2c28434ddd287ac5fd7a236b61c1f033adf",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/tool_a_baselines.py",
+      "bytes": 11780,
+      "sha256": "b9fc1d48cfc1f59ac7638a3add7b86446ffe9620877d1a22d890872c2b06db5b",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/tool_a_donor.py",
+      "bytes": 8747,
+      "sha256": "c4218c6fb70b881ea1f2698686c664f1ec0d01a432574aeadd9f6c0685809257",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/tool_b_repair.py",
+      "bytes": 11689,
+      "sha256": "6ba23e94b5880e6dbc70739b75b9e754731ad60fb7f39f5ab97501711c5c961f",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "coordrep_tools/validate.py",
+      "bytes": 5485,
+      "sha256": "2a4f0f376567b200627014d193575333f6dd4f8364e07b409e214eb65fc1e619",
+      "role": "CoordRep implementation",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/FIGURE_MAP.md",
+      "bytes": 1964,
+      "sha256": "bda0765b84135605a06d0a3cf82c23cd6f9accb73d6c200b5771feed4ea269b6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_Cisplatin_3C_20260822.pdf",
+      "bytes": 94486,
+      "sha256": "41906c7ff9e56bcbcd0e4be1fffc0e8824b9b563931d414e58f19944b837f28f",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_Cisplatin_3C_20260822.svg",
+      "bytes": 108586,
+      "sha256": "ad7341248385b9b8d10b59ae2c4cfae65d15dbdce1c9ef84634662a5776a596a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_Cisplatin_3C_20260822_600dpi.png",
+      "bytes": 646502,
+      "sha256": "208f20eab5a641191b7118329a6fcd6e5311d501e9e35ee8c251c405254273f9",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_Cisplatin_3C_20260822_600dpi.tif",
+      "bytes": 819834,
+      "sha256": "526ff85f054f4591de20d3b6ad5b2b8f815ac2ce176ebdd7ec2d0d37285d6960",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_Cisplatin_3C_20260822_preview_180dpi.png",
+      "bytes": 155472,
+      "sha256": "e63b5abf909e82b8019672fa9d4460394cd123005130f9d0e52bcb480b0cbf3c",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_QA.json",
+      "bytes": 1488,
+      "sha256": "0aebaaea77deeb645ad39a57d932f677141fa300fb8ff3c4130a7d715143ad3f",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_caption_replacement.md",
+      "bytes": 2156,
+      "sha256": "31b1caacfc5e720923772fdcda6fd2459e10abeb521229f15e0d80943527a7be",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_manuscript_caption_20260828.txt",
+      "bytes": 1008,
+      "sha256": "abffe61bf4e32f98db04aa7a3166661ef60a8af20a65d2756c0864ea453f351e",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/Figure1_source_values.csv",
+      "bytes": 429,
+      "sha256": "a1d973420209b02a84943e8e91d0950f0d90af6cdc28af4cbd83543b9d70c1a8",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure1/README.md",
+      "bytes": 682,
+      "sha256": "80e483c9bafa6f0915026f60fc19e7e13dce68b33cff6b60cd0c450397bbe555",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822.pdf",
+      "bytes": 100165,
+      "sha256": "40c208296fbe1738092fa8945d560d4be92f6185e5dbcffbbd64fcd5f14354aa",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822.svg",
+      "bytes": 146563,
+      "sha256": "26fb0cd102ca23a8ba28a68720c81ccd8a70a71cffb863cf97bb2a640c22388d",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_600dpi.png",
+      "bytes": 747381,
+      "sha256": "c87525e7150a37997bf0f81a40da778f7ecce108a5f300953e8bf2f5c26e1620",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_600dpi.tif",
+      "bytes": 998072,
+      "sha256": "100e165f6cd41c3520be36b03b1b30435336d30cb845ee8fe21ef1b0448b90e6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_QA.json",
+      "bytes": 5962,
+      "sha256": "ac7c6ceac03fbe471206de4ac471b27a2ae7df4a2e651f295d4a32dc4e2e9e0a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_caption.txt",
+      "bytes": 2796,
+      "sha256": "bda1e24aec628bf0c79263cd8c266fd11c95477c4a586952a116ddd8179b21d3",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_preview_180dpi.png",
+      "bytes": 194342,
+      "sha256": "67c9f3022cf1c5d567b4a67355391011fcf31420dc0d69ccf29f3170f218422a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_Canonicalization_Ties_Specificity_20260822_source_data.csv",
+      "bytes": 8086,
+      "sha256": "7c4191044c173c623e475dd752246d08f8ec4638d9753545477d842682eaf695",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/Figure2_manuscript_caption_20260828.txt",
+      "bytes": 1488,
+      "sha256": "4600791f9b3d4c394a2f4e8aa6da5735ac885647bbbe139dfe4916049e0f75bc",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure2/README.md",
+      "bytes": 1098,
+      "sha256": "3c14215d18104c31c2975c26b66f1ffdade20caab8be2c4454a09f180b1a6af5",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_Continuous_Shape_Atlas_Examples_20260823.pdf",
+      "bytes": 112101,
+      "sha256": "34309a362d8b99ae4b17345b0e25170eaf53facb28126a724a85b2ef1ee1dd4d",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_Continuous_Shape_Atlas_Examples_20260823.svg",
+      "bytes": 340225,
+      "sha256": "dc0de5ce3847d41e33f34842275e4005fbb1b23a2b1504e9d294aa960f23049f",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_Continuous_Shape_Atlas_Examples_20260823_600dpi.png",
+      "bytes": 801618,
+      "sha256": "0640d9d012c70c7f7a9c10c584ff975366379cc1f6705dfdaf6260f85d9fc832",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_Continuous_Shape_Atlas_Examples_20260823_600dpi.tif",
+      "bytes": 1092246,
+      "sha256": "e75f73bf5f6fd72b748ff9e123455885320e4eb7954eaf686391066658f25a9b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_Continuous_Shape_Atlas_Examples_20260823_preview_180dpi.png",
+      "bytes": 204579,
+      "sha256": "a6f0c7921473b04139a9a1882d1d39422602f7c890c0f2380246094a0a03a6f8",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_QA.json",
+      "bytes": 2805,
+      "sha256": "e67db8f1ceedb2d150e176010705f75a4c884d900c71bc38f2896e6c4a869517",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_caption.txt",
+      "bytes": 1861,
+      "sha256": "f0a6c08d339e57e924bd66a31cc6ffc10efdb332fbecd8fd0d94ff7a5a9b69d4",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_example_source.csv",
+      "bytes": 322,
+      "sha256": "8be0b202c159642b199a3bf5656fee7fce1a47e7085b283c21cb305efad852b7",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_manuscript_caption_20260828.txt",
+      "bytes": 1696,
+      "sha256": "78ce5f3a9a2485ef261ee39e634b49add84466dc32e17055498ca05128b606b6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_panel_source.csv",
+      "bytes": 3462999,
+      "sha256": "6150b1c5ba712e9ae6d79c1860f3ee48d328dc9f2303d0e46064dccfdf64024c",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/Figure3_summary_and_internal_QC.csv",
+      "bytes": 485,
+      "sha256": "747351400a68b27190bb44c51607709f30f176772f5e1629b22759acc57f7428",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure3/README.md",
+      "bytes": 793,
+      "sha256": "cdb979c69210c5119a86bb3db47acde5d5a5348c69a1f4fdb18755b121992d52",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4A_Pt_cis_trans_2D_JACS_20260806.pdf",
+      "bytes": 47839,
+      "sha256": "de9e6962c6bf2b6e77d11b8605453195dfe00feb4d2518f35f617824953b75a2",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4A_Pt_cis_trans_2D_JACS_20260806.png",
+      "bytes": 132100,
+      "sha256": "c020ff5b3e1494dd22915420b55cb728d58fd64e4eaf9d3844932fbdbb73a3e2",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4A_Pt_cis_trans_2D_JACS_20260806.svg",
+      "bytes": 20872,
+      "sha256": "3feda084471832888602d51aa9d23948ef204bcd84e2c7c5b4dc145a8df2ae0b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806.pdf",
+      "bytes": 74147,
+      "sha256": "7cf3617fb7398a85a195a8439d1d61940d96fb69aaba3b58550a66c068b158a8",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806.png",
+      "bytes": 891414,
+      "sha256": "473bc3db31184e201da0d4165d5608655a9c904deba3bfc5e046d6e464a0f801",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806.svg",
+      "bytes": 77365,
+      "sha256": "6a5baedbc22650fb2f6e3980c933d53c588588746e01f42f84f702bd0ae612b9",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_AUDIT.json",
+      "bytes": 4232,
+      "sha256": "519aee65d6846e1bce51cc4f7d8fc575cbbd5e36d5eb3b4acd386495c98b22f7",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_caption.txt",
+      "bytes": 1841,
+      "sha256": "e661115c38ac0b18297f745f09207f15c55c91c992bfa132a817a659db56b8b9",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_Compositional_coordination_states_JACS_20260806_source_data.csv",
+      "bytes": 10321,
+      "sha256": "32dc5eef81c9778eb70385d337928b346cd19e669c303ddd2fcbb305f0e79e01",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/Figure4_manuscript_caption_20260828.txt",
+      "bytes": 1423,
+      "sha256": "8504dfcfb9796eaa95594326bc518c7266f87f03f6728b5b02ded30f149e0b20",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure4/README.md",
+      "bytes": 1457,
+      "sha256": "c3c41ef8956a92612cb951107efa76219e75acf04621527fa46cc5d48e320c37",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_FullRelease_MetalContaining_Audit_20260826.pdf",
+      "bytes": 67483,
+      "sha256": "b27a678481e8fb8ab68c0676d07e9ebc7e54d956b8151d1086f643c548163007",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_FullRelease_MetalContaining_Audit_20260826.png",
+      "bytes": 266975,
+      "sha256": "4a3c56bb09a7403045f20a215e9653a1c116194005a24b0a99c551f46205c7ca",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_FullRelease_MetalContaining_Audit_20260826.svg",
+      "bytes": 49884,
+      "sha256": "7eee47b8ab9a12d29c429e21858ad967a9459bbb364f90a599d6546273479e1a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_FullRelease_MetalContaining_Audit_20260826_600dpi.png",
+      "bytes": 773816,
+      "sha256": "0da31004e131205ea67fb52f3565ab64770413a1497e5b3fed802252a41202bc",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_FullRelease_MetalContaining_Audit_20260826_600dpi.tif",
+      "bytes": 1101082,
+      "sha256": "f9bed65c898f6420659e0e04e747332029e106bad813f54444b5d27d6ab240ab",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_caption_all_metal_20260826.txt",
+      "bytes": 928,
+      "sha256": "a5758be9ceda6b38b170c61e87c250c7d5735c47351f76860da83e9f60e64bf6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_manuscript_caption_20260828.txt",
+      "bytes": 928,
+      "sha256": "a5758be9ceda6b38b170c61e87c250c7d5735c47351f76860da83e9f60e64bf6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/Figure5_source_data_all_metal_20260826.csv",
+      "bytes": 1928,
+      "sha256": "bb3916a698e7f7cd12d74213329c969531687d26b3cb323a1872740216e4d6e7",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure5/README.md",
+      "bytes": 938,
+      "sha256": "f68e0bc1a225b619fcfc2e3cc18e73c97b8d1f5452b443675c0e5ea99569e16e",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823.pdf",
+      "bytes": 92438,
+      "sha256": "b0d6939e1f9834c9412582660b8bc59666c398eaee6b27024a661c88133ad3eb",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823.svg",
+      "bytes": 97246,
+      "sha256": "b75a31d39508394036f7fe4913a0ada6384e680d59dcbf31c02b75a046a7a283",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_600dpi.png",
+      "bytes": 1021336,
+      "sha256": "6104b29f9d833e2d0ab97c14949be89fcf188aec6906cafcce42d4fdc48dc77b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_600dpi.tif",
+      "bytes": 1477592,
+      "sha256": "3af6039f0f5e44b6e8938d54a7bd0e315a1896c942595be45166961f503e255b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_Multiresolution_Periodic_Stereo_20260823_preview_180dpi.png",
+      "bytes": 404497,
+      "sha256": "298a4a43eb71da636c049617ebb2486e8db69641f0d89323f236288d04ea5aa2",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_caption_20260823.txt",
+      "bytes": 3469,
+      "sha256": "d00e511782bb731f27bad0acf2219ade270abb82fd8b7bd0e631a30fb0034ca9",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_manuscript_caption_20260828.txt",
+      "bytes": 1122,
+      "sha256": "2929f7128c336c822421cc7962c509cc309b8cafa210b9c6268c280ee970caea",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_periodic_three_paragraphs_20260823.txt",
+      "bytes": 4117,
+      "sha256": "61009a9a21ce18d9c43920c20861a0a8c02b0d89c50850f183c150262de1b1ba",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/Figure6_source_data_20260823.csv",
+      "bytes": 6357,
+      "sha256": "1349792307dcc503055e9d52ed5a565afc55071be3fd047dfcb7763ef63fc2f3",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/MOF_stereochemical_pairing_by_shape.csv",
+      "bytes": 237,
+      "sha256": "751bd989621dd4e689587b0783ffbf8540f7b3836bd387af9fd034de90b962e2",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/MOF_stereochemical_pairing_by_spacegroup.csv",
+      "bytes": 134,
+      "sha256": "a698971f481d08b64900fd77f33b619b8eb32987fa8a91340e0999ff4591810e",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/MOF_stereochemical_pairing_summary.json",
+      "bytes": 1744,
+      "sha256": "03e45ed3659f3400df5ede7d889f3ee586bf39e026dd9508bdf1d4ff9248b919",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/README.md",
+      "bytes": 2203,
+      "sha256": "139e5dbaa9d105d80301b6f516a699625aa9e9f054b323b2785bcde0ca75181b",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/FIGURE6_MOLECULAR_RC3_RERUN_COMPARISON.json",
+      "bytes": 14102,
+      "sha256": "83c0ff97691b5844e007ba6f274583347c80fd16588483bab33ef2172e9de3ab",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/METHOD.md",
+      "bytes": 996,
+      "sha256": "1bbe8948184980a14d7a123d7421743bf660681e046944cf602ad64c00d83578",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Figure6/validation/molecular_rc3/SHA256SUMS.txt",
+      "bytes": 186,
+      "sha256": "bb861b5d2f60a9184c03f9506ebd4b5d3f6fb99837f143bde9a23f562aa792ba",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/README.md",
+      "bytes": 497,
+      "sha256": "79c62448ffc68ccfa6bbdd8afc29f1b8cc5c53262f50f8e0a1189c2bb3ac0afa",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.pdf",
+      "bytes": 240933,
+      "sha256": "09247a336317d09e33c7c29b2f96a6a192a46df7a99024571e409d92edef9cf6",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.png",
+      "bytes": 216990,
+      "sha256": "810ca2237717d7cefb44335c1856002c0920991541a29962857bab9c6d291612",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.svg",
+      "bytes": 130561,
+      "sha256": "e95bc546e77cde7bd89fde7e6a06f2d7703defb120ab42ebc554f1ef13c40131",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_Canonicalization_Complexity.tif",
+      "bytes": 401954,
+      "sha256": "f1c10fdeb67c2dd12257e4a1905b849adc4a42a091135da27f3c4b2d432f3e0a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_QA.json",
+      "bytes": 398,
+      "sha256": "76c14677fb9cbd172c60410a8f0c20ed291e3c36c417a610d47bddea8ffb3810",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_caption.txt",
+      "bytes": 1155,
+      "sha256": "f975b2e72f36a1469c485ddf27dfcb6332c6208a48339b2ab76ca4ae202b8055",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S1_source_data.csv",
+      "bytes": 988,
+      "sha256": "2e96667f3d36c1381d0c963d8b10d0fd6bab0fa6a404f23d6bdf33a353b2d868",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity.pdf",
+      "bytes": 56220,
+      "sha256": "43c96fd7410562ce2f3c06bdddc95d6c0034e795500dc23b03d568b69301da92",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity.svg",
+      "bytes": 49680,
+      "sha256": "0b8d9bc6eeccd6c5fdb9f97834112e0f0f5cc00fdfc707b03b3e9f7afb15da31",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_600dpi.png",
+      "bytes": 205841,
+      "sha256": "5c1eb71fac93959b4109fc7f347595b89b91b3860baf0a1eb394ab5cb81e468d",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_600dpi.tif",
+      "bytes": 342572,
+      "sha256": "e421234af2fb616afe90cc2d39865c4105beb89075bed89cc5c26d0dd8cf8467",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_caption.txt",
+      "bytes": 922,
+      "sha256": "334704dd37024af6eda1cc179abbe0789e64edc89001e3fe06a8918286bda976",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/Supplementary_Figure_S2_DeltaS_Threshold_Sensitivity_source_data.csv",
+      "bytes": 95476,
+      "sha256": "843035b83022ab3059b3ff0e900f52bc4eec5021b8a158aa2fccdc247b64754a",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "figures/Supplementary/generate_supplementary_figure_s1.py",
+      "bytes": 12499,
+      "sha256": "45816a9583efe62f40696dc53922495db8d629fee9f33077965fd34a2ec287fb",
+      "role": "figure artwork, caption, or public source data",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/painn_equivariant_model.py",
+      "bytes": 8011,
+      "sha256": "1f172adf5c0c13739ed90a1666a8155803da0dec74ca8ba6be8963e89d594e72",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/run_painn_3d_coordstatepairs_oof.py",
+      "bytes": 7257,
+      "sha256": "cdeac385a40474ae5de3f6701442fa6eb45d09bb8ff5c19089ef67380fea30d1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/run_schnet_3d_coordstatepairs_oof.py",
+      "bytes": 66687,
+      "sha256": "2baade9956ee9cabf98ecb22ef3fc33f31a87c7e550794eebd3eecc2246fe949",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/run_visnet_3d_coordstatepairs_oof.py",
+      "bytes": 5502,
+      "sha256": "edd2f3e424f50acae34abe17e3fe48c79bc824f8888a1f15cd748bc9e5107ce3",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/INVARIANCE_PREFLIGHT.json",
+      "bytes": 2370,
+      "sha256": "4d2b04ff43bcd9b5cf78503af101f9cd88f55cd219114bc1f12afb07f0769ac1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/MODEL_CARD.json",
+      "bytes": 3521,
+      "sha256": "9b49d86b54e0625e0e684d67607cf912f5d2fe452353dd831aab4eaf84898f50",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/dataset_audit.json",
+      "bytes": 7775,
+      "sha256": "48299e7d87d9f6f34d436ea962032156e95ca9c3d02f79ceaed70466f725f1d8",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/oof_metrics_by_fold_seed.csv",
+      "bytes": 3612,
+      "sha256": "2777f0d4b83f777712c999f961779de91e7ceccc8f2a8e502c51b635df85435b",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/oof_metrics_summary.csv",
+      "bytes": 520,
+      "sha256": "0c983b00a5d3db44f67df412618a8a4f18d831a5818cccb62407209eed450df7",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/pair_metric_schema.json",
+      "bytes": 1474,
+      "sha256": "c35fdf46c03dbb22bc7af5507aa1d87b12788befd073856670d656479fd110d3",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/pair_metrics.csv",
+      "bytes": 6320,
+      "sha256": "c4b124c53a46180487a43a68a047449002fcd2c43ed5fa6134b328e85758d842",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/pair_metrics_by_fold_seed.csv",
+      "bytes": 14683,
+      "sha256": "821bafcf12f0b2ee230839b28cda2f463c75dd3131444b2800fdaca196c7e8d1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/pair_metrics_by_seed.csv",
+      "bytes": 3234,
+      "sha256": "822d499a8011f055e86ddc50cf5e5c06e47629286e7cd83e3b7178ad9decc5c1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/schnet_3d_complete_radius_v2/prediction_schema.json",
+      "bytes": 863,
+      "sha256": "0a284c493acc24db597217be05f56a80787966ae520df57f233c31f55f8d6f5b",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/INVARIANCE_PREFLIGHT.json",
+      "bytes": 2451,
+      "sha256": "bac1df67c3211e6cbc1f06d00939976eddfe32ace767b33fd138ef12f48622a5",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/MODEL_CARD.json",
+      "bytes": 4183,
+      "sha256": "71f5d0f56249ce4c5a35d8879c7fc823764af74b281ef3d56ee5d0edc331d747",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/dataset_audit.json",
+      "bytes": 7886,
+      "sha256": "e6d5c6be634bc88c3122056b2c96c9f3e0d0e89029a332866ba8e388f4700e85",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/oof_metrics_by_fold_seed.csv",
+      "bytes": 3620,
+      "sha256": "cbbf0f7bdc57cf72d502c9358fd3e8b4008533fb0e82e3dd4d624208bb1d3b4b",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/oof_metrics_summary.csv",
+      "bytes": 521,
+      "sha256": "d483674a5fc97c2fe14800396fdcfc11d7ac17693a703d6e74e6cda6de3984ac",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/pair_metric_schema.json",
+      "bytes": 1474,
+      "sha256": "c35fdf46c03dbb22bc7af5507aa1d87b12788befd073856670d656479fd110d3",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/pair_metrics.csv",
+      "bytes": 6288,
+      "sha256": "39d29b7fb4cb7df1250d369c63b74de3569cee62c5da69ed6255012fc8fb57a5",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/pair_metrics_by_fold_seed.csv",
+      "bytes": 14573,
+      "sha256": "299bdfa4972efa5c51f1b4cf34c65bbd94cc8b8dafe6ecd0d31da9aabff90707",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/pair_metrics_by_seed.csv",
+      "bytes": 3218,
+      "sha256": "d5ed16752792c4fe36c6098a7d10163e25512c2715cab6367226777ee3efe2c6",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_3d_complete_radius_v2/prediction_schema.json",
+      "bytes": 893,
+      "sha256": "91ab0c69c748cd9a90e87219e720aa82eef2c9c50e2c82b15e30069ab2705968",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/E3_baselines/visnet_equivariant_model.py",
+      "bytes": 3986,
+      "sha256": "e3998848c36971ff806c91e3307787ec71f0054525290c22a1b935d5b48e08c1",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 603,
+      "sha256": "8fd216db5fe2f634a7018bc43392b884dd8334ddfc7aa0b57f8706b96fec445f",
+      "role": "model implementation or compact public result",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/CORRECTED_CSHM_CROSS_PIPELINE_PROTOCOL_v1.json",
+      "bytes": 3921,
+      "sha256": "afdfa9523dcf9fc1e5c07035523b3a2893fb8b7b9130e6baaa84572b18820356",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/CORRECTED_CSHM_HYBRID_OOF_PROTOCOL_v1.json",
+      "bytes": 3636,
+      "sha256": "2422e1c245d7ff4dd1ed7762ce4283330ee79926e382f98f4df0020c1da3cb95",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/CORRECTED_CSHM_HYBRID_OOF_PROTOCOL_v1.sha256",
+      "bytes": 109,
+      "sha256": "329c33a3f8baf00848f0c5c3c9d340df598d34dd05cd8374e2fbedcbc1b58b40",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.json",
+      "bytes": 6278,
+      "sha256": "b322a76d470a5db3be20af5e5a11cfd414be3ab71a9aa9d4cce845eb30f15b0c",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/CSD_MOF_PERIODIC_CANONICAL_LOCAL_SITE_PROTOCOL_v3.sha256",
+      "bytes": 121,
+      "sha256": "21a6d584c86a7163fd428eeeab118b60d9bb49b1f883ae3696935655a56e8801",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/VISNET_COORDSTATEPAIRS_POSTPROCESSING_PROTOCOL_v1.json",
+      "bytes": 6738,
+      "sha256": "ae22bda01c39fe46309724198af31a02527b6dcc2f8233ef1dfd271b62f38fc7",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/VISNET_COORDSTATEPAIRS_POSTPROCESSING_PROTOCOL_v1.sha256",
+      "bytes": 121,
+      "sha256": "73aefdfc08a3f0868f4d16a6bb9dd60c759f009c2620276bc797587e2025d392",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "protocols/VISNET_COORDSTATEPAIRS_PROTOCOL_v1.json",
+      "bytes": 3976,
+      "sha256": "4066707aa857a675fcc3d272d80d3b458dc5e6cc07e669f3fe402edc75ef345b",
+      "role": "frozen protocol",
+      "publication_status": "current"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1289,
+      "sha256": "082e001211c5101b98c4bb7b39629626dbff0b04fbaec1eefcbd71d9ed62996b",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "revision_results/box1_v2beta_examples/box1_v2beta_display_records.txt",
+      "bytes": 3943,
+      "sha256": "7fc90753d283488b7717f6e4c4bf7f6601b678daa3070b5d55938b87ba8029f0",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "revision_results/box1_v2beta_examples/box1_v2beta_full_records.jsonl",
+      "bytes": 5083,
+      "sha256": "7fcba17e25d354469700ddfe0451001ac760241a0a445a28a0db7dcbd9de21bc",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "revision_results/box1_v2beta_examples/box1_v2beta_identity_keys.csv",
+      "bytes": 842,
+      "sha256": "2b083493a4bce16463ad3ac08d638753903e5605e4c58cd4ffa918c360f2e8de",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "revision_results/box1_v2beta_examples/box1_v2beta_selection_notes.md",
+      "bytes": 6439,
+      "sha256": "cfc8ee4bf309462ee84c8d738976196d19bd09180f32a02d61e33269aabaa829",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "revision_results/box1_v2beta_examples/box1_v2beta_validation_report.csv",
+      "bytes": 3513,
+      "sha256": "debebf01de2cd77efa268244508ec182b9d47633d713c7d0d80aac15c27846cd",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/_export_fig2a_example.py",
+      "bytes": 8140,
+      "sha256": "c17e8ac96323b9c38eadce739155090bb731330fd2291d9b933a0c042e0b2cb0",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/analyze_csd_release_audit.py",
+      "bytes": 41202,
+      "sha256": "3340eb97c892b8c27916f5fbc97310256de8819dcaa422d7cf0bd8d56ff45a9c",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/audit_csd_ligand_components_phase1.py",
+      "bytes": 9767,
+      "sha256": "7ec520a6bd7ac6c271844e06cc2e8f715a7cbbfc51d47647566267388bfacf08",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/audit_csd_orphan_geometry_fallback.py",
+      "bytes": 23082,
+      "sha256": "1b21ae359e76ccbd394808e16db5b475326b2ac6a4b9fc96d1410a12d38b77e3",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/audit_rdkit_ligand_components_phase2.py",
+      "bytes": 6254,
+      "sha256": "9526b23f117f5bbaa6cb85e7f50187e285043c768580d058826d6eb3eb8cbda2",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/benchmark_identity_layers.py",
+      "bytes": 14342,
+      "sha256": "0023246e1dc5c3dd0ab074ed56c65cc8ca0ad006d80d20af0c07dea3a131b612",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/build_csd_audit_probability_manifest.py",
+      "bytes": 6043,
+      "sha256": "94d60caefabeed10b423a9cea549db1d467d187ef9a2940c1030a8c78adac9b8",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/census_all_metal_entries.py",
+      "bytes": 14194,
+      "sha256": "aeb5300e9e698545c98e7fce233d238555247d7859c014882bf538649160e215",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/convert.py",
+      "bytes": 6684,
+      "sha256": "9840a0f09ce5218d5610dd314da355c03058def7e934317cba7107508f805a0a",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/coordrep_examples_gen.py",
+      "bytes": 14840,
+      "sha256": "f1be1e7134b57c3c3cab0492c3fd9feaa5e41cb0c281c94d2363395441ac6d3e",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/csd_external_audit.py",
+      "bytes": 7896,
+      "sha256": "c7e2dfb80e2cc7013df5d6d80230412d1f5034d345bc51cb7d27645047ce5c77",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/csd_identity_family_benchmark.py",
+      "bytes": 9204,
+      "sha256": "2b95a111f5f5f61f8877d74ae0ac22d150fedf5059a66c2829c2e7ccb2ad6134",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/eval_coordrep_ranker.py",
+      "bytes": 23460,
+      "sha256": "a29b1fea8d6c7adf7d6aecabff9fca966003163a76317f7f9047d845068652a4",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/eval_ranker_minphys.py",
+      "bytes": 17232,
+      "sha256": "1f768a3237dc2bdfa093cceea03170646369995225f2a98c407e43c056af5c2d",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/export_box1_coordrep_records.py",
+      "bytes": 26547,
+      "sha256": "0e730e74d0aeb0358715bb72bbaecc53d5dc0ce1b2cb8b2ac0526f91d16ef9a6",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/export_fig4_field_learning.py",
+      "bytes": 40050,
+      "sha256": "a91b9d59f3c4963a0ad786c3552d5469cb5269662a4fcb371f085e85b2ae3468",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/export_representation_gap_benchmark.py",
+      "bytes": 28212,
+      "sha256": "36cd24f55d5427756f9ddc06b6636e12afa6f37e94beffe107ead87aa80c2385",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/factorized_token_ablation.py",
+      "bytes": 28867,
+      "sha256": "ca6d12f8b0ab5226b2eb3b88ad36a5a19eb7b7e770883a8a75023d614655849e",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/generate_extension_prototypes.py",
+      "bytes": 49383,
+      "sha256": "00593fb03433bcd5264b38199532bcc05e247382898aa1c6e9d9754a2dcd3e65",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/qc_hard_negative_audit.py",
+      "bytes": 15899,
+      "sha256": "2196530838bad9126f8d10c9bf5ed305e9290e0685a57d75f892f744789e1b8c",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/run_3d_baselines.py",
+      "bytes": 39148,
+      "sha256": "1bada841d1cafef90d0c82931d87174d6a94fe9a02400379d922cd15144a2297",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/run_csd_identity_baselines.py",
+      "bytes": 12769,
+      "sha256": "18d64f05b0b8802325121518927758a5a06e0f891c0d0b146bc6676608bb40d7",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/run_donor_annotation.py",
+      "bytes": 23666,
+      "sha256": "cf876d224cebaa690ed34f19c4ba18916159919746980e0c6233ca279c7d895f",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/run_hard_negative_ranker.py",
+      "bytes": 20257,
+      "sha256": "4a995b73b71054e0c553a4dd48efb5961148bc39a91019a9e7d8ee8baf44acff",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/gnn_baselines/run_taskB_analysis.py",
+      "bytes": 38445,
+      "sha256": "77b04251f6db6ddb43d66fa4a5109d42b0f3797fbf392701906416b72edb0174",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/launch_csd_release_audit.py",
+      "bytes": 18531,
+      "sha256": "5df8f0e0a1e5567d4f3117ac13757cfdaf7844ffd3039db5ea25a07f2b526fc6",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/merge_csd_release_record_shards.py",
+      "bytes": 32790,
+      "sha256": "6ad52c3036ba51806d1b7585763a347164aefce883eade900d72b417c1a3fb68",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/multidentate_coverage.py",
+      "bytes": 11822,
+      "sha256": "cfa1617a2e158650566855bf4f766f05ba34b470c5577db119850430cfa61772",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/multidentate_validator.py",
+      "bytes": 12497,
+      "sha256": "8823e1620fd9a2ac6430d281c11c333f04006d27d4e8c36db22dc6fab768718c",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/optimize_identity_key.py",
+      "bytes": 12001,
+      "sha256": "f7ef55c0cdc4afcd889138d4057c8f5e5d23dc29186f1c05f2ef0f3174118d8f",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/package_all_metal_audit_release.py",
+      "bytes": 14925,
+      "sha256": "d4ebece82311eb553bb32794f6fe97c834a152cdb3cf99f50d35596205a151b6",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/probe_ccdc_metal_policy.py",
+      "bytes": 1640,
+      "sha256": "889ee2f8fb5aeac8ac42edf1109d72a11e93387d4937ddb7761f181fefeb5b73",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/run_coordrep_compatibility.py",
+      "bytes": 11491,
+      "sha256": "dc654f0f72ef7366c293c2865c616f6033d2b6423385e4559622354541344507",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/run_csd_release_record_shard.py",
+      "bytes": 18759,
+      "sha256": "51238f685c7d3141094db6e2fab82ca80450fc853351a149d49f174f28d36215",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/run_hard_compatibility.py",
+      "bytes": 29390,
+      "sha256": "3c70bf424517cd0645c05687b60eb57de6b42954823e1dbdacb5e53799b4057d",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/scope_table_gen.py",
+      "bytes": 4471,
+      "sha256": "d78e531934f486d32cefb8c923d9e54b8cfc655f0e0821194514c386e3858b26",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/summarize_csd_audit_probability_pilot.py",
+      "bytes": 3347,
+      "sha256": "86da938421b480ddf399c9d40d77cb1b75acf5a9c021ec530b2339392dc0b2ce",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/test_geometric_robustness.py",
+      "bytes": 27182,
+      "sha256": "67c59806a50db7d1d52891ff00722763a208fe4910edab7a529aab943356ff4a",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/tokenizer_audit.py",
+      "bytes": 7643,
+      "sha256": "f0769f5a3a5a2f9e9c003a938b2d08b14bafba1a72b121c4765eb3e1d6d306a7",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/train_coordrep_ranker.py",
+      "bytes": 11860,
+      "sha256": "cc944f11e446c5023ecfbce3ae65190034ed9fa45f9fcc6f1b6ae44b98710b7d",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/train_ranker_minphys.py",
+      "bytes": 15949,
+      "sha256": "3e29839b040fc749decee7717b1bf7b710494fb821c85038055210ac5e08a843",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "scripts/validate_csd_release_record_fidelity.py",
+      "bytes": 39956,
+      "sha256": "fe8613c0c024da162a782bcbad571f32859081b11822e42622ddf1502642f2ca",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "supporting_information/README.md",
+      "bytes": 496,
+      "sha256": "0e5061de2d4e8a0e2f54d4a26952620aefc73f02c06135e7c71f87829ea2e99b",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "supporting_information/Supplementary_Methods_1_and_Tables_S9A_S9B_20260826.docx",
+      "bytes": 45734,
+      "sha256": "19f6671f69949656af9176a953db6d7ca5e998a20c6bf0b2189f50686605ccd3",
+      "role": "release documentation or supporting source",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 169,
+      "sha256": "27c767c6bf47e3e745cbebdaed4755de9ef23f3f312977d071b482c839999162",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/data/csd_audit_orphan_expected_shell_counts.json",
+      "bytes": 63,
+      "sha256": "0e666df33cb25689a76c0a7f88c0b34b0dac17bd9879e05cb400a326c1542136",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/data/csd_audit_orphan_refcodes.txt",
+      "bytes": 28,
+      "sha256": "8bf082c15407b085266d520c0471b003cb42bb55db4f37e2bc41c9fa8bf5dfb7",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/data/csd_audit_periodic_disorder_refcodes.txt",
+      "bytes": 35,
+      "sha256": "f8604f5132f2fc86454c5eb9e56ed87c0d9d667057590e8830f1bfe80b484462",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/data/csd_audit_smoke_refcodes.txt",
+      "bytes": 51,
+      "sha256": "ad1ec448296aa51e850ae0f42b85208779c56a8b2e0ec0e3109dee1558110441",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_all_metal_policy.py",
+      "bytes": 1388,
+      "sha256": "5069dc14de7032e27e47f4c7e7cd97e87184a333c89ddd45361e890b9da0cc1a",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_attachment_orbit_canonicalization.py",
+      "bytes": 8772,
+      "sha256": "891b1ef2db212e27af5b7de50c105eb6541493753606489d844341295f18836c",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_basic_encoding.py",
+      "bytes": 4251,
+      "sha256": "1b5c8f6f79567f0046b827f7996623000b16705da8f905f95f559a78a778e0e1",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_candidate_repairs.py",
+      "bytes": 5406,
+      "sha256": "a5e6de89b270e6203b26818ec9dac161f6e61a8ec96aac1777f51778eb3f4924",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_coordinate_cshm_shape_manual.py",
+      "bytes": 5600,
+      "sha256": "672181a17475a67a9eb23295283d8ef31ab798efb2f9627daf6a6b85e11cd3d5",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_coordrep_validator.py",
+      "bytes": 3195,
+      "sha256": "e9174e2279103d5625a9beb93267b3f2333fab67e2373c915c7f7dc331288282",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_core_exact_equivalent_relabeling.py",
+      "bytes": 5418,
+      "sha256": "53640182a24345a96184f152dcef03c93cb5aed954a7f8b32ff29b741b6a500b",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_csd_audit_records.py",
+      "bytes": 22218,
+      "sha256": "e1b0c78bbf81ab3acc3051a87c0e04555d6d9cc3c5a150f13d1c4037553dd41d",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_csd_hapticity_spellings.py",
+      "bytes": 694,
+      "sha256": "cae21db0427582861e242637f2cfa091215334450667a7b64fe92a827a159376",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_csd_orphan_fallback.py",
+      "bytes": 1031,
+      "sha256": "c5e2b1ff6ee38a8092d26b26fcc6c4bde37c218aebc225e5fc3f94f4804e6c46",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_distance_first_sphere_v2.py",
+      "bytes": 8238,
+      "sha256": "fd185cd83f9d6b3875b294ca526fba6f5946d1c45a4b67dedb5f4faea18d26f3",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_identity_keys.py",
+      "bytes": 4049,
+      "sha256": "49954536be61b2fea282eb93cc622f0d4706a4660d8b16280eda48ff5a3d0c2c",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_invariance.py",
+      "bytes": 8255,
+      "sha256": "ad4c4fc90879fb616ff2c736a259eee575cba0c30cf517ef9d1889c7270e1eab",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_manifest_paths.py",
+      "bytes": 1909,
+      "sha256": "3ca9a9d5fc2249ce0c44dff066e677d691e02c7b6e5867c61fab76541d5016b0",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_merge_csd_release_record_shards.py",
+      "bytes": 13949,
+      "sha256": "315cf7824cbc8a67149f31f4ba46e8acd07f7d2720db004faa208b55aed66aa4",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_multidentate_validator.py",
+      "bytes": 3347,
+      "sha256": "e037a8f927177f74d022c20aac98cdc722f18ab82e6e588f80cceebdd357a922",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_tokenizer_factorized.py",
+      "bytes": 4853,
+      "sha256": "eb0182c047c480acb11df1a7f86da5183570312105176d9ccdf1d55c45b88736",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_v2beta_exact_canonicalization.py",
+      "bytes": 9975,
+      "sha256": "5f1741cdb16a51125f26d82d503b5b8166ff148eb922863d1576b061d49bb498",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_v2beta_records.py",
+      "bytes": 7805,
+      "sha256": "17f80918c292ae6230ba40b55cb20399de56b7bd8873ea2fa9098be64ab51b6f",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    },
+    {
+      "path": "tests/test_version_alignment.py",
+      "bytes": 418,
+      "sha256": "9bd12e7f609fa4ccc53dc34700bd659f6afdf011be40dab1b99fb6704c0375b0",
+      "role": "regression test or small fixture",
+      "publication_status": "current"
+    }
+  ]
+}

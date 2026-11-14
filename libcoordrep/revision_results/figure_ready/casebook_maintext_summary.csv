@@ -1,0 +1,9 @@
+case_id,case_type,metal,CN,evidence,figure_message,caveat,main_or_SI
+A_ACUWOK,identity_ladder,Pt,4,"12 entries; 12 unique L0; 0/66 pairwise L0 matches; single L3; shapes={Td SP}","Geometry snapshots differ across conformers but connectivity identity (L3) links all 12 entries in the same family",–,main
+B_AFOSIA,boundary_geometry,Cr,6,"CShM(TPr)=4.49 CShM(Oh)=4.48 Δ=0.01; is_boundary=True; boundary_thresh<1.0","Boundary-aware CShM avoids brittle discrete shape labels; Δ=0.01 means shape assignment is arbitrary without continuous annotation","Extreme boundary; median Δ among boundary cases ≈ 0.5",main
+C_AGOTIA,grammar_repair,Re,7,"missing_bracket at pos 81 invalidates record; rule repair restores validity; 5/6 fields preserved (metal cn ox shape stereo ✓; ligand ✗)","Explicit CoordRep grammar enables deterministic repair and field audit; no ML needed for structural corruption","MLM repair does not outperform rule repair for structural corruption types",main
+D_CIJWUO,stereo_semantic,Cu,5,"trans→cis grammar-valid decoy; Ranker scores real=−2.48 decoy=−3.16; 5/5 all correct; margin range 0.10–0.68","CoordRep fields enable semantic consistency checking beyond raw geometry; stereo decoy passes all grammar checks but fails learned compatibility",–,main
+SI_CDMSOR,identity_ladder,Ru,6,"10 entries; 10 unique L0; single L3; shapes={Oh TPr}; has_boundary=True","Multi-shape family with boundary entries; L3 still links all",–,SI
+SI_ALACOH,boundary_geometry,Ru,6,"CShM(Oh)=4.33 CShM(TPr)=4.34 Δ=0.01","Another extreme CN=6 boundary case",–,SI
+SI_BATTIZ,stereo_semantic,Pd,4,"trans→cis N–Cl decoy; Ranker margin=+0.33; correct","Pd square-planar stereo case",–,SI
+SI_CIRRUS,stereo_semantic,Pt,4,"trans→cis C–C decoy; Ranker margin=+0.34; correct","Pt square-planar with C-donor stereo",–,SI

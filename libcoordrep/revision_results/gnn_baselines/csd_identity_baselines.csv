@@ -1,0 +1,8 @@
+method,n_families,n_entries,n_unique_keys,within_family_recall,cross_family_precision,within_pairs,within_matches
+SMILES_multiset,765,2172,653,0.9807,0.5354,6261,6140
+Metal+SMILES,765,2172,753,0.9709,0.7992,6261,6079
+WL_hash,765,2172,730,0.9828,0.7997,6261,6153
+CoordRep_L0,765,2172,1723,0.2436,0.9537,6261,1525
+CoordRep_L1,765,2172,1119,0.7183,0.8944,6261,4497
+CoordRep_L2,765,2172,906,0.7737,0.8501,6261,4844
+CoordRep_L3,765,2172,820,0.8299,0.8161,6261,5196

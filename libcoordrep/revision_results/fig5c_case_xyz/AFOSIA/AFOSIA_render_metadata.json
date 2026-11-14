@@ -1,0 +1,15 @@
+{
+  "case_id": "AFOSIA",
+  "source": "CSD",
+  "metal": "Cr",
+  "CN": 6,
+  "ligand_summary": "3 × THF (bidentate O), 2 × Cl, 1 × I → fac-[Cr(THF)3Cl2I]",
+  "purpose": "boundary",
+  "CShM_TPr": 4.49,
+  "CShM_Oh": 4.48,
+  "delta": 0.01,
+  "boundary_rule": "delta < 1.0",
+  "recommended_render": "AFOSIA_first_sphere.xyz or AFOSIA_polyhedron.xyz",
+  "figure_message": "Boundary-aware shape identity avoids brittle discrete shape assignment.",
+  "license_note": "CSD-derived coordinates for internal figure rendering only; do not redistribute raw XYZ."
+}

@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "control": "same GINE-plus-side-channel hybrid with every CoordRep field zero-masked after train-only standardization; complete attributed graph preserved",
+  "n_oof_records": 48057,
+  "n_seed_predictions_each_model": 144171,
+  "same_fold_manifest": true,
+  "same_pair_manifest": true,
+  "same_input_cohort_hashes": true,
+  "same_inner_grouped_validation_and_train_only_preprocessing": true,
+  "graph_overlap_zero_all_outer_and_inner_splits": true,
+  "parameter_pairs": [
+    {
+      "fold": 0,
+      "seed": 11,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 0,
+      "seed": 22,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 0,
+      "seed": 33,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 1,
+      "seed": 11,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 1,
+      "seed": 22,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 1,
+      "seed": 33,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 2,
+      "seed": 11,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 2,
+      "seed": 22,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 2,
+      "seed": 33,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 3,
+      "seed": 11,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 3,
+      "seed": 22,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 3,
+      "seed": 33,
+      "parameters": 352774,
+      "masked_columns": 200
+    },
+    {
+      "fold": 4,
+      "seed": 11,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 4,
+      "seed": 22,
+      "parameters": 352518,
+      "masked_columns": 198
+    },
+    {
+      "fold": 4,
+      "seed": 33,
+      "parameters": 352518,
+      "masked_columns": 198
+    }
+  ],
+  "n_complete_all_field_masks": 15,
+  "source_sha256": {
+    "full_member_predictions": "e9262523b7584cac541cb19a8fe9844297362b6d068c3a6d6a4dda98f4f97f54",
+    "graph_only_member_predictions": "70d7bc39a21fcf33893a039874437cc32dab72b647df2923e62eaa770c8c3495",
+    "full_run_metadata": "0160a1a7a53cb877b55df2e46196c958067a445da9adfb97ec4ac7a6408cb0e8",
+    "graph_only_run_metadata": "cd5c8c271bf7ec80f6b1be7c80047282335214c3cb7a324d9bd312e261a3886a"
+  },
+  "limitations": [
+    "The graph-only hybrid still has a constant side-channel branch, so it is an equal-parameter information ablation, not the most efficient graph-only architecture.",
+    "Automatic34 was target/prediction blind at lock, but chemically discovered post hoc.",
+    "Clean44 is conditioned on observed gap separation; treat its metrics as descriptive, not a confirmatory benchmark.",
+    "No causal conclusion about physical mechanisms follows from retrospective computed-property prediction."
+  ]
+}

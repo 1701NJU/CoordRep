@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "comparison": "exact Table S8 base hybrid vs same-parameter all-base-fields-masked GINE hybrid",
+  "records": 48057,
+  "graph_clusters": 46212,
+  "complete_seed_predictions_per_model": 144171,
+  "source_hashes": {
+    "table_s8_run_metadata": "acc852a0b0fc319fc8c23229cdd9c69293bf01d3d2a89f1e97bee7d7f42a4a57",
+    "table_s8_member_predictions": "f5148484934cf7f89114481c0359741b932b6d7c70d2f9418ba73b05a6c40592",
+    "graph_only_run_metadata": "dc557cb9cec732d64733901edc1d8f033cefe127faa562b4104207c207f366bc",
+    "graph_only_member_predictions": "1d2e151dec7a4d7ba43f73f33b593ae304a3b5e2bb9eb65fc6e93189be2bd030",
+    "record_source": "47b1882ecdb480cb974259897e0fa80dd67fbaef73c649e4a1c1a9d122f41a5a",
+    "property_source": "d8a16433563097e80b9b3b095b8dbd80dddcd9f3ddf02c5aacc512d768b553cf",
+    "fold_manifest": "c5f8f0a4dfb7cb9d06acff264774ad502732131345c4db6822eb110b324beb4e"
+  },
+  "training_settings_equal": true,
+  "outer_fold_and_inner_validation_audits_equal": true,
+  "pair_manifest_difference_not_training_input": {
+    "table_s8": "DEVELOPMENT_DERIVED_FROM_MEMBERS",
+    "new_graph_only": "FORMAL_FROZEN_PAIR_LEVELS"
+  },
+  "parameter_pairs": [
+    {
+      "fold": 0,
+      "seed": 11,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 0,
+      "seed": 22,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 0,
+      "seed": 33,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 1,
+      "seed": 11,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 1,
+      "seed": 22,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 1,
+      "seed": 33,
+      "parameters": 337414,
+      "masked_columns": 80
+    },
+    {
+      "fold": 2,
+      "seed": 11,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 2,
+      "seed": 22,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 2,
+      "seed": 33,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 3,
+      "seed": 11,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 3,
+      "seed": 22,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 3,
+      "seed": 33,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 4,
+      "seed": 11,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 4,
+      "seed": 22,
+      "parameters": 337542,
+      "masked_columns": 81
+    },
+    {
+      "fold": 4,
+      "seed": 33,
+      "parameters": 337542,
+      "masked_columns": 81
+    }
+  ],
+  "all_base_fields_zero_after_train_only_standardization": true,
+  "graph_overlap_zero": true,
+  "no_weight_checkpoints_saved": true,
+  "limitations": [
+    "Graph-only side branch is constant but retained to match parameter count; this is an information ablation.",
+    "Automatic34 was chemically discovered post hoc, though targets and predictions were absent at lock.",
+    "Unadjusted graph-cluster bootstrap intervals condition on the trained three-seed ensemble."
+  ]
+}

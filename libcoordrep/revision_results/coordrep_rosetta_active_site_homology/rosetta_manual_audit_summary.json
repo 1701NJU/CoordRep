@@ -1,0 +1,8 @@
+{
+  "n_high_confidence_audited": 60,
+  "top1_chemically_homologous_rate": 1.0,
+  "n_negative_controls": 20,
+  "false_positive_rate": 0.0,
+  "n_borderline": 20,
+  "borderline_homologous_rate": 0.65
+}

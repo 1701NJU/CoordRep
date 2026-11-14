@@ -1,0 +1,14 @@
+{
+  "description": "Synthetic token-level smoke test only; not a dataset record or a complete molecular structure.",
+  "model": "production_mlm",
+  "tokens": [
+    "[CLS]",
+    "[Metal:Fe|ox:+2|d:d6|CN:6]",
+    "<Shape:",
+    "Oh",
+    "=",
+    "[MASK]",
+    ">",
+    "[SEP]"
+  ]
+}

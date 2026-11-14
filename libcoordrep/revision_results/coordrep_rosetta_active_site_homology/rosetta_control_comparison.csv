@@ -1,0 +1,6 @@
+method,top1_correct_rate,top5_correct_rate,n_queries,notes
+coordrep_full,0.6667,0.7333,30,
+cshm_only,0.1,0.3,30,
+metal_cn_donor_baseline,0.6333,0.7333,30,
+L3_only,0.2333,0.2333,30,
+random_same_metal,0.3704,0.5926,27,

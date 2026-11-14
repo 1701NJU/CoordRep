@@ -1,0 +1,2 @@
+model,n,precision,recall,f1,jaccard,all_correct
+EGNN_3D_donor,1500,0.9983,0.9983,0.9983,0.9972,0.9907

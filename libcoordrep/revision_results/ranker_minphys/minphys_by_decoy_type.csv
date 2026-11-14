@@ -1,0 +1,6 @@
+decoy_type,minphys_only_auroc,ranker_base_auroc,ranker_minphys_auroc,shuffled_minphys_auroc
+boundary_hard,0.5,0.6979,0.7039,0.6968
+co_ligand_hard,0.5894,0.5555,0.5504,0.5528
+ligand_hard,0.5644,0.6557,0.6636,0.6561
+metal_hard,0.5,0.7922,0.8013,0.7923
+stereo_hard,0.5,0.9475,0.943,0.938

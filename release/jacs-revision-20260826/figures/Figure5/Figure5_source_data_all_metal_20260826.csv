@@ -1,0 +1,27 @@
+﻿panel,metric,count,denominator,percent,note
+B,All April 2025 CSD entries,1371757,1371757,100.0,frozen release
+B,Metal-containing census,783263,1371757,57.0993,frozen CCDC-derived metal policy
+B,Metal-containing census entries outside the audit corpus,36752,783263,4.6922,census-only complement
+B,Predefined audit corpus,746511,783263,95.3078,deposited-structure criterion
+B,Schema-valid records,746511,746511,100.0,all target entries
+B,Independent source-fidelity matches,746511,746511,100.0,no mismatch
+B,d-only metal-block signature,548730,746511,73.506,mutually exclusive
+B,f-only metal-block signature,48805,746511,6.5378,mutually exclusive
+B,p-only metal-block signature,54888,746511,7.3526,mutually exclusive
+B,s-only metal-block signature,33532,746511,4.4918,mutually exclusive
+B,mixed metal-block signature,60556,746511,8.1119,mutually exclusive
+B,Strict nonpolymeric single-metal,298932,746511,40.0439,mutually exclusive
+B,Nonpolymeric multimetal,295164,746511,39.5391,mutually exclusive
+B,Polymeric,152415,746511,20.417,mutually exclusive
+C,Entries with at least one structural site,741402,746511,99.3156,entry-level coverage
+C,Entries with every metal site structural,733004,746511,98.1906,entry-level coverage
+C,Structural metal sites,2574081,2608448,98.6825,site-level coverage
+C,Audit-only metal sites,34367,2608448,1.3175,explicitly retained
+C,Resolved entry outcomes,342524,746511,45.8833,mutually exclusive
+C,Partial entry outcomes,112519,746511,15.0727,mutually exclusive
+C,Disorder-ambiguous entry outcomes,286359,746511,38.3596,mutually exclusive
+C,All-sites audit-only entry outcomes,5109,746511,0.6844,mutually exclusive
+D,Shared-donor entries,213595,746511,28.6124,nonexclusive
+D,Confirmed haptic/pi entries,113726,746511,15.2343,nonexclusive
+D,Resolved nonzero-translation-edge entries,129092,746511,17.2927,nonexclusive
+D,Ambiguous collective-pi candidates,63,746511,0.0084,not forced to a hapticity

@@ -1,0 +1,129 @@
+{
+  "schema": "CoordRep-publication-wrapper-QA/1",
+  "date": "2026-11-14",
+  "status": "PASS",
+  "wrapper_version": "publication-wrapper/1",
+  "runtime": {
+    "python": "3.9.23",
+    "gemmi": "0.7.4",
+    "scipy": "1.13.1",
+    "networkx": "3.2.1",
+    "ccdc_native_smoke": "3.4.0",
+    "rdkit": "2025.09.1",
+    "numpy": "2.0.2"
+  },
+  "python_files_compiled": 51,
+  "frozen_algorithm_files_byte_identical": 44,
+  "algorithm_thresholds_changed": false,
+  "constructed_controls": {
+    "schema": "CoordRep-constructed-software-controls/1",
+    "status": "PASS",
+    "checks_passed": 18,
+    "deposited_compounds_tested": 0,
+    "licensed_CSD_input_required": false,
+    "checks": [
+      {
+        "control": "XYZ four-donor sphere encoded",
+        "passed": true
+      },
+      {
+        "control": "XYZ rotation translation and atom-order invariance",
+        "passed": true
+      },
+      {
+        "control": "Si is an eligible donor",
+        "passed": true
+      },
+      {
+        "control": "Original non-donor heavy atom screens an occluded candidate",
+        "passed": true
+      },
+      {
+        "control": "H is excluded as a donor and blocker",
+        "passed": true
+      },
+      {
+        "control": "Periodic image reconstruction retains six donors",
+        "passed": true
+      },
+      {
+        "control": "Periodic nonzero image is retained",
+        "passed": true
+      },
+      {
+        "control": "Periodic typed incidences retained",
+        "passed": true
+      },
+      {
+        "control": "Alternative disorder conditions are not unioned",
+        "passed": true
+      },
+      {
+        "control": "Source disorder selectors preserved",
+        "passed": true
+      },
+      {
+        "control": "No unsupported conformer probability assigned",
+        "passed": true
+      },
+      {
+        "control": "Reflection preserves MID",
+        "passed": true
+      },
+      {
+        "control": "Reflection changes SID for this labelled chiral frame",
+        "passed": true
+      },
+      {
+        "control": "All 24 donor orders preserve MID and SID",
+        "passed": true
+      },
+      {
+        "control": "Complete donor-image set matches",
+        "passed": true
+      },
+      {
+        "control": "Missing donor is a retained mismatch",
+        "passed": true
+      },
+      {
+        "control": "Additional donor is a retained mismatch",
+        "passed": true
+      },
+      {
+        "control": "Fixed 0.005 A positional tolerance",
+        "passed": true
+      }
+    ]
+  },
+  "public_upstream_download": {
+    "upstream_commit": "839c5024787724df5b13850f41fe631b80017074",
+    "TLS_verification_enabled": true,
+    "attempted": 44,
+    "trusted_CA_bundle_explicitly_selected": true,
+    "checksums_matched": 44
+  },
+  "public_molecular_reference_replay": {
+    "complete_donor_set_matches": 21,
+    "expected_donor_atoms": 103,
+    "matched_donor_atoms": 103,
+    "status": "PASS",
+    "reference_count": 21,
+    "input_source": "fresh checksum-verified public upstream downloads",
+    "references_given_to_encoder": false
+  },
+  "fresh_process_case01_replay": {
+    "status": "PASS",
+    "fresh_processes": 2,
+    "complete_payload_equal": true
+  },
+  "native_smoke_test": {
+    "execution_completed": true,
+    "chemical_accuracy_scored": false,
+    "requires_authorized_CSD": true,
+    "refcode": "TAXDOL"
+  },
+  "original_84case_results_modified": false,
+  "public_package_contains_raw_XYZ_or_CIF": false,
+  "limitations": "Crystal reference mappings and licensed coordinates are not bundled. Aggregate validation counts do not by themselves permit unrestricted end-to-end crystal-reference reproduction."
+}

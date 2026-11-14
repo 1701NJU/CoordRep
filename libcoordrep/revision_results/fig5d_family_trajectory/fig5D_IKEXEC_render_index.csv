@@ -1,0 +1,6 @@
+render_order,refcode,family_label,metal,CN,S_SP,S_Td,delta,shape_label,selection_reason,xyz_full,xyz_first_sphere,xyz_polyhedron,n_atoms_full,n_atoms_first_sphere,n_atoms_polyhedron
+1,IKEXEC,IKEXEC,Ni,4,12.1700,14.3800,2.2100,SP-like,trajectory start (most SP-like),IKEXEC_state01_full.xyz,IKEXEC_state01_first_sphere.xyz,IKEXEC_state01_polyhedron.xyz,44,11,5
+2,MIGTEE01,IKEXEC,Ni,4,21.4000,22.3000,0.9000,boundary,boundary state (delta = 0.90),IKEXEC_state02_full.xyz,IKEXEC_state02_first_sphere.xyz,IKEXEC_state02_polyhedron.xyz,32,11,5
+3,SONXUP,IKEXEC,Ni,4,19.6100,17.1100,2.5000,Td-like,early Td-leaning intermediate,IKEXEC_state03_full.xyz,IKEXEC_state03_first_sphere.xyz,IKEXEC_state03_polyhedron.xyz,40,11,5
+4,MIGTEE02,IKEXEC,Ni,4,19.5500,16.3400,3.2100,Td-like,late intermediate,IKEXEC_state04_full.xyz,IKEXEC_state04_first_sphere.xyz,IKEXEC_state04_polyhedron.xyz,32,11,5
+5,MIGTEE03,IKEXEC,Ni,4,18.1500,12.3600,5.7900,Td-like,trajectory end (most Td-like),IKEXEC_state05_full.xyz,IKEXEC_state05_first_sphere.xyz,IKEXEC_state05_polyhedron.xyz,32,11,5

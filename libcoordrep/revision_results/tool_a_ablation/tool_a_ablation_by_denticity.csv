@@ -1,0 +1,13 @@
+ablation_mode,denticity,n,top1_acc,top5_acc,mrr,mean_nll
+full_context,dent=1,9750,0.8471,0.9789,0.9041,0.5506
+full_context,dent=2,10242,0.8666,0.9837,0.9172,0.4678
+no_ligand_smiles_keep_length,dent=1,9746,0.614,0.8389,0.724,2.4691
+no_ligand_smiles_keep_length,dent=2,10238,0.6142,0.836,0.7245,2.5573
+no_ligand_smiles_collapsed,dent=1,9750,0.6058,0.9165,0.7295,2.1669
+no_ligand_smiles_collapsed,dent=2,10242,0.5841,0.886,0.7097,2.5291
+no_geometry_stereo,dent=1,9750,0.8442,0.9789,0.9026,0.5598
+no_geometry_stereo,dent=2,10242,0.8648,0.9838,0.9162,0.4739
+metal_cn_only,dent=1,9746,0.5981,0.8309,0.7099,2.4965
+metal_cn_only,dent=2,10238,0.6027,0.8302,0.7157,2.5767
+shuffled_ligand_smiles_control,dent=1,9750,0.204,0.4758,0.3321,11.4427
+shuffled_ligand_smiles_control,dent=2,10242,0.227,0.4739,0.3439,11.4541

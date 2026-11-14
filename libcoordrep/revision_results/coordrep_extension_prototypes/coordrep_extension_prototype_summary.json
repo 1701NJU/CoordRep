@@ -1,0 +1,18 @@
+{
+  "scope_statement": "CoordRep v1 remains restricted to mononuclear atom-resolved eta1 coordination snapshots.",
+  "multinuclear_extension": "prototype metal-centered record graph",
+  "haptic_extension": "prototype coordination-site object",
+  "claim_level": "feasibility demonstration only; not full production support",
+  "n_multinuclear_cases": 15,
+  "n_haptic_cases": 8,
+  "all_records_parse_valid": true,
+  "all_records_roundtrip_valid": true,
+  "multinuclear_validation": {
+    "all_parse_valid": true,
+    "all_roundtrip_valid": true
+  },
+  "haptic_validation": {
+    "all_parse_valid": true,
+    "all_roundtrip_valid": true
+  }
+}

@@ -1,0 +1,10 @@
+method,subset,n_groups,top1,mrr,win_rate,auroc,auroc_boundary_hard,auroc_co_ligand_hard,auroc_ligand_hard,auroc_metal_hard,auroc_stereo_hard
+Random,strict,1450,0.1234,0.3303,0.5003,0.5,,,,,
+Random,plausible,1501,0.1086,0.3092,0.4864,0.5,,,,,
+Random,all,1501,0.0613,0.2096,0.4927,0.5,,,,,
+CoordRep_MLM_PLL,strict,1450,0.2,0.4229,0.6273,0.6443,0.6079,,,0.6755,0.7448
+CoordRep_MLM_PLL,plausible,1501,0.2445,0.4447,0.652,0.6301,,0.5972,0.6681,,
+CoordRep_MLM_PLL,all,1501,0.0027,0.1136,0.4534,0.5694,0.6079,0.5972,0.6681,0.6755,0.7448
+CoordRep_Ranker,strict,1450,0.4566,0.62,0.769,0.7995,0.6979,,,0.7912,0.9475
+CoordRep_Ranker,plausible,1501,0.2132,0.4556,0.7156,0.6054,,0.5545,0.6565,,
+CoordRep_Ranker,all,1501,0.1199,0.3327,0.7455,0.7,0.6979,0.5545,0.6565,0.7912,0.9475

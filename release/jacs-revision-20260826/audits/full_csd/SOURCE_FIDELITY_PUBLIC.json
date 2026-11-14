@@ -1,0 +1,19 @@
+{
+  "database_sha256": "ec261f3d7d1484045cdec548753a2cfd8435501ca3794506e20c564888284777",
+  "failed": 0,
+  "metal_policy_id": "ccdc-3.6.0-is_metal-frozen-20260825-v1",
+  "metal_policy_sha256": "66f463ebb426898470c660174b38eebdf65140ed5fc5d31f03b5a0fba6e7c792",
+  "pass_rate": 1.0,
+  "passed": 746511,
+  "records": 746511,
+  "runtime": {
+    "ccdc": "3.6.0",
+    "implementation": "CPython",
+    "numpy": "2.2.6",
+    "platform": "Linux-4.18.0-305.65.1.1.kux.x86_64-x86_64-with-glibc2.35",
+    "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+    "scipy": "1.13.1"
+  },
+  "shards": 48,
+  "validator_sha256": "fe8613c0c024da162a782bcbad571f32859081b11822e42622ddf1502642f2ca"
+}

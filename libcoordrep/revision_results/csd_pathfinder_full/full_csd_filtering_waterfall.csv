@@ -1,0 +1,11 @@
+stage,count,retention_pct
+has_3d,1335141,94.47
+transition_metal,615498,43.55
+mononuclear,269030,19.04
+eta1,217163,15.37
+cn_ok,209826,14.85
+no_disorder,145728,10.31
+no_polymer,144271,10.21
+donor_ok,126197,8.93
+valid_smiles,126197,8.93
+valid_coordrep,124837,8.83

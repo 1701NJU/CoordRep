@@ -1,0 +1,5 @@
+case_id,molecular_refcode,mof_id,shared_metal,shared_donor_set,shared_bridge_or_haptic,shape_similarity,homology_score
+case_1,ACACCV10,ABETEJ,Cu,"Cu;O,O,O,O,O,O,O,O,O,O",,,1.0
+case_2,ACEXUB,ABUBUY,Zn,"Zn;N,N,N,N,N,N,O,O,O,O,O,O,O,O,O,O,O,O,O,O",,,0.7533
+case_3,ABIYOA,ABECUI,Co,"Co;N,N,O,O,O,O",,,1.0
+case_4,ACACCV10,ABETEJ,Cu+Cu,Cu+Cu;bridged,,,1.0

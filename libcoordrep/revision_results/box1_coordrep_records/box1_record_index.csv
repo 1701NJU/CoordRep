@@ -1,0 +1,5 @@
+example_id,display_name,role_in_box,source_database,source_id,formula_or_label,metal,oxidation_state,d_count,coordination_number,shape_best,shape_second,best_CShM,second_CShM,delta_CShM,boundary_flag,n_ligands,n_donor_sites,has_multidentate_ligand,has_fac_mer_relation,has_cis_trans_relation,parse_valid,roundtrip_valid,included_in_main_box,si_full_record_file,notes
+A,cis-[Pt(MeNH2)2I2],Monodentate square-planar record,CSD,IYIPOV,cis-[Pt(MeNH2)2I2],Pt,+2,d8,4,SP,Td,0.47,3.25,2.78,no,4,4,False,False,True,True,True,True,box1_si_full_records.txt,
+B,[Co(en)3]3+,Bidentate chelate record,CSD,JOXSOI,[Co(en)3]3+,Co,+3,d6,6,Oh,TPr,3.64,7.04,3.4,no,3,6,True,False,True,True,True,True,box1_si_full_records.txt,
+C_fac,fac-[Co(dien)(CN)3],Octahedral fac stereochemical record,CSD,IDARAG,fac-[Co(dien)(CN)3],Co,+3,d6,6,Oh,TPr,5.76,6.98,1.22,no,4,6,True,True,True,True,True,True,box1_si_full_records.txt,
+C_mer,mer-[Co(dien)(CN)3],Octahedral mer stereochemical record (SI),CSD,IDAREK,mer-[Co(dien)(CN)3],Co,+3,d6,6,TPr,Oh,5.34,5.67,0.33,no,4,6,True,True,True,True,True,False,box1_si_full_records.txt,

@@ -1,0 +1,466 @@
+{
+  "synthetic": {
+    "corrupted_only": {
+      "n": 2000,
+      "valid_rate_before": 0.509,
+      "valid_rate_after": 0.509,
+      "strict_valid_rate": 0.4785,
+      "exact_rate": 0.0,
+      "field_match_rate": 0.8402,
+      "recovery_rate": 0.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 400,
+          "valid_rate_after": 0.9675,
+          "strict_valid_rate": 0.815,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.865
+        },
+        "missing_bracket": {
+          "n": 400,
+          "valid_rate_after": 0.0,
+          "strict_valid_rate": 0.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8362
+        },
+        "missing_charge": {
+          "n": 400,
+          "valid_rate_after": 0.9675,
+          "strict_valid_rate": 0.9675,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        },
+        "token_swap": {
+          "n": 400,
+          "valid_rate_after": 0.2425,
+          "strict_valid_rate": 0.2425,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        },
+        "truncation": {
+          "n": 400,
+          "valid_rate_after": 0.3675,
+          "strict_valid_rate": 0.3675,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        }
+      }
+    },
+    "rule_only": {
+      "n": 2000,
+      "valid_rate_before": 0.509,
+      "valid_rate_after": 0.9975,
+      "strict_valid_rate": 0.9975,
+      "exact_rate": 0.1235,
+      "field_match_rate": 0.8592,
+      "recovery_rate": 0.9949,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.43,
+          "field_match_rate": 0.9337
+        },
+        "missing_bracket": {
+          "n": 400,
+          "valid_rate_after": 0.9975,
+          "strict_valid_rate": 0.9975,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8362
+        },
+        "missing_charge": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8279
+        },
+        "token_swap": {
+          "n": 400,
+          "valid_rate_after": 0.99,
+          "strict_valid_rate": 0.99,
+          "exact_rate": 0.1875,
+          "field_match_rate": 0.8646
+        },
+        "truncation": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        }
+      }
+    },
+    "edit_distance": {
+      "n": 2000,
+      "valid_rate_before": 0.509,
+      "valid_rate_after": 1.0,
+      "strict_valid_rate": 1.0,
+      "exact_rate": 0.1235,
+      "field_match_rate": 0.8592,
+      "recovery_rate": 1.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.43,
+          "field_match_rate": 0.9337
+        },
+        "missing_bracket": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8362
+        },
+        "missing_charge": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8279
+        },
+        "token_swap": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.1875,
+          "field_match_rate": 0.8646
+        },
+        "truncation": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        }
+      }
+    },
+    "char_bigram": {
+      "n": 2000,
+      "valid_rate_before": 0.509,
+      "valid_rate_after": 1.0,
+      "strict_valid_rate": 1.0,
+      "exact_rate": 0.1235,
+      "field_match_rate": 0.8592,
+      "recovery_rate": 1.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.43,
+          "field_match_rate": 0.9337
+        },
+        "missing_bracket": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8362
+        },
+        "missing_charge": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8279
+        },
+        "token_swap": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.1875,
+          "field_match_rate": 0.8646
+        },
+        "truncation": {
+          "n": 400,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        }
+      }
+    },
+    "coordrep_mlm": {
+      "n": 500,
+      "valid_rate_before": 0.502,
+      "valid_rate_after": 0.758,
+      "strict_valid_rate": 0.732,
+      "exact_rate": 0.0,
+      "field_match_rate": 0.599,
+      "recovery_rate": 0.5141,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 100,
+          "valid_rate_after": 0.99,
+          "strict_valid_rate": 0.86,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.865
+        },
+        "missing_bracket": {
+          "n": 100,
+          "valid_rate_after": 0.9,
+          "strict_valid_rate": 0.9,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.35
+        },
+        "missing_charge": {
+          "n": 100,
+          "valid_rate_after": 0.97,
+          "strict_valid_rate": 0.97,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.7933
+        },
+        "token_swap": {
+          "n": 100,
+          "valid_rate_after": 0.24,
+          "strict_valid_rate": 0.24,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.4583
+        },
+        "truncation": {
+          "n": 100,
+          "valid_rate_after": 0.69,
+          "strict_valid_rate": 0.69,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.5283
+        }
+      }
+    }
+  },
+  "csd_transfer": {
+    "corrupted_only": {
+      "n": 1876,
+      "valid_rate_before": 0.5661,
+      "valid_rate_after": 0.5661,
+      "strict_valid_rate": 0.5283,
+      "exact_rate": 0.0,
+      "field_match_rate": 0.8488,
+      "recovery_rate": 0.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 521,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 0.8733,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8816
+        },
+        "missing_bracket": {
+          "n": 491,
+          "valid_rate_after": 0.0,
+          "strict_valid_rate": 0.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8381
+        },
+        "missing_charge": {
+          "n": 258,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        },
+        "token_swap": {
+          "n": 174,
+          "valid_rate_after": 0.6839,
+          "strict_valid_rate": 0.6552,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8372
+        },
+        "truncation": {
+          "n": 432,
+          "valid_rate_after": 0.3796,
+          "strict_valid_rate": 0.3796,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8353
+        }
+      }
+    },
+    "rule_only": {
+      "n": 1876,
+      "valid_rate_before": 0.5661,
+      "valid_rate_after": 1.0,
+      "strict_valid_rate": 0.9973,
+      "exact_rate": 0.2457,
+      "field_match_rate": 0.8902,
+      "recovery_rate": 1.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 521,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.3436,
+          "field_match_rate": 0.9389
+        },
+        "missing_bracket": {
+          "n": 491,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8381
+        },
+        "missing_charge": {
+          "n": 258,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.9845,
+          "field_match_rate": 0.9974
+        },
+        "token_swap": {
+          "n": 174,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 0.9713,
+          "exact_rate": 0.1609,
+          "field_match_rate": 0.864
+        },
+        "truncation": {
+          "n": 432,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8372
+        }
+      }
+    },
+    "edit_distance": {
+      "n": 1876,
+      "valid_rate_before": 0.5661,
+      "valid_rate_after": 1.0,
+      "strict_valid_rate": 0.9973,
+      "exact_rate": 0.2457,
+      "field_match_rate": 0.8902,
+      "recovery_rate": 1.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 521,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.3436,
+          "field_match_rate": 0.9389
+        },
+        "missing_bracket": {
+          "n": 491,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8381
+        },
+        "missing_charge": {
+          "n": 258,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.9845,
+          "field_match_rate": 0.9974
+        },
+        "token_swap": {
+          "n": 174,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 0.9713,
+          "exact_rate": 0.1609,
+          "field_match_rate": 0.864
+        },
+        "truncation": {
+          "n": 432,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8372
+        }
+      }
+    },
+    "char_bigram": {
+      "n": 1876,
+      "valid_rate_before": 0.5661,
+      "valid_rate_after": 1.0,
+      "strict_valid_rate": 0.9973,
+      "exact_rate": 0.2457,
+      "field_match_rate": 0.8902,
+      "recovery_rate": 1.0,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 521,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.3436,
+          "field_match_rate": 0.9389
+        },
+        "missing_bracket": {
+          "n": 491,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8381
+        },
+        "missing_charge": {
+          "n": 258,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.9845,
+          "field_match_rate": 0.9974
+        },
+        "token_swap": {
+          "n": 174,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 0.9713,
+          "exact_rate": 0.1609,
+          "field_match_rate": 0.864
+        },
+        "truncation": {
+          "n": 432,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8372
+        }
+      }
+    },
+    "coordrep_mlm": {
+      "n": 500,
+      "valid_rate_before": 0.602,
+      "valid_rate_after": 0.852,
+      "strict_valid_rate": 0.82,
+      "exact_rate": 0.0,
+      "field_match_rate": 0.6063,
+      "recovery_rate": 0.6281,
+      "by_type": {
+        "delimiter_mismatch": {
+          "n": 100,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 0.86,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.88
+        },
+        "missing_bracket": {
+          "n": 100,
+          "valid_rate_after": 0.91,
+          "strict_valid_rate": 0.91,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.23
+        },
+        "missing_charge": {
+          "n": 100,
+          "valid_rate_after": 1.0,
+          "strict_valid_rate": 1.0,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.8333
+        },
+        "token_swap": {
+          "n": 100,
+          "valid_rate_after": 0.7,
+          "strict_valid_rate": 0.68,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.6583
+        },
+        "truncation": {
+          "n": 100,
+          "valid_rate_after": 0.65,
+          "strict_valid_rate": 0.65,
+          "exact_rate": 0.0,
+          "field_match_rate": 0.43
+        }
+      }
+    }
+  }
+}

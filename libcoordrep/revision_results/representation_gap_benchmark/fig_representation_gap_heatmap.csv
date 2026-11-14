@@ -1,0 +1,7 @@
+representation,collapse_invariance,stereo_separation,family_linking,boundary_detection,grammar_validation,multi_resolution_ID
+canonical_SMILES,0.5,0.0,0.0,0.0,0.0,0.0
+InChI_InChIKey,0.5,0.0,0.0,0.0,0.5,0.0
+raw_3D_coords,0.0,0.5,0.0,0.0,0.0,0.0
+CShM_vector,0.0,0.0,0.0,0.5,0.0,0.0
+CoordRep_full,1.0,1.0,1.0,1.0,1.0,1.0
+CoordRep_ID_L0_L3,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,125 @@
+{
+  "figure_mm": [
+    177.8,
+    127.0
+  ],
+  "font_family": "Arial",
+  "mathtext_roles": {
+    "roman": "Arial",
+    "italic": "Arial:italic",
+    "bold": "Arial:bold",
+    "fallback": null
+  },
+  "source_records": 48057,
+  "shape_supported_records": 35485,
+  "cn4_cn6_plotted_records": 33863,
+  "panel_order": {
+    "top_row": [
+      "A",
+      "B",
+      "C"
+    ],
+    "bottom_row": [
+      "D",
+      "E"
+    ]
+  },
+  "boundary_definition": "unrounded S(second) - S(best) < 1",
+  "panel_e": {
+    "records": [
+      "ABAJET",
+      "ABOXOI"
+    ],
+    "frozen_cn5_vector_order": [
+      "TBP",
+      "SPY"
+    ],
+    "structure_scope": "Zn plus five implemented donor atoms",
+    "coordinate_route": "tmQM/GFN2-xTB",
+    "alignment": "proper-rotation SPY fit followed by one common orthographic camera",
+    "common_camera": [
+      1.35,
+      -1.15,
+      0.9
+    ],
+    "values": [
+      {
+        "mol_id": "ABAJET",
+        "S_TBP": 4.478328474265158,
+        "S_SPY": 1.303864392888452,
+        "DeltaS": 3.174464081376706,
+        "boundary": false
+      },
+      {
+        "mol_id": "ABOXOI",
+        "S_TBP": 3.886806677349541,
+        "S_SPY": 3.3416487855638084,
+        "DeltaS": 0.5451578917857325,
+        "boundary": true
+      }
+    ],
+    "structures": {
+      "ABAJET": {
+        "payload_sha256": "ccd89a62246024432f8cc23c51ef4a684b64411a3ca42649fe0f8921b4b6a945",
+        "donor_indices_0based": [
+          14,
+          10,
+          2,
+          6,
+          1
+        ],
+        "donor_elements": [
+          "N",
+          "N",
+          "N",
+          "N",
+          "S"
+        ],
+        "Zn_donor_distances_A": [
+          2.1762778575308257,
+          2.2051972864650864,
+          2.2152824431728897,
+          2.2276551980250994,
+          2.267667558548662
+        ],
+        "SPY_alignment_error": 0.08945073196565355
+      },
+      "ABOXOI": {
+        "payload_sha256": "1edadc847bc41ead2cdf9f44fed1029e901ce88d51acef9a8ee4d2833fe546b4",
+        "donor_indices_0based": [
+          4,
+          1,
+          5,
+          6,
+          2
+        ],
+        "donor_elements": [
+          "O",
+          "O",
+          "N",
+          "N",
+          "O"
+        ],
+        "Zn_donor_distances_A": [
+          1.861269719559682,
+          1.8952911612294034,
+          1.9647387726895755,
+          1.9713988306078603,
+          2.3980204314795035
+        ],
+        "SPY_alignment_error": 0.06561762723971368
+      }
+    }
+  },
+  "assertions": {
+    "A_C_total": true,
+    "example_count": true,
+    "example_same_best_shape": true,
+    "example_same_metal_cn": true,
+    "example_boundary_split": true,
+    "structure_payload_hashes": true,
+    "structure_donor_indices": true,
+    "ABOXOI_long_contact_included": true,
+    "ABOXOI_3p11_contact_excluded": true
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "package_version": "1.1.2rc3",
+  "package_path": "release/jacs-revision-20260826",
+  "python_version": "3.12.7",
+  "rdkit_version": "2024.09.4",
+  "numpy_version": "1.26.4",
+  "source_sha256": {
+    "coordrep/core.py": "6bc9c204c0ba53f08a09003dda777d161eb82ad741e9929489ebfee4db1bd08f",
+    "coordrep/geometry/shape.py": "ee0e00809453e8bfc89eff343ac0db09029a73aae70ad6551c2e37b6521e3653",
+    "coordrep/geometry/rel_config.py": "9854495bc8b836576733137f7bcbd32b83d97182dbbdfe24a14930c130a78748",
+    "coordrep/canonical/canonicalize.py": "753f13ed93dd9b41221097f72cd8f2a037c27bd3c202097a07df5c1b91866967",
+    "coordrep/serialize/to_string.py": "9bf507cad69d7de95adb1201a4117704e2bc5382bd23b616176e79de8dbfdc43",
+    "coordrep/identity/identity_keys.py": "b5c75abbde2986cdfdc0d3f9cdfc1bbe50cd9059254c26d88687993c335e2479"
+  },
+  "cases": {
+    "Pt_cis": {
+      "name": "Pt_cis",
+      "metal": "Pt",
+      "oxidation": 2,
+      "cn": 4,
+      "donor_elements_by_position": [
+        "Cl",
+        "Cl",
+        "N",
+        "N"
+      ],
+      "donor_vectors_angstrom": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "nominal_smiles_multiset": [
+        "N",
+        "N",
+        "[Cl-]",
+        "[Cl-]"
+      ],
+      "ligand_attachment_set_keys": {
+        "L1": "[Cl-:1]",
+        "L2": "[Cl-:1]",
+        "L3": "[NH3:1]",
+        "L4": "[NH3:1]"
+      },
+      "ligand_donor_attachment_keys": {
+        "L1": [
+          "[Cl-:2]"
+        ],
+        "L2": [
+          "[Cl-:2]"
+        ],
+        "L3": [
+          "[NH3:2]"
+        ],
+        "L4": [
+          "[NH3:2]"
+        ]
+      },
+      "opposite_Cl_Cl_pairs": 0,
+      "trans_element_composition": {
+        "Cl-N": 2
+      },
+      "trans_relations": [
+        "L1:N:1--L3:Cl:1",
+        "L2:N:1--L4:Cl:1"
+      ],
+      "cis_relations": [
+        "L1:N:1--L2:N:1",
+        "L1:N:1--L4:Cl:1",
+        "L2:N:1--L3:Cl:1",
+        "L3:Cl:1--L4:Cl:1"
+      ],
+      "shape_reference_order": [
+        "Td",
+        "SP"
+      ],
+      "shape_values_unrounded": [
+        33.33333333332327,
+        0.0
+      ],
+      "shape_values_rounded": [
+        33.33,
+        0.0
+      ],
+      "shape_bin": "SP/Td.ideal.D3",
+      "constraint_signature": "T2_C4",
+      "L0_StateKey": "[Metal:Pt|ox:+2|d:d8|CN:4]<ShapeBest:SP|Class:ideal|Delta:3|V:33.33,0.00>{trans:L1:N:1--L3:Cl:1}{trans:L2:N:1--L4:Cl:1}{cis:L1:N:1--L2:N:1}{cis:L1:N:1--L4:Cl:1}{cis:L2:N:1--L3:Cl:1}{cis:L3:Cl:1--L4:Cl:1}|L1=SMILES:[NH3:1]|L2=SMILES:[NH3:1]|L3=SMILES:[Cl-:1]|L4=SMILES:[Cl-:1]|",
+      "L0_sha256": "a338c55a0def3470b5f5ada8d09cbb8d325560d8480df89b7c0fc189aabeceea",
+      "L1_ShapeID": "Pt|+2|CN4|SP/Td.ideal.D3|T2_C4|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L1_sha256": "b7909d13add88c84a23e836332586faf8e349fabc37e0b590b4a4e328b04cf1d",
+      "L2_TopoID": "Pt|CN4|SP|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L3_ConnID": "Pt|CN4|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]|CONNECTIVITY:NOMINAL_SMILES",
+      "reversed_ligand_traversal_L0_equal": true
+    },
+    "Pt_trans": {
+      "name": "Pt_trans",
+      "metal": "Pt",
+      "oxidation": 2,
+      "cn": 4,
+      "donor_elements_by_position": [
+        "Cl",
+        "N",
+        "Cl",
+        "N"
+      ],
+      "donor_vectors_angstrom": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "nominal_smiles_multiset": [
+        "N",
+        "N",
+        "[Cl-]",
+        "[Cl-]"
+      ],
+      "ligand_attachment_set_keys": {
+        "L1": "[Cl-:1]",
+        "L2": "[NH3:1]",
+        "L3": "[Cl-:1]",
+        "L4": "[NH3:1]"
+      },
+      "ligand_donor_attachment_keys": {
+        "L1": [
+          "[Cl-:2]"
+        ],
+        "L2": [
+          "[NH3:2]"
+        ],
+        "L3": [
+          "[Cl-:2]"
+        ],
+        "L4": [
+          "[NH3:2]"
+        ]
+      },
+      "opposite_Cl_Cl_pairs": 1,
+      "trans_element_composition": {
+        "Cl-Cl": 1,
+        "N-N": 1
+      },
+      "trans_relations": [
+        "L1:N:1--L2:N:1",
+        "L3:Cl:1--L4:Cl:1"
+      ],
+      "cis_relations": [
+        "L1:N:1--L3:Cl:1",
+        "L1:N:1--L4:Cl:1",
+        "L2:N:1--L3:Cl:1",
+        "L2:N:1--L4:Cl:1"
+      ],
+      "shape_reference_order": [
+        "Td",
+        "SP"
+      ],
+      "shape_values_unrounded": [
+        33.33333333332327,
+        0.0
+      ],
+      "shape_values_rounded": [
+        33.33,
+        0.0
+      ],
+      "shape_bin": "SP/Td.ideal.D3",
+      "constraint_signature": "T2_C4",
+      "L0_StateKey": "[Metal:Pt|ox:+2|d:d8|CN:4]<ShapeBest:SP|Class:ideal|Delta:3|V:33.33,0.00>{trans:L1:N:1--L2:N:1}{trans:L3:Cl:1--L4:Cl:1}{cis:L1:N:1--L3:Cl:1}{cis:L1:N:1--L4:Cl:1}{cis:L2:N:1--L3:Cl:1}{cis:L2:N:1--L4:Cl:1}|L1=SMILES:[NH3:1]|L2=SMILES:[NH3:1]|L3=SMILES:[Cl-:1]|L4=SMILES:[Cl-:1]|",
+      "L0_sha256": "58a7d4e46bd3455d9ace0aeab6527a74edd8732e16cd881e241e51df05ca90bd",
+      "L1_ShapeID": "Pt|+2|CN4|SP/Td.ideal.D3|T2_C4|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L1_sha256": "b7909d13add88c84a23e836332586faf8e349fabc37e0b590b4a4e328b04cf1d",
+      "L2_TopoID": "Pt|CN4|SP|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L3_ConnID": "Pt|CN4|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1]|CONNECTIVITY:NOMINAL_SMILES",
+      "reversed_ligand_traversal_L0_equal": true
+    },
+    "Co_fac": {
+      "name": "Co_fac",
+      "metal": "Co",
+      "oxidation": 3,
+      "cn": 6,
+      "donor_elements_by_position": [
+        "Cl",
+        "N",
+        "Cl",
+        "N",
+        "Cl",
+        "N"
+      ],
+      "donor_vectors_angstrom": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "nominal_smiles_multiset": [
+        "N",
+        "N",
+        "N",
+        "[Cl-]",
+        "[Cl-]",
+        "[Cl-]"
+      ],
+      "ligand_attachment_set_keys": {
+        "L1": "[Cl-:1]",
+        "L2": "[NH3:1]",
+        "L3": "[Cl-:1]",
+        "L4": "[NH3:1]",
+        "L5": "[Cl-:1]",
+        "L6": "[NH3:1]"
+      },
+      "ligand_donor_attachment_keys": {
+        "L1": [
+          "[Cl-:2]"
+        ],
+        "L2": [
+          "[NH3:2]"
+        ],
+        "L3": [
+          "[Cl-:2]"
+        ],
+        "L4": [
+          "[NH3:2]"
+        ],
+        "L5": [
+          "[Cl-:2]"
+        ],
+        "L6": [
+          "[NH3:2]"
+        ]
+      },
+      "opposite_Cl_Cl_pairs": 0,
+      "trans_element_composition": {
+        "Cl-N": 3
+      },
+      "trans_relations": [
+        "L1:N:1--L4:Cl:1",
+        "L2:N:1--L5:Cl:1",
+        "L3:N:1--L6:Cl:1"
+      ],
+      "cis_relations": [
+        "L1:N:1--L2:N:1",
+        "L1:N:1--L3:N:1",
+        "L1:N:1--L5:Cl:1",
+        "L1:N:1--L6:Cl:1",
+        "L2:N:1--L3:N:1",
+        "L2:N:1--L4:Cl:1",
+        "L2:N:1--L6:Cl:1",
+        "L3:N:1--L4:Cl:1",
+        "L3:N:1--L5:Cl:1",
+        "L4:Cl:1--L5:Cl:1",
+        "L4:Cl:1--L6:Cl:1",
+        "L5:Cl:1--L6:Cl:1"
+      ],
+      "shape_reference_order": [
+        "Oh",
+        "TPr"
+      ],
+      "shape_values_unrounded": [
+        0.0,
+        16.736755360769056
+      ],
+      "shape_values_rounded": [
+        0.0,
+        16.74
+      ],
+      "shape_bin": "Oh/TPr.ideal.D3",
+      "constraint_signature": "T3_C12",
+      "L0_StateKey": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.00,16.74>{trans:L1:N:1--L4:Cl:1}{trans:L2:N:1--L5:Cl:1}{trans:L3:N:1--L6:Cl:1}{cis:L1:N:1--L2:N:1}{cis:L1:N:1--L3:N:1}{cis:L1:N:1--L5:Cl:1}{cis:L1:N:1--L6:Cl:1}{cis:L2:N:1--L3:N:1}{cis:L2:N:1--L4:Cl:1}{cis:L2:N:1--L6:Cl:1}{cis:L3:N:1--L4:Cl:1}{cis:L3:N:1--L5:Cl:1}{cis:L4:Cl:1--L5:Cl:1}{cis:L4:Cl:1--L6:Cl:1}{cis:L5:Cl:1--L6:Cl:1}|L1=SMILES:[NH3:1]|L2=SMILES:[NH3:1]|L3=SMILES:[NH3:1]|L4=SMILES:[Cl-:1]|L5=SMILES:[Cl-:1]|L6=SMILES:[Cl-:1]|",
+      "L0_sha256": "e78cba1816af14fec0dccd07feadc0ee751968f0efdee3b13f81138cf9286f9c",
+      "L1_ShapeID": "Co|+3|CN6|Oh/TPr.ideal.D3|T3_C12|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L1_sha256": "79aed156d68925a30bc68e182b01aaccf2c539d648b1f46a67195c287ef7ba91",
+      "L2_TopoID": "Co|CN6|Oh|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L3_ConnID": "Co|CN6|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]|CONNECTIVITY:NOMINAL_SMILES",
+      "reversed_ligand_traversal_L0_equal": true
+    },
+    "Co_mer": {
+      "name": "Co_mer",
+      "metal": "Co",
+      "oxidation": 3,
+      "cn": 6,
+      "donor_elements_by_position": [
+        "Cl",
+        "Cl",
+        "Cl",
+        "N",
+        "N",
+        "N"
+      ],
+      "donor_vectors_angstrom": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "nominal_smiles_multiset": [
+        "N",
+        "N",
+        "N",
+        "[Cl-]",
+        "[Cl-]",
+        "[Cl-]"
+      ],
+      "ligand_attachment_set_keys": {
+        "L1": "[Cl-:1]",
+        "L2": "[Cl-:1]",
+        "L3": "[Cl-:1]",
+        "L4": "[NH3:1]",
+        "L5": "[NH3:1]",
+        "L6": "[NH3:1]"
+      },
+      "ligand_donor_attachment_keys": {
+        "L1": [
+          "[Cl-:2]"
+        ],
+        "L2": [
+          "[Cl-:2]"
+        ],
+        "L3": [
+          "[Cl-:2]"
+        ],
+        "L4": [
+          "[NH3:2]"
+        ],
+        "L5": [
+          "[NH3:2]"
+        ],
+        "L6": [
+          "[NH3:2]"
+        ]
+      },
+      "opposite_Cl_Cl_pairs": 1,
+      "trans_element_composition": {
+        "Cl-Cl": 1,
+        "Cl-N": 1,
+        "N-N": 1
+      },
+      "trans_relations": [
+        "L1:N:1--L2:N:1",
+        "L3:N:1--L4:Cl:1",
+        "L5:Cl:1--L6:Cl:1"
+      ],
+      "cis_relations": [
+        "L1:N:1--L3:N:1",
+        "L1:N:1--L4:Cl:1",
+        "L1:N:1--L5:Cl:1",
+        "L1:N:1--L6:Cl:1",
+        "L2:N:1--L3:N:1",
+        "L2:N:1--L4:Cl:1",
+        "L2:N:1--L5:Cl:1",
+        "L2:N:1--L6:Cl:1",
+        "L3:N:1--L5:Cl:1",
+        "L3:N:1--L6:Cl:1",
+        "L4:Cl:1--L5:Cl:1",
+        "L4:Cl:1--L6:Cl:1"
+      ],
+      "shape_reference_order": [
+        "Oh",
+        "TPr"
+      ],
+      "shape_values_unrounded": [
+        0.0,
+        16.736755360769056
+      ],
+      "shape_values_rounded": [
+        0.0,
+        16.74
+      ],
+      "shape_bin": "Oh/TPr.ideal.D3",
+      "constraint_signature": "T3_C12",
+      "L0_StateKey": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.00,16.74>{trans:L1:N:1--L2:N:1}{trans:L3:N:1--L4:Cl:1}{trans:L5:Cl:1--L6:Cl:1}{cis:L1:N:1--L3:N:1}{cis:L1:N:1--L4:Cl:1}{cis:L1:N:1--L5:Cl:1}{cis:L1:N:1--L6:Cl:1}{cis:L2:N:1--L3:N:1}{cis:L2:N:1--L4:Cl:1}{cis:L2:N:1--L5:Cl:1}{cis:L2:N:1--L6:Cl:1}{cis:L3:N:1--L5:Cl:1}{cis:L3:N:1--L6:Cl:1}{cis:L4:Cl:1--L5:Cl:1}{cis:L4:Cl:1--L6:Cl:1}|L1=SMILES:[NH3:1]|L2=SMILES:[NH3:1]|L3=SMILES:[NH3:1]|L4=SMILES:[Cl-:1]|L5=SMILES:[Cl-:1]|L6=SMILES:[Cl-:1]|",
+      "L0_sha256": "5fd1ea87c37e3a40aef9725b4a3f04ba507ddf4c555237a765b988981669e6f9",
+      "L1_ShapeID": "Co|+3|CN6|Oh/TPr.ideal.D3|T3_C12|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L1_sha256": "79aed156d68925a30bc68e182b01aaccf2c539d648b1f46a67195c287ef7ba91",
+      "L2_TopoID": "Co|CN6|Oh|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L3_ConnID": "Co|CN6|SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[Cl-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]|CONNECTIVITY:NOMINAL_SMILES",
+      "reversed_ligand_traversal_L0_equal": true
+    },
+    "Co_glycinato_tetraammine": {
+      "name": "Co_glycinato_tetraammine",
+      "metal": "Co",
+      "oxidation": 3,
+      "cn": 6,
+      "donor_elements_by_position": [
+        "N",
+        "O",
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "donor_vectors_angstrom": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "nominal_smiles_multiset": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "NCC(=O)[O-]"
+      ],
+      "ligand_attachment_set_keys": {
+        "L1": "O=C(C[NH2:1])[O-:1]",
+        "L2": "[NH3:1]",
+        "L3": "[NH3:1]",
+        "L4": "[NH3:1]",
+        "L5": "[NH3:1]"
+      },
+      "ligand_donor_attachment_keys": {
+        "L1": [
+          "O=C(C[NH2:2])[O-:1]",
+          "O=C(C[NH2:1])[O-:2]"
+        ],
+        "L2": [
+          "[NH3:2]"
+        ],
+        "L3": [
+          "[NH3:2]"
+        ],
+        "L4": [
+          "[NH3:2]"
+        ],
+        "L5": [
+          "[NH3:2]"
+        ]
+      },
+      "opposite_Cl_Cl_pairs": 0,
+      "trans_element_composition": {
+        "N-N": 2,
+        "N-O": 1
+      },
+      "trans_relations": [
+        "L1:N:1--L2:N:1",
+        "L1:O:1--L3:N:1",
+        "L4:N:1--L5:N:1"
+      ],
+      "cis_relations": [
+        "L1:N:1--L1:O:1",
+        "L1:N:1--L3:N:1",
+        "L1:N:1--L4:N:1",
+        "L1:N:1--L5:N:1",
+        "L1:O:1--L2:N:1",
+        "L1:O:1--L4:N:1",
+        "L1:O:1--L5:N:1",
+        "L2:N:1--L3:N:1",
+        "L2:N:1--L4:N:1",
+        "L2:N:1--L5:N:1",
+        "L3:N:1--L4:N:1",
+        "L3:N:1--L5:N:1"
+      ],
+      "shape_reference_order": [
+        "Oh",
+        "TPr"
+      ],
+      "shape_values_unrounded": [
+        0.0,
+        16.736755360769056
+      ],
+      "shape_values_rounded": [
+        0.0,
+        16.74
+      ],
+      "shape_bin": "Oh/TPr.ideal.D3",
+      "constraint_signature": "T3_C12",
+      "L0_StateKey": "[Metal:Co|ox:+3|d:d6|CN:6]<ShapeBest:Oh|Class:ideal|Delta:3|V:0.00,16.74>{trans:L1:N:1--L2:N:1}{trans:L1:O:1--L3:N:1}{trans:L4:N:1--L5:N:1}{cis:L1:N:1--L1:O:1}{cis:L1:N:1--L3:N:1}{cis:L1:N:1--L4:N:1}{cis:L1:N:1--L5:N:1}{cis:L1:O:1--L2:N:1}{cis:L1:O:1--L4:N:1}{cis:L1:O:1--L5:N:1}{cis:L2:N:1--L3:N:1}{cis:L2:N:1--L4:N:1}{cis:L2:N:1--L5:N:1}{cis:L3:N:1--L4:N:1}{cis:L3:N:1--L5:N:1}|L1=SMILES:O=C(C[NH2:1])[O-:1]|L2=SMILES:[NH3:1]|L3=SMILES:[NH3:1]|L4=SMILES:[NH3:1]|L5=SMILES:[NH3:1]|",
+      "L0_sha256": "af2b865048ed6da96088dcd09aaa424a02c25ca6edbe80e34a309b017d5051ee",
+      "L1_ShapeID": "Co|+3|CN6|Oh/TPr.ideal.D3|T3_C12|SMILES:O=C(C[NH2:1])[O-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L1_sha256": "a2fdafa72789dfa2d01c11efc1c57095a5b51bfc1f483948c5b67786575ba64a",
+      "L2_TopoID": "Co|CN6|Oh|SMILES:O=C(C[NH2:1])[O-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]",
+      "L3_ConnID": "Co|CN6|SMILES:O=C(C[NH2:1])[O-:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1];SMILES:[NH3:1]|CONNECTIVITY:NOMINAL_SMILES",
+      "reversed_ligand_traversal_L0_equal": true,
+      "same_ligand_cis_relation_in_L0": "{cis:L1:N:1--L1:O:1}",
+      "dropped_in_L1": [
+        "L1:N:1",
+        "L1:O:1",
+        "{cis:L1:N:1--L1:O:1}"
+      ]
+    }
+  },
+  "pairs": {
+    "cis_trans": {
+      "cases": [
+        "Pt_cis",
+        "Pt_trans"
+      ],
+      "fixed_fields": {
+        "metal": true,
+        "oxidation": true,
+        "cn": true,
+        "donor_vectors_angstrom": true,
+        "nominal_smiles_multiset": true,
+        "shape_reference_order": true,
+        "shape_values_rounded": true,
+        "shape_bin": true
+      },
+      "layer_key_equal": {
+        "L0_StateKey": false,
+        "L1_ShapeID": true,
+        "L2_TopoID": true,
+        "L3_ConnID": true
+      },
+      "L1_collision": true,
+      "trans_element_composition_differs": true
+    },
+    "fac_mer": {
+      "cases": [
+        "Co_fac",
+        "Co_mer"
+      ],
+      "fixed_fields": {
+        "metal": true,
+        "oxidation": true,
+        "cn": true,
+        "donor_vectors_angstrom": true,
+        "nominal_smiles_multiset": true,
+        "shape_reference_order": true,
+        "shape_values_rounded": true,
+        "shape_bin": true
+      },
+      "layer_key_equal": {
+        "L0_StateKey": false,
+        "L1_ShapeID": true,
+        "L2_TopoID": true,
+        "L3_ConnID": true
+      },
+      "L1_collision": true,
+      "trans_element_composition_differs": true
+    }
+  },
+  "limitations": [
+    "Constructed ideal donor shells with manually declared canonical ligand SMILES and ligand-local atom-map descriptors; not full structural ingestion.",
+    "Runs the published rc3 production shape, relation, exact canonicalization, serialization, and L0-L3 key path.",
+    "These pairwise controls establish the stated L1 collisions only, not a corpus collision frequency.",
+    "For monodentate M(A)3(B)3, fac/mer differs in pairwise relations; the detector's explicit fm marker is limited to a denticity-three ligand."
+  ]
+}

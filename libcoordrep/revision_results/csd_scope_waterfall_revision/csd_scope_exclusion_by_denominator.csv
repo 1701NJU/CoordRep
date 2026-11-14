@@ -1,0 +1,13 @@
+category,n_entries,percent_of_total_CSD,percent_of_TM_candidates,percent_of_coordination_candidates,percent_of_v1_candidates,interpretation
+total_CSD_entries,1413222,100.0,229.61,650.77,1119.85,Total entries in CSD 2024.3
+no_compatible_3D,78081,5.53,12.69,35.96,61.87,Lack atom-resolved 3D coordinates
+no_transition_metal,719643,50.92,116.92,331.38,570.25,Organic or main-group only
+transition_metal_candidates,615498,43.55,100.0,283.43,487.73,Contain ≥1 TM with 3D (denominator 2)
+multinuclear_or_extended,346468,24.52,56.29,159.54,274.55,"Di-/polynuclear, clusters, MOFs"
+haptic_or_pi,51867,3.67,8.43,23.88,41.1,Mononuclear with η>1 haptic/π sites
+disorder_or_partial_occupancy,64098,4.54,10.41,29.52,50.79,Crystallographic disorder prevents unambiguous encoding
+incompatible_bonding_graph,26868,1.9,4.37,12.37,21.29,"CN outside 2–6, polymeric, donor/SMILES issues"
+outside_v1_grammar_other,0,0.0,0.0,0.0,0.0,Residual exclusions
+intended_v1_candidates,126197,8.93,20.5,58.11,100.0,Within CoordRep v1 intended scope (denominator 3)
+in_domain_conversion_failures,1360,0.1,0.22,0.63,1.08,In-domain entries failing final serialization
+valid_CoordRep_v1_records,124837,8.83,20.28,57.49,98.92,Final valid records

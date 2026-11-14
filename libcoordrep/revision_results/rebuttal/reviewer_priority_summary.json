@@ -1,0 +1,185 @@
+{
+  "critical_revisions": [
+    {
+      "id": "R1.1",
+      "topic": "Scope qualification: mononuclear η1 CN 2–6",
+      "status": "resolved",
+      "evidence": "CSD audit 200k→17k; v1 scope table; rejection breakdown"
+    },
+    {
+      "id": "R1.2",
+      "topic": "Composite→factorized tokenizer",
+      "status": "resolved",
+      "evidence": "Tokenizer audit; metal 13.8%→67.8%; factorized default adopted"
+    },
+    {
+      "id": "R1.3",
+      "topic": "Tool A reframing: donor annotation not inverse design",
+      "status": "reframed",
+      "evidence": "Ablation: full=85.7% LigandFreq=86.2%; EGNN F1=0.998"
+    },
+    {
+      "id": "R2.1+R2.2",
+      "topic": "GNN baselines (donor + hard-negative + identity)",
+      "status": "resolved",
+      "evidence": "EGNN donor 0.998; EGNN hard-neg 0.499; CoordRep strict 0.800"
+    },
+    {
+      "id": "R2.12",
+      "topic": "Remove de novo generation claim",
+      "status": "reframed",
+      "evidence": "Claim removed; CSD curation workflow added"
+    },
+    {
+      "id": "R4.1",
+      "topic": "InChI-like → multi-resolution identity hierarchy",
+      "status": "resolved",
+      "evidence": "L0=21.5% L3=88.9%; ACUWOK 12/1; perturbation robustness"
+    },
+    {
+      "id": "R4.5",
+      "topic": "Tool A overpromotion",
+      "status": "resolved",
+      "evidence": "Inverse design removed; GNN comparison added"
+    }
+  ],
+  "major_new_experiments": [
+    {
+      "experiment": "GNN baselines (GCN, GIN, EGNN) for donor annotation",
+      "result": "EGNN F1=0.998; GIN+context F1=0.904; LigandFreq F1=0.896",
+      "addresses": ["R2.1", "R2.2"]
+    },
+    {
+      "experiment": "EGNN + GIN hard-negative ranking",
+      "result": "EGNN AUROC=0.499; GIN=0.522; CoordRep-Ranker=0.800",
+      "addresses": ["R2.1", "R2.7"]
+    },
+    {
+      "experiment": "CSD external audit (200k entries)",
+      "result": "17,038 retained (8.5%); rejection breakdown",
+      "addresses": ["R1.1", "R2.4"]
+    },
+    {
+      "experiment": "CSD identity baselines (SMILES/WL/ECFP)",
+      "result": "WL recall=0.983 prec=0.800; L3 recall=0.830 prec=0.816",
+      "addresses": ["R2.11", "R3.3"]
+    },
+    {
+      "experiment": "CoordRep-ID L0–L3 hierarchy + CSD family validation",
+      "result": "L0=21.5% L3=88.9%; 765 families",
+      "addresses": ["R4.1", "R2.5"]
+    },
+    {
+      "experiment": "Tool A ablation (6 conditions)",
+      "result": "full=85.7%; LigandFreq=86.2%; no_lig=61.4%",
+      "addresses": ["R1.3", "R4.3"]
+    },
+    {
+      "experiment": "Multidentate coverage audit",
+      "result": "76.1% multidentate; bidentate Top-1=86.7%",
+      "addresses": ["R1.4", "R4.4"]
+    },
+    {
+      "experiment": "Factorized tokenizer ablation",
+      "result": "metal 13.8%→67.8%; CN 13.8%→49.0%",
+      "addresses": ["R1.2", "R2.8"]
+    },
+    {
+      "experiment": "CoordRep field ablation for ranker",
+      "result": "no_stereo: 0.948→0.500; no_metal: 0.792→0.500",
+      "addresses": ["R2.9"]
+    },
+    {
+      "experiment": "CSD casebook: 4 QC-verified main-text cases",
+      "result": "ACUWOK identity; AFOSIA boundary; AGOTIA repair; CIJWUO stereo",
+      "addresses": ["R2.10"]
+    },
+    {
+      "experiment": "Tool B same-500 repair baselines",
+      "result": "Rule: valid=1.0 field=0.898; MLM: valid=0.852 field=0.606",
+      "addresses": ["R2.6"]
+    },
+    {
+      "experiment": "Perturbation robustness + bond scaling",
+      "result": "σ=0.01: L0=33% L3=94%; ±1% scaling: L0=55% L3=91%",
+      "addresses": ["R2.5", "R4.1"]
+    }
+  ],
+  "claims_to_remove": [
+    "InChI-like unique identifier (replace with multi-resolution identity hierarchy)",
+    "Inverse ligand design (replace with donor annotation)",
+    "De novo structure generation",
+    "Thermodynamic stability prediction",
+    "Electronic structure modeling",
+    "Universal coverage (replace with explicit v1 scope)"
+  ],
+  "claims_to_add": [
+    "Multi-resolution identity hierarchy L0–L3 validated on 765 CSD families",
+    "Boundary-aware geometry annotation with continuous CShM",
+    "Deterministic grammar repair enabled by explicit CoordRep syntax",
+    "Semantic field-level consistency checking via CoordRep-Ranker",
+    "GNN-complementary: geometry-local (GNN) vs field-level semantic (CoordRep)",
+    "Mononuclear η1 scope is by design; 76.1% of data includes multidentate ligands",
+    "Donor identity is ligand-intrinsic (ablation-proven)",
+    "Factorized tokenizer enables independent field recovery"
+  ],
+  "figures_to_redesign": [
+    {
+      "figure": "Figure 2",
+      "change": "Add panels c–f: perturbation robustness, bond scaling, CSD family benchmark, ACUWOK case",
+      "source": "fig2_identity_layers.csv"
+    },
+    {
+      "figure": "Figure 5",
+      "change": "Redesign as CSD application layer: audit waterfall, casebook cases, GNN comparison, Tool A attribution, Tool B repair",
+      "source": "fig5_application_summary.csv"
+    }
+  ],
+  "remaining_risks": [
+    {
+      "risk": "Tool A no longer supports inverse design claim",
+      "mitigation": "Reframed as donor annotation and field attribution; ablation shows ligand-intrinsic",
+      "severity": "moderate"
+    },
+    {
+      "risk": "CSD retained fraction only 8.5%",
+      "mitigation": "Framed as v1 scope boundary; rejection reasons quantified",
+      "severity": "moderate"
+    },
+    {
+      "risk": "Tool B MLM repair weaker than deterministic rules for structural corruption",
+      "mitigation": "Reframed: syntax repair by grammar rules; MLM for semantic field completion",
+      "severity": "moderate"
+    },
+    {
+      "risk": "co_ligand_hard decoy type remains ambiguous",
+      "mitigation": "Do not claim co-ligand stability prediction; note plausible alternative interpretation",
+      "severity": "low"
+    },
+    {
+      "risk": "CSD data license limits redistribution",
+      "mitigation": "Derived statistics and anonymized excerpts provided; raw data requires CCDC license",
+      "severity": "low"
+    },
+    {
+      "risk": "Factorized tokenizer ablation uses matched short training not full pretraining",
+      "mitigation": "Explicitly stated as caveat; main conclusion is design principle not final performance",
+      "severity": "low"
+    },
+    {
+      "risk": "Spin-state effects not separated in CoordRep v1",
+      "mitigation": "Caveat added; future stratification noted",
+      "severity": "low"
+    },
+    {
+      "risk": "Missing literature citations (R3.1, R3.2)",
+      "mitigation": "References identified; requires manual insertion during manuscript editing",
+      "severity": "low"
+    },
+    {
+      "risk": "GitHub repository needs operational verification",
+      "mitigation": "URL and README prepared; needs live upload check",
+      "severity": "low"
+    }
+  ]
+}
